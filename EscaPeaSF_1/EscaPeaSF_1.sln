@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maps.Samples.Common", "Maps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDebugging", "UnityDebugging.csproj", "{ffdc7279-5732-5d91-527e-f6e6b48dbc91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Examples", "ARDK-Examples.csproj", "{3db59b0c-cb3f-9e90-f839-7af16f528fbf}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{a99964b4-8598-86c5-ffb9-f8b9030ed3a3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core.Editor", "Unity.VisualScripting.Core.Editor.csproj", "{930371e3-22a7-1697-2b57-032609b463f5}"
@@ -110,6 +112,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Editor", "ARDK-Editor.csproj", "{a4737b7a-8e08-bbff-477f-cd6f19c80cb5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maps.Samples.Common.Editor", "Maps.Samples.Common.Editor.csproj", "{5dad9842-a394-6b37-b1bd-968607d33cd4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteAuthoring", "RemoteAuthoring.csproj", "{413a7962-a032-27bb-6929-0cdf10011d9d}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -174,6 +178,8 @@ Global
 		{6fda9b74-4707-e9d6-8011-902e623c7981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ffdc7279-5732-5d91-527e-f6e6b48dbc91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ffdc7279-5732-5d91-527e-f6e6b48dbc91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3db59b0c-cb3f-9e90-f839-7af16f528fbf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3db59b0c-cb3f-9e90-f839-7af16f528fbf}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a99964b4-8598-86c5-ffb9-f8b9030ed3a3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a99964b4-8598-86c5-ffb9-f8b9030ed3a3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930371e3-22a7-1697-2b57-032609b463f5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -226,6 +232,8 @@ Global
 		{a4737b7a-8e08-bbff-477f-cd6f19c80cb5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5dad9842-a394-6b37-b1bd-968607d33cd4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5dad9842-a394-6b37-b1bd-968607d33cd4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413a7962-a032-27bb-6929-0cdf10011d9d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413a7962-a032-27bb-6929-0cdf10011d9d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

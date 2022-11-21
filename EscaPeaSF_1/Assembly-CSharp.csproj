@@ -817,6 +817,14 @@
       <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
       <Name>UnityDebugging</Name>
     </ProjectReference>
+    <ProjectReference Include="ARDK-Examples.csproj">
+      <Project>{3db59b0c-cb3f-9e90-f839-7af16f528fbf}</Project>
+      <Name>ARDK-Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="RemoteAuthoring.csproj">
+      <Project>{413a7962-a032-27bb-6929-0cdf10011d9d}</Project>
+      <Name>RemoteAuthoring</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
