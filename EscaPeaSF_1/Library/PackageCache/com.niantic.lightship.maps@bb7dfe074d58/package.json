@@ -1,0 +1,44 @@
+{
+  "name": "com.niantic.lightship.maps",
+  "version": "1.0.0-beta2",
+  "displayName": "Lightship Maps SDK",
+  "description": "This library is used to download and render Niantic maptiles",
+  "unity": "2020.2",
+  "documentationUrl": "https://docs.niantic.dev/",
+  "changelogUrl": "https://docs.niantic.dev/",
+  "licensesUrl": "https://docs.niantic.dev/",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "author": {
+    "name": "Niantic Lightship SDK",
+    "url": "https://lightship.dev/"
+  },
+  "samples": [
+    {
+      "displayName": "Orthographic Camera Sample",
+      "description": "A sample demonstrating a top-down view of the map using an orthographic camera.",
+      "path": "Samples~/OrthographicCamera"
+    },
+    {
+      "displayName": "Orbit Camera Sample",
+      "description": "A sample demonstrating a third-person camera that follows and orbits around the player or other focused object.",
+      "path": "Samples~/OrbitCamera"
+    },
+    {
+      "displayName": "Map-Based Simple Resource Game",
+      "description": "This sample is a simple resource game using MapTiles. The game shows examples of using Map Feature data to place prefabs for gameplay elements and placing player created objects on the map.",
+      "path": "Samples~/GameSample"
+    },
+    {
+      "displayName": "Render-to-Texture Sample",
+      "description": "A sample demonstrating how to render a map into a render texture using a secondary camera.",
+      "path": "Samples~/RenderToTexture"
+    },
+    {
+      "displayName": "Custom Map Layer Sample",
+      "description": "A sample demonstrating custom MapLayers with components that draw polygons and lines on the map.",
+      "path": "Samples~/CustomMapLayers"
+    }
+  ]
+}

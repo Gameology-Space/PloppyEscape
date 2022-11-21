@@ -1,0 +1,20 @@
+{
+    "name": "Niantic.Lightship.Maps.Unity",
+    "rootNamespace": "Niantic.Lightship.Maps.Unity",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.dll",
+        "Niantic.Platform.Debugging.dll",
+        "Google.Protobuf.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

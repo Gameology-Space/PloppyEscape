@@ -1,0 +1,20 @@
+{
+    "name": "Maps.Samples.OrbitCamera",
+    "rootNamespace": "Niantic.Lightship.Maps.Samples.OrbitCamera",
+    "references": [
+        "OrbitCamera",
+        "Niantic.Lightship.Maps.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Platform.Debugging.dll",
+        "Niantic.Lightship.Maps.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

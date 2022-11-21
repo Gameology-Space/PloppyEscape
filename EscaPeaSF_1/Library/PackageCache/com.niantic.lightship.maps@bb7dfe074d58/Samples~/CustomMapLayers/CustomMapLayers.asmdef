@@ -1,0 +1,23 @@
+{
+    "name": "Maps.Samples.CustomMapLayers",
+    "rootNamespace": "Niantic.Lightship.Maps.Samples.CustomMapLayers",
+    "references": [
+        "Niantic.Lightship.Maps.Unity",
+        "UnityDebugging",
+        "Unity.TextMeshPro",
+        "Maps.Samples.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.dll",
+        "Niantic.Platform.Debugging.dll",
+        "Unity.Plastic.Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

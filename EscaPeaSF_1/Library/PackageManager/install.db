@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.niantic.lightship.maps": {
+      "tarball": {
+        "hash": "bb7dfe074d58",
+        "mtime": 1668708542065,
+        "size": 145543168,
+        "localPath": "/Users/billw/Keep Downloads/ARDK/com.niantic.lightship.maps-1.0.0-beta2.tgz"
+      }
+    }
+  }
+}

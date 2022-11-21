@@ -1,0 +1,22 @@
+{
+    "name": "Maps.Samples.RenderToTexture",
+    "rootNamespace": "Niantic.Lightship.Maps.Samples.RenderToTexture",
+    "references": [
+        "Niantic.Lightship.Maps.Unity",
+        "UnityDebugging",
+        "Unity.TextMeshPro",
+        "Maps.Samples.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Lightship.Maps.dll",
+        "Niantic.Platform.Debugging.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

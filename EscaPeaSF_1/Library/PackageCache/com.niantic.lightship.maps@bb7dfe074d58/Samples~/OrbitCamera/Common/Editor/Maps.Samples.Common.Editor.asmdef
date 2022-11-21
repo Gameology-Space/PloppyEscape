@@ -1,0 +1,20 @@
+{
+    "name": "Maps.Samples.Common.Editor",
+    "rootNamespace": "Niantic.Lightship.Maps.Samples.Common.Editor",
+    "references": [
+        "UnityDebugging"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Niantic.Platform.Debugging.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
