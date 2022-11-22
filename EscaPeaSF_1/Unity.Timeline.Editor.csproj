@@ -158,8 +158,8 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/AnimatedParameterCache.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/FileUtility.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/State/WindowState.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/ItemGui/TimelineClipGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/Scopes/GUIColorOverride.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/ItemGui/TimelineClipGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/DirectorNamedColorInspector.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/AnimationPlayableAssetInspector.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/TrackAction.cs" />
@@ -207,8 +207,8 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Animation/AnimationTrackActions.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/Graphics.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Recording/TimelineRecording_PlayableAsset.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/SpacePartitioner.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/TrackGui/InlineCurveEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/SpacePartitioner.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/TimelineProjectSettings.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Trackhead.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Animation/CurveTreeViewNode.cs" />
@@ -254,8 +254,8 @@
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/HeaderSplitterManipulator.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/CurvesOwner/CurvesOwnerInspectorHelper.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/ItemGui/TimelineItemGUI.cs" />
-     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Signals/SignalAssetInspector.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/SequenceContext.cs" />
+     <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Signals/SignalAssetInspector.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Undo/UndoScope.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/CustomEditors/TrackEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineWindow_StateChange.cs" />
@@ -570,6 +570,24 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Niantic.Platform.Debugging">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -582,32 +600,14 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Niantic.Lightship.Maps">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing.unity">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Platform.Debugging">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Lightship.Maps">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

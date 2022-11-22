@@ -3,3 +3,8 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+- path: /var/folders/4s/zx0gn1js3cn478mnhxj2fjsm0000gn/T/Gameology Space/EscaPeaSF_1/Remote
+    Authoring (Editor Only).unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0

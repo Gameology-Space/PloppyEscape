@@ -3266,9 +3266,9 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -3530,9 +3530,9 @@ struct Exception_t_marshaled_com
 struct LimitedInputStream_t43ACB435E520F08A56189624F0698FB2F72F1F4C  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.IO.Stream Google.Protobuf.LimitedInputStream::proxied
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___proxied_4;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___proxied_5;
 	// System.Int32 Google.Protobuf.LimitedInputStream::bytesLeft
-	int32_t ___bytesLeft_5;
+	int32_t ___bytesLeft_6;
 };
 
 // System.Text.RegularExpressions.Match
@@ -25154,10 +25154,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LimitedInputStream__ctor_m6C7A14FA624B95
 		il2cpp_codegen_runtime_class_init_inline(Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_il2cpp_TypeInfo_var);
 		Stream__ctor_mE8B074A0EBEB026FFF14062AB4B8A78E17EFFBF0(__this, NULL);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_0 = ___proxied0;
-		__this->___proxied_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___proxied_4), (void*)L_0);
+		__this->___proxied_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___proxied_5), (void*)L_0);
 		int32_t L_1 = ___size1;
-		__this->___bytesLeft_5 = L_1;
+		__this->___bytesLeft_6 = L_1;
 		return;
 	}
 }
@@ -25230,17 +25230,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LimitedInputStream_Read_mF9D61A14EC50
 	}
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = __this->___bytesLeft_5;
+		int32_t L_0 = __this->___bytesLeft_6;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = __this->___proxied_4;
+		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = __this->___proxied_5;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___buffer0;
 		int32_t L_3 = ___offset1;
-		int32_t L_4 = __this->___bytesLeft_5;
+		int32_t L_4 = __this->___bytesLeft_6;
 		int32_t L_5 = ___count2;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_6;
@@ -25249,9 +25249,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LimitedInputStream_Read_mF9D61A14EC50
 		int32_t L_7;
 		L_7 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_6);
 		V_0 = L_7;
-		int32_t L_8 = __this->___bytesLeft_5;
+		int32_t L_8 = __this->___bytesLeft_6;
 		int32_t L_9 = V_0;
-		__this->___bytesLeft_5 = ((int32_t)il2cpp_codegen_subtract(L_8, L_9));
+		__this->___bytesLeft_6 = ((int32_t)il2cpp_codegen_subtract(L_8, L_9));
 		int32_t L_10 = V_0;
 		return L_10;
 	}

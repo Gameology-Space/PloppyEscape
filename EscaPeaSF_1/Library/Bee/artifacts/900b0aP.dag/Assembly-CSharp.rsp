@@ -303,6 +303,7 @@
 -r:"/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Assets/ARDK/External/Plugins/zxing.unity.dll"
+-r:"Library/Bee/artifacts/900b0aP.dag/ARDK-Examples.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/ARDK.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Niantic.Lightship.Maps.Unity.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.AdaptivePerformance.ref.dll"
@@ -319,6 +320,7 @@
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityDebugging.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Script/SpawnMyObject.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

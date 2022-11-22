@@ -2104,9 +2104,9 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_6;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_7;
+	RuntimeObject* ___m_continuationObject_23;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -2114,35 +2114,35 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
 	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
 	int32_t ___s_taskIdCounter_0;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_8;
+	RuntimeObject* ___s_taskCompletionSentinel_24;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_9;
+	bool ___s_asyncDebuggingEnabled_25;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_21;
+	RuntimeObject* ___s_activeTasksLock_37;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 {
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
 	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
 };
 
 // System.Reflection.Emit.UnmanagedMarshal
@@ -2277,13 +2277,13 @@ struct ReadOnlyMemory_1_t766DD3EE24B08138FB23CBC5B315D83C6E1272F5_marshaled_com
 struct Task_1_t4C228DE57804012969575431CFF12D57C875552D  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	int32_t ___m_result_22;
+	int32_t ___m_result_38;
 };
 
 struct Task_1_t4C228DE57804012969575431CFF12D57C875552D_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t0BEF06D58E44525B9135AB0B22D016856EE69FF3* ___s_defaultFactory_23;
+	TaskFactory_1_t0BEF06D58E44525B9135AB0B22D016856EE69FF3* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.ValueTask`1<System.Int32>
@@ -3697,9 +3697,9 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -3889,13 +3889,13 @@ struct ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5
 struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC ___m_result_22;
+	VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC ___m_result_38;
 };
 
 struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t4BEAD6CE2527DBE682C128CEAA0FF2A79483E96C* ___s_defaultFactory_23;
+	TaskFactory_1_t4BEAD6CE2527DBE682C128CEAA0FF2A79483E96C* ___s_defaultFactory_39;
 };
 
 // System.AppDomain
@@ -4212,43 +4212,43 @@ struct FieldBuilder_tFCE2E490435F978A3C4DC9340920C3C32CE74889  : public FieldInf
 struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Byte[] System.IO.FileStream::buf
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_6;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_7;
 	// System.String System.IO.FileStream::name
-	String_t* ___name_7;
+	String_t* ___name_8;
 	// Microsoft.Win32.SafeHandles.SafeFileHandle System.IO.FileStream::safeHandle
-	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle_8;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle_9;
 	// System.Boolean System.IO.FileStream::isExposed
-	bool ___isExposed_9;
+	bool ___isExposed_10;
 	// System.Int64 System.IO.FileStream::append_startpos
-	int64_t ___append_startpos_10;
+	int64_t ___append_startpos_11;
 	// System.IO.FileAccess System.IO.FileStream::access
-	int32_t ___access_11;
+	int32_t ___access_12;
 	// System.Boolean System.IO.FileStream::owner
-	bool ___owner_12;
+	bool ___owner_13;
 	// System.Boolean System.IO.FileStream::async
-	bool ___async_13;
+	bool ___async_14;
 	// System.Boolean System.IO.FileStream::canseek
-	bool ___canseek_14;
+	bool ___canseek_15;
 	// System.Boolean System.IO.FileStream::anonymous
-	bool ___anonymous_15;
+	bool ___anonymous_16;
 	// System.Boolean System.IO.FileStream::buf_dirty
-	bool ___buf_dirty_16;
+	bool ___buf_dirty_17;
 	// System.Int32 System.IO.FileStream::buf_size
-	int32_t ___buf_size_17;
+	int32_t ___buf_size_18;
 	// System.Int32 System.IO.FileStream::buf_length
-	int32_t ___buf_length_18;
+	int32_t ___buf_length_19;
 	// System.Int32 System.IO.FileStream::buf_offset
-	int32_t ___buf_offset_19;
+	int32_t ___buf_offset_20;
 	// System.Int64 System.IO.FileStream::buf_start
-	int64_t ___buf_start_20;
+	int64_t ___buf_start_21;
 };
 
 struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
 {
 	// System.Byte[] System.IO.FileStream::buf_recycle
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_4;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_5;
 	// System.Object System.IO.FileStream::buf_recycle_lock
-	RuntimeObject* ___buf_recycle_lock_5;
+	RuntimeObject* ___buf_recycle_lock_6;
 };
 
 // System.Runtime.InteropServices.GCHandle
@@ -4262,25 +4262,25 @@ struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Byte[] System.IO.MemoryStream::_buffer
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_4;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_5;
 	// System.Int32 System.IO.MemoryStream::_origin
-	int32_t ____origin_5;
+	int32_t ____origin_6;
 	// System.Int32 System.IO.MemoryStream::_position
-	int32_t ____position_6;
+	int32_t ____position_7;
 	// System.Int32 System.IO.MemoryStream::_length
-	int32_t ____length_7;
+	int32_t ____length_8;
 	// System.Int32 System.IO.MemoryStream::_capacity
-	int32_t ____capacity_8;
+	int32_t ____capacity_9;
 	// System.Boolean System.IO.MemoryStream::_expandable
-	bool ____expandable_9;
+	bool ____expandable_10;
 	// System.Boolean System.IO.MemoryStream::_writable
-	bool ____writable_10;
+	bool ____writable_11;
 	// System.Boolean System.IO.MemoryStream::_exposable
-	bool ____exposable_11;
+	bool ____exposable_12;
 	// System.Boolean System.IO.MemoryStream::_isOpen
-	bool ____isOpen_12;
+	bool ____isOpen_13;
 	// System.Threading.Tasks.Task`1<System.Int32> System.IO.MemoryStream::_lastReadTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_13;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_14;
 };
 
 // System.Reflection.MethodInfo
@@ -4587,23 +4587,23 @@ struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 struct UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Runtime.InteropServices.SafeBuffer System.IO.UnmanagedMemoryStream::_buffer
-	SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* ____buffer_4;
+	SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* ____buffer_5;
 	// System.Byte* System.IO.UnmanagedMemoryStream::_mem
-	uint8_t* ____mem_5;
+	uint8_t* ____mem_6;
 	// System.Int64 System.IO.UnmanagedMemoryStream::_length
-	int64_t ____length_6;
+	int64_t ____length_7;
 	// System.Int64 System.IO.UnmanagedMemoryStream::_capacity
-	int64_t ____capacity_7;
+	int64_t ____capacity_8;
 	// System.Int64 System.IO.UnmanagedMemoryStream::_position
-	int64_t ____position_8;
+	int64_t ____position_9;
 	// System.Int64 System.IO.UnmanagedMemoryStream::_offset
-	int64_t ____offset_9;
+	int64_t ____offset_10;
 	// System.IO.FileAccess System.IO.UnmanagedMemoryStream::_access
-	int32_t ____access_10;
+	int32_t ____access_11;
 	// System.Boolean System.IO.UnmanagedMemoryStream::_isOpen
-	bool ____isOpen_11;
+	bool ____isOpen_12;
 	// System.Threading.Tasks.Task`1<System.Int32> System.IO.UnmanagedMemoryStream::_lastReadTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_12;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_13;
 };
 
 // System.Array/RawData
@@ -4743,9 +4743,9 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 struct PinnedBufferMemoryStream_t8E711E8F32195672BA8621BCE2FD9FF66D3CEACC  : public UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D
 {
 	// System.Byte[] System.IO.PinnedBufferMemoryStream::_array
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____array_13;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____array_14;
 	// System.Runtime.InteropServices.GCHandle System.IO.PinnedBufferMemoryStream::_pinningHandle
-	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____pinningHandle_14;
+	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____pinningHandle_15;
 };
 
 // System.Reflection.RuntimeConstructorInfo
@@ -5055,31 +5055,31 @@ struct PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A  
 struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1  : public TypeInfo_tC4F59663C70D17D50BC99D53DCE74BFB9701012D
 {
 	// System.MonoTypeInfo System.RuntimeType::type_info
-	MonoTypeInfo_t90D5999A69AC524474FDEAC50F55B6CE868AB501* ___type_info_27;
+	MonoTypeInfo_t90D5999A69AC524474FDEAC50F55B6CE868AB501* ___type_info_28;
 	// System.Object System.RuntimeType::GenericCache
-	RuntimeObject* ___GenericCache_28;
+	RuntimeObject* ___GenericCache_29;
 	// System.Reflection.RuntimeConstructorInfo System.RuntimeType::m_serializationCtor
-	RuntimeConstructorInfo_tB41E49C7CFA74A03CCC986E78ABB0C0BD331A5AE* ___m_serializationCtor_29;
+	RuntimeConstructorInfo_tB41E49C7CFA74A03CCC986E78ABB0C0BD331A5AE* ___m_serializationCtor_30;
 };
 
 struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 {
 	// System.RuntimeType System.RuntimeType::ValueType
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___ValueType_10;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___ValueType_11;
 	// System.RuntimeType System.RuntimeType::EnumType
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___EnumType_11;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___EnumType_12;
 	// System.RuntimeType System.RuntimeType::ObjectType
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___ObjectType_12;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___ObjectType_13;
 	// System.RuntimeType System.RuntimeType::StringType
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___StringType_13;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___StringType_14;
 	// System.RuntimeType System.RuntimeType::DelegateType
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___DelegateType_14;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___DelegateType_15;
 	// System.Type[] System.RuntimeType::s_SICtorParamTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___s_SICtorParamTypes_15;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___s_SICtorParamTypes_16;
 	// System.Func`3<System.Type,System.Type[],System.Type> System.RuntimeType::MakeTypeBuilderInstantiation
-	Func_3_t0787D839A577CB564A3192D4164941D5F3DCFBB5* ___MakeTypeBuilderInstantiation_16;
+	Func_3_t0787D839A577CB564A3192D4164941D5F3DCFBB5* ___MakeTypeBuilderInstantiation_17;
 	// System.RuntimeType System.RuntimeType::s_typedRef
-	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___s_typedRef_26;
+	RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___s_typedRef_27;
 };
 
 // System.TypeAccessException
@@ -22248,15 +22248,15 @@ IL_0025:
 IL_002b:
 	{
 		NullCheck(G_B5_1);
-		G_B5_1->____buffer_4 = G_B5_0;
-		Il2CppCodeGenWriteBarrier((void**)(&G_B5_1->____buffer_4), (void*)G_B5_0);
+		G_B5_1->____buffer_5 = G_B5_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B5_1->____buffer_5), (void*)G_B5_0);
 		int32_t L_6 = ___capacity0;
-		__this->____capacity_8 = L_6;
-		__this->____expandable_9 = (bool)1;
-		__this->____writable_10 = (bool)1;
-		__this->____exposable_11 = (bool)1;
-		__this->____origin_5 = 0;
-		__this->____isOpen_12 = (bool)1;
+		__this->____capacity_9 = L_6;
+		__this->____expandable_10 = (bool)1;
+		__this->____writable_11 = (bool)1;
+		__this->____exposable_12 = (bool)1;
+		__this->____origin_6 = 0;
+		__this->____isOpen_13 = (bool)1;
 		return;
 	}
 }
@@ -22298,20 +22298,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream__ctor_m5BAFB4CE0C3BB700DB05
 IL_0019:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___buffer0;
-		__this->____buffer_4 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_4), (void*)L_2);
+		__this->____buffer_5 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_5), (void*)L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___buffer0;
 		NullCheck(L_3);
 		int32_t L_4 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
 		V_0 = L_4;
-		__this->____capacity_8 = L_4;
+		__this->____capacity_9 = L_4;
 		int32_t L_5 = V_0;
-		__this->____length_7 = L_5;
+		__this->____length_8 = L_5;
 		bool L_6 = ___writable1;
-		__this->____writable_10 = L_6;
-		__this->____exposable_11 = (bool)0;
-		__this->____origin_5 = 0;
-		__this->____isOpen_12 = (bool)1;
+		__this->____writable_11 = L_6;
+		__this->____exposable_12 = (bool)0;
+		__this->____origin_6 = 0;
+		__this->____isOpen_13 = (bool)1;
 		return;
 	}
 }
@@ -22415,27 +22415,27 @@ IL_0041:
 IL_0054:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = ___buffer0;
-		__this->____buffer_4 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_4), (void*)L_10);
+		__this->____buffer_5 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_5), (void*)L_10);
 		int32_t L_11 = ___index1;
 		int32_t L_12 = L_11;
 		V_0 = L_12;
-		__this->____position_6 = L_12;
+		__this->____position_7 = L_12;
 		int32_t L_13 = V_0;
-		__this->____origin_5 = L_13;
+		__this->____origin_6 = L_13;
 		int32_t L_14 = ___index1;
 		int32_t L_15 = ___count2;
 		int32_t L_16 = ((int32_t)il2cpp_codegen_add(L_14, L_15));
 		V_0 = L_16;
-		__this->____capacity_8 = L_16;
+		__this->____capacity_9 = L_16;
 		int32_t L_17 = V_0;
-		__this->____length_7 = L_17;
+		__this->____length_8 = L_17;
 		bool L_18 = ___writable3;
-		__this->____writable_10 = L_18;
+		__this->____writable_11 = L_18;
 		bool L_19 = ___publiclyVisible4;
-		__this->____exposable_11 = L_19;
-		__this->____expandable_9 = (bool)0;
-		__this->____isOpen_12 = (bool)1;
+		__this->____exposable_12 = L_19;
+		__this->____expandable_10 = (bool)0;
+		__this->____isOpen_13 = (bool)1;
 		return;
 	}
 }
@@ -22443,7 +22443,7 @@ IL_0054:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanRead_m38DED806B2B7D154FB50972643E504D39680554A (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_12;
+		bool L_0 = __this->____isOpen_13;
 		return L_0;
 	}
 }
@@ -22451,7 +22451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanRead_m38DED806B2B7D1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanSeek_m49EBA888C9C2563FBDFD582EC5EFCEA7D05BD9DE (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_12;
+		bool L_0 = __this->____isOpen_13;
 		return L_0;
 	}
 }
@@ -22459,7 +22459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanSeek_m49EBA888C9C256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanWrite_mAD53445D16AAE790477615AF73E349E38139CB2B (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____writable_10;
+		bool L_0 = __this->____writable_11;
 		return L_0;
 	}
 }
@@ -22467,7 +22467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_get_CanWrite_mAD53445D16AAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376 (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_12;
+		bool L_0 = __this->____isOpen_13;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -22530,11 +22530,11 @@ FINALLY_0021:
 				}
 			}
 			{
-				__this->____isOpen_12 = (bool)0;
-				__this->____writable_10 = (bool)0;
-				__this->____expandable_9 = (bool)0;
-				__this->____lastReadTask_13 = (Task_1_t4C228DE57804012969575431CFF12D57C875552D*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_13), (void*)(Task_1_t4C228DE57804012969575431CFF12D57C875552D*)NULL);
+				__this->____isOpen_13 = (bool)0;
+				__this->____writable_11 = (bool)0;
+				__this->____expandable_10 = (bool)0;
+				__this->____lastReadTask_14 = (Task_1_t4C228DE57804012969575431CFF12D57C875552D*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_14), (void*)(Task_1_t4C228DE57804012969575431CFF12D57C875552D*)NULL);
 			}
 
 IL_001f_1:
@@ -22575,7 +22575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryStream_EnsureCapacity_mE8C90BF7E22
 IL_000f:
 	{
 		int32_t L_2 = ___value0;
-		int32_t L_3 = __this->____capacity_8;
+		int32_t L_3 = __this->____capacity_9;
 		if ((((int32_t)L_2) <= ((int32_t)L_3)))
 		{
 			goto IL_0065;
@@ -22597,20 +22597,20 @@ IL_000f:
 IL_0028:
 	{
 		int32_t L_6 = V_0;
-		int32_t L_7 = __this->____capacity_8;
+		int32_t L_7 = __this->____capacity_9;
 		if ((((int32_t)L_6) >= ((int32_t)((int32_t)il2cpp_codegen_multiply(L_7, 2)))))
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		int32_t L_8 = __this->____capacity_8;
+		int32_t L_8 = __this->____capacity_9;
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_8, 2));
 	}
 
 IL_003c:
 	{
-		int32_t L_9 = __this->____capacity_8;
+		int32_t L_9 = __this->____capacity_9;
 		if ((!(((uint32_t)((int32_t)il2cpp_codegen_multiply(L_9, 2))) > ((uint32_t)((int32_t)2147483591)))))
 		{
 			goto IL_005c;
@@ -22662,7 +22662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream_Flush_m211D38124AAB93074972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MemoryStream_GetBuffer_m8DE70C0C83521EBD8D621C678553331452D61BF4 (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____exposable_11;
+		bool L_0 = __this->____exposable_12;
 		if (L_0)
 		{
 			goto IL_0013;
@@ -22677,7 +22677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 
 IL_0013:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->____buffer_5;
 		return L_2;
 	}
 }
@@ -22685,7 +22685,7 @@ IL_0013:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MemoryStream_InternalGetBuffer_m5DB8C0575BAF65B87344872847F8F1DBC452B014 (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->____buffer_5;
 		return L_0;
 	}
 }
@@ -22693,7 +22693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_InternalGetPosition_mD332D5AD71566944D5AA616FF98295F933E32A49 (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->____position_6;
+		int32_t L_0 = __this->____position_7;
 		return L_0;
 	}
 }
@@ -22704,22 +22704,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_InternalReadInt32_mD3F31
 	int32_t V_1 = 0;
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____position_6;
+		int32_t L_0 = __this->____position_7;
 		int32_t L_1 = ((int32_t)il2cpp_codegen_add(L_0, 4));
 		V_1 = L_1;
-		__this->____position_6 = L_1;
+		__this->____position_7 = L_1;
 		int32_t L_2 = V_1;
 		V_0 = L_2;
 		int32_t L_3 = V_0;
-		int32_t L_4 = __this->____length_7;
+		int32_t L_4 = __this->____length_8;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		int32_t L_5 = __this->____length_7;
-		__this->____position_6 = L_5;
+		int32_t L_5 = __this->____length_8;
+		__this->____position_7 = L_5;
 		Exception_t* L_6;
 		L_6 = Error_GetEndOfFile_mC4A9C2E38EE4D3B391EF73E7A17A4437417973C4(NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MemoryStream_InternalReadInt32_mD3F318BCD6116CBB482157FBC78AD1C5D9459599_RuntimeMethod_var)));
@@ -22727,22 +22727,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_InternalReadInt32_mD3F31
 
 IL_0033:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = __this->____buffer_5;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		int32_t L_9 = ((int32_t)il2cpp_codegen_subtract(L_8, 4));
 		uint8_t L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = __this->____buffer_5;
 		int32_t L_12 = V_0;
 		NullCheck(L_11);
 		int32_t L_13 = ((int32_t)il2cpp_codegen_subtract(L_12, 3));
 		uint8_t L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = __this->____buffer_5;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
 		int32_t L_17 = ((int32_t)il2cpp_codegen_subtract(L_16, 2));
 		uint8_t L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = __this->____buffer_5;
 		int32_t L_20 = V_0;
 		NullCheck(L_19);
 		int32_t L_21 = ((int32_t)il2cpp_codegen_subtract(L_20, 1));
@@ -22756,8 +22756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_InternalEmulateRead_m5B3
 	int32_t V_0 = 0;
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____length_7;
-		int32_t L_1 = __this->____position_6;
+		int32_t L_0 = __this->____length_8;
+		int32_t L_1 = __this->____position_7;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
 		int32_t L_2 = V_0;
 		int32_t L_3 = ___count0;
@@ -22785,9 +22785,9 @@ IL_001a:
 
 IL_0020:
 	{
-		int32_t L_6 = __this->____position_6;
+		int32_t L_6 = __this->____position_7;
 		int32_t L_7 = V_0;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_6, L_7));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_6, L_7));
 		int32_t L_8 = V_0;
 		return L_8;
 	}
@@ -22797,8 +22797,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_get_Capacity_mBC002CF44F
 {
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____capacity_8;
-		int32_t L_1 = __this->____origin_5;
+		int32_t L_0 = __this->____capacity_9;
+		int32_t L_1 = __this->____origin_6;
 		return ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
 	}
 }
@@ -22831,7 +22831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream_set_Capacity_m49D6289350ED4
 IL_001a:
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		bool L_3 = __this->____expandable_9;
+		bool L_3 = __this->____expandable_10;
 		if (L_3)
 		{
 			goto IL_003c;
@@ -22855,7 +22855,7 @@ IL_001a:
 
 IL_003c:
 	{
-		bool L_7 = __this->____expandable_9;
+		bool L_7 = __this->____expandable_10;
 		if (!L_7)
 		{
 			goto IL_008c;
@@ -22863,7 +22863,7 @@ IL_003c:
 	}
 	{
 		int32_t L_8 = ___value0;
-		int32_t L_9 = __this->____capacity_8;
+		int32_t L_9 = __this->____capacity_9;
 		if ((((int32_t)L_8) == ((int32_t)L_9)))
 		{
 			goto IL_008c;
@@ -22880,37 +22880,37 @@ IL_003c:
 		int32_t L_11 = ___value0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_11);
 		V_0 = L_12;
-		int32_t L_13 = __this->____length_7;
+		int32_t L_13 = __this->____length_8;
 		if ((((int32_t)L_13) <= ((int32_t)0)))
 		{
 			goto IL_0075;
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = __this->____buffer_5;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = V_0;
-		int32_t L_16 = __this->____length_7;
+		int32_t L_16 = __this->____length_8;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_14, 0, (RuntimeArray*)L_15, 0, L_16, NULL);
 	}
 
 IL_0075:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = V_0;
-		__this->____buffer_4 = L_17;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_4), (void*)L_17);
+		__this->____buffer_5 = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_5), (void*)L_17);
 		goto IL_0085;
 	}
 
 IL_007e:
 	{
-		__this->____buffer_4 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_4), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
+		__this->____buffer_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer_5), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
 	}
 
 IL_0085:
 	{
 		int32_t L_18 = ___value0;
-		__this->____capacity_8 = L_18;
+		__this->____capacity_9 = L_18;
 	}
 
 IL_008c:
@@ -22923,8 +22923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MemoryStream_get_Length_mBCB7D88AAE66
 {
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____length_7;
-		int32_t L_1 = __this->____origin_5;
+		int32_t L_0 = __this->____length_8;
+		int32_t L_1 = __this->____origin_6;
 		return ((int64_t)((int32_t)il2cpp_codegen_subtract(L_0, L_1)));
 	}
 }
@@ -22933,8 +22933,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MemoryStream_get_Position_mEA65B5B6C7
 {
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____position_6;
-		int32_t L_1 = __this->____origin_5;
+		int32_t L_0 = __this->____position_7;
+		int32_t L_1 = __this->____origin_6;
 		return ((int64_t)((int32_t)il2cpp_codegen_subtract(L_0, L_1)));
 	}
 }
@@ -22973,9 +22973,9 @@ IL_0015:
 
 IL_0034:
 	{
-		int32_t L_4 = __this->____origin_5;
+		int32_t L_4 = __this->____origin_6;
 		int64_t L_5 = ___value0;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_4, ((int32_t)L_5)));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_4, ((int32_t)L_5)));
 		return;
 	}
 }
@@ -23049,8 +23049,8 @@ IL_003b:
 IL_004e:
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_10 = __this->____length_7;
-		int32_t L_11 = __this->____position_6;
+		int32_t L_10 = __this->____length_8;
+		int32_t L_11 = __this->____position_7;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_10, L_11));
 		int32_t L_12 = V_0;
 		int32_t L_13 = ___count2;
@@ -23095,8 +23095,8 @@ IL_0076:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = ___buffer0;
 		int32_t L_19 = ___offset1;
 		int32_t L_20 = V_1;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = __this->____buffer_4;
-		int32_t L_22 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = __this->____buffer_5;
+		int32_t L_22 = __this->____position_7;
 		int32_t L_23 = V_1;
 		NullCheck(L_21);
 		int32_t L_24 = ((int32_t)il2cpp_codegen_add(L_22, L_23));
@@ -23121,8 +23121,8 @@ IL_008a:
 
 IL_0094:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = __this->____buffer_4;
-		int32_t L_29 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = __this->____buffer_5;
+		int32_t L_29 = __this->____position_7;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = ___buffer0;
 		int32_t L_31 = ___offset1;
 		int32_t L_32 = V_0;
@@ -23131,9 +23131,9 @@ IL_0094:
 
 IL_00a8:
 	{
-		int32_t L_33 = __this->____position_6;
+		int32_t L_33 = __this->____position_7;
 		int32_t L_34 = V_0;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_33, L_34));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_33, L_34));
 		int32_t L_35 = V_0;
 		return L_35;
 	}
@@ -23179,8 +23179,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_Read_m60BD5E0D7B2CC1B904
 IL_001f:
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_6 = __this->____length_7;
-		int32_t L_7 = __this->____position_6;
+		int32_t L_6 = __this->____length_8;
+		int32_t L_7 = __this->____position_7;
 		int32_t L_8;
 		L_8 = Span_1_get_Length_m8E944E4954E037877A25B9FF6B901F1F901D4769_inline((&___buffer0), Span_1_get_Length_m8E944E4954E037877A25B9FF6B901F1F901D4769_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -23199,8 +23199,8 @@ IL_001f:
 
 IL_0045:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = __this->____buffer_4;
-		int32_t L_12 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = __this->____buffer_5;
+		int32_t L_12 = __this->____position_7;
 		int32_t L_13 = V_0;
 		Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 L_14;
 		memset((&L_14), 0, sizeof(L_14));
@@ -23208,9 +23208,9 @@ IL_0045:
 		V_1 = L_14;
 		Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 L_15 = ___buffer0;
 		Span_1_CopyTo_m7A06ABD95EC3209F4FC307CAB38FD87202A88542((&V_1), L_15, Span_1_CopyTo_m7A06ABD95EC3209F4FC307CAB38FD87202A88542_RuntimeMethod_var);
-		int32_t L_16 = __this->____position_6;
+		int32_t L_16 = __this->____position_7;
 		int32_t L_17 = V_0;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_16, L_17));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_16, L_17));
 		int32_t L_18 = V_0;
 		return L_18;
 	}
@@ -23323,7 +23323,7 @@ IL_005f:
 			int32_t L_16;
 			L_16 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, __this, L_13, L_14, L_15);
 			V_0 = L_16;
-			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_17 = __this->____lastReadTask_13;
+			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_17 = __this->____lastReadTask_14;
 			V_1 = L_17;
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_18 = V_1;
 			if (!L_18)
@@ -23351,8 +23351,8 @@ IL_007d_1:
 			L_23 = Task_FromResult_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF151895F5C0BBB74AEE7600FA2F777D0A8D1EBC5(L_22, Task_FromResult_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF151895F5C0BBB74AEE7600FA2F777D0A8D1EBC5_RuntimeMethod_var);
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_24 = L_23;
 			V_2 = L_24;
-			__this->____lastReadTask_13 = L_24;
-			Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_13), (void*)L_24);
+			__this->____lastReadTask_14 = L_24;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_14), (void*)L_24);
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_25 = V_2;
 			G_B15_0 = L_25;
 			goto IL_008f_1;
@@ -23554,8 +23554,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_ReadByte_mE144CB03CA7D7F
 	int32_t V_0 = 0;
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
-		int32_t L_0 = __this->____position_6;
-		int32_t L_1 = __this->____length_7;
+		int32_t L_0 = __this->____position_7;
+		int32_t L_1 = __this->____length_8;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
 		{
 			goto IL_0016;
@@ -23567,11 +23567,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MemoryStream_ReadByte_mE144CB03CA7D7F
 
 IL_0016:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->____buffer_4;
-		int32_t L_3 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->____buffer_5;
+		int32_t L_3 = __this->____position_7;
 		V_0 = L_3;
 		int32_t L_4 = V_0;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_4, 1));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 		int32_t L_5 = V_0;
 		NullCheck(L_2);
 		int32_t L_6 = L_5;
@@ -23617,9 +23617,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream_CopyTo_m398DCC011AF819C1A7A
 
 IL_0028:
 	{
-		int32_t L_8 = __this->____position_6;
+		int32_t L_8 = __this->____position_7;
 		V_0 = L_8;
-		int32_t L_9 = __this->____length_7;
+		int32_t L_9 = __this->____length_8;
 		int32_t L_10 = V_0;
 		int32_t L_11;
 		L_11 = MemoryStream_InternalEmulateRead_m5B3A91D44E6E3B9E902172F715F03743A89940E8(__this, ((int32_t)il2cpp_codegen_subtract(L_9, L_10)), NULL);
@@ -23632,7 +23632,7 @@ IL_0028:
 	}
 	{
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_13 = ___destination0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = __this->____buffer_5;
 		int32_t L_15 = V_0;
 		int32_t L_16 = V_1;
 		NullCheck(L_13);
@@ -23706,10 +23706,10 @@ IL_0029:
 
 IL_0039:
 	{
-		int32_t L_13 = __this->____position_6;
+		int32_t L_13 = __this->____position_7;
 		V_0 = L_13;
-		int32_t L_14 = __this->____length_7;
-		int32_t L_15 = __this->____position_6;
+		int32_t L_14 = __this->____length_8;
+		int32_t L_15 = __this->____position_7;
 		int32_t L_16;
 		L_16 = MemoryStream_InternalEmulateRead_m5B3A91D44E6E3B9E902172F715F03743A89940E8(__this, ((int32_t)il2cpp_codegen_subtract(L_14, L_15)), NULL);
 		V_1 = L_16;
@@ -23738,7 +23738,7 @@ IL_005d:
 	}
 	{
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_21 = ___destination0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = __this->____buffer_5;
 		int32_t L_23 = V_0;
 		int32_t L_24 = V_1;
 		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_25 = ___cancellationToken2;
@@ -23754,7 +23754,7 @@ IL_0077:
 	try
 	{// begin try (depth: 1)
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_27 = V_2;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = __this->____buffer_5;
 		int32_t L_29 = V_0;
 		int32_t L_30 = V_1;
 		NullCheck(L_27);
@@ -23837,7 +23837,7 @@ IL_001f:
 
 IL_0036:
 	{
-		int32_t L_3 = __this->____origin_5;
+		int32_t L_3 = __this->____origin_6;
 		int64_t L_4 = ___offset0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_3, ((int32_t)L_4)));
 		int64_t L_5 = ___offset0;
@@ -23848,7 +23848,7 @@ IL_0036:
 	}
 	{
 		int32_t L_6 = V_0;
-		int32_t L_7 = __this->____origin_5;
+		int32_t L_7 = __this->____origin_6;
 		if ((((int32_t)L_6) >= ((int32_t)L_7)))
 		{
 			goto IL_0059;
@@ -23866,18 +23866,18 @@ IL_004e:
 IL_0059:
 	{
 		int32_t L_9 = V_0;
-		__this->____position_6 = L_9;
+		__this->____position_7 = L_9;
 		goto IL_00df;
 	}
 
 IL_0062:
 	{
-		int32_t L_10 = __this->____position_6;
+		int32_t L_10 = __this->____position_7;
 		int64_t L_11 = ___offset0;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, ((int32_t)L_11)));
-		int32_t L_12 = __this->____position_6;
+		int32_t L_12 = __this->____position_7;
 		int64_t L_13 = ___offset0;
-		int32_t L_14 = __this->____origin_5;
+		int32_t L_14 = __this->____origin_6;
 		if ((((int64_t)((int64_t)il2cpp_codegen_add(((int64_t)L_12), L_13))) < ((int64_t)((int64_t)L_14))))
 		{
 			goto IL_0087;
@@ -23885,7 +23885,7 @@ IL_0062:
 	}
 	{
 		int32_t L_15 = V_1;
-		int32_t L_16 = __this->____origin_5;
+		int32_t L_16 = __this->____origin_6;
 		if ((((int32_t)L_15) >= ((int32_t)L_16)))
 		{
 			goto IL_0092;
@@ -23903,18 +23903,18 @@ IL_0087:
 IL_0092:
 	{
 		int32_t L_18 = V_1;
-		__this->____position_6 = L_18;
+		__this->____position_7 = L_18;
 		goto IL_00df;
 	}
 
 IL_009b:
 	{
-		int32_t L_19 = __this->____length_7;
+		int32_t L_19 = __this->____length_8;
 		int64_t L_20 = ___offset0;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_19, ((int32_t)L_20)));
-		int32_t L_21 = __this->____length_7;
+		int32_t L_21 = __this->____length_8;
 		int64_t L_22 = ___offset0;
-		int32_t L_23 = __this->____origin_5;
+		int32_t L_23 = __this->____origin_6;
 		if ((((int64_t)((int64_t)il2cpp_codegen_add(((int64_t)L_21), L_22))) < ((int64_t)((int64_t)L_23))))
 		{
 			goto IL_00c0;
@@ -23922,7 +23922,7 @@ IL_009b:
 	}
 	{
 		int32_t L_24 = V_2;
-		int32_t L_25 = __this->____origin_5;
+		int32_t L_25 = __this->____origin_6;
 		if ((((int32_t)L_24) >= ((int32_t)L_25)))
 		{
 			goto IL_00cb;
@@ -23940,7 +23940,7 @@ IL_00c0:
 IL_00cb:
 	{
 		int32_t L_27 = V_2;
-		__this->____position_6 = L_27;
+		__this->____position_7 = L_27;
 		goto IL_00df;
 	}
 
@@ -23954,7 +23954,7 @@ IL_00d4:
 
 IL_00df:
 	{
-		int32_t L_29 = __this->____position_6;
+		int32_t L_29 = __this->____position_7;
 		return ((int64_t)L_29);
 	}
 }
@@ -23989,7 +23989,7 @@ IL_001e:
 	{
 		MemoryStream_EnsureWriteable_m693142F69235BBFA41B5684C1CEB77DAC971CCBF(__this, NULL);
 		int64_t L_3 = ___value0;
-		int32_t L_4 = __this->____origin_5;
+		int32_t L_4 = __this->____origin_6;
 		if ((((int64_t)L_3) <= ((int64_t)((int64_t)((int32_t)il2cpp_codegen_subtract(((int32_t)2147483647LL), L_4))))))
 		{
 			goto IL_0044;
@@ -24004,7 +24004,7 @@ IL_001e:
 
 IL_0044:
 	{
-		int32_t L_6 = __this->____origin_5;
+		int32_t L_6 = __this->____origin_6;
 		int64_t L_7 = ___value0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, ((int32_t)L_7)));
 		int32_t L_8 = V_0;
@@ -24017,25 +24017,25 @@ IL_0044:
 	}
 	{
 		int32_t L_10 = V_0;
-		int32_t L_11 = __this->____length_7;
+		int32_t L_11 = __this->____length_8;
 		if ((((int32_t)L_10) <= ((int32_t)L_11)))
 		{
 			goto IL_0079;
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = __this->____buffer_4;
-		int32_t L_13 = __this->____length_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = __this->____buffer_5;
+		int32_t L_13 = __this->____length_8;
 		int32_t L_14 = V_0;
-		int32_t L_15 = __this->____length_7;
+		int32_t L_15 = __this->____length_8;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_12, L_13, ((int32_t)il2cpp_codegen_subtract(L_14, L_15)), NULL);
 	}
 
 IL_0079:
 	{
 		int32_t L_16 = V_0;
-		__this->____length_7 = L_16;
-		int32_t L_17 = __this->____position_6;
+		__this->____length_8 = L_16;
+		int32_t L_17 = __this->____position_7;
 		int32_t L_18 = V_0;
 		if ((((int32_t)L_17) <= ((int32_t)L_18)))
 		{
@@ -24044,7 +24044,7 @@ IL_0079:
 	}
 	{
 		int32_t L_19 = V_0;
-		__this->____position_6 = L_19;
+		__this->____position_7 = L_19;
 	}
 
 IL_0090:
@@ -24065,8 +24065,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	int32_t V_0 = 0;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
 	{
-		int32_t L_0 = __this->____length_7;
-		int32_t L_1 = __this->____origin_5;
+		int32_t L_0 = __this->____length_8;
+		int32_t L_1 = __this->____origin_6;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
 		int32_t L_2 = V_0;
 		if (L_2)
@@ -24085,8 +24085,8 @@ IL_0017:
 		int32_t L_4 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		V_1 = L_5;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = __this->____buffer_4;
-		int32_t L_7 = __this->____origin_5;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = __this->____buffer_5;
+		int32_t L_7 = __this->____origin_6;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_1;
 		int32_t L_9 = V_0;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_6, L_7, (RuntimeArray*)L_8, 0, L_9, NULL);
@@ -24166,7 +24166,7 @@ IL_004e:
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
 		MemoryStream_EnsureWriteable_m693142F69235BBFA41B5684C1CEB77DAC971CCBF(__this, NULL);
-		int32_t L_10 = __this->____position_6;
+		int32_t L_10 = __this->____position_7;
 		int32_t L_11 = ___count2;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, L_11));
 		int32_t L_12 = V_0;
@@ -24185,18 +24185,18 @@ IL_004e:
 IL_0072:
 	{
 		int32_t L_14 = V_0;
-		int32_t L_15 = __this->____length_7;
+		int32_t L_15 = __this->____length_8;
 		if ((((int32_t)L_14) <= ((int32_t)L_15)))
 		{
 			goto IL_00c1;
 		}
 	}
 	{
-		int32_t L_16 = __this->____position_6;
-		int32_t L_17 = __this->____length_7;
+		int32_t L_16 = __this->____position_7;
+		int32_t L_17 = __this->____length_8;
 		V_1 = (bool)((((int32_t)L_16) > ((int32_t)L_17))? 1 : 0);
 		int32_t L_18 = V_0;
-		int32_t L_19 = __this->____capacity_8;
+		int32_t L_19 = __this->____capacity_9;
 		if ((((int32_t)L_18) <= ((int32_t)L_19)))
 		{
 			goto IL_009e;
@@ -24224,17 +24224,17 @@ IL_009e:
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = __this->____buffer_4;
-		int32_t L_24 = __this->____length_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = __this->____buffer_5;
+		int32_t L_24 = __this->____length_8;
 		int32_t L_25 = V_0;
-		int32_t L_26 = __this->____length_7;
+		int32_t L_26 = __this->____length_8;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_23, L_24, ((int32_t)il2cpp_codegen_subtract(L_25, L_26)), NULL);
 	}
 
 IL_00ba:
 	{
 		int32_t L_27 = V_0;
-		__this->____length_7 = L_27;
+		__this->____length_8 = L_27;
 	}
 
 IL_00c1:
@@ -24247,7 +24247,7 @@ IL_00c1:
 	}
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_29 = ___buffer0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = __this->____buffer_4;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = __this->____buffer_5;
 		if ((((RuntimeObject*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)L_29) == ((RuntimeObject*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)L_30)))
 		{
 			goto IL_00f0;
@@ -24261,8 +24261,8 @@ IL_00c1:
 
 IL_00d2:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = __this->____buffer_4;
-		int32_t L_33 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = __this->____buffer_5;
+		int32_t L_33 = __this->____position_7;
 		int32_t L_34 = V_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_35 = ___buffer0;
 		int32_t L_36 = ___offset1;
@@ -24292,8 +24292,8 @@ IL_00f0:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_42 = ___buffer0;
 		int32_t L_43 = ___offset1;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_44 = __this->____buffer_4;
-		int32_t L_45 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_44 = __this->____buffer_5;
+		int32_t L_45 = __this->____position_7;
 		int32_t L_46 = ___count2;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_42, L_43, (RuntimeArray*)L_44, L_45, L_46, NULL);
 	}
@@ -24301,7 +24301,7 @@ IL_00f0:
 IL_0104:
 	{
 		int32_t L_47 = V_0;
-		__this->____position_6 = L_47;
+		__this->____position_7 = L_47;
 		return;
 	}
 }
@@ -24344,7 +24344,7 @@ IL_001f:
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
 		MemoryStream_EnsureWriteable_m693142F69235BBFA41B5684C1CEB77DAC971CCBF(__this, NULL);
-		int32_t L_5 = __this->____position_6;
+		int32_t L_5 = __this->____position_7;
 		int32_t L_6;
 		L_6 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___buffer0), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, L_6));
@@ -24364,18 +24364,18 @@ IL_001f:
 IL_0049:
 	{
 		int32_t L_9 = V_0;
-		int32_t L_10 = __this->____length_7;
+		int32_t L_10 = __this->____length_8;
 		if ((((int32_t)L_9) <= ((int32_t)L_10)))
 		{
 			goto IL_0098;
 		}
 	}
 	{
-		int32_t L_11 = __this->____position_6;
-		int32_t L_12 = __this->____length_7;
+		int32_t L_11 = __this->____position_7;
+		int32_t L_12 = __this->____length_8;
 		V_1 = (bool)((((int32_t)L_11) > ((int32_t)L_12))? 1 : 0);
 		int32_t L_13 = V_0;
-		int32_t L_14 = __this->____capacity_8;
+		int32_t L_14 = __this->____capacity_9;
 		if ((((int32_t)L_13) <= ((int32_t)L_14)))
 		{
 			goto IL_0075;
@@ -24403,23 +24403,23 @@ IL_0075:
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = __this->____buffer_4;
-		int32_t L_19 = __this->____length_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = __this->____buffer_5;
+		int32_t L_19 = __this->____length_8;
 		int32_t L_20 = V_0;
-		int32_t L_21 = __this->____length_7;
+		int32_t L_21 = __this->____length_8;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_18, L_19, ((int32_t)il2cpp_codegen_subtract(L_20, L_21)), NULL);
 	}
 
 IL_0091:
 	{
 		int32_t L_22 = V_0;
-		__this->____length_7 = L_22;
+		__this->____length_8 = L_22;
 	}
 
 IL_0098:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = __this->____buffer_4;
-		int32_t L_24 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = __this->____buffer_5;
+		int32_t L_24 = __this->____position_7;
 		int32_t L_25;
 		L_25 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___buffer0), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
 		Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 L_26;
@@ -24427,7 +24427,7 @@ IL_0098:
 		Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_inline((&L_26), L_23, L_24, L_25, /*hidden argument*/Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_RuntimeMethod_var);
 		ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462((&___buffer0), L_26, ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462_RuntimeMethod_var);
 		int32_t L_27 = V_0;
-		__this->____position_6 = L_27;
+		__this->____position_7 = L_27;
 		return;
 	}
 }
@@ -24711,21 +24711,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream_WriteByte_mA42C4067E4B3F8D8
 	{
 		MemoryStream_EnsureNotClosed_m69559C9E70C372714EEB140CF23E5E7457003376(__this, NULL);
 		MemoryStream_EnsureWriteable_m693142F69235BBFA41B5684C1CEB77DAC971CCBF(__this, NULL);
-		int32_t L_0 = __this->____position_6;
-		int32_t L_1 = __this->____length_7;
+		int32_t L_0 = __this->____position_7;
+		int32_t L_1 = __this->____length_8;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
 		{
 			goto IL_006e;
 		}
 	}
 	{
-		int32_t L_2 = __this->____position_6;
+		int32_t L_2 = __this->____position_7;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
-		int32_t L_3 = __this->____position_6;
-		int32_t L_4 = __this->____length_7;
+		int32_t L_3 = __this->____position_7;
+		int32_t L_4 = __this->____length_8;
 		V_1 = (bool)((((int32_t)L_3) > ((int32_t)L_4))? 1 : 0);
 		int32_t L_5 = V_0;
-		int32_t L_6 = __this->____capacity_8;
+		int32_t L_6 = __this->____capacity_9;
 		if ((((int32_t)L_5) < ((int32_t)L_6)))
 		{
 			goto IL_0046;
@@ -24753,26 +24753,26 @@ IL_0046:
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = __this->____buffer_4;
-		int32_t L_11 = __this->____length_7;
-		int32_t L_12 = __this->____position_6;
-		int32_t L_13 = __this->____length_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = __this->____buffer_5;
+		int32_t L_11 = __this->____length_8;
+		int32_t L_12 = __this->____position_7;
+		int32_t L_13 = __this->____length_8;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_10, L_11, ((int32_t)il2cpp_codegen_subtract(L_12, L_13)), NULL);
 	}
 
 IL_0067:
 	{
 		int32_t L_14 = V_0;
-		__this->____length_7 = L_14;
+		__this->____length_8 = L_14;
 	}
 
 IL_006e:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = __this->____buffer_4;
-		int32_t L_16 = __this->____position_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = __this->____buffer_5;
+		int32_t L_16 = __this->____position_7;
 		V_2 = L_16;
 		int32_t L_17 = V_2;
-		__this->____position_6 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+		__this->____position_7 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 		int32_t L_18 = V_2;
 		uint8_t L_19 = ___value0;
 		NullCheck(L_15);
@@ -25236,12 +25236,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinnedBufferMemoryStream__ctor_m1B0F455B
 	{
 		UnmanagedMemoryStream__ctor_mDB35C953C2B373131430AB86E99C7BC49BC0F5AF(__this, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___array0;
-		__this->____array_13 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_13), (void*)L_0);
+		__this->____array_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_14), (void*)L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___array0;
 		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_2;
 		L_2 = GCHandle_Alloc_m3BFD398427352FC756FFE078F01A504B681352EC((RuntimeObject*)L_1, 3, NULL);
-		__this->____pinningHandle_14 = L_2;
+		__this->____pinningHandle_15 = L_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___array0;
 		NullCheck(L_3);
 		V_0 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
@@ -25313,7 +25313,7 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinnedBufferMemoryStream_Dispose_m8378F8124152B1AF42893A1BC24DAA2640F9C90B (PinnedBufferMemoryStream_t8E711E8F32195672BA8621BCE2FD9FF66D3CEACC* __this, bool ___disposing0, const RuntimeMethod* method) 
 {
 	{
-		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (&__this->____pinningHandle_14);
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (&__this->____pinningHandle_15);
 		bool L_1;
 		L_1 = GCHandle_get_IsAllocated_m241908103D8D867E11CCAB73C918729825E86843(L_0, NULL);
 		if (!L_1)
@@ -25322,7 +25322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinnedBufferMemoryStream_Dispose_m8378F8
 		}
 	}
 	{
-		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (&__this->____pinningHandle_14);
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (&__this->____pinningHandle_15);
 		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_2, NULL);
 	}
 
@@ -30157,8 +30157,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream__ctor_mDB35C953C2B
 	{
 		il2cpp_codegen_runtime_class_init_inline(Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_il2cpp_TypeInfo_var);
 		Stream__ctor_mE8B074A0EBEB026FFF14062AB4B8A78E17EFFBF0(__this, NULL);
-		__this->____mem_5 = (uint8_t*)((uintptr_t)0);
-		__this->____isOpen_11 = (bool)0;
+		__this->____mem_6 = (uint8_t*)((uintptr_t)0);
+		__this->____isOpen_12 = (bool)0;
 		return;
 	}
 }
@@ -30301,7 +30301,7 @@ IL_006c:
 
 IL_007c:
 	{
-		bool L_16 = __this->____isOpen_11;
+		bool L_16 = __this->____isOpen_12;
 		if (!L_16)
 		{
 			goto IL_008f;
@@ -30317,15 +30317,15 @@ IL_007c:
 IL_008f:
 	{
 		uint8_t* L_18 = ___pointer0;
-		__this->____mem_5 = L_18;
-		__this->____offset_9 = ((int64_t)0);
+		__this->____mem_6 = L_18;
+		__this->____offset_10 = ((int64_t)0);
 		int64_t L_19 = ___length1;
-		__this->____length_6 = L_19;
+		__this->____length_7 = L_19;
 		int64_t L_20 = ___capacity2;
-		__this->____capacity_7 = L_20;
+		__this->____capacity_8 = L_20;
 		int32_t L_21 = ___access3;
-		__this->____access_10 = L_21;
-		__this->____isOpen_11 = (bool)1;
+		__this->____access_11 = L_21;
+		__this->____isOpen_12 = (bool)1;
 		return;
 	}
 }
@@ -30333,14 +30333,14 @@ IL_008f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnmanagedMemoryStream_get_CanRead_m1BA0AC674A3401C4C9B0D22F0D6E5ED511F99E33 (UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_11;
+		bool L_0 = __this->____isOpen_12;
 		if (!L_0)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		int32_t L_1 = __this->____access_10;
+		int32_t L_1 = __this->____access_11;
 		return (bool)((!(((uint32_t)((int32_t)((int32_t)L_1&1))) <= ((uint32_t)0)))? 1 : 0);
 	}
 
@@ -30353,7 +30353,7 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnmanagedMemoryStream_get_CanSeek_m76B4501AC6C509B94016E5B23E9A4ABB24C389E5 (UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_11;
+		bool L_0 = __this->____isOpen_12;
 		return L_0;
 	}
 }
@@ -30361,14 +30361,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnmanagedMemoryStream_get_CanSeek_m76B45
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnmanagedMemoryStream_get_CanWrite_mDFE72F9CF31D7B8BBAA86A881BD47FF2D26F3FE1 (UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_11;
+		bool L_0 = __this->____isOpen_12;
 		if (!L_0)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		int32_t L_1 = __this->____access_10;
+		int32_t L_1 = __this->____access_11;
 		return (bool)((!(((uint32_t)((int32_t)((int32_t)L_1&2))) <= ((uint32_t)0)))? 1 : 0);
 	}
 
@@ -30381,8 +30381,8 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_Dispose_mE578AFDB4C1E795E89AA1E2BBDB618A501E6D944 (UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D* __this, bool ___disposing0, const RuntimeMethod* method) 
 {
 	{
-		__this->____isOpen_11 = (bool)0;
-		__this->____mem_5 = (uint8_t*)((uintptr_t)0);
+		__this->____isOpen_12 = (bool)0;
+		__this->____mem_6 = (uint8_t*)((uintptr_t)0);
 		bool L_0 = ___disposing0;
 		Stream_Dispose_m9B37BD21A57F8F2BD20EE353DE14405700810C5C(__this, L_0, NULL);
 		return;
@@ -30392,7 +30392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_Dispose_mE578AFDB4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD (UnmanagedMemoryStream_t83B223BCEF722E04E3AB3A7F6B73416F59BE630D* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->____isOpen_11;
+		bool L_0 = __this->____isOpen_12;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -30466,7 +30466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnmanagedMemoryStream_get_Length_m0C3
 {
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
-		int64_t* L_0 = (&__this->____length_6);
+		int64_t* L_0 = (&__this->____length_7);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
 		return L_1;
@@ -30491,7 +30491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnmanagedMemoryStream_get_Position_m9
 
 IL_000e:
 	{
-		int64_t* L_2 = (&__this->____position_8);
+		int64_t* L_2 = (&__this->____position_9);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		return L_3;
@@ -30531,7 +30531,7 @@ IL_0015:
 
 IL_0023:
 	{
-		int64_t* L_4 = (&__this->____position_8);
+		int64_t* L_4 = (&__this->____position_9);
 		int64_t L_5 = ___value0;
 		int64_t L_6;
 		L_6 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_4, L_5, NULL);
@@ -30543,7 +30543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnmanagedMemoryStream_get_PositionPo
 {
 	int64_t V_0 = 0;
 	{
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_0 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_0 = __this->____buffer_5;
 		if (!L_0)
 		{
 			goto IL_0013;
@@ -30559,12 +30559,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnmanagedMemoryStream_get_PositionPo
 IL_0013:
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
-		int64_t* L_2 = (&__this->____position_8);
+		int64_t* L_2 = (&__this->____position_9);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		V_0 = L_3;
 		int64_t L_4 = V_0;
-		int64_t L_5 = __this->____capacity_7;
+		int64_t L_5 = __this->____capacity_8;
 		if ((((int64_t)L_4) <= ((int64_t)L_5)))
 		{
 			goto IL_0039;
@@ -30579,7 +30579,7 @@ IL_0013:
 
 IL_0039:
 	{
-		uint8_t* L_7 = __this->____mem_5;
+		uint8_t* L_7 = __this->____mem_6;
 		int64_t L_8 = V_0;
 		return ((uint8_t*)il2cpp_codegen_add((intptr_t)L_7, ((intptr_t)L_8)));
 	}
@@ -30727,11 +30727,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnmanagedMemoryStream_ReadCore_mFFFCC
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
 		UnmanagedMemoryStream_EnsureReadable_mF7A0CDA42C05191CBDDB058B1CCEA1E5F768760C(__this, NULL);
-		int64_t* L_0 = (&__this->____position_8);
+		int64_t* L_0 = (&__this->____position_9);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
 		V_0 = L_1;
-		int64_t* L_2 = (&__this->____length_6);
+		int64_t* L_2 = (&__this->____length_7);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		int64_t L_4 = V_0;
@@ -30773,7 +30773,7 @@ IL_0043:
 		V_4 = L_11;
 		uint8_t* L_12 = V_4;
 		V_3 = (uint8_t*)((uintptr_t)L_12);
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_13 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_13 = __this->____buffer_5;
 		if (!L_13)
 		{
 			goto IL_0096;
@@ -30797,7 +30797,7 @@ FINALLY_0084:
 					}
 				}
 				{
-					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_15 = __this->____buffer_4;
+					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_15 = __this->____buffer_5;
 					NullCheck(L_15);
 					SafeBuffer_ReleasePointer_m8588E0BA9949D7BB8197EDC7FDBA9828B479814D(L_15, NULL);
 				}
@@ -30810,13 +30810,13 @@ IL_0095:
 		});
 		try
 		{// begin try (depth: 1)
-			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_16 = __this->____buffer_4;
+			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_16 = __this->____buffer_5;
 			NullCheck(L_16);
 			SafeBuffer_AcquirePointer_mBAF23D96C2A0AE06C0A5606433D4850BE99B99FE(L_16, (&V_5), NULL);
 			uint8_t* L_17 = V_3;
 			uint8_t* L_18 = V_5;
 			int64_t L_19 = V_0;
-			int64_t L_20 = __this->____offset_9;
+			int64_t L_20 = __this->____offset_10;
 			int32_t L_21 = V_2;
 			Buffer_Memcpy_mB203712DD2D0E5DF1CF52F752638F8B94E03E217(L_17, ((uint8_t*)il2cpp_codegen_add((intptr_t)((uint8_t*)il2cpp_codegen_add((intptr_t)L_18, ((intptr_t)L_19))), ((intptr_t)L_20))), L_21, (bool)1, NULL);
 			goto IL_00a7;
@@ -30830,7 +30830,7 @@ IL_0095:
 IL_0096:
 	{
 		uint8_t* L_22 = V_3;
-		uint8_t* L_23 = __this->____mem_5;
+		uint8_t* L_23 = __this->____mem_6;
 		int64_t L_24 = V_0;
 		int32_t L_25 = V_2;
 		Buffer_Memcpy_mB203712DD2D0E5DF1CF52F752638F8B94E03E217(L_22, ((uint8_t*)il2cpp_codegen_add((intptr_t)L_23, ((intptr_t)L_24))), L_25, (bool)1, NULL);
@@ -30839,7 +30839,7 @@ IL_0096:
 IL_00a7:
 	{
 		V_4 = (uint8_t*)((uintptr_t)0);
-		int64_t* L_26 = (&__this->____position_8);
+		int64_t* L_26 = (&__this->____position_9);
 		int64_t L_27 = V_0;
 		int64_t L_28 = V_1;
 		int64_t L_29;
@@ -30956,7 +30956,7 @@ IL_005f:
 			int32_t L_16;
 			L_16 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, __this, L_13, L_14, L_15);
 			V_0 = L_16;
-			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_17 = __this->____lastReadTask_12;
+			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_17 = __this->____lastReadTask_13;
 			V_1 = L_17;
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_18 = V_1;
 			if (!L_18)
@@ -30984,8 +30984,8 @@ IL_007d_1:
 			L_23 = Task_FromResult_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF151895F5C0BBB74AEE7600FA2F777D0A8D1EBC5(L_22, Task_FromResult_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF151895F5C0BBB74AEE7600FA2F777D0A8D1EBC5_RuntimeMethod_var);
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_24 = L_23;
 			V_2 = L_24;
-			__this->____lastReadTask_12 = L_24;
-			Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_12), (void*)L_24);
+			__this->____lastReadTask_13 = L_24;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReadTask_13), (void*)L_24);
 			Task_1_t4C228DE57804012969575431CFF12D57C875552D* L_25 = V_2;
 			G_B15_0 = L_25;
 			goto IL_008f_1;
@@ -31158,11 +31158,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnmanagedMemoryStream_ReadByte_m1D7C3
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
 		UnmanagedMemoryStream_EnsureReadable_mF7A0CDA42C05191CBDDB058B1CCEA1E5F768760C(__this, NULL);
-		int64_t* L_0 = (&__this->____position_8);
+		int64_t* L_0 = (&__this->____position_9);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
 		V_0 = L_1;
-		int64_t* L_2 = (&__this->____length_6);
+		int64_t* L_2 = (&__this->____length_7);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		V_1 = L_3;
@@ -31179,11 +31179,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnmanagedMemoryStream_ReadByte_m1D7C3
 
 IL_002a:
 	{
-		int64_t* L_6 = (&__this->____position_8);
+		int64_t* L_6 = (&__this->____position_9);
 		int64_t L_7 = V_0;
 		int64_t L_8;
 		L_8 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_6, ((int64_t)il2cpp_codegen_add(L_7, ((int64_t)1))), NULL);
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_9 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_9 = __this->____buffer_5;
 		if (!L_9)
 		{
 			goto IL_0078;
@@ -31207,7 +31207,7 @@ FINALLY_0067:
 					}
 				}
 				{
-					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_11 = __this->____buffer_4;
+					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_11 = __this->____buffer_5;
 					NullCheck(L_11);
 					SafeBuffer_ReleasePointer_m8588E0BA9949D7BB8197EDC7FDBA9828B479814D(L_11, NULL);
 				}
@@ -31220,12 +31220,12 @@ IL_0077:
 		});
 		try
 		{// begin try (depth: 1)
-			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_12 = __this->____buffer_4;
+			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_12 = __this->____buffer_5;
 			NullCheck(L_12);
 			SafeBuffer_AcquirePointer_mBAF23D96C2A0AE06C0A5606433D4850BE99B99FE(L_12, (&V_3), NULL);
 			uint8_t* L_13 = V_3;
 			int64_t L_14 = V_0;
-			int64_t L_15 = __this->____offset_9;
+			int64_t L_15 = __this->____offset_10;
 			int32_t L_16 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)((uint8_t*)il2cpp_codegen_add((intptr_t)L_13, ((intptr_t)L_14))), ((intptr_t)L_15))));
 			V_2 = L_16;
 			goto IL_0083;
@@ -31238,7 +31238,7 @@ IL_0077:
 
 IL_0078:
 	{
-		uint8_t* L_17 = __this->____mem_5;
+		uint8_t* L_17 = __this->____mem_6;
 		int64_t L_18 = V_0;
 		int32_t L_19 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_17, ((intptr_t)L_18))));
 		V_2 = L_19;
@@ -31295,7 +31295,7 @@ IL_001a:
 
 IL_002a:
 	{
-		int64_t* L_3 = (&__this->____position_8);
+		int64_t* L_3 = (&__this->____position_9);
 		int64_t L_4 = ___offset0;
 		int64_t L_5;
 		L_5 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_3, L_4, NULL);
@@ -31304,7 +31304,7 @@ IL_002a:
 
 IL_0039:
 	{
-		int64_t* L_6 = (&__this->____position_8);
+		int64_t* L_6 = (&__this->____position_9);
 		int64_t L_7;
 		L_7 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_6, NULL);
 		V_0 = L_7;
@@ -31324,7 +31324,7 @@ IL_0039:
 
 IL_0057:
 	{
-		int64_t* L_11 = (&__this->____position_8);
+		int64_t* L_11 = (&__this->____position_9);
 		int64_t L_12 = ___offset0;
 		int64_t L_13 = V_0;
 		int64_t L_14;
@@ -31334,7 +31334,7 @@ IL_0057:
 
 IL_0068:
 	{
-		int64_t* L_15 = (&__this->____length_6);
+		int64_t* L_15 = (&__this->____length_7);
 		int64_t L_16;
 		L_16 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_15, NULL);
 		V_1 = L_16;
@@ -31354,7 +31354,7 @@ IL_0068:
 
 IL_0086:
 	{
-		int64_t* L_20 = (&__this->____position_8);
+		int64_t* L_20 = (&__this->____position_9);
 		int64_t L_21 = V_1;
 		int64_t L_22 = ___offset0;
 		int64_t L_23;
@@ -31372,7 +31372,7 @@ IL_0097:
 
 IL_00a2:
 	{
-		int64_t* L_25 = (&__this->____position_8);
+		int64_t* L_25 = (&__this->____position_9);
 		int64_t L_26;
 		L_26 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_25, NULL);
 		return L_26;
@@ -31400,7 +31400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_SetLength_m406B469
 
 IL_0015:
 	{
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_2 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_2 = __this->____buffer_5;
 		if (!L_2)
 		{
 			goto IL_0028;
@@ -31418,7 +31418,7 @@ IL_0028:
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
 		UnmanagedMemoryStream_EnsureWriteable_m5CEA4E0489B33800504CB311EBD819733F0D8AEA(__this, NULL);
 		int64_t L_4 = ___value0;
-		int64_t L_5 = __this->____capacity_7;
+		int64_t L_5 = __this->____capacity_8;
 		if ((((int64_t)L_4) <= ((int64_t)L_5)))
 		{
 			goto IL_0048;
@@ -31433,10 +31433,10 @@ IL_0028:
 
 IL_0048:
 	{
-		int64_t* L_7 = (&__this->____position_8);
+		int64_t* L_7 = (&__this->____position_9);
 		int64_t L_8;
 		L_8 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_7, NULL);
-		int64_t* L_9 = (&__this->____length_6);
+		int64_t* L_9 = (&__this->____length_7);
 		int64_t L_10;
 		L_10 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_9, NULL);
 		V_0 = L_10;
@@ -31450,7 +31450,7 @@ IL_0048:
 		}
 	}
 	{
-		uint8_t* L_13 = __this->____mem_5;
+		uint8_t* L_13 = __this->____mem_6;
 		int64_t L_14 = V_0;
 		int64_t L_15 = ___value0;
 		int64_t L_16 = V_0;
@@ -31460,7 +31460,7 @@ IL_0048:
 
 IL_0074:
 	{
-		int64_t* L_17 = (&__this->____length_6);
+		int64_t* L_17 = (&__this->____length_7);
 		int64_t L_18 = ___value0;
 		int64_t L_19;
 		L_19 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_17, L_18, NULL);
@@ -31471,7 +31471,7 @@ IL_0074:
 		}
 	}
 	{
-		int64_t* L_21 = (&__this->____position_8);
+		int64_t* L_21 = (&__this->____position_9);
 		int64_t L_22 = ___value0;
 		int64_t L_23;
 		L_23 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_21, L_22, NULL);
@@ -31624,11 +31624,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_WriteCore_m0BB2200
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
 		UnmanagedMemoryStream_EnsureWriteable_m5CEA4E0489B33800504CB311EBD819733F0D8AEA(__this, NULL);
-		int64_t* L_0 = (&__this->____position_8);
+		int64_t* L_0 = (&__this->____position_9);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
 		V_0 = L_1;
-		int64_t* L_2 = (&__this->____length_6);
+		int64_t* L_2 = (&__this->____length_7);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		V_1 = L_3;
@@ -31652,7 +31652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_WriteCore_m0BB2200
 IL_003f:
 	{
 		int64_t L_8 = V_2;
-		int64_t L_9 = __this->____capacity_7;
+		int64_t L_9 = __this->____capacity_8;
 		if ((((int64_t)L_8) <= ((int64_t)L_9)))
 		{
 			goto IL_0053;
@@ -31667,7 +31667,7 @@ IL_003f:
 
 IL_0053:
 	{
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_11 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_11 = __this->____buffer_5;
 		if (L_11)
 		{
 			goto IL_0081;
@@ -31682,7 +31682,7 @@ IL_0053:
 		}
 	}
 	{
-		uint8_t* L_14 = __this->____mem_5;
+		uint8_t* L_14 = __this->____mem_6;
 		int64_t L_15 = V_1;
 		int64_t L_16 = V_0;
 		int64_t L_17 = V_1;
@@ -31699,7 +31699,7 @@ IL_0070:
 		}
 	}
 	{
-		int64_t* L_20 = (&__this->____length_6);
+		int64_t* L_20 = (&__this->____length_7);
 		int64_t L_21 = V_2;
 		int64_t L_22;
 		L_22 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_20, L_21, NULL);
@@ -31713,14 +31713,14 @@ IL_0081:
 		V_4 = L_24;
 		uint8_t* L_25 = V_4;
 		V_3 = (uint8_t*)((uintptr_t)L_25);
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_26 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_26 = __this->____buffer_5;
 		if (!L_26)
 		{
 			goto IL_00f7;
 		}
 	}
 	{
-		int64_t L_27 = __this->____capacity_7;
+		int64_t L_27 = __this->____capacity_8;
 		int64_t L_28 = V_0;
 		int32_t L_29;
 		L_29 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___buffer0), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
@@ -31755,7 +31755,7 @@ FINALLY_00e5:
 					}
 				}
 				{
-					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_32 = __this->____buffer_4;
+					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_32 = __this->____buffer_5;
 					NullCheck(L_32);
 					SafeBuffer_ReleasePointer_m8588E0BA9949D7BB8197EDC7FDBA9828B479814D(L_32, NULL);
 				}
@@ -31768,12 +31768,12 @@ IL_00f6:
 		});
 		try
 		{// begin try (depth: 1)
-			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_33 = __this->____buffer_4;
+			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_33 = __this->____buffer_5;
 			NullCheck(L_33);
 			SafeBuffer_AcquirePointer_mBAF23D96C2A0AE06C0A5606433D4850BE99B99FE(L_33, (&V_5), NULL);
 			uint8_t* L_34 = V_5;
 			int64_t L_35 = V_0;
-			int64_t L_36 = __this->____offset_9;
+			int64_t L_36 = __this->____offset_10;
 			uint8_t* L_37 = V_3;
 			int32_t L_38;
 			L_38 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___buffer0), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
@@ -31788,7 +31788,7 @@ IL_00f6:
 
 IL_00f7:
 	{
-		uint8_t* L_39 = __this->____mem_5;
+		uint8_t* L_39 = __this->____mem_6;
 		int64_t L_40 = V_0;
 		uint8_t* L_41 = V_3;
 		int32_t L_42;
@@ -31799,7 +31799,7 @@ IL_00f7:
 IL_010e:
 	{
 		V_4 = (uint8_t*)((uintptr_t)0);
-		int64_t* L_43 = (&__this->____position_8);
+		int64_t* L_43 = (&__this->____position_9);
 		int64_t L_44 = V_2;
 		int64_t L_45;
 		L_45 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_43, L_44, NULL);
@@ -32054,11 +32054,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_WriteByte_m26ECC49
 	{
 		UnmanagedMemoryStream_EnsureNotClosed_m6E927EABEE83993CAE245473C72227647D2626BD(__this, NULL);
 		UnmanagedMemoryStream_EnsureWriteable_m5CEA4E0489B33800504CB311EBD819733F0D8AEA(__this, NULL);
-		int64_t* L_0 = (&__this->____position_8);
+		int64_t* L_0 = (&__this->____position_9);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
 		V_0 = L_1;
-		int64_t* L_2 = (&__this->____length_6);
+		int64_t* L_2 = (&__this->____length_7);
 		int64_t L_3;
 		L_3 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_2, NULL);
 		V_1 = L_3;
@@ -32088,7 +32088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedMemoryStream_WriteByte_m26ECC49
 IL_003d:
 	{
 		int64_t L_9 = V_2;
-		int64_t L_10 = __this->____capacity_7;
+		int64_t L_10 = __this->____capacity_8;
 		if ((((int64_t)L_9) <= ((int64_t)L_10)))
 		{
 			goto IL_0051;
@@ -32103,7 +32103,7 @@ IL_003d:
 
 IL_0051:
 	{
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_12 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_12 = __this->____buffer_5;
 		if (L_12)
 		{
 			goto IL_007b;
@@ -32118,7 +32118,7 @@ IL_0051:
 		}
 	}
 	{
-		uint8_t* L_15 = __this->____mem_5;
+		uint8_t* L_15 = __this->____mem_6;
 		int64_t L_16 = V_1;
 		int64_t L_17 = V_0;
 		int64_t L_18 = V_1;
@@ -32127,7 +32127,7 @@ IL_0051:
 
 IL_006e:
 	{
-		int64_t* L_19 = (&__this->____length_6);
+		int64_t* L_19 = (&__this->____length_7);
 		int64_t L_20 = V_2;
 		int64_t L_21;
 		L_21 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_19, L_20, NULL);
@@ -32135,7 +32135,7 @@ IL_006e:
 
 IL_007b:
 	{
-		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_22 = __this->____buffer_4;
+		SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_22 = __this->____buffer_5;
 		if (!L_22)
 		{
 			goto IL_00b9;
@@ -32159,7 +32159,7 @@ FINALLY_00a8:
 					}
 				}
 				{
-					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_24 = __this->____buffer_4;
+					SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_24 = __this->____buffer_5;
 					NullCheck(L_24);
 					SafeBuffer_ReleasePointer_m8588E0BA9949D7BB8197EDC7FDBA9828B479814D(L_24, NULL);
 				}
@@ -32172,12 +32172,12 @@ IL_00b8:
 		});
 		try
 		{// begin try (depth: 1)
-			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_25 = __this->____buffer_4;
+			SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE* L_25 = __this->____buffer_5;
 			NullCheck(L_25);
 			SafeBuffer_AcquirePointer_mBAF23D96C2A0AE06C0A5606433D4850BE99B99FE(L_25, (&V_3), NULL);
 			uint8_t* L_26 = V_3;
 			int64_t L_27 = V_0;
-			int64_t L_28 = __this->____offset_9;
+			int64_t L_28 = __this->____offset_10;
 			uint8_t L_29 = ___value0;
 			*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)((uint8_t*)il2cpp_codegen_add((intptr_t)L_26, ((intptr_t)L_27))), ((intptr_t)L_28)))) = (int8_t)L_29;
 			goto IL_00c4;
@@ -32190,7 +32190,7 @@ IL_00b8:
 
 IL_00b9:
 	{
-		uint8_t* L_30 = __this->____mem_5;
+		uint8_t* L_30 = __this->____mem_6;
 		int64_t L_31 = V_0;
 		uint8_t L_32 = ___value0;
 		*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)L_31)))) = (int8_t)L_32;
@@ -32198,7 +32198,7 @@ IL_00b9:
 
 IL_00c4:
 	{
-		int64_t* L_33 = (&__this->____position_8);
+		int64_t* L_33 = (&__this->____position_9);
 		int64_t L_34 = V_2;
 		int64_t L_35;
 		L_35 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_33, L_34, NULL);
@@ -32374,7 +32374,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DF
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = ((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields*)il2cpp_codegen_static_fields_for(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var))->___U3CCompletedTaskU3Ek__BackingField_16;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = ((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields*)il2cpp_codegen_static_fields_for(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var))->___U3CCompletedTaskU3Ek__BackingField_32;
 		return L_0;
 	}
 }

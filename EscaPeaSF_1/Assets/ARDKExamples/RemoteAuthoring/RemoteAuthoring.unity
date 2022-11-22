@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -731,40 +731,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _manifests:
-  - LocationName: Relic
+  - LocationName: Allsteel Fountain
     AuthoredAnchors:
-    - Name: Default
-      Payload: ChYI6djC/O3i1qbaARCF9c+/i5+dkpgBGOLQ8pSjlfoCKkUKFQj9w6TRpeTXpV8QvZ2Ms/Xz46aTARInCg8Ngi/LPxU6T92/HVSmVEESFA3aXkk8FbAJUT8dLnIJvCW4DBI/HQAAgD8qRQoVCKmkiJnMlragGxCb24Pl3LvB0tQBEicKDw3clYS+FUpgv78d7lw/QRIUDePRszsVPY9GPx3AKOu7JeMtIj8dAACAPypFChUIxJiXirvm8aTJARCr752K466zxGkSJwoPDQ1lO8AV7DTpPx0XTaJAEhQNfCw3uhXUpXw/HVj1x7sl0A8Wvh0AAIA/KkQKFAiknsDlroaMpzMQmPXX+JDv28YbEicKDw10joI+Fc7l3D8dDs+uQBIUDWRBsLwVIn1Uvx2yW0w6JUblFj8dAACAPw==
-  - LocationName: Russalka
+    - Name: fo1
+      Payload: ChYI8873z+TGoKThARC0rbHp16ij5MUBGKbnyYW5wvsCKjYKFQj0p7jaj9GeoEQQm6OV+vG709nmARIYCg8NFK5iQhU9CgtBHc3MwkESBSUAAIA/HQAAgD8=
+  - LocationName: Cloud Portal
     AuthoredAnchors:
-    - Name: Default
-      Payload: ChUInJ2hg6Shn6ViELqHru31kPWyyAEYgYvI3sWS+gIqNgoVCKmMz52xmuSj0QEQi6Wt77GBiKBrEhgKDw0lBsE+FUoMQr8doBqPvxIFJQAAgD8dAACAPw==
-  - LocationName: Three Fish
+    - Name: cloud1
+      Payload: ChUIjOqdk5HS3KAFEKuJmMWGt5/a8AEY1OSh97jC+wIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8N8g6TPhWlrADAHbGhvj0SFA0IVpI6FaHyDLwd8C4luyVW/X8/HQAAgD8qNwoWCOi8pbiOu92kuwEQn52RoYflobmEARIYCg8NoJmZPhWuRwHAHUARgD0SBSUAAIA/HQAAgD8=
+  - LocationName: Ferry Building Clock Tower
     AuthoredAnchors:
-    - Name: BetweenFish1
-      Payload: ChQIrYyc+6C0m6YfELqlkeHr9LfabBiWj4b2xJL6Aio2ChUIhNWmmazFtaOWARCivcGw/v7c2F8SGAoPDeXQQr8Vj8KlPx3+1AhAEgUlAACAPx0AAIA/
-    - Name: BetweenFish2
-      Payload: ChUI3+P5nuzP1qBgELHPivqsjLKi/gEY7ZnUmMWS+gIqNgoVCITVppmsxbWjlgEQor3BsP7+3NhfEhgKDw1QjZe9FR1apD8dary0PxIFJQAAgD8dAACAPw==
+    - Name: f1
+      Payload: ChUIncWOmo2WwKS0ARCH36Hvqfj8xw4Y+bLE5rjC+wIqNwoWCJyOs6SAxYemgAEQu5fO4cnShsmaARIYCg8Nh64BQBUK1yO8HQAANUESBSUAAIA/HQAAgD8=
+  - LocationName: Icosaspirale
+    AuthoredAnchors:
+    - Name: L1
+      Payload: ChUIs673oM2p4qRuEL+l57mNhJOSqAEYp+3J17jC+wIqRQoVCI6Gqvv5mP2lvwEQgv2u4fH6+780EicKDw3M+ANBFRDc7j4dcC/nvhIUDe/YrDoVx7DTPh3mdUS7JakXaT8dAACAPypFChUIxKbqy4jd1qd+EJvn+Piv5aqIhQESJwoPDbAORUAV5L0DPx2ZlCpBEhQNV6xBuxV5y2Y/Hb6sGbslgIfdvh0AAIA/KkYKFgiV5oX2wovNpOYBEJz13Nauipe+kAESJwoPDTDTLkEViZSoPh240w1AEhQNCvrEuhVdjFO+HZGmC7wlt3d6Px0AAIA/KkQKFAiHytfR0ZKipCoQor3Hj5zig5g2EicKDw2ok0xAFRbeCD8dFBorQRIUDUknWToV5rBlPx3oVXK6JT4U4r4dAACAPw==
+  - LocationName: Mistral by Elbert Weinberg
+    AuthoredAnchors:
+    - Name: m1
+      Payload: ChUIheeCjdWpnqLpARC9rYSqnPjryTAYyqTdx7jC+wIqRgoWCLmvmJrg2YCn0AEQvuG/ru7agqOfARInCg8NoD89wBUAhpc+HRB2HkESFA0692O6FVj/Zj8dHlN9PCWuQdW+HQAAgD8qRQoVCO/iqLu7mq6k4AEQm5+w4aWm+4ZTEicKDw2wvI7AFYCZkz4dcAgqQRIUDVZehDoVEiFnPx16vCQ8Jd7F1L4dAACAPypFChUI+5Om8N//gqBZEJbr4vTPu/Pw9wESJwoPDfCdKsEVyA2VQB0AKzs/EhQNw1+WuxWHIYC+HUcFE7wlEW12Px0AAIA/KkQKFAiR5YOkqPWWp2MQl8X54PPjo89XEicKDw2QLiXBFWDlmEAdkNXNQBIUDWRnwrsVKg7Ivh3OwyC8JaNuaj8dAACAPw==
+  - LocationName: The Concrete Jungle
+    AuthoredAnchors:
+    - Name: j1
+      Payload: ChQIw8Xd0a7P0qdvEIy57LrG9pbKbhiCmcaduML7AipGChYIndT+7rmK/6CPARC+l6fW5MjY5coBEicKDw2AGAO+FUsikz8d8H3LQBIUDeTJ37sVIpH+vR1cXVk8JRo0fj8dAACAPypFChUI6J+RmJ241qFJEKGn0of/44mRigESJwoPDYAOJj8Vl5ajPx0e+eFAEhQNFeANvBXXhJk8HXR2jTslNep/Px0AAIA/KkQKFAjWqZOj68j9pSYQsqGc7IqR2+hfEicKDw0oayJAFUeWmz8d0O4UQRIUDRm8GLwVfbuCPR2PfuA7JSFsfz8dAACAPypGChYIkP3pis+p+aTHARCY7+Wn75LOseYBEicKDw0YeaFAFRRteT8dIq8pQRIUDTEVGrsVZnDPPR1UJrI7JfOnfj8dAACAPw==
+  - LocationName: Arroyo Park
+    AuthoredAnchors:
+    - Name: c1
+      Payload: ChUIi8n435Sy06IIEIqVno6Wxp671AEYqIfDzbLC+wIqNgoVCLjZieS7ndChygEQso3ppI/SqrZVEhgKDw1SuF6/FfLSzT4dI9uZPxIFJQAAgD8dAACAPw==
+    - Name: c2
+      Payload: ChYI6oaEh7KrsKD5ARCW/aqztfneo4wBGOaL5cmywvsCKjYKFQi42Ynku53QocoBELKN6aSP0qq2VRIYCg8Nkvf/PhWk0cw/HQrX+0ASBSUAAIA/HQAAgD8=
   _anchoredContent:
-  - AnchorName: Default-Relic
+  - AnchorName: fo1-Allsteel Fountain
     ManifestID: 0
-    AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
+    AnchorDataIdentifier: fo1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
       type: 3}
-  - AnchorName: Default-Russalka
+  - AnchorName: cloud1-Cloud Portal
     ManifestID: 1
-    AnchorDataIdentifier: Default
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
+    AnchorDataIdentifier: cloud1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
       type: 3}
-  - AnchorName: BetweenFish1-Three Fish
+  - AnchorName: f1-Ferry Building Clock Tower
     ManifestID: 2
-    AnchorDataIdentifier: BetweenFish1
-    Content: {fileID: 4157707192060163750, guid: 55affbfb5722e40a98877eaf25c3342e,
+    AnchorDataIdentifier: f1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
       type: 3}
-  - AnchorName: BetweenFish2-Three Fish
-    ManifestID: 2
-    AnchorDataIdentifier: BetweenFish2
-    Content: {fileID: 4157707192060163750, guid: 50f45542a65204d93a723724792608ca,
+  - AnchorName: L1-Icosaspirale
+    ManifestID: 3
+    AnchorDataIdentifier: L1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+      type: 3}
+  - AnchorName: m1-Mistral by Elbert Weinberg
+    ManifestID: 4
+    AnchorDataIdentifier: m1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+      type: 3}
+  - AnchorName: j1-The Concrete Jungle
+    ManifestID: 5
+    AnchorDataIdentifier: j1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+      type: 3}
+  - AnchorName: c1-Arroyo Park
+    ManifestID: 6
+    AnchorDataIdentifier: c1
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+      type: 3}
+  - AnchorName: c2-Arroyo Park
+    ManifestID: 6
+    AnchorDataIdentifier: c2
+    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
       type: 3}
 --- !u!4 &1829151718
 Transform:

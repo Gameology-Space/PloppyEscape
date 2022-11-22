@@ -13,6 +13,7 @@ using Niantic.Lightship.Maps.Utilities;
 using Niantic.Platform.Debugging;
 using UnityEngine;
 
+
 namespace Niantic.Lightship.Maps.Unity.Core
 {
     using MapTileObjectDictionary = Dictionary<ulong, PooledObject<MapTileObject>>;

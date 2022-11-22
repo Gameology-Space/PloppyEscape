@@ -162,6 +162,8 @@ struct ConcurrentDictionary_2_t8CAA59864D22570766253F4D445B3BFB444CFEC7;
 struct ConcurrentQueue_1_tD08CB55010A31FE389CF0CC2E61A054AFD280A83;
 // System.Collections.Concurrent.ConcurrentQueue`1<Niantic.Lightship.Maps.Internal.MapTileCache/TileWriteRequest>
 struct ConcurrentQueue_1_t4F711EF65E6679E686CE31EAE463076549A3F242;
+// System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Threading.Tasks.TaskScheduler,System.Object>
+struct ConditionalWeakTable_2_t815A43BFBA64EC1F9F92AD042622E80EED65712E;
 // System.Collections.Generic.Dictionary`2<Niantic.Lightship.Maps.Proto.FeatureKind,System.Collections.Generic.List`1<Niantic.Lightship.Maps.Features.IMapTileFeature>>
 struct Dictionary_2_tCF948BFFA9AF9DB13801DE3F7D47542DC3ECD887;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding>
@@ -2411,15 +2413,15 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B  : publ
 	// System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_registeredCallbacksLists
 	SparselyPopulatedArray_1U5BU5D_t8E75A036E16E53CF08AAAF37EB6621DE3B26307E* ____registeredCallbacksLists_4;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_state
-	int32_t ____state_5;
+	int32_t ____state_9;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_threadIDExecutingCallbacks
-	int32_t ____threadIDExecutingCallbacks_6;
+	int32_t ____threadIDExecutingCallbacks_10;
 	// System.Boolean System.Threading.CancellationTokenSource::_disposed
-	bool ____disposed_7;
+	bool ____disposed_11;
 	// System.Threading.CancellationCallbackInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_executingCallback
-	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_8;
+	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_12;
 	// System.Threading.Timer modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_timer
-	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_9;
+	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_13;
 };
 
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticFields
@@ -2431,7 +2433,7 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticF
 	// System.Int32 System.Threading.CancellationTokenSource::s_nLists
 	int32_t ___s_nLists_2;
 	// System.Threading.TimerCallback System.Threading.CancellationTokenSource::s_timerCallback
-	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_10;
+	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_14;
 };
 
 // System.Text.RegularExpressions.Capture
@@ -3333,6 +3335,20 @@ struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0  : publi
 	int32_t ____props_0;
 };
 
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0_StaticFields
+{
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType1
+	Type_t* ___s_cachedPreparedType1_1;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType2
+	Type_t* ___s_cachedPreparedType2_2;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType3
+	Type_t* ___s_cachedPreparedType3_3;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType4
+	Type_t* ___s_cachedPreparedType4_4;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType5
+	Type_t* ___s_cachedPreparedType5_5;
+};
+
 // System.Threading.Tasks.Task
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 {
@@ -3349,9 +3365,9 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_6;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_7;
+	RuntimeObject* ___m_continuationObject_23;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -3359,35 +3375,35 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
 	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
 	int32_t ___s_taskIdCounter_0;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_8;
+	RuntimeObject* ___s_taskCompletionSentinel_24;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_9;
+	bool ___s_asyncDebuggingEnabled_25;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_21;
+	RuntimeObject* ___s_activeTasksLock_37;
 };
 
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 {
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
 	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
 };
 
 // Niantic.Lightship.Maps.Async.TaskCompletionSourceEx
@@ -3404,19 +3420,21 @@ struct TaskExtensions_tCE07E43BD843DA45C0B14C1833A7FB10FF119A33  : public Runtim
 struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E  : public RuntimeObject
 {
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.TaskScheduler::m_taskSchedulerId
-	int32_t ___m_taskSchedulerId_2;
+	int32_t ___m_taskSchedulerId_3;
 };
 
 struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields
 {
+	// System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Threading.Tasks.TaskScheduler,System.Object> System.Threading.Tasks.TaskScheduler::s_activeTaskSchedulers
+	ConditionalWeakTable_2_t815A43BFBA64EC1F9F92AD042622E80EED65712E* ___s_activeTaskSchedulers_0;
 	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.TaskScheduler::s_defaultTaskScheduler
-	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___s_defaultTaskScheduler_0;
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___s_defaultTaskScheduler_1;
 	// System.Int32 System.Threading.Tasks.TaskScheduler::s_taskSchedulerIdCounter
-	int32_t ___s_taskSchedulerIdCounter_1;
+	int32_t ___s_taskSchedulerIdCounter_2;
 	// System.EventHandler`1<System.Threading.Tasks.UnobservedTaskExceptionEventArgs> System.Threading.Tasks.TaskScheduler::_unobservedTaskException
-	EventHandler_1_tE698654C3F437D97ABCCA3FD0AD8F86E776DC77A* ____unobservedTaskException_3;
+	EventHandler_1_tE698654C3F437D97ABCCA3FD0AD8F86E776DC77A* ____unobservedTaskException_4;
 	// System.Threading.Lock System.Threading.Tasks.TaskScheduler::_unobservedTaskExceptionLockObject
-	Lock_t529C04C831C120E5FFD6039EC3CB76F9956BCDD7* ____unobservedTaskExceptionLockObject_4;
+	Lock_t529C04C831C120E5FFD6039EC3CB76F9956BCDD7* ____unobservedTaskExceptionLockObject_5;
 };
 
 // Niantic.Lightship.Maps.Async.ThreadScheduler
@@ -4038,78 +4056,78 @@ struct TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	bool ___m_result_22;
+	bool ___m_result_38;
 };
 
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_23;
+	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>
 struct Task_1_t152E82A8DF2C092B0FB381308DFF0AC49C862023  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* ___m_result_22;
+	HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* ___m_result_38;
 };
 
 struct Task_1_t152E82A8DF2C092B0FB381308DFF0AC49C862023_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t7BDD01363BBCFF64B4A6BDDBBE222716A0B2E2BA* ___s_defaultFactory_23;
+	TaskFactory_1_t7BDD01363BBCFF64B4A6BDDBBE222716A0B2E2BA* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<Niantic.Lightship.Maps.Internal.MapTileData>
 struct Task_1_tB659986B0C8819BE7E45C45CBEE9A86BE43F16A2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	MapTileData_t366A80C288A6E51753189E931E5D650857A09F95* ___m_result_22;
+	MapTileData_t366A80C288A6E51753189E931E5D650857A09F95* ___m_result_38;
 };
 
 struct Task_1_tB659986B0C8819BE7E45C45CBEE9A86BE43F16A2_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t931EAEDECBC2D07693EA3392277CABD25A07FF7A* ___s_defaultFactory_23;
+	TaskFactory_1_t931EAEDECBC2D07693EA3392277CABD25A07FF7A* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<Niantic.Lightship.Maps.Network.NetworkResponse>
 struct Task_1_tB214D6DC47E00D997BE105EA6999C9953AF9E829  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	NetworkResponse_tA18B288A1325684DEFF5A154CB33FE08EB462B9A* ___m_result_22;
+	NetworkResponse_tA18B288A1325684DEFF5A154CB33FE08EB462B9A* ___m_result_38;
 };
 
 struct Task_1_tB214D6DC47E00D997BE105EA6999C9953AF9E829_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t6AAA8350C7BD8ED967EC623A1A7217AA93AB1C6B* ___s_defaultFactory_23;
+	TaskFactory_1_t6AAA8350C7BD8ED967EC623A1A7217AA93AB1C6B* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	RuntimeObject* ___m_result_22;
+	RuntimeObject* ___m_result_38;
 };
 
 struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_23;
+	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_39;
 };
 
 // System.Threading.Tasks.Task`1<System.IO.Stream>
 struct Task_1_t06484715029D51A4420723456D165BAC63798F8D  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
 {
 	// TResult System.Threading.Tasks.Task`1::m_result
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___m_result_22;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___m_result_38;
 };
 
 struct Task_1_t06484715029D51A4420723456D165BAC63798F8D_StaticFields
 {
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tA522288A50DBBA4F2B2C1B7903E790568AC5E651* ___s_defaultFactory_23;
+	TaskFactory_1_tA522288A50DBBA4F2B2C1B7903E790568AC5E651* ___s_defaultFactory_39;
 };
 
 // System.ValueTuple`2<System.UInt64,System.Int32>
@@ -4434,9 +4452,9 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -4984,15 +5002,15 @@ struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshal
 struct DeflateStream_tF1758952E9DBAB2F9A15D42971F33A78AB4FC104  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.IO.Stream System.IO.Compression.DeflateStream::base_stream
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___base_stream_4;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___base_stream_5;
 	// System.IO.Compression.CompressionMode System.IO.Compression.DeflateStream::mode
-	int32_t ___mode_5;
+	int32_t ___mode_6;
 	// System.Boolean System.IO.Compression.DeflateStream::leaveOpen
-	bool ___leaveOpen_6;
+	bool ___leaveOpen_7;
 	// System.Boolean System.IO.Compression.DeflateStream::disposed
-	bool ___disposed_7;
+	bool ___disposed_8;
 	// System.IO.Compression.DeflateStreamNative System.IO.Compression.DeflateStream::native
-	DeflateStreamNative_t06B674E1D2EFD46989197EFB1E33E0B6564793CD* ___native_8;
+	DeflateStreamNative_t06B674E1D2EFD46989197EFB1E33E0B6564793CD* ___native_9;
 };
 
 // System.Delegate
@@ -5309,25 +5327,25 @@ struct Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F_StaticFields
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Byte[] System.IO.MemoryStream::_buffer
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_4;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_5;
 	// System.Int32 System.IO.MemoryStream::_origin
-	int32_t ____origin_5;
+	int32_t ____origin_6;
 	// System.Int32 System.IO.MemoryStream::_position
-	int32_t ____position_6;
+	int32_t ____position_7;
 	// System.Int32 System.IO.MemoryStream::_length
-	int32_t ____length_7;
+	int32_t ____length_8;
 	// System.Int32 System.IO.MemoryStream::_capacity
-	int32_t ____capacity_8;
+	int32_t ____capacity_9;
 	// System.Boolean System.IO.MemoryStream::_expandable
-	bool ____expandable_9;
+	bool ____expandable_10;
 	// System.Boolean System.IO.MemoryStream::_writable
-	bool ____writable_10;
+	bool ____writable_11;
 	// System.Boolean System.IO.MemoryStream::_exposable
-	bool ____exposable_11;
+	bool ____exposable_12;
 	// System.Boolean System.IO.MemoryStream::_isOpen
-	bool ____isOpen_12;
+	bool ____isOpen_13;
 	// System.Threading.Tasks.Task`1<System.Int32> System.IO.MemoryStream::_lastReadTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_13;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_14;
 };
 
 // System.RuntimeFieldHandle
@@ -5421,15 +5439,15 @@ struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0  : public RuntimeOb
 struct TileCryptInputStream_tE765E03B1A65BC0EB7CD09DE6B84965CA24EA963  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// Niantic.Lightship.Maps.Internal.Parse.TileCrypt Niantic.Lightship.Maps.Internal.Parse.TileCryptInputStream::_tileCrypt
-	TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* ____tileCrypt_4;
+	TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* ____tileCrypt_5;
 	// System.IO.Stream Niantic.Lightship.Maps.Internal.Parse.TileCryptInputStream::_inputStream
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____inputStream_5;
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ____inputStream_6;
 	// System.Byte[] Niantic.Lightship.Maps.Internal.Parse.TileCryptInputStream::_decoded
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____decoded_6;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____decoded_7;
 	// System.Int32 Niantic.Lightship.Maps.Internal.Parse.TileCryptInputStream::_length
-	int32_t ____length_7;
+	int32_t ____length_8;
 	// System.Int64 Niantic.Lightship.Maps.Internal.Parse.TileCryptInputStream::<Position>k__BackingField
-	int64_t ___U3CPositionU3Ek__BackingField_8;
+	int64_t ___U3CPositionU3Ek__BackingField_9;
 };
 
 // System.Threading.Timeout
@@ -19209,13 +19227,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TileCryptInputStream__ctor_m26752E803798
 		TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* L_0 = (TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424*)il2cpp_codegen_object_new(TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		TileCrypt__ctor_mF6B8869AC226DDC83BC8157BE694670F137C04CE(L_0, NULL);
-		__this->____tileCrypt_4 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileCrypt_4), (void*)L_0);
+		__this->____tileCrypt_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tileCrypt_5), (void*)L_0);
 		il2cpp_codegen_runtime_class_init_inline(Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_il2cpp_TypeInfo_var);
 		Stream__ctor_mE8B074A0EBEB026FFF14062AB4B8A78E17EFFBF0(__this, NULL);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = ___inputStream0;
-		__this->____inputStream_5 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____inputStream_5), (void*)L_1);
+		__this->____inputStream_6 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____inputStream_6), (void*)L_1);
 		TileCoord_tA3632D19210AE6B7D272FFB5CD79931FF63EBBA5* L_2 = ___tile1;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___X_1;
@@ -19231,7 +19249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TileCryptInputStream__ctor_m26752E803798
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10;
 		L_10 = TileCrypt_CreateKeyForTileV3_m5FF7E4549DD241910D56DE699169F487DDB0936D(L_3, L_5, L_7, (uint16_t)((int32_t)9), L_8, L_9, NULL);
 		V_0 = L_10;
-		TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* L_11 = __this->____tileCrypt_4;
+		TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* L_11 = __this->____tileCrypt_5;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_0;
 		NullCheck(L_11);
 		TileCrypt_Init_mEA833428DF3295A407C28BB0AD5D932ED3240474(L_11, L_12, ((int32_t)256), NULL);
@@ -19261,14 +19279,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TileCryptInputStream_Read_m106278A36B
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
 	BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* V_2 = NULL;
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->____decoded_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->____decoded_7;
 		if (L_0)
 		{
 			goto IL_0070;
 		}
 	}
 	{
-		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = __this->____inputStream_5;
+		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1 = __this->____inputStream_6;
 		BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_2 = (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158*)il2cpp_codegen_object_new(BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		BinaryReader__ctor_m898732FE0DBEDD480B24F6DE45A9AC696E44CC0F(L_2, L_1, NULL);
@@ -19302,11 +19320,11 @@ IL_003e:
 		try
 		{// begin try (depth: 1)
 			BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* L_5 = V_2;
-			Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_6 = __this->____inputStream_5;
+			Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_6 = __this->____inputStream_6;
 			NullCheck(L_6);
 			int64_t L_7;
 			L_7 = VirtualFuncInvoker0< int64_t >::Invoke(11 /* System.Int64 System.IO.Stream::get_Length() */, L_6);
-			Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_8 = __this->____inputStream_5;
+			Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_8 = __this->____inputStream_6;
 			NullCheck(L_8);
 			int64_t L_9;
 			L_9 = VirtualFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, L_8);
@@ -19327,31 +19345,31 @@ IL_003f:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = V_1;
 		NullCheck(L_11);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)));
-		__this->____decoded_6 = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____decoded_6), (void*)L_12);
-		TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* L_13 = __this->____tileCrypt_4;
+		__this->____decoded_7 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____decoded_7), (void*)L_12);
+		TileCrypt_t5A428A4A33D69F5C83E895A04404361C90648424* L_13 = __this->____tileCrypt_5;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = V_1;
 		NullCheck(L_15);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = __this->____decoded_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = __this->____decoded_7;
 		NullCheck(L_13);
 		TileCrypt_Crypt_mC0C137E81918C54A5687C7279897E2607231B083(L_13, L_14, ((int32_t)(((RuntimeArray*)L_15)->max_length)), L_16, NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = __this->____decoded_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = __this->____decoded_7;
 		NullCheck(L_17);
-		__this->____length_7 = ((int32_t)(((RuntimeArray*)L_17)->max_length));
+		__this->____length_8 = ((int32_t)(((RuntimeArray*)L_17)->max_length));
 	}
 
 IL_0070:
 	{
 		int32_t L_18 = ___count2;
-		int32_t L_19 = __this->____length_7;
+		int32_t L_19 = __this->____length_8;
 		int64_t L_20;
 		L_20 = VirtualFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_21;
 		L_21 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_18, ((int32_t)il2cpp_codegen_subtract(L_19, ((int32_t)L_20))), NULL);
 		V_0 = L_21;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = __this->____decoded_6;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = __this->____decoded_7;
 		int64_t L_23;
 		L_23 = VirtualFuncInvoker0< int64_t >::Invoke(12 /* System.Int64 System.IO.Stream::get_Position() */, __this);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24 = ___buffer0;
@@ -19430,7 +19448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TileCryptInputStream_get_Length_m7B88
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TileCryptInputStream_get_Position_m418DA21EF1F5C1307A2D45FA728AF52ED8FC2951 (TileCryptInputStream_tE765E03B1A65BC0EB7CD09DE6B84965CA24EA963* __this, const RuntimeMethod* method) 
 {
 	{
-		int64_t L_0 = __this->___U3CPositionU3Ek__BackingField_8;
+		int64_t L_0 = __this->___U3CPositionU3Ek__BackingField_9;
 		return L_0;
 	}
 }
@@ -19439,7 +19457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TileCryptInputStream_set_Position_m735D7
 {
 	{
 		int64_t L_0 = ___value0;
-		__this->___U3CPositionU3Ek__BackingField_8 = L_0;
+		__this->___U3CPositionU3Ek__BackingField_9 = L_0;
 		return;
 	}
 }
@@ -31575,7 +31593,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskScheduler_t3F0550EBEF7C41F74E
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_il2cpp_TypeInfo_var);
-		TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* L_0 = ((TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields*)il2cpp_codegen_static_fields_for(TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_il2cpp_TypeInfo_var))->___s_defaultTaskScheduler_0;
+		TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* L_0 = ((TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields*)il2cpp_codegen_static_fields_for(TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_il2cpp_TypeInfo_var))->___s_defaultTaskScheduler_1;
 		return L_0;
 	}
 }
@@ -31669,7 +31687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskFactory_tF781BD37BE23917412AD
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
-		TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* L_0 = ((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields*)il2cpp_codegen_static_fields_for(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var))->___U3CFactoryU3Ek__BackingField_15;
+		TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* L_0 = ((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields*)il2cpp_codegen_static_fields_for(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var))->___U3CFactoryU3Ek__BackingField_31;
 		return L_0;
 	}
 }

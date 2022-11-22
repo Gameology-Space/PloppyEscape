@@ -100,8 +100,8 @@
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/Api/TestResultAdaptor.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRun/TestJobData.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRunner/Utils/TestListJob.cs" />
-     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherBuildOptions.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/UnityTestProtocol/TestRunnerApiMapper.cs" />
+     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherBuildOptions.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRunner/Callbacks/RerunCallbackInitializer.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/GUI/GuiHelper.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/GUI/UITestRunnerFilter.cs" />
@@ -177,8 +177,8 @@
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/RequirePlatformSupportAttribute.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRunner/EditorEnumeratorTestWorkItem.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRunner/Utils/EditorLoadedTestAssemblyProvider.cs" />
-     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestLaunchers/PrebuildSetupAttributeFinder.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/Api/Analytics/TestTreeData.cs" />
+     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestLaunchers/PrebuildSetupAttributeFinder.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/AssemblyInfo.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" />
      <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestRun/Tasks/PerformUndoTask.cs" />

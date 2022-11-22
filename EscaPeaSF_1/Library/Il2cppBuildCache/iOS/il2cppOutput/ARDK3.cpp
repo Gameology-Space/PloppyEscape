@@ -4106,9 +4106,9 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
 	// System.IO.Stream/ReadWriteTask System.IO.Stream::_activeReadWriteTask
-	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_2;
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
 };
 
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -4645,25 +4645,25 @@ struct LocationInfo_t4FA3E0908F05A3E0636537714E90B1CE36D96DC1
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
 {
 	// System.Byte[] System.IO.MemoryStream::_buffer
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_4;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_5;
 	// System.Int32 System.IO.MemoryStream::_origin
-	int32_t ____origin_5;
+	int32_t ____origin_6;
 	// System.Int32 System.IO.MemoryStream::_position
-	int32_t ____position_6;
+	int32_t ____position_7;
 	// System.Int32 System.IO.MemoryStream::_length
-	int32_t ____length_7;
+	int32_t ____length_8;
 	// System.Int32 System.IO.MemoryStream::_capacity
-	int32_t ____capacity_8;
+	int32_t ____capacity_9;
 	// System.Boolean System.IO.MemoryStream::_expandable
-	bool ____expandable_9;
+	bool ____expandable_10;
 	// System.Boolean System.IO.MemoryStream::_writable
-	bool ____writable_10;
+	bool ____writable_11;
 	// System.Boolean System.IO.MemoryStream::_exposable
-	bool ____exposable_11;
+	bool ____exposable_12;
 	// System.Boolean System.IO.MemoryStream::_isOpen
-	bool ____isOpen_12;
+	bool ____isOpen_13;
 	// System.Threading.Tasks.Task`1<System.Int32> System.IO.MemoryStream::_lastReadTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_13;
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ____lastReadTask_14;
 };
 
 // Niantic.ARDK.Networking.HLAPI.NetworkGroup
@@ -28885,7 +28885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetworkedUnityObject_GenerateId_mA82F
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_1 = ((NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B_StaticFields*)il2cpp_codegen_static_fields_for(NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B_il2cpp_TypeInfo_var))->____random_12;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = V_0;
 		NullCheck(L_1);
-		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(8 /* System.Void System.Random::NextBytes(System.Byte[]) */, L_1, L_2);
+		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(9 /* System.Void System.Random::NextBytes(System.Byte[]) */, L_1, L_2);
 		// return BitConverter.ToInt64(longBytes, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
@@ -30459,7 +30459,7 @@ IL_00a2:
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_25 = ((NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_il2cpp_TypeInfo_var))->____random_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = ((NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_il2cpp_TypeInfo_var))->____idGenBuffer_3;
 		NullCheck(L_25);
-		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(8 /* System.Void System.Random::NextBytes(System.Byte[]) */, L_25, L_26);
+		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(9 /* System.Void System.Random::NextBytes(System.Byte[]) */, L_25, L_26);
 		// var nextId = BitConverter.ToUInt64(_idGenBuffer, 0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = ((NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD20DDFB7_il2cpp_TypeInfo_var))->____idGenBuffer_3;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);

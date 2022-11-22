@@ -298,6 +298,24 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Niantic.Platform.Debugging">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -310,32 +328,14 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Niantic.Lightship.Maps">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing.unity">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Platform.Debugging">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Lightship.Maps">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -745,9 +745,17 @@
       <Project>{6b5a8b9e-800b-bb90-4e6d-a1dfb6570af5}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="ARDK-Editor.csproj">
+      <Project>{a4737b7a-8e08-bbff-477f-cd6f19c80cb5}</Project>
+      <Name>ARDK-Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{913210e5-4f49-a536-9801-7f7d055792dc}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARDK-Examples.csproj">
+      <Project>{3db59b0c-cb3f-9e90-f839-7af16f528fbf}</Project>
+      <Name>ARDK-Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Notifications.csproj">
       <Project>{ba72050c-cb62-ab70-5dc6-bece8c73e82f}</Project>
@@ -756,6 +764,10 @@
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{e487052a-e50f-d34d-2529-3be2a1a61a66}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARDK.csproj">
+      <Project>{9b5097a8-41b9-81e6-ef19-4a3e5a73e432}</Project>
+      <Name>ARDK</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{1bbe8e85-34da-e2f8-8dac-8a439e0056ec}</Project>
@@ -793,10 +805,6 @@
       <Project>{2d37d05d-2a9b-621c-607d-6a41f76d77f5}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
-      <Project>{91d4e786-fe3f-aef6-1e46-d9c50d963917}</Project>
-      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{3550e1ee-aa73-2d17-355d-b8edb95a00cd}</Project>
       <Name>UnityEditor.UI</Name>
@@ -813,21 +821,29 @@
       <Project>{f3d8163a-6dd0-c9c6-bb3f-f9c3d3763499}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{da177099-9321-6995-3745-275e21a2ddca}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
+    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
+      <Project>{91d4e786-fe3f-aef6-1e46-d9c50d963917}</Project>
+      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Notifications.iOS.csproj">
       <Project>{1c3557b6-c22f-0398-1dc9-7cf4dfe22484}</Project>
       <Name>Unity.Notifications.iOS</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{49fa39a6-ffe2-78d9-1007-c6f2e0e6527b}</Project>
-      <Name>Unity.Services.Core</Name>
+    <ProjectReference Include="RemoteAuthoring.csproj">
+      <Project>{413a7962-a032-27bb-6929-0cdf10011d9d}</Project>
+      <Name>RemoteAuthoring</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{da177099-9321-6995-3745-275e21a2ddca}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{ec0fb15c-dd57-2ec9-8b9d-dacb28ed6f38}</Project>
       <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{49fa39a6-ffe2-78d9-1007-c6f2e0e6527b}</Project>
+      <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Editor.csproj">
       <Project>{8db7cfbb-8f36-0ee7-bb1d-bac6496c6948}</Project>
@@ -836,6 +852,10 @@
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{127b29c3-affc-a8b0-e180-90d5a836f8a0}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityDebugging.csproj">
+      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
+      <Name>UnityDebugging</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
       <Project>{927c7d7e-0cdf-95f2-7095-62cafa1f11e7}</Project>
@@ -852,6 +872,10 @@
     <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
       <Project>{1f6f1bf6-7834-be5b-ab01-5634e4e72a03}</Project>
       <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Niantic.Lightship.Maps.Unity.csproj">
+      <Project>{362e410d-6272-48cd-75b6-55142e1b0cf1}</Project>
+      <Name>Niantic.Lightship.Maps.Unity</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{8f1867af-f67f-3e95-39fc-ca2becdb6b3b}</Project>
@@ -872,22 +896,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{def5faa6-567a-d4bd-4854-a4cc4d633661}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="ARDK.csproj">
-      <Project>{9b5097a8-41b9-81e6-ef19-4a3e5a73e432}</Project>
-      <Name>ARDK</Name>
-    </ProjectReference>
-    <ProjectReference Include="ARDK-Editor.csproj">
-      <Project>{a4737b7a-8e08-bbff-477f-cd6f19c80cb5}</Project>
-      <Name>ARDK-Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Niantic.Lightship.Maps.Unity.csproj">
-      <Project>{362e410d-6272-48cd-75b6-55142e1b0cf1}</Project>
-      <Name>Niantic.Lightship.Maps.Unity</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityDebugging.csproj">
-      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
-      <Name>UnityDebugging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

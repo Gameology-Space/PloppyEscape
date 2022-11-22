@@ -36,67 +36,67 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
-     <Compile Include="Assets/ARDKExamples/SceneSelector/SceneSelector.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStatusDisplay.cs" />
-     <Compile Include="Assets/ARDKExamples/Rendering/ARDepthRenderer.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PeerPoseVisualizer.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDGenerator.cs" />
-     <Compile Include="Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs" />
-     <Compile Include="Assets/ARDKExamples/WayspotAnchors/WayspotAnchorExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValueExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Pong/MessagingManager.cs" />
-     <Compile Include="Assets/ARDKExamples/AnchorsWithoutPlanes/AnchorsWithoutPlanesExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Preloading/PreloaderTestManager.cs" />
-     <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/PlaneAnchors/ARCursorRenderer.cs" />
-     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageListExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/NetworkStatus.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackedPeer.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticSegmentationExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SendDebugMessageHelper.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.cs" />
-     <Compile Include="Assets/ARDKExamples/Rendering/RenderingDemo.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs" />
-     <Compile Include="Assets/ARDKExamples/PongHLAPI/GameController.cs" />
-     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerSyncSessionManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Configuration/ConfigHelper.cs" />
      <Compile Include="Assets/ARDKExamples/ImageDetection/ImageDetectionExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/AR/ARHitTester.cs" />
-     <Compile Include="Assets/ARDKExamples/LocationService/LocationServiceExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExamplePlayController.cs" />
-     <Compile Include="Assets/ARDKExamples/Pong/GameController.cs" />
-     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerMappingManager.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Depth/DepthExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Rendering/ARRenderer.cs" />
-     <Compile Include="Assets/ARDKExamples/VirtualStudio/Playback/DatasetRecorder.cs" />
-     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDField.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Logging/ScrollingLog.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/AR/ARAnchorAttached.cs" />
-     <Compile Include="Assets/ARDKExamples/WayspotAnchors/ColorChangingTracker.cs" />
-     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayerAvatarBehaviour.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.cs" />
-     <Compile Include="Assets/ARDKExamples/Pong/BallBehaviour.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/HumanAR/HandTracking/HandTrackingExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExampleMessageHandler.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchoredContent.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionStartGatekeeper.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/OcclusionStabilizationExample.cs" />
+     <Compile Include="Assets/ARDKExamples/Preloading/PreloaderTestManager.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.cs" />
+     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerSyncSessionManager.cs" />
+     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayerAvatarBehaviour.cs" />
      <Compile Include="Assets/ARDKExamples/LowLevelNetworking/LowLevelNetworkingExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardAgent.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackedPeer.cs" />
+     <Compile Include="Assets/ARDKExamples/VirtualStudio/Playback/DatasetRecorder.cs" />
      <Compile Include="Assets/ARDKExamples/WayspotAnchors/WayspotAnchorDataUtility.cs" />
      <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerScanningManager.cs" />
-     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs" />
-     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateHelpText.cs" />
+     <Compile Include="Assets/ARDKExamples/SceneSelector/SceneSelector.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SendDebugMessageHelper.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/AR/ARHitTester.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/AR/ARAnchorAttached.cs" />
+     <Compile Include="Assets/ARDKExamples/PongHLAPI/GameController.cs" />
+     <Compile Include="Assets/ARDKExamples/Pong/GameController.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardAgent.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/NetworkStatus.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/BallBehaviour.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDField.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/OcclusionStabilizationExample.cs" />
+     <Compile Include="Assets/ARDKExamples/Rendering/RenderingDemo.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Depth/DepthExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/WayspotAnchors/ColorChangingTracker.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchoredContent.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateHelpText.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStatusDisplay.cs" />
+     <Compile Include="Assets/ARDKExamples/AnchorsWithoutPlanes/AnchorsWithoutPlanesExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/PlaneAnchors/ARCursorRenderer.cs" />
+     <Compile Include="Assets/ARDKExamples/WayspotAnchors/WayspotAnchorExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Pong/MessagingManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Configuration/ConfigHelper.cs" />
+     <Compile Include="Assets/ARDKExamples/LocationService/LocationServiceExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExampleMessageHandler.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PeerPoseVisualizer.cs" />
+     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExamplePlayController.cs" />
+     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerMappingManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Rendering/ARRenderer.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDGenerator.cs" />
+     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Pong/BallBehaviour.cs" />
+     <Compile Include="Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Logging/ScrollingLog.cs" />
+     <Compile Include="Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValueExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageListExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionStartGatekeeper.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs" />
+     <Compile Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticSegmentationExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/Rendering/ARDepthRenderer.cs" />
+     <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
+     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
      <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
      <None Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticOverlay.shader" />
     <Reference Include="UnityEngine">
@@ -348,6 +348,24 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Niantic.Platform.Debugging">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -360,32 +378,14 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Niantic.Lightship.Maps">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing.unity">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Platform.Debugging">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Lightship.Maps">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

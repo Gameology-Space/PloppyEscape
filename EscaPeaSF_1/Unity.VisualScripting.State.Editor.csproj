@@ -366,6 +366,24 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Niantic.Platform.Debugging">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -378,32 +396,14 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Niantic.Lightship.Maps">
+        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="zxing.unity">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Assets/ARDK/External/Plugins/zxing.unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Google.Protobuf/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Platform.Debugging">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Platform.Debugging/Niantic.Platform.Debugging.dll</HintPath>
-    </Reference>
-    <Reference Include="Niantic.Lightship.Maps">
-        <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.niantic.lightship.maps@bb7dfe074d58/Runtime/Niantic.Lightship.Maps/Niantic.Lightship.Maps.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

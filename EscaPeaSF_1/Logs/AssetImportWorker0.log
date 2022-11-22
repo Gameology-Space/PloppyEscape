@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49364
+51548
 Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/Esca
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 72.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,89 +69,112 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001163 seconds.
+Registered in 0.001043 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
-[usbmuxd] Attached: 2 00008110-000C612614F8801E
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 79.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.431 seconds
+- Completed reload, in  0.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (431ms)
-		BeginReloadAssembly (34ms)
+	ReloadAssembly (417ms)
+		BeginReloadAssembly (25ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (336ms)
-			LoadAssemblies (34ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (24ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
+				InitializePlatformSupportModulesInManaged (72ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (50ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (47ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001660 seconds.
+Registered in 0.002458 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (657ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (445ms)
-			LoadAssemblies (39ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (212ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -161,139 +184,17 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3503 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (66.0 KB). Loaded Objects now: 3948.
-Memory consumption went from 87.3 MB to 87.3 MB.
-Total: 2.393333 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.044917 ms MarkObjects: 2.149375 ms  DeleteObjects: 0.083000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 619.563896 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9990f39c3de691f85cda2915bc54e9c4') in 0.042930 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002157 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x294c37000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.546 seconds
-Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (56ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (439ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (218ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (438.0 KB). Loaded Objects now: 4614.
-Memory consumption went from 192.8 MB to 192.3 MB.
-Total: 2.378083 ms (FindLiveObjects: 0.138250 ms CreateObjectMapping: 0.050291 ms MarkObjects: 2.011917 ms  DeleteObjects: 0.177041 ms)
+Unloading 4339 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (141.9 KB). Loaded Objects now: 4759.
+Memory consumption went from 116.7 MB to 116.6 MB.
+Total: 2.448542 ms (FindLiveObjects: 0.111167 ms CreateObjectMapping: 0.050334 ms MarkObjects: 2.161916 ms  DeleteObjects: 0.124667 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (33.0 KB). Loaded Objects now: 4614.
-Memory consumption went from 192.3 MB to 192.3 MB.
-Total: 2.102167 ms (FindLiveObjects: 0.097583 ms CreateObjectMapping: 0.047458 ms MarkObjects: 1.952083 ms  DeleteObjects: 0.004875 ms)
+Unloading 0 unused Assets / (30.2 KB). Loaded Objects now: 4759.
+Memory consumption went from 116.6 MB to 116.5 MB.
+Total: 1.854167 ms (FindLiveObjects: 0.101625 ms CreateObjectMapping: 0.054250 ms MarkObjects: 1.693334 ms  DeleteObjects: 0.004625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -305,451 +206,308 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18799.049959 seconds.
+  path: Assets/Resources/Maps SDK/MapsAuthConfig.asset
+  artifactKey: Guid(fbedb257617724f60b18edaa874450ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps SDK/MapsAuthConfig.asset using Guid(fbedb257617724f60b18edaa874450ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2512cb2c185730af8351321f3d9d8a2') in 0.517601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.365309 seconds.
+  path: Assets/Samples/RemoteAuth.unity
+  artifactKey: Guid(1eda645ddd1d34c619fed904c953b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/RemoteAuth.unity using Guid(1eda645ddd1d34c619fed904c953b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a868ff421538e4ba64f3e0920f8ada35') in 0.000709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 400.551664 seconds.
+  path: Assets/Allsteel Fountain.asset
+  artifactKey: Guid(f2b8c66444b184736aaa0de4d3d75cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allsteel Fountain.asset using Guid(f2b8c66444b184736aaa0de4d3d75cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27da500870106ba6c889d5ad46adf79e') in 0.273051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.473220 seconds.
+  path: Assets/Cloud Portal.asset
+  artifactKey: Guid(218159651413b43bd8899596236e9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cloud Portal.asset using Guid(218159651413b43bd8899596236e9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41a840ed62feb3cc437efd14401c9e') in 0.090658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.321617 seconds.
+  path: Assets/Cloud Portal.asset
+  artifactKey: Guid(218159651413b43bd8899596236e9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cloud Portal.asset using Guid(218159651413b43bd8899596236e9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12758be222fa7c5b02b0f460dc0aa82f') in 0.089055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.838658 seconds.
+  path: Assets/Icosaspirale.asset
+  artifactKey: Guid(c3fce7c9f36b743b0b8771bc8951abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icosaspirale.asset using Guid(c3fce7c9f36b743b0b8771bc8951abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0a2fbe76fab95ce89dde9f94b47c70') in 0.079264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/The Concrete Jungle.asset
+  artifactKey: Guid(732ce65b4397d424f97c6ef40f851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Concrete Jungle.asset using Guid(732ce65b4397d424f97c6ef40f851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d517305e7ba2aa1a4dc121b9f70576') in 0.053704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 358.763351 seconds.
+  path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
+  artifactKey: Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity using Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900ed009b99a26c95407e494a222a2da') in 0.001412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.891180 seconds.
+  path: Assets/The Concrete Jungle.asset
+  artifactKey: Guid(732ce65b4397d424f97c6ef40f851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Concrete Jungle.asset using Guid(732ce65b4397d424f97c6ef40f851483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74edfa74d13430429516108fbbf1a60') in 0.072129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.137051 seconds.
+  path: Assets/Allsteel Fountain.asset
+  artifactKey: Guid(f2b8c66444b184736aaa0de4d3d75cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Allsteel Fountain.asset using Guid(f2b8c66444b184736aaa0de4d3d75cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f313cc4166b72c3889f0ffcfb9499') in 0.151941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Mistral by Elbert Weinberg.asset
+  artifactKey: Guid(939278a3b92d24253b9b30675e0e3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mistral by Elbert Weinberg.asset using Guid(939278a3b92d24253b9b30675e0e3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ebf919c8bb98785eb9f35a19cab2fd') in 0.179294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Icosaspirale.asset
+  artifactKey: Guid(c3fce7c9f36b743b0b8771bc8951abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icosaspirale.asset using Guid(c3fce7c9f36b743b0b8771bc8951abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be87722822b644e4a3f8e039ff606f5f') in 0.070541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.610682 seconds.
+  path: Assets/ARDKMockEnvironments/Wayspots/Allsteel Fountain.prefab
+  artifactKey: Guid(621150161ee37419e9aa52f68d5938ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKMockEnvironments/Wayspots/Allsteel Fountain.prefab using Guid(621150161ee37419e9aa52f68d5938ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f999420083cc1786488eb2e144579fb') in 0.177506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ARDK/Extensions/Prefabs/ARNetworkingSceneManager.prefab
+  artifactKey: Guid(903492e152bd34b2b8e964fe195297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Prefabs/ARNetworkingSceneManager.prefab using Guid(903492e152bd34b2b8e964fe195297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5cbdb5b37269f1ea4146d8bbdcd2d5') in 0.004613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARDKExamples/PongHLAPI/Prefabs/ConnectedIndicatorImage.prefab
+  artifactKey: Guid(0dc0b4e7fd22d442483d8f40bc8d5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PongHLAPI/Prefabs/ConnectedIndicatorImage.prefab using Guid(0dc0b4e7fd22d442483d8f40bc8d5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaaa191c98396e3c44a3712536d9a53') in 0.004809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ARDK/Extensions/Meshing/ARMesh.prefab
+  artifactKey: Guid(9f82ecc5afc3c4c2695d9cf37d46f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Meshing/ARMesh.prefab using Guid(9f82ecc5afc3c4c2695d9cf37d46f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e04a92eae5b9cf6a0398881885572e') in 0.003145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ARDK/Extensions/MapVisualization/ARMapPrefab.prefab
+  artifactKey: Guid(a69a384c1d25d432da08e87e0674c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/MapVisualization/ARMapPrefab.prefab using Guid(a69a384c1d25d432da08e87e0674c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b219c33183a24b1d19f265c39306ea7') in 0.049829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ARDK/Extensions/MapVisualization/ARMapVisualizationRenderer.prefab
+  artifactKey: Guid(1317ae0933d8e4a1798c6426f600fcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/MapVisualization/ARMapVisualizationRenderer.prefab using Guid(1317ae0933d8e4a1798c6426f600fcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6701ff47951681cde42f38d59e94213a') in 0.002692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/CubeGlyph.prefab
+  artifactKey: Guid(50f45542a65204d93a723724792608ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/CubeGlyph.prefab using Guid(50f45542a65204d93a723724792608ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7053e4aaa2cebc392e4995fdcf31ff73') in 0.040901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ARDK/Extensions/Prefabs/ARCameraPositionHistory.prefab
+  artifactKey: Guid(628426794e4144aeae64e95766e3e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Prefabs/ARCameraPositionHistory.prefab using Guid(628426794e4144aeae64e95766e3e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035dcca0ec13404d2f66804bdf9a96e1') in 0.005567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ARDKExamples/PongHLAPI/Prefabs/Ball.prefab
+  artifactKey: Guid(ae1596be78ed54da7a8dfc40cae0dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PongHLAPI/Prefabs/Ball.prefab using Guid(ae1596be78ed54da7a8dfc40cae0dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28f4edc3b23076ffce2fc758290375f') in 0.005950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ARDKMockEnvironments/Wayspots/Cloud Portal.prefab
+  artifactKey: Guid(18a08f285efbc473b82ba066e4652840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKMockEnvironments/Wayspots/Cloud Portal.prefab using Guid(18a08f285efbc473b82ba066e4652840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f27f3fddf12d44bbfc564ca7eaa3d5') in 0.078004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/Cube.prefab
+  artifactKey: Guid(4482afd25fcec4068b635887261964b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/Cube.prefab using Guid(4482afd25fcec4068b635887261964b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a1cad9689c8cc0e442f671af3fb594') in 0.005296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ARDKExamples/Pong/Prefabs/ConnectedIndicatorImage.prefab
+  artifactKey: Guid(7dc902ee5027649ecbc543afc4230504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Pong/Prefabs/ConnectedIndicatorImage.prefab using Guid(7dc902ee5027649ecbc543afc4230504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e11219d623b5d620b2ee7f007aea54d') in 0.002295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.809508 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/CubeOrange.prefab
+  artifactKey: Guid(4b5664054f6ff44c4a8332ab5467fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/CubeOrange.prefab using Guid(4b5664054f6ff44c4a8332ab5467fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b9ea748ba49286f62c2c97d016c1aa') in 0.010949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Source/cursor_export.fbx
+  artifactKey: Guid(d12ed7d664ec4402a976eb90875258c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Source/cursor_export.fbx using Guid(d12ed7d664ec4402a976eb90875258c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeee503ae56d63f05148bf1cab4e678') in 0.048219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ARDK/Extensions/Depth/MeshDepthChunk.prefab
+  artifactKey: Guid(3ed565107be414e4eb77e8133def6fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Depth/MeshDepthChunk.prefab using Guid(3ed565107be414e4eb77e8133def6fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80931eb42e5536fc95bbc7e9f0259a34') in 0.002769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ARDK/Extensions/Meshing/MeshColliderChunk.prefab
+  artifactKey: Guid(99a6454115a034b2e9add187cf73f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Meshing/MeshColliderChunk.prefab using Guid(99a6454115a034b2e9add187cf73f9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d02245e24d3358d1e5e9574b64b43e') in 0.002398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshLoader.prefab
+  artifactKey: Guid(dfb2a6adcae7042cab34590cd4290185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/MeshLoader.prefab using Guid(dfb2a6adcae7042cab34590cd4290185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0c5f765d099491436ad2c3f972c4ee') in 0.002724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ARDKMockEnvironments/Wayspots/Mistral by Elbert Weinberg.prefab
+  artifactKey: Guid(7e44aa89fffca45ff8dc4dfe6aa202b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKMockEnvironments/Wayspots/Mistral by Elbert Weinberg.prefab using Guid(7e44aa89fffca45ff8dc4dfe6aa202b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b8ac606f0f6a821c90f8b7297ee24') in 0.165458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/ARDKMockEnvironments/Wayspots/Icosaspirale.prefab
+  artifactKey: Guid(1b0bc588cbd014ae08236c9a8e296f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKMockEnvironments/Wayspots/Icosaspirale.prefab using Guid(1b0bc588cbd014ae08236c9a8e296f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76efc08623ea82a2f64b4049be2a965a') in 0.070800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873244 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/PeerPoseIndicator.prefab
+  artifactKey: Guid(fbafb99531bc2463eb155ae28235d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/PeerPoseIndicator.prefab using Guid(fbafb99531bc2463eb155ae28235d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c765463ee549ff8089db426176fa682') in 0.076431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ARDKExamples/Common/Helpers/Networking/SessionIDField.prefab
+  artifactKey: Guid(f8d39701d4e29402a87179e5cf1fb258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Helpers/Networking/SessionIDField.prefab using Guid(f8d39701d4e29402a87179e5cf1fb258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ed0afe301a52812db50b957ebdcedf') in 0.005837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ARDKMockEnvironments/Wayspots/Relic.prefab
+  artifactKey: Guid(c8ab47762f7bd4387b3ad5e90be44914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKMockEnvironments/Wayspots/Relic.prefab using Guid(c8ab47762f7bd4387b3ad5e90be44914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09fcded24bad02c6f4dfdb2ab400ce4') in 0.002169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/SmallCube.prefab
+  artifactKey: Guid(0b42fca8107c442648dca14c10953b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/SmallCube.prefab using Guid(0b42fca8107c442648dca14c10953b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db797689d3f0794f3383ab6509ed974') in 0.005344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Source/Shadow/Shadow.prefab
+  artifactKey: Guid(f29113ad8c3204f28b1e7d0e1b5893a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Source/Shadow/Shadow.prefab using Guid(f29113ad8c3204f28b1e7d0e1b5893a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3063f78914c4a3d412317fdaffde66b8') in 0.024559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ARDKExamples/Common/Logging/ScrollingLog.prefab
+  artifactKey: Guid(53d58211943764d66a747d5ba617615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Logging/ScrollingLog.prefab using Guid(53d58211943764d66a747d5ba617615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685ee944f3ff1eaee6e9a7db2c6d41c') in 0.005985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ARDKExamples/Pong/Prefabs/Player 1.prefab
+  artifactKey: Guid(3495038ca635a45c29402826cbab2ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Pong/Prefabs/Player 1.prefab using Guid(3495038ca635a45c29402826cbab2ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec33d2cee5d3cf9aa84b1af3558a9702') in 0.005376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.prefab
+  artifactKey: Guid(aef5d296fd1f84f2eb9b70b9248fbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.prefab using Guid(aef5d296fd1f84f2eb9b70b9248fbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee245cc69b67d9860b1149063d65123') in 0.002964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ARDK/Extensions/Planefinding/PlanePrefab.prefab
+  artifactKey: Guid(98e455e2ba6ba413287f8cd497d4b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Planefinding/PlanePrefab.prefab using Guid(98e455e2ba6ba413287f8cd497d4b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e5a2dc3834bd667f1869b3b5120022') in 0.029857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.574075 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/SmallCubeBlue.prefab
+  artifactKey: Guid(bd72bae70b74d4f65bfd46a82dc98fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/SmallCubeBlue.prefab using Guid(bd72bae70b74d4f65bfd46a82dc98fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943057c10e4cc663afd795548a9103ed') in 0.007089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ARDKExamples/Common/Prefabs/SmallCubeOrange.prefab
+  artifactKey: Guid(9d8db845d71294e1ea024a46c1e08d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Prefabs/SmallCubeOrange.prefab using Guid(9d8db845d71294e1ea024a46c1e08d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7bddc318c9a1e3d4ec03bc4f34aba8') in 0.006257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.prefab
+  artifactKey: Guid(268571b87afb040ec863002de7c0690f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.prefab using Guid(268571b87afb040ec863002de7c0690f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06664a85fdae0eb6b090d2b2075e4920') in 0.005418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/SphereGlyph.prefab
+  artifactKey: Guid(55affbfb5722e40a98877eaf25c3342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/SphereGlyph.prefab using Guid(55affbfb5722e40a98877eaf25c3342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ae548967970e8157496db6312e001c') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ARDKExamples/Common/Helpers/Networking/SyncStateHelpText.prefab
+  artifactKey: Guid(4a80c165b9066466dbb42ed6107b13aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Common/Helpers/Networking/SyncStateHelpText.prefab using Guid(4a80c165b9066466dbb42ed6107b13aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bb9ea084e3b754c2312b1e07406ad1') in 0.003893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.342938 seconds.
+  path: Assets/ARDKExamples/Pong/Prefabs/Tabletop.prefab
+  artifactKey: Guid(b4c5c2d6ee3814a8882076f39a397d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Pong/Prefabs/Tabletop.prefab using Guid(b4c5c2d6ee3814a8882076f39a397d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741529fb49fb74149dc14644b5e36a57') in 0.156515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Yeti.prefab
+  artifactKey: Guid(ad902307b5dbb4189b266a0baca24947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Yeti.prefab using Guid(ad902307b5dbb4189b266a0baca24947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336b0f0f5a52c32d772dced47db211c1') in 0.085506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.528468 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e968079b40107334819ef44d8697b855') in 0.079038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.324914 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea3d252ba1e2b210fb174f9887f51a9') in 0.077707 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002521 seconds.
+Registered in 0.002686 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x281ad3000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Thread 0x16e3eb000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.543 seconds
-Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (58ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (433ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (207ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (437.8 KB). Loaded Objects now: 4655.
-Memory consumption went from 197.0 MB to 196.6 MB.
-Total: 2.541334 ms (FindLiveObjects: 0.134208 ms CreateObjectMapping: 0.054334 ms MarkObjects: 2.150625 ms  DeleteObjects: 0.201542 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (31.4 KB). Loaded Objects now: 4655.
-Memory consumption went from 196.6 MB to 196.6 MB.
-Total: 2.114958 ms (FindLiveObjects: 0.116875 ms CreateObjectMapping: 0.053417 ms MarkObjects: 1.939833 ms  DeleteObjects: 0.004667 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 296.099164 seconds.
-  path: Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample
-  artifactKey: Guid(6bb7beb3d77ad4ba5ad1d5ce4ffd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample using Guid(6bb7beb3d77ad4ba5ad1d5ce4ffd0aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75615e0b36c222ab695f1ba2cd80838') in 0.006332 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002470 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28135f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.553 seconds
-Domain Reload Profiling:
-	ReloadAssembly (553ms)
-		BeginReloadAssembly (58ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (27ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (215ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 206.3 MB to 205.3 MB.
-Total: 2.487833 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.050625 ms MarkObjects: 1.986958 ms  DeleteObjects: 0.332583 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (31.2 KB). Loaded Objects now: 4662.
-Memory consumption went from 205.2 MB to 205.2 MB.
-Total: 1.941708 ms (FindLiveObjects: 0.086625 ms CreateObjectMapping: 0.046625 ms MarkObjects: 1.803750 ms  DeleteObjects: 0.004500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9.564543 seconds.
-  path: Assets/ARDK/ARDK.asmdef
-  artifactKey: Guid(f3cc28278c88a4b43ae1ec99ea44ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDK/ARDK.asmdef using Guid(f3cc28278c88a4b43ae1ec99ea44ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a00ec85b7ece5b96b904af41bdfb258') in 0.032784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.697239 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(432e09096cf684f8abcad34725594b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(432e09096cf684f8abcad34725594b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae4220242b02181658230c9b1bf353') in 0.000630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.483997 seconds.
-  path: Assets/Resources/ARDK
-  artifactKey: Guid(b343ea83705fe4167a3567a8bd500cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ARDK using Guid(b343ea83705fe4167a3567a8bd500cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0700ae719d26a03c2341b5fdd67425') in 0.000566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.847542 seconds.
-  path: Assets/Resources/ARDK/ArdkAuthConfig.asset
-  artifactKey: Guid(af3f8a72835304a03bac1f093adc3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ARDK/ArdkAuthConfig.asset using Guid(af3f8a72835304a03bac1f093adc3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a1cfade798d9d863a56949d54855ca') in 0.007688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.234880 seconds.
-  path: Assets/Resources/ARDK/ArdkAuthConfig.asset
-  artifactKey: Guid(af3f8a72835304a03bac1f093adc3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ARDK/ArdkAuthConfig.asset using Guid(af3f8a72835304a03bac1f093adc3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e69c612059de62b5d24cb4cf46c296b') in 0.000995 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002608 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28135f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.564 seconds
-Domain Reload Profiling:
-	ReloadAssembly (565ms)
-		BeginReloadAssembly (61ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (451ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (218ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 292.2 MB to 291.1 MB.
-Total: 2.750209 ms (FindLiveObjects: 0.129167 ms CreateObjectMapping: 0.053208 ms MarkObjects: 2.179000 ms  DeleteObjects: 0.387959 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (29.9 KB). Loaded Objects now: 4662.
-Memory consumption went from 291.1 MB to 291.1 MB.
-Total: 2.249000 ms (FindLiveObjects: 0.122625 ms CreateObjectMapping: 0.053458 ms MarkObjects: 2.067625 ms  DeleteObjects: 0.004750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 210.5 MB to 209.5 MB.
-Total: 2.897875 ms (FindLiveObjects: 0.134791 ms CreateObjectMapping: 0.056709 ms MarkObjects: 2.343166 ms  DeleteObjects: 0.362875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 210.3 MB to 209.3 MB.
-Total: 2.945334 ms (FindLiveObjects: 0.150583 ms CreateObjectMapping: 0.055083 ms MarkObjects: 2.371542 ms  DeleteObjects: 0.367750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002464 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28135f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -813,64 +571,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.563 seconds
+- Completed reload, in  0.608 seconds
 Domain Reload Profiling:
-	ReloadAssembly (563ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (453ms)
-			LoadAssemblies (27ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (32ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (223ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 298.6 MB to 297.6 MB.
-Total: 2.966542 ms (FindLiveObjects: 0.124750 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.317667 ms  DeleteObjects: 0.471250 ms)
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (143.8 KB). Loaded Objects now: 4818.
+Memory consumption went from 273.9 MB to 273.7 MB.
+Total: 2.595625 ms (FindLiveObjects: 0.124500 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.293208 ms  DeleteObjects: 0.121667 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (31.3 KB). Loaded Objects now: 4662.
-Memory consumption went from 297.5 MB to 297.5 MB.
-Total: 2.286208 ms (FindLiveObjects: 0.146708 ms CreateObjectMapping: 0.052917 ms MarkObjects: 2.080416 ms  DeleteObjects: 0.005625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (1.0 MB). Loaded Objects now: 4662.
-Memory consumption went from 217.0 MB to 216.0 MB.
-Total: 2.874250 ms (FindLiveObjects: 0.121625 ms CreateObjectMapping: 0.052416 ms MarkObjects: 2.327042 ms  DeleteObjects: 0.372958 ms)
+Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4818.
+Memory consumption went from 273.7 MB to 273.7 MB.
+Total: 2.348375 ms (FindLiveObjects: 0.132166 ms CreateObjectMapping: 0.057792 ms MarkObjects: 2.151000 ms  DeleteObjects: 0.007166 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -885,16 +624,16 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004705 seconds.
+Registered in 0.002966 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x28135f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Thread 0x16e3eb000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
@@ -953,186 +692,610 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (732ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 280.4 MB to 280.3 MB.
+Total: 2.386875 ms (FindLiveObjects: 0.117583 ms CreateObjectMapping: 0.053667 ms MarkObjects: 2.106917 ms  DeleteObjects: 0.107750 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4818.
+Memory consumption went from 280.3 MB to 280.2 MB.
+Total: 2.071083 ms (FindLiveObjects: 0.116333 ms CreateObjectMapping: 0.053250 ms MarkObjects: 1.895708 ms  DeleteObjects: 0.005542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 120.903929 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee3226e8f547abcbebd1f181ced80d5') in 0.128330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.787089 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca59de84a3125060efecaecb90efae0') in 0.084503 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002407 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e3eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 287.5 MB to 287.3 MB.
+Total: 2.902166 ms (FindLiveObjects: 0.141458 ms CreateObjectMapping: 0.054875 ms MarkObjects: 2.576917 ms  DeleteObjects: 0.127792 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (29.9 KB). Loaded Objects now: 4818.
+Memory consumption went from 287.3 MB to 287.3 MB.
+Total: 2.378667 ms (FindLiveObjects: 0.136667 ms CreateObjectMapping: 0.056250 ms MarkObjects: 2.179583 ms  DeleteObjects: 0.005792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.854476 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d151d4a507ac4373318a64dd885f2') in 0.126699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.634447 seconds.
+  path: Assets/Arroyo Park.asset
+  artifactKey: Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arroyo Park.asset using Guid(c6a85bad22f774428b8672da32d6e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be614944c2f078c523b4addd70976271') in 0.083272 seconds 
+[usbmuxd] Attached: 5 00008110-000C612614F8801E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (122.1 KB). Loaded Objects now: 4819.
+Memory consumption went from 204.8 MB to 204.7 MB.
+Total: 3.388792 ms (FindLiveObjects: 0.132334 ms CreateObjectMapping: 0.054125 ms MarkObjects: 3.095291 ms  DeleteObjects: 0.106167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (122.2 KB). Loaded Objects now: 4819.
+Memory consumption went from 204.2 MB to 204.1 MB.
+Total: 22.082167 ms (FindLiveObjects: 0.232959 ms CreateObjectMapping: 0.055625 ms MarkObjects: 21.639542 ms  DeleteObjects: 0.153000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 5 00008110-000C612614F8801E
+========================================================================
+Received Import Request.
+  Time since last request: 1343.177151 seconds.
+  path: Assets/prefab
+  artifactKey: Guid(ee27d4c951dce46019617d0d25a34481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab using Guid(ee27d4c951dce46019617d0d25a34481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814860ee90385171dfb1616bb4cfd753') in 0.003488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.807890 seconds.
+  path: Assets/prefab/Cube.prefab
+  artifactKey: Guid(cb3c0d67fcbcb4d18a29c4b1b4e05954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Cube.prefab using Guid(cb3c0d67fcbcb4d18a29c4b1b4e05954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33ac9ef9bef8fa64f43c01bf7a663cb') in 0.039637 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002659 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e3eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Domain Reload Profiling:
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 293.5 MB to 293.4 MB.
+Total: 2.683375 ms (FindLiveObjects: 0.121916 ms CreateObjectMapping: 0.053625 ms MarkObjects: 2.407584 ms  DeleteObjects: 0.099125 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (29.9 KB). Loaded Objects now: 4818.
+Memory consumption went from 293.4 MB to 293.4 MB.
+Total: 2.231959 ms (FindLiveObjects: 0.120708 ms CreateObjectMapping: 0.057083 ms MarkObjects: 2.048166 ms  DeleteObjects: 0.005583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004257 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e3eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.1 KB). Loaded Objects now: 4818.
+Memory consumption went from 300.1 MB to 300.0 MB.
+Total: 2.970625 ms (FindLiveObjects: 0.156583 ms CreateObjectMapping: 0.056584 ms MarkObjects: 2.653792 ms  DeleteObjects: 0.102916 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (30.6 KB). Loaded Objects now: 4818.
+Memory consumption went from 300.0 MB to 299.9 MB.
+Total: 2.674291 ms (FindLiveObjects: 0.127459 ms CreateObjectMapping: 0.054250 ms MarkObjects: 2.485250 ms  DeleteObjects: 0.006917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 6 00008110-000C612614F8801E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (122.2 KB). Loaded Objects now: 4818.
+Memory consumption went from 216.9 MB to 216.8 MB.
+Total: 6.226375 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.055125 ms MarkObjects: 5.850583 ms  DeleteObjects: 0.101916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 6 00008110-000C612614F8801E
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003430 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e3eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
+#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
+Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
+Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
+Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
+Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (647ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (31ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (175ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4332 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 93 unused Assets / (1.0 MB). Loaded Objects now: 4725.
-Memory consumption went from 307.0 MB to 306.0 MB.
-Total: 2.884375 ms (FindLiveObjects: 0.158125 ms CreateObjectMapping: 0.118416 ms MarkObjects: 2.231625 ms  DeleteObjects: 0.375542 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4725.
-Memory consumption went from 306.0 MB to 306.0 MB.
-Total: 2.193792 ms (FindLiveObjects: 0.116292 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.018708 ms  DeleteObjects: 0.005042 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 674.973026 seconds.
-  path: Assets/ARDKExamples/ARDK-Examples.asmdef
-  artifactKey: Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/ARDK-Examples.asmdef using Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06635404653a1b266e45e23e83dc4c1b') in 0.018715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.001521 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0314de4939330f30631d5118ab8907') in 0.000641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.997233 seconds.
-  path: Assets/Scenes/RemoteAuthorScene.unity
-  artifactKey: Guid(ce32fbd402e78471ab039e89c4b1a1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RemoteAuthorScene.unity using Guid(ce32fbd402e78471ab039e89c4b1a1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21311ed93cd9db5eb860121c3ea66fa') in 0.000648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.605412 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring
-  artifactKey: Guid(7bbb180f7647a4f788b2898de07db738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring using Guid(7bbb180f7647a4f788b2898de07db738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4d99092232bf16cf022dd65dad989') in 0.001930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.057419 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring/LocationManifestView.prefab
-  artifactKey: Guid(43cea8e46d25a451bb860bb51d229f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring/LocationManifestView.prefab using Guid(43cea8e46d25a451bb860bb51d229f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ff93a6aeb1d0e70400176d0abb47e1') in 0.059035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.640188 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
-  artifactKey: Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity using Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d960889a6a53b2b860fb447de90230') in 0.001776 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002688 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x281bcb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (814ms)
-		BeginReloadAssembly (62ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (245ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
+				BeforeProcessingInitializeOnLoad (41ms)
 				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -1140,15 +1303,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4332 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (1.0 MB). Loaded Objects now: 4727.
-Memory consumption went from 393.1 MB to 392.1 MB.
-Total: 3.155708 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.055042 ms MarkObjects: 2.491541 ms  DeleteObjects: 0.464958 ms)
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 306.2 MB to 306.1 MB.
+Total: 2.373625 ms (FindLiveObjects: 0.117583 ms CreateObjectMapping: 0.052750 ms MarkObjects: 2.093625 ms  DeleteObjects: 0.109208 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (33.0 KB). Loaded Objects now: 4727.
-Memory consumption went from 392.1 MB to 392.0 MB.
-Total: 2.401333 ms (FindLiveObjects: 0.145042 ms CreateObjectMapping: 0.054833 ms MarkObjects: 2.194792 ms  DeleteObjects: 0.006333 ms)
+Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4818.
+Memory consumption went from 306.1 MB to 306.1 MB.
+Total: 2.136083 ms (FindLiveObjects: 0.103083 ms CreateObjectMapping: 0.056042 ms MarkObjects: 1.972375 ms  DeleteObjects: 0.004458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1160,37 +1323,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 7 00008110-000C612614F8801E
 ========================================================================
-Received Import Request.
-  Time since last request: 150.639657 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Relic.asset
-  artifactKey: Guid(93a7851ce550a4d03a850053efa4c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Relic.asset using Guid(93a7851ce550a4d03a850053efa4c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb589a462887e0352ed079c9f741819') in 0.262720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Three Fish.asset
-  artifactKey: Guid(da0c129e539eb4be08f0cfc6480f9bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Three Fish.asset using Guid(da0c129e539eb4be08f0cfc6480f9bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c78f8f70839abafe18b2170c94e1d03') in 0.082273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.991864 seconds.
-  path: Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Relic.asset
-  artifactKey: Guid(93a7851ce550a4d03a850053efa4c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARDKExamples/RemoteAuthoring/LocationManifests/Relic.asset using Guid(93a7851ce550a4d03a850053efa4c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3d5b5c1509d6653c3539a44525e01c') in 0.060563 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (122.2 KB). Loaded Objects now: 4818.
+Memory consumption went from 223.0 MB to 222.9 MB.
+Total: 3.473458 ms (FindLiveObjects: 0.129917 ms CreateObjectMapping: 0.055041 ms MarkObjects: 3.188750 ms  DeleteObjects: 0.099000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 7 00008110-000C612614F8801E
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004174 seconds.
+Registered in 0.002602 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x281ad3000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Thread 0x16e3eb000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
@@ -1249,45 +1415,65 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.572 seconds
+- Completed reload, in  0.617 seconds
 Domain Reload Profiling:
-	ReloadAssembly (573ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (461ms)
-			LoadAssemblies (27ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (225ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4332 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 93 unused Assets / (1.0 MB). Loaded Objects now: 4775.
-Memory consumption went from 403.1 MB to 402.1 MB.
-Total: 2.780208 ms (FindLiveObjects: 0.139875 ms CreateObjectMapping: 0.056583 ms MarkObjects: 2.211750 ms  DeleteObjects: 0.371041 ms)
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 312.3 MB to 312.2 MB.
+Total: 2.412208 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.052584 ms MarkObjects: 2.143000 ms  DeleteObjects: 0.084875 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4775.
-Memory consumption went from 402.1 MB to 402.1 MB.
-Total: 2.025583 ms (FindLiveObjects: 0.110334 ms CreateObjectMapping: 0.048791 ms MarkObjects: 1.860500 ms  DeleteObjects: 0.005750 ms)
+Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4818.
+Memory consumption went from 312.2 MB to 312.2 MB.
+Total: 1.982500 ms (FindLiveObjects: 0.107041 ms CreateObjectMapping: 0.051833 ms MarkObjects: 1.818250 ms  DeleteObjects: 0.004916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 8 00008110-000C612614F8801E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (122.0 KB). Loaded Objects now: 4818.
+Memory consumption went from 229.1 MB to 229.0 MB.
+Total: 2.939833 ms (FindLiveObjects: 0.120709 ms CreateObjectMapping: 0.053583 ms MarkObjects: 2.683833 ms  DeleteObjects: 0.081292 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

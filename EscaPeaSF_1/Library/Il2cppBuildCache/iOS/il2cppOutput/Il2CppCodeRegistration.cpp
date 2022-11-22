@@ -18,6 +18,7 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[];
 IL2CPP_EXTERN_C const InvokerMethod g_Il2CppInvokerPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ARDKU2DExamples_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ARDK_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Google_Protobuf_CodeGenModule;
@@ -73,8 +74,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_zxing_unity_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[54] = 
+const Il2CppCodeGenModule* g_CodeGenModules[55] = 
 {
+	(&g_ARDKU2DExamples_CodeGenModule),
 	(&g_ARDK_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_Google_Protobuf_CodeGenModule),
@@ -135,18 +137,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	60,
 	g_ReversePInvokeWrapperPointers,
-	49710,
+	50440,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	9074,
+	9210,
 	g_Il2CppInvokerPointers,
-	1875,
+	1910,
 	g_UnresolvedVirtualMethodPointers,
-	534,
+	539,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	54,
+	55,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
