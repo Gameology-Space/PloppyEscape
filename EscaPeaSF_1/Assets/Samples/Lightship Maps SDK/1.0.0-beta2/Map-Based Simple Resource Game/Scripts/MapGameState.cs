@@ -50,18 +50,20 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private void Awake()
         {
             Instance = this;
-            LoadResources();
+//            LoadResources();
         }
 
-        private void LoadResources()
-        {
-            _resources[ResourceType.Wood] = 0;
-            _resources[ResourceType.Planks] = 0;
-            _resources[ResourceType.Stone] = 0;
-            _resources[ResourceType.Bricks] = 0;
+        // -- ploppy --
+        // modify below to initial game state
+        // private void LoadResources()
+        // {
+        //     _resources[ResourceType.Wood] = 0;
+        //     _resources[ResourceType.Planks] = 0;
+        //     _resources[ResourceType.Stone] = 0;
+        //     _resources[ResourceType.Bricks] = 0;
 
-            _resourceProduction[ResourceType.Wood] = true;
-        }
+        //     _resourceProduction[ResourceType.Wood] = true;
+        // }
 
         public bool IsResourceProductionEnabled(ResourceType resourceType)
         {
