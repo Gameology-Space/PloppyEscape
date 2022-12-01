@@ -1014,7 +1014,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06a9c46ba5e2493bb6e0acf6bc6c46b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleExploratoruiumIcon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  puzzleExploratoruium_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+    type: 3}
+  puzzleCloudGate_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+    type: 3}
+  puzzleFourSeason_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+    type: 3}
+  testingArroyoPark_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+    type: 3}
+  testingQuarryLakesGarden_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
     type: 3}
   _lightshipMap: {fileID: 1478799756}
 --- !u!1 &780849738
