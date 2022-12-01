@@ -65,47 +65,47 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         //     _resourceProduction[ResourceType.Wood] = true;
         // }
 
-        public bool IsResourceProductionEnabled(ResourceType resourceType)
-        {
-            return _resourceProduction.ContainsKey(resourceType) && _resourceProduction[resourceType];
-        }
+        // public bool IsResourceProductionEnabled(ResourceType resourceType)
+        // {
+        //     return _resourceProduction.ContainsKey(resourceType) && _resourceProduction[resourceType];
+        // }
 
-        public void EnableResourceProduction(ResourceType resourceType, bool isEnabled)
-        {
-            _resourceProduction[resourceType] = isEnabled;
-        }
+        // public void EnableResourceProduction(ResourceType resourceType, bool isEnabled)
+        // {
+        //     _resourceProduction[resourceType] = isEnabled;
+        // }
 
-        public int GetResource(ResourceType resourceType)
-        {
-            return _resources[resourceType];
-        }
+        // public int GetResource(ResourceType resourceType)
+        // {
+        //     return _resources[resourceType];
+        // }
 
-        public void AddResource(ResourceType resourceType, int amount)
-        {
-            _resources[resourceType] += amount;
-            OnResourceUpdated?.Invoke(resourceType, _resources[resourceType]);
-        }
+        // public void AddResource(ResourceType resourceType, int amount)
+        // {
+        //     _resources[resourceType] += amount;
+        //     OnResourceUpdated?.Invoke(resourceType, _resources[resourceType]);
+        // }
 
-        public void SpendResource(ResourceType resourceType, int amount)
-        {
-            _resources[resourceType] -= amount;
-            OnResourceUpdated?.Invoke(resourceType, _resources[resourceType]);
-        }
+        // public void SpendResource(ResourceType resourceType, int amount)
+        // {
+        //     _resources[resourceType] -= amount;
+        //     OnResourceUpdated?.Invoke(resourceType, _resources[resourceType]);
+        // }
 
-        public void StructureBuilt(LatLng coordinates, StructureType structureType)
-        {
-            // TODO: Save structure placement so that it is persist on reloading the application
+        // public void StructureBuilt(LatLng coordinates, StructureType structureType)
+        // {
+        //     // TODO: Save structure placement so that it is persist on reloading the application
 
-            // spend resources to make structure
-            var structureCost = _structureCosts[(int)structureType];
-            SpendResource(structureCost.Resource, structureCost.Amount);
+        //     // spend resources to make structure
+        //     var structureCost = _structureCosts[(int)structureType];
+        //     SpendResource(structureCost.Resource, structureCost.Amount);
 
-            OnStructureBuilt?.Invoke(structureType);
-        }
+        //     OnStructureBuilt?.Invoke(structureType);
+        // }
 
-        public StructureCost GetStructureCost(StructureType structureType)
-        {
-            return _structureCosts[(int)structureType];
-        }
+        // public StructureCost GetStructureCost(StructureType structureType)
+        // {
+        //     return _structureCosts[(int)structureType];
+        // }
     }
 }
