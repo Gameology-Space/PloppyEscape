@@ -1072,3 +1072,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 845.892460 seconds.
+  path: Assets/Ploppy/GPSCoordinates
+  artifactKey: Guid(9320ae7637e57463090128aeddf51fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/GPSCoordinates using Guid(9320ae7637e57463090128aeddf51fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f45dc075dd414d4707cb626ddf26baf') in 0.006584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 756.047400 seconds.
+  path: Assets/Ploppy/GPSCoordinates/GPS Coordinates
+  artifactKey: Guid(70ec01d31ce3d4c31993141c1631b8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/GPSCoordinates/GPS Coordinates using Guid(70ec01d31ce3d4c31993141c1631b8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8d41015a4c927f3fb8568f1b279711') in 0.018297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.291816 seconds.
+  path: Assets/Ploppy/GPSCoordinates/GPS Coordinates.md
+  artifactKey: Guid(70ec01d31ce3d4c31993141c1631b8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/GPSCoordinates/GPS Coordinates.md using Guid(70ec01d31ce3d4c31993141c1631b8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99748f2e0a27eddb9805b79d9db9c8cd') in 0.779554 seconds 
