@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapFeaturePrefabSpawner.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/FloatingText/FloatingText.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameMapInteractions.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameResourceFeature.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameState.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/FloatingText/FloatingText.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameMapInteractions.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PlayerLocationController.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameUIController.cs" />
      <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.asmdef" />
