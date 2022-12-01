@@ -373,6 +373,7 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityDebugging.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Ploppy/Script/MapIconSpawner.cs"
 "Assets/Script/SpawnMyObject.cs"
 -langversion:9.0
 

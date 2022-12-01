@@ -965,6 +965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709582415}
   - component: {fileID: 709582414}
+  - component: {fileID: 709582416}
   m_Layer: 0
   m_Name: MapInteractionsControl
   m_TagString: Untagged
@@ -986,11 +987,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mapCamera: {fileID: 1292521306}
   _lightshipMap: {fileID: 1478799756}
-  _floatingTextPrefab: {fileID: 7324948397990330343, guid: 29203652e6a4f417a98ef831bfcf1e2a,
-    type: 3}
-  _sawmillSpawner: {fileID: 193070228225680342}
-  _stoneMasonSpawner: {fileID: 193070228225680341}
-  _strongholdSpawner: {fileID: 193070228225680340}
 --- !u!4 &709582415
 Transform:
   m_ObjectHideFlags: 0
@@ -1006,6 +1002,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &709582416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709582413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06a9c46ba5e2493bb6e0acf6bc6c46b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleExploratoruiumIcon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+    type: 3}
+  _lightshipMap: {fileID: 1478799756}
 --- !u!1 &780849738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,13 +1522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c5a22a4e9d4cbab617bef78ed7ce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _structureCosts:
-  - Resource: 0
-    Amount: 10
-  - Resource: 1
-    Amount: 10
-  - Resource: 3
-    Amount: 10
 --- !u!4 &1054179404
 Transform:
   m_ObjectHideFlags: 0
@@ -2368,7 +2372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _builders.Array.size
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _mapLayers.Array.size
@@ -2411,6 +2415,14 @@ PrefabInstance:
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _mapLayers.Array.data[1]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
+      propertyPath: _defaultLocation._latitude
+      value: 37.800644999999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
+      propertyPath: _defaultLocation._longitude
+      value: -122.398381
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._mapRadius
@@ -3094,42 +3106,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa8d05b3803534a4dbdb1150fa69606c, type: 3}
---- !u!114 &193070228225680340 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 783157385059665930, guid: fa8d05b3803534a4dbdb1150fa69606c,
-    type: 3}
-  m_PrefabInstance: {fileID: 193070228225680339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4108dda22f7c430fa958a6cf0be673ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &193070228225680341 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6571151970938889292, guid: fa8d05b3803534a4dbdb1150fa69606c,
-    type: 3}
-  m_PrefabInstance: {fileID: 193070228225680339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4108dda22f7c430fa958a6cf0be673ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &193070228225680342 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2633436516270171912, guid: fa8d05b3803534a4dbdb1150fa69606c,
-    type: 3}
-  m_PrefabInstance: {fileID: 193070228225680339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4108dda22f7c430fa958a6cf0be673ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1736672386901606265
 MonoBehaviour:
   m_ObjectHideFlags: 0
