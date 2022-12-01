@@ -24,8 +24,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         [SerializeField]
         private GameObject _prefab;
 
-        [SerializeField]
-        private MapGameState.ResourceType _resourceType;
+        //[SerializeField]
+        //private MapGameState.ResourceType _resourceType;
 
         private static ChannelLogger Log { get; } = new ChannelLogger(nameof(MapFeaturePrefabSpawner));
 

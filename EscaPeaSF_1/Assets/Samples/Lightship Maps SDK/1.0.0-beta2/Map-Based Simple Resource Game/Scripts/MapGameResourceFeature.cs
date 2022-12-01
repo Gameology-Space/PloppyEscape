@@ -12,31 +12,21 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
     public class MapGameResourceFeature : MonoBehaviour
     {
         [SerializeField]
-        private MapGameState.ResourceType _resourceType;
+        //private MapGameState.ResourceType _resourceType;
 
-        [SerializeField]
+        //[SerializeField]
         private int _maxUnits;
-        public MapGameState.ResourceType ResourceType => _resourceType;
+        //public MapGameState.ResourceType ResourceType => _resourceType;
 
         private int _currentUnits;
         private float _resourceIncreaseTime;
 
         public bool ResourcesAvailable => _currentUnits > 0;
 
-        public int GainResources()
-        {
-            int currentUnits = _currentUnits;
-            _currentUnits = 0;
-            return currentUnits;
-        }
 
         private void Update()
         {
-            if (Time.time > _resourceIncreaseTime + 2.0f)
-            {
-                _resourceIncreaseTime = Time.time;
-                _currentUnits = Mathf.Min(_currentUnits + 1, _maxUnits);
-            }
+
         }
     }
 }
