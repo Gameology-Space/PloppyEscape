@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
-     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -782,10 +781,6 @@
       <Project>{127b29c3-affc-a8b0-e180-90d5a836f8a0}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityDebugging.csproj">
-      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
-      <Name>UnityDebugging</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
       <Project>{927c7d7e-0cdf-95f2-7095-62cafa1f11e7}</Project>
       <Name>Unity.AdaptivePerformance.Editor</Name>
@@ -825,6 +820,14 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{def5faa6-567a-d4bd-4854-a4cc4d633661}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="OrbitCamera.csproj">
+      <Project>{e95e8d50-69af-12b7-90b5-adb40b674578}</Project>
+      <Name>OrbitCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityDebugging.csproj">
+      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
+      <Name>UnityDebugging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

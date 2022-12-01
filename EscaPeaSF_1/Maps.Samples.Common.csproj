@@ -36,33 +36,33 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Input/PlatformAgnosticInput.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/OrthographicCamera/OrthographicCameraController.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Coordinates/SerializableLatLng.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/RuntimeLogInitializer.cs" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMPro.cginc" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Prefabs/Yeti/Source/Shadow/ShadowBlit.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/Maps.Samples.Common.asmdef" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/Input/PlatformAgnosticInput.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/OrthographicCamera/OrthographicCameraController.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/Coordinates/SerializableLatLng.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/RuntimeLogInitializer.cs" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/Prefabs/Yeti/Source/Shadow/ShadowBlit.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/Maps.Samples.Common.asmdef" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

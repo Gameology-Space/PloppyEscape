@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/UnityDebugging/UnityLogForwarder.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/UnityDebugging/UnityLogStream.cs" />
-     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/UnityDebugging/UnityDebugging.asmdef" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/UnityDebugging/UnityLogForwarder.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/UnityDebugging/UnityLogStream.cs" />
+     <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/UnityDebugging/UnityDebugging.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

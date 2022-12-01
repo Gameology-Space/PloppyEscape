@@ -25,9 +25,15 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         private Text statusLog;
 
         [SerializeField]
+        private Text printLocationInt;
+
+
+        [SerializeField]
         private Text localizationStatus;
 
         private int _selectedLocation = 0;
+
+        
 
         public void Start()
         {
@@ -65,6 +71,7 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         private void OnChangeDropdown(int selected)
         {
             _selectedLocation = selected;
+            printLocationInt.text = selected.ToString();
         }
 
         private void LoadButtonClicked()
