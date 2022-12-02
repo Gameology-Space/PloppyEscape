@@ -26,6 +26,7 @@ public class MapIconSpawner : MonoBehaviour
     void Start()
     {
         Instantiate(puzzleExploratoruium_Icon, _lightshipMap.LatLngToScene(in puzzleExploratorium_Location), Quaternion.identity);
+        
         Instantiate(puzzleCloudGate_Icon, _lightshipMap.LatLngToScene(in puzzleCloudGate_Location), Quaternion.identity);
         Instantiate(puzzleFourSeason_Icon, _lightshipMap.LatLngToScene(in puzzleFourSeason_Location), Quaternion.identity);
         Instantiate(testingArroyoPark_Icon, _lightshipMap.LatLngToScene(in testingArroyoPark_Location), Quaternion.identity);

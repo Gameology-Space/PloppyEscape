@@ -346,6 +346,7 @@
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameState.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameUIController.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PlayerLocationController.cs"
+"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PuzzleDetails.cs"
 -langversion:9.0
 
 /deterministic

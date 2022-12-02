@@ -1,6 +1,7 @@
 // Copyright 2022 Niantic, Inc. All Rights Reserved.
 
 using System;
+using System.Collections;
 using Niantic.Lightship.Maps.Coordinates;
 using Niantic.Lightship.Maps.Unity.Core;
 using Niantic.Lightship.Maps.Unity.MapLayers.Components;
@@ -22,12 +23,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         [SerializeField]
         private LightshipMap _lightshipMap;
-
-//        [SerializeField]
-//        private FloatingText.FloatingText _floatingTextPrefab;
-
-    
-
 
         private void Update()
         {
@@ -78,22 +73,17 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             }
 
             // check if the collider we hit is a feature
-            var hitResourceItem = hitInfo.collider.GetComponent<MapGameResourceFeature>();
+            var hitResourceItem = hitInfo.collider.GetComponent<PuzzleDetails>();
             if (hitResourceItem == null)
             {
                 return;
             }
 
-            // check if this resource has any units available to consume
-            if (!hitResourceItem.ResourcesAvailable)
-                return;
-
-            //award the player resources for finding this map resource
-            //int amount = hitResourceItem.GainResources();
-            //MapGameState.Instance.AddResource(hitResourceItem.ResourceType, amount);
 
             // --Ploppy-- 
             // Add action if button is pressed here
+
+            Debug.Log("Something pressed, action here");
 
             // spawn an animated floating text to show resources being gained
             //var floatingTextPosition = hitInfo.point + Vector3.up * 20.0f;
