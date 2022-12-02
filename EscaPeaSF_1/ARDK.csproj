@@ -74,9 +74,9 @@
      <Compile Include="Assets/ARDK/Utilities/Marker/ZXingMarkerGenerator.cs" />
      <Compile Include="Assets/ARDK/LocationService/_NativeLocationServiceAdapter.cs" />
      <Compile Include="Assets/ARDK/AR/WayspotAnchors/WayspotAnchorPayload.cs" />
-     <Compile Include="Assets/ARDK/Utilities/BinarySerialization/ItemSerializers/SByteSerializer.cs" />
      <Compile Include="Assets/ARDK/Networking/ARSim/Spawning/GameObjectSpawning/IGameObjectInstantiator.cs" />
      <Compile Include="Assets/ARDK/SharedAR/Colocalization/MockColocalization.cs" />
+     <Compile Include="Assets/ARDK/Utilities/BinarySerialization/ItemSerializers/SByteSerializer.cs" />
      <Compile Include="Assets/ARDK/AR/PointCloud/_ARPointCloudFactory.cs" />
      <Compile Include="Assets/ARDK/Utilities/Input/InputSystem/InputInteractionHandler.cs" />
      <Compile Include="Assets/ARDK/AR/IImagePlanes.cs" />
@@ -155,10 +155,10 @@
      <Compile Include="Assets/ARDK/AR/Frame/_NativeARFrame.cs" />
      <Compile Include="Assets/ARDK/Networking/MultipeerNetworkingEventArgs/PersistentKeyValueUpdatedArgs.cs" />
      <Compile Include="Assets/ARDK/Utilities/BinarySerialization/ItemSerializers/CompressedInt64Serializer.cs" />
-     <Compile Include="Assets/ARDK/Extensions/Permissions/AndroidPermissionManager.cs" />
      <Compile Include="Assets/ARDK/AR/Configuration/_NativeARConfiguration.cs" />
      <Compile Include="Assets/ARDK/AR/VideoFormat/_SerializableARVideoFormat.cs" />
      <Compile Include="Assets/ARDK/Utilities/Logging/ARLog.cs" />
+     <Compile Include="Assets/ARDK/Extensions/Permissions/AndroidPermissionManager.cs" />
      <Compile Include="Assets/ARDK/Networking/ServerConfiguration.cs" />
      <Compile Include="Assets/ARDK/Utilities/VersionUtilities/_IARDKVersion.cs" />
      <Compile Include="Assets/ARDK/Networking/HLAPI/Object/Unity/NetworkedUnityObject.cs" />

@@ -24,8 +24,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         [SerializeField]
         private GameObject _prefab;
 
-        [SerializeField]
-        private MapGameState.ResourceType _resourceType;
+        //[SerializeField]
+        //private MapGameState.ResourceType _resourceType;
 
         private static ChannelLogger Log { get; } = new ChannelLogger(nameof(MapFeaturePrefabSpawner));
 
@@ -44,11 +44,11 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         /// <inheritdoc />
         public override void Build(IMapTile mapTile, GameObject parent)
         {
-            if (!MapGameState.Instance.IsResourceProductionEnabled(_resourceType))
-            {
+            //if (!MapGameState.Instance.IsResourceProductionEnabled(_resourceType))
+            //{
                 // Early-out if this type of resource production isn't enabled
-                return;
-            }
+            //    return;
+            //}
 
             foreach (var featureKind in Features)
             {

@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
+     <Compile Include="Assets/Ploppy/Script/MapIconSpawner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -685,6 +686,10 @@
       <Project>{3db59b0c-cb3f-9e90-f839-7af16f528fbf}</Project>
       <Name>ARDK-Examples</Name>
     </ProjectReference>
+    <ProjectReference Include="OrbitCamera.csproj">
+      <Project>{e95e8d50-69af-12b7-90b5-adb40b674578}</Project>
+      <Name>OrbitCamera</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Notifications.csproj">
       <Project>{ba72050c-cb62-ab70-5dc6-bece8c73e82f}</Project>
       <Name>Unity.Notifications</Name>
@@ -733,6 +738,10 @@
       <Project>{2d37d05d-2a9b-621c-607d-6a41f76d77f5}</Project>
       <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
+      <Project>{91d4e786-fe3f-aef6-1e46-d9c50d963917}</Project>
+      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{3550e1ee-aa73-2d17-355d-b8edb95a00cd}</Project>
       <Name>UnityEditor.UI</Name>
@@ -749,9 +758,9 @@
       <Project>{f3d8163a-6dd0-c9c6-bb3f-f9c3d3763499}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
-      <Project>{91d4e786-fe3f-aef6-1e46-d9c50d963917}</Project>
-      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{da177099-9321-6995-3745-275e21a2ddca}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Notifications.iOS.csproj">
       <Project>{1c3557b6-c22f-0398-1dc9-7cf4dfe22484}</Project>
@@ -760,10 +769,6 @@
     <ProjectReference Include="RemoteAuthoring.csproj">
       <Project>{413a7962-a032-27bb-6929-0cdf10011d9d}</Project>
       <Name>RemoteAuthoring</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{da177099-9321-6995-3745-275e21a2ddca}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{ec0fb15c-dd57-2ec9-8b9d-dacb28ed6f38}</Project>
@@ -780,6 +785,10 @@
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{127b29c3-affc-a8b0-e180-90d5a836f8a0}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityDebugging.csproj">
+      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
+      <Name>UnityDebugging</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
       <Project>{927c7d7e-0cdf-95f2-7095-62cafa1f11e7}</Project>
@@ -820,14 +829,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{def5faa6-567a-d4bd-4854-a4cc4d633661}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="OrbitCamera.csproj">
-      <Project>{e95e8d50-69af-12b7-90b5-adb40b674578}</Project>
-      <Name>OrbitCamera</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityDebugging.csproj">
-      <Project>{ffdc7279-5732-5d91-527e-f6e6b48dbc91}</Project>
-      <Name>UnityDebugging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

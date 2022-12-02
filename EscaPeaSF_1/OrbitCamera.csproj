@@ -36,23 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/CameraMathSupport.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Gestures/IGesture.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Layers/ScreenSpaceInputLayer.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Gestures/IScreenInputGesture.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/UnityTouchInput.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/CameraGestureTracker.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/UnityMouseInput.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Layers/IInputLayer.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/IInputSource.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/ZoomCurves/ZoomCurveEvaluators.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/IInputService.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/InputEvent.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/ZoomCurves/IZoomCurveEvaluator.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/GuiUtil.cs" />
-     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/InputService.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/IInputEventService.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/ZoomCurves/IZoomCurveEvaluator.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/InputEvent.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Gestures/IScreenInputGesture.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Gestures/IGesture.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Layers/IInputLayer.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/UnityTouchInput.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/IInputSource.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/Sources/UnityMouseInput.cs" />
      <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/OrbitCamera.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/InputService.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/Input/IInputService.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/GuiUtil.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/CameraGestureTracker.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/CameraMathSupport.cs" />
+     <Compile Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/Internal/ZoomCurves/ZoomCurveEvaluators.cs" />
      <None Include="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/OrbitCamera/OrbitCamera.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

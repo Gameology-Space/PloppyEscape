@@ -1,6 +1,7 @@
 // Copyright 2022 Niantic, Inc. All Rights Reserved.
 
 using System;
+using System.Collections;
 using Niantic.Lightship.Maps.Coordinates;
 using Niantic.Lightship.Maps.Unity.Core;
 using Niantic.Lightship.Maps.Unity.MapLayers.Components;
@@ -22,27 +23,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         [SerializeField]
         private LightshipMap _lightshipMap;
-
-        [SerializeField]
-        private FloatingText.FloatingText _floatingTextPrefab;
-
-        [SerializeField]
-        private LayerGameObjectPlacement _sawmillSpawner;
-
-        [SerializeField]
-        private LayerGameObjectPlacement _stoneMasonSpawner;
-
-        [SerializeField]
-        private LayerGameObjectPlacement _strongholdSpawner;
-
-        private MapGameState.StructureType _placingStructureType;
-        private bool _placingStructure;
-
-        public void StartPlacingStructure(MapGameState.StructureType structureType)
-        {
-            _placingStructureType = structureType;
-            _placingStructure = true;
-        }
 
         private void Update()
         {
@@ -66,14 +46,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
             if (touchDetected)
             {
-                if (_placingStructure)
-                {
-                    PlaceStructure(touchPosition);
-                }
-                else
-                {
-                    CheckForInteractableTouch(touchPosition);
-                }
+
+                CheckForInteractableTouch(touchPosition);
             }
         }
 
@@ -84,32 +58,10 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             return _lightshipMap.SceneToLatLng(pointOnMap);
         }
 
-        private void PlaceStructure(Vector3 touchPosition)
-        {
-            // Project the touch position onto the map and place a structure prefab there
-            var structureLatLng = ScreenPointToLatLong(touchPosition);
 
-            switch (_placingStructureType)
-            {
-                case MapGameState.StructureType.Sawmill:
-                    _sawmillSpawner.PlaceInstance(structureLatLng);
-                    break;
-                case MapGameState.StructureType.StoneMason:
-                    _stoneMasonSpawner.PlaceInstance(structureLatLng);
-                    // Unlock stone resources on the map when StoneMason built
-                    MapGameState.Instance.EnableResourceProduction(MapGameState.ResourceType.Stone, true);
-                    break;
-                case MapGameState.StructureType.Stronghold:
-                    _strongholdSpawner.PlaceInstance(structureLatLng);
-                    break;
-            }
-
-            // Inform the inventory system so it can save this and alert other systems about the building
-            MapGameState.Instance.StructureBuilt(structureLatLng, _placingStructureType);
-
-            _placingStructure = false;
-        }
-
+        // --Ploppy--
+        // Ray cast to see where player is pointing
+        // Use this for Ploppy!
         private void CheckForInteractableTouch(Vector3 touchPosition)
         {
             var touchRay = _mapCamera.ScreenPointToRay(touchPosition);
@@ -121,26 +73,26 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             }
 
             // check if the collider we hit is a feature
-            var hitResourceItem = hitInfo.collider.GetComponent<MapGameResourceFeature>();
+            var hitResourceItem = hitInfo.collider.GetComponent<PuzzleDetails>();
             if (hitResourceItem == null)
             {
                 return;
             }
 
-            // check if this resource has any units available to consume
-            if (!hitResourceItem.ResourcesAvailable)
-                return;
 
-            // award the player resources for finding this map resource
-            int amount = hitResourceItem.GainResources();
-            MapGameState.Instance.AddResource(hitResourceItem.ResourceType, amount);
+            // --Ploppy-- 
+            // Add action if button is pressed here
+
+            Debug.Log(hitResourceItem.puzzleName);
+            Debug.Log(hitResourceItem.puzzleDifficulty);
+            Debug.Log(hitResourceItem.puzzleClear);
 
             // spawn an animated floating text to show resources being gained
-            var floatingTextPosition = hitInfo.point + Vector3.up * 20.0f;
-            var forward = floatingTextPosition - _mapCamera.transform.position;
-            var rotation = Quaternion.LookRotation(forward, Vector3.up);
-            var floatText = Instantiate(_floatingTextPrefab, floatingTextPosition, rotation);
-            floatText.SetText($"+{amount} {hitResourceItem.ResourceType.ToString()}");
+            //var floatingTextPosition = hitInfo.point + Vector3.up * 20.0f;
+            // var forward = floatingTextPosition - _mapCamera.transform.position;
+            // var rotation = Quaternion.LookRotation(forward, Vector3.up);
+            // var floatText = Instantiate(_floatingTextPrefab, floatingTextPosition, rotation);
+            // floatText.SetText($"+{amount} {hitResourceItem.ResourceType.ToString()}");
         }
     }
 }

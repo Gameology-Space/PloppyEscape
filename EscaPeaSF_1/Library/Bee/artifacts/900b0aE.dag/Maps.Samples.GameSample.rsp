@@ -341,13 +341,12 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/FloatingText/FloatingText.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapFeaturePrefabSpawner.cs"
-"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameBuilding.cs"
-"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameBuildingMenuItem.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameMapInteractions.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameResourceFeature.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameState.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameUIController.cs"
 "Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PlayerLocationController.cs"
+"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PuzzleDetails.cs"
 -langversion:9.0
 
 /deterministic

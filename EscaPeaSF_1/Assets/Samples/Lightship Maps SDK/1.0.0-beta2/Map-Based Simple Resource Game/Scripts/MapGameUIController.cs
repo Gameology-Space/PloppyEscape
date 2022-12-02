@@ -28,28 +28,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private GameObject _gamePlayScreen;
 
         [SerializeField]
-        private GameObject _buildMenu;
-
-        [SerializeField]
-        private GameObject _placeStructureScreen;
-
-        [SerializeField]
-        private GameObject _buildMenuButton;
-
-        [SerializeField]
         private GameObject _gameOverScreen;
-
-        [SerializeField]
-        private TMP_Text _woodText;
-
-        [SerializeField]
-        private TMP_Text _planksText;
-
-        [SerializeField]
-        private TMP_Text _stoneText;
-
-        [SerializeField]
-        private TMP_Text _bricksText;
 
         [SerializeField]
         private TMP_Text _errorText;
@@ -58,13 +37,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         {
             _introScreen.SetActive(true);
             _gamePlayScreen.SetActive(false);
-            _buildMenu.SetActive(false);
-            _placeStructureScreen.SetActive(false);
-            _buildMenuButton.SetActive(true);
             _gameOverScreen.SetActive(false);
 
-            MapGameState.Instance.OnStructureBuilt += OnStructurePlaced;
-            MapGameState.Instance.OnResourceUpdated += OnResourceUpdated;
             _player.OnGPSError += OnGpsError;
         }
 
@@ -76,34 +50,9 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         private void OnDestroy()
         {
-            if (MapGameState.Instance != null)
-            {
-                MapGameState.Instance.OnStructureBuilt -= OnStructurePlaced;
-                MapGameState.Instance.OnResourceUpdated -= OnResourceUpdated;
-            }
-
             if (_player != null)
             {
                 _player.OnGPSError -= OnGpsError;
-            }
-        }
-
-        private void OnResourceUpdated(MapGameState.ResourceType resourceType, int amount)
-        {
-            switch (resourceType)
-            {
-                case MapGameState.ResourceType.Wood:
-                    _woodText.text = amount.ToString();
-                    break;
-                case MapGameState.ResourceType.Planks:
-                    _planksText.text = amount.ToString();
-                    break;
-                case MapGameState.ResourceType.Stone:
-                    _stoneText.text = amount.ToString();
-                    break;
-                case MapGameState.ResourceType.Bricks:
-                    _bricksText.text = amount.ToString();
-                    break;
             }
         }
 
@@ -111,36 +60,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         {
             _introScreen.SetActive(false);
             _gamePlayScreen.SetActive(true);
-        }
-
-        public void OnBuildButtonPressed()
-        {
-            _buildMenu.SetActive(true);
-        }
-
-        public void OnBuildMenuClosePressed()
-        {
-            _buildMenu.SetActive(false);
-        }
-
-        public void OnBuildStructureItemPressed(int structureIndex)
-        {
-            _buildMenu.SetActive(false);
-            _placeStructureScreen.SetActive(true);
-            _buildMenuButton.SetActive(false);
-            _mapInteractibles.StartPlacingStructure((MapGameState.StructureType)structureIndex);
-        }
-
-        private void OnStructurePlaced(MapGameState.StructureType structureType)
-        {
-            _placeStructureScreen.SetActive(false);
-            _buildMenuButton.SetActive(true);
-
-            if (structureType == MapGameState.StructureType.Stronghold)
-            {
-                _gameOverScreen.SetActive(true);
-                _gamePlayScreen.SetActive(false);
-            }
         }
 
         public void OnGameOverContinuePressed()
