@@ -1014,15 +1014,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06a9c46ba5e2493bb6e0acf6bc6c46b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleExploratoruium_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  puzzleExploratoruium_Icon: {fileID: 6503120680106726929, guid: 1817679ff009f4db58d2d4576ac299c2,
     type: 3}
-  puzzleCloudGate_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  puzzleCloudGate_Icon: {fileID: 8365895204776674101, guid: 4082b8d85638d40fbaa67f6244243976,
     type: 3}
-  puzzleFourSeason_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  puzzleFourSeason_Icon: {fileID: 8188529733154924137, guid: cc9409a0d8a724a76a59862da2493a7e,
     type: 3}
-  testingArroyoPark_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  testingArroyoPark_Icon: {fileID: 7997068137114366620, guid: e8a16468b1307450ea579504a339cf2c,
     type: 3}
-  testingQuarryLakesGarden_Icon: {fileID: 4111739037655889572, guid: 7595b057296594cfda56b1f679608ff6,
+  testingQuarryLakesGarden_Icon: {fileID: 5226542667672946871, guid: 735d6e9616f134444ab68a44ab28bfb0,
     type: 3}
   _lightshipMap: {fileID: 1478799756}
 --- !u!1 &780849738
@@ -2033,7 +2033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1301271792
 RectTransform:
   m_ObjectHideFlags: 0

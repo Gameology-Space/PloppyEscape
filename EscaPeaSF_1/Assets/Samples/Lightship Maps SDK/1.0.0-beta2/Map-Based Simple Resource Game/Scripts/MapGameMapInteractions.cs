@@ -83,7 +83,9 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             // --Ploppy-- 
             // Add action if button is pressed here
 
-            Debug.Log("Something pressed, action here");
+            Debug.Log(hitResourceItem.puzzleName);
+            Debug.Log(hitResourceItem.puzzleDifficulty);
+            Debug.Log(hitResourceItem.puzzleClear);
 
             // spawn an animated floating text to show resources being gained
             //var floatingTextPosition = hitInfo.point + Vector3.up * 20.0f;
