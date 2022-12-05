@@ -306,6 +306,7 @@
 -r:"Library/Bee/artifacts/900b0aP.dag/ARDK-Examples.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/ARDK.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Niantic.Lightship.Maps.Unity.ref.dll"
+-r:"Library/Bee/artifacts/900b0aP.dag/OrbitCamera.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.AdaptivePerformance.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.Notifications.iOS.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.Profiling.Core.ref.dll"
@@ -320,8 +321,11 @@
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityDebugging.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Ploppy/Script/GameManager.cs"
+"Assets/Ploppy/Script/MapIconSpawner.cs"
+"Assets/Ploppy/Script/SceneControl.cs"
+"Assets/Ploppy/Script/UIFunctions.cs"
 "Assets/Script/SpawnMyObject.cs"
-"Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic

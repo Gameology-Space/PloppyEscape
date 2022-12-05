@@ -304,8 +304,8 @@
 -r:"/Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Assets/ARDK/External/Plugins/zxing.unity.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/UnityDebugging/UnityLogForwarder.cs"
-"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Orthographic Camera Sample/Common/UnityDebugging/UnityLogStream.cs"
+"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/UnityDebugging/UnityLogForwarder.cs"
+"Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Common/UnityDebugging/UnityLogStream.cs"
 -langversion:9.0
 
 /deterministic
