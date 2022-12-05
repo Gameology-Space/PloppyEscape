@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6920379259928570394}
   - component: {fileID: 7674702346766170231}
   - component: {fileID: 1072911973151330621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environmentally Sustainable Garden (Wayspot Mesh)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

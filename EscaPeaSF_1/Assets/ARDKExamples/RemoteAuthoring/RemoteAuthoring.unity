@@ -1134,6 +1134,14 @@ MonoBehaviour:
     AuthoredAnchors:
     - Name: Anchor (1)
       Payload: ChYIlsi30ZybtqLdARCx/d7tor/M3oEBGKvYoJKe4/sCKkYKFgj13OOB463Mp/wBEJHv+Pm2pYydswESJwoPDUJA3L8V3ORLPh3lZixAEhQNFfD9OxXB6x89HTKWvbwltL1/Px0AAIA/KkUKFQiPvc3gncGdo7IBEIvpg7zcoODFGxInCg8Nu6HUvxVlORE+Heb8MEASFA2RzeI6FRwVHj0d/rxhOyWxzn8/HQAAgD8qRAoUCJb+9ISr0cWiaBCHxZ+89vK6/kQSJwoPDe3pzr8VLGo/Ph127jVAEhQNwpnfOhW3Yjw9Hcp7ozolg7p/Px0AAIA/KkUKFQjfut3uy8DSofgBEL7Fr5mQgMmBSBInCg8Np3zSvxUuJD0+HX0nNUASFA3MHSY7FW1XJD0dL0vROiUWz38/HQAAgD8=
+  - LocationName: Ensenada South Gazebo
+    AuthoredAnchors:
+    - Name: Anchor (1)
+      Payload: ChUI4M+XgvvHsqVjEL/jjMvb5f/KjwEY5eqv0LXj+wIqRgoWCLfJwICkheek5QEQu53E+sfhj6XXARInCg8NgFNPPhUgXeG+HQTJEkASFA2lDFu7FfhSar4d/J9WPSXr1Xg/HQAAgD8qRQoVCLTrnZiAnueg3wEQtbWSp52dodcjEicKDw1vlurAFXGB3z4dYPI2QRIUDenqTToVHFMDOh0JGMa5Jcr9fz8dAACAPypFChUIraTWqemnv6acARCkw9T+opecskQSJwoPDRF878AVYkHfPh29KDdBEhQNsSwlOxWX5Hy7HXNcmLolFf1/Px0AAIA/KkUKFQiI8Nm5yIjtpqsBEJvLn4PC0b+NKxInCg8NTSHqwBWkihg/HSXFOEESFA2FexE8FVZgTTsdG3M9vCWJ9n8/HQAAgD8=
+  - LocationName: Nummi Grove
+    AuthoredAnchors:
+    - Name: Anchor (1)
+      Payload: ChUIx4Otk8G0pKTRARCS2/SZwJOE4mQYk43dorXj+wIqRgoWCLKI1tfHybeikAEQoN2w4uqYueHRARInCg8NTAFkPxUQRDc9HTgb7j4SFA2sZX+9Fb4xSz4dPm0CvSUzVno/HQAAgD8qRgoWCIy99vWD1uSnlgEQn4vswZumx/H5ARInCg8N1NuGPxXQceO9HaBBRb4SFA1LSzS8FWtTYD8dl7JfPSXRnvQ+HQAAgD8qRQoVCPOd6+DKxtWj5AEQtpmSsoWy94gIEicKDw3Zi6M/FUDe/j4dYE8APxIUDembjr0VN9mLPh2QdwU9JZ8bdT8dAACAPypFChUImbbC4+urhaYKELidsqHSp8TxpAESJwoPDSyAhD8VIIVUPR0s/qI/EhQNbkk7vRXW9JQ+HZ7/HTwldXN0Px0AAIA/
   _anchoredContent:
   - AnchorName: fo1-Allsteel Fountain
     ManifestID: 0
@@ -1178,6 +1186,16 @@ MonoBehaviour:
     ManifestID: 8
     AnchorDataIdentifier: Anchor (1)
     Content: {fileID: 7761353117696357764, guid: 0e8b39087907f476495816ee16a1a082,
+      type: 3}
+  - AnchorName: Anchor (1)-Ensenada South Gazebo
+    ManifestID: 9
+    AnchorDataIdentifier: Anchor (1)
+    Content: {fileID: 2641443689767792359, guid: e0d9302867cd7495089a9042da5f1024,
+      type: 3}
+  - AnchorName: Anchor (1)-Nummi Grove
+    ManifestID: 10
+    AnchorDataIdentifier: Anchor (1)
+    Content: {fileID: 471913477569429687, guid: 0092eec63f6be4976bd0c5c859b9e3af,
       type: 3}
 --- !u!4 &1829151718
 Transform:
