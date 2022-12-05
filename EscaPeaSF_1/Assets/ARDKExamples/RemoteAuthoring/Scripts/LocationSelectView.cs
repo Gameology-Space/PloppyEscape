@@ -71,7 +71,7 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         private void OnChangeDropdown(int selected)
         {
             _selectedLocation = selected;
-            printLocationInt.text = selected.ToString();
+            printLocationInt.text = selected.ToString(); // bw 
         }
 
         private void LoadButtonClicked()
