@@ -5960,10 +5960,12 @@ struct LocationSelectView_t8956702A675813FA6ADCCB21211FFC5AFC67616F  : public Mo
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___closeButton_8;
 	// UnityEngine.UI.Text Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView::statusLog
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___statusLog_9;
+	// UnityEngine.UI.Text Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView::printLocationInt
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___printLocationInt_10;
 	// UnityEngine.UI.Text Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView::localizationStatus
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___localizationStatus_10;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___localizationStatus_11;
 	// System.Int32 Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView::_selectedLocation
-	int32_t ____selectedLocation_11;
+	int32_t ____selectedLocation_12;
 };
 
 // ARDKExamples.LocationService.LocationServiceExampleManager
@@ -30377,7 +30379,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationSelectView_OnChangeDropdown_m016
 	{
 		// _selectedLocation = selected;
 		int32_t L_0 = ___selected0;
-		__this->____selectedLocation_11 = L_0;
+		__this->____selectedLocation_12 = L_0;
+		// printLocationInt.text = selected.ToString(); // bw
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___printLocationInt_10;
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___selected0), NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_2);
 		// }
 		return;
 	}
@@ -30388,7 +30396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationSelectView_LoadButtonClicked_m1D
 	{
 		// _locationManifestManager.LoadWayspotAnchors(_selectedLocation);
 		LocationManifestManager_tD14970F0A9F2CEEFDED2DB6FDD6CAAFB753435A4* L_0 = __this->____locationManifestManager_4;
-		int32_t L_1 = __this->____selectedLocation_11;
+		int32_t L_1 = __this->____selectedLocation_12;
 		NullCheck(L_0);
 		LocationManifestManager_LoadWayspotAnchors_m84AC3D7B0C18523FE1DBAA0D6313697A3592C150(L_0, L_1, NULL);
 		// }
@@ -30445,7 +30453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationSelectView_LocationStatusChanged
 	}
 	{
 		// localizationStatus.text = "Localization Status: " + statusMessage;
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___localizationStatus_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___localizationStatus_11;
 		String_t* L_1 = ___statusMessage0;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralAA1F89410C54F9D7267A0A1DA3B6F02E78BE7FF2, L_1, NULL);

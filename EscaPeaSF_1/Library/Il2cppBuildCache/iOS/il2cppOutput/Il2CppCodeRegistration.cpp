@@ -23,12 +23,14 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ARDK_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Google_Protobuf_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Maps_Samples_Common_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Maps_Samples_GameSample_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Google_Protobuf_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Lightship_Maps_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Lightship_Maps_Unity_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Platform_Analytics_NATelemetry_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Niantic_Platform_Debugging_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_OrbitCamera_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
@@ -74,19 +76,21 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_zxing_unity_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[55] = 
+const Il2CppCodeGenModule* g_CodeGenModules[57] = 
 {
 	(&g_ARDKU2DExamples_CodeGenModule),
 	(&g_ARDK_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_Google_Protobuf_CodeGenModule),
 	(&g_Maps_Samples_Common_CodeGenModule),
+	(&g_Maps_Samples_GameSample_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_Niantic_Google_Protobuf_CodeGenModule),
 	(&g_Niantic_Lightship_Maps_CodeGenModule),
 	(&g_Niantic_Lightship_Maps_Unity_CodeGenModule),
 	(&g_Niantic_Platform_Analytics_NATelemetry_CodeGenModule),
 	(&g_Niantic_Platform_Debugging_CodeGenModule),
+	(&g_OrbitCamera_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
@@ -137,18 +141,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	60,
 	g_ReversePInvokeWrapperPointers,
-	50440,
+	50882,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	9210,
+	9269,
 	g_Il2CppInvokerPointers,
-	1910,
+	1916,
 	g_UnresolvedVirtualMethodPointers,
-	539,
+	540,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	55,
+	57,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
