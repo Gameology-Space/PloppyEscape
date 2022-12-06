@@ -8,7 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>PloppyEscape</RootNamespace>
     <ProjectGuid>{3db59b0c-cb3f-9e90-f839-7af16f528fbf}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -51,6 +51,7 @@
      <Compile Include="Assets/ARDKExamples/WayspotAnchors/WayspotAnchorDataUtility.cs" />
      <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerScanningManager.cs" />
      <Compile Include="Assets/ARDKExamples/SceneSelector/SceneSelector.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SendDebugMessageHelper.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingExampleManager.cs" />

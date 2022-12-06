@@ -8,7 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>PloppyEscape</RootNamespace>
     <ProjectGuid>{ca675c67-92bb-c322-fac3-84174a0e0faa}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
-     <Compile Include="Assets/Ploppy/Script/GameManager.cs" />
-     <Compile Include="Assets/Ploppy/Script/UIFunctions.cs" />
-     <Compile Include="Assets/Ploppy/Script/MapIconSpawner.cs" />
-     <Compile Include="Assets/Ploppy/Script/SceneControl.cs" />
+     <Compile Include="Assets/Script/GameManager2.cs" />
+     <Compile Include="Assets/Script/UIFunctions.cs" />
+     <Compile Include="Assets/Script/MapIconSpawner.cs" />
+     <Compile Include="Assets/Script/SceneControl.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -373,11 +373,11 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityDebugging.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Ploppy/Script/GameManager.cs"
-"Assets/Ploppy/Script/MapIconSpawner.cs"
-"Assets/Ploppy/Script/SceneControl.cs"
-"Assets/Ploppy/Script/UIFunctions.cs"
+"Assets/Script/GameManager2.cs"
+"Assets/Script/MapIconSpawner.cs"
+"Assets/Script/SceneControl.cs"
 "Assets/Script/SpawnMyObject.cs"
+"Assets/Script/UIFunctions.cs"
 -langversion:9.0
 
 /deterministic

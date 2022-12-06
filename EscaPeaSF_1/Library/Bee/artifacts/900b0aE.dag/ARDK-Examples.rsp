@@ -392,6 +392,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchoredContent.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs"
