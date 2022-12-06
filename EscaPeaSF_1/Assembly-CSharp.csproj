@@ -38,7 +38,6 @@
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
      <Compile Include="Assets/Script/GameManager2.cs" />
-     <Compile Include="Assets/Script/UIFunctions.cs" />
      <Compile Include="Assets/Script/MapIconSpawner.cs" />
      <Compile Include="Assets/Script/SceneControl.cs" />
     <Reference Include="UnityEngine">

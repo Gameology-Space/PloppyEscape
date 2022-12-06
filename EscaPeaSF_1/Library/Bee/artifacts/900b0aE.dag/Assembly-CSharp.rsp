@@ -377,7 +377,6 @@
 "Assets/Script/MapIconSpawner.cs"
 "Assets/Script/SceneControl.cs"
 "Assets/Script/SpawnMyObject.cs"
-"Assets/Script/UIFunctions.cs"
 -langversion:9.0
 
 /deterministic

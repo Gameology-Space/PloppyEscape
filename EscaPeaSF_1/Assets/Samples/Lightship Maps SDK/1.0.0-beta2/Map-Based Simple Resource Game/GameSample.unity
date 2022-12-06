@@ -2522,7 +2522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63d32264fc15e4df6801c0076b567adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleID: 0
+  puzzleID: 999
   difficulty: 0
 --- !u!1 &983847300
 GameObject:

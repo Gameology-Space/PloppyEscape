@@ -59,6 +59,7 @@
      <Compile Include="Assets/ARDKExamples/Common/Helpers/AR/ARAnchorAttached.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/GameController.cs" />
      <Compile Include="Assets/ARDKExamples/Pong/GameController.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardAgent.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/NetworkStatus.cs" />
