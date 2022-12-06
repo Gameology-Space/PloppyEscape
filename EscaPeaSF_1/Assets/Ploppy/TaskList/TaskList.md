@@ -17,3 +17,12 @@
     If close, continue
     If not in SF, tell player to navigate to SF, then close app. 
     Check the template for navigation option
+
+
+Day 3
+1. Map spawn testing prefabs
+2. Point prefab in map will bring up UI 
+3. UI will show image, puzzle detail and play button
+4. Play button goes to remote auth scene
+5. Player localize, plays puzzle, finish puzzle, back to map scene
+6. General UI clean up

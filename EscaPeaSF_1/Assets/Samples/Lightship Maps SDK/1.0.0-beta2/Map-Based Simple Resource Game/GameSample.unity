@@ -1856,6 +1856,10 @@ MonoBehaviour:
     type: 3}
   testingQuarryLakesGarden_Icon: {fileID: 5226542667672946871, guid: 735d6e9616f134444ab68a44ab28bfb0,
     type: 3}
+  testingNummi_Icon: {fileID: 2250387319811304266, guid: d41438c27eb194e84a3f36b3ac2f626c,
+    type: 3}
+  testingEnsanada_Icon: {fileID: 9036387283945172455, guid: 42333eb1ff8b34080a91f60e0ee0a724,
+    type: 3}
   _lightshipMap: {fileID: 1478799756}
 --- !u!1 &780849738
 GameObject:
@@ -4141,11 +4145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._latitude
-      value: 37.800644999999996
+      value: 37.57601
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._longitude
-      value: -122.398381
+      value: -122.00805
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._mapRadius
