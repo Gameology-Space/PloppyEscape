@@ -8,6 +8,7 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
     public class LocationSelectView: MonoBehaviour
     {
         private LocationManifestManager _locationManifestManager;
+        //public PuzzleStart _puzzlestart;
 
         [SerializeField]
         private Dropdown locationDropdown;
@@ -24,8 +25,8 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         [SerializeField]
         private Text statusLog;
 
-        [SerializeField]
-        private Text printLocationInt;
+        public Text printLocationInt;
+        public Text puzzleIDLoad;
 
 
         [SerializeField]
@@ -66,17 +67,30 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
 
             //default to first item selected
             locationDropdown.value = 0;
+
+            //my add for ploppy to load on start with puzzle id pass from manager
+            
+            if(GameManager.Instance.puzzleID < 12)
+            {
+                _selectedLocation = GameManager.Instance.puzzleID;
+               // LoadButtonClicked();
+            }
+            else
+            {
+                Debug.Log("Not picked location");
+            }
         }
 
         private void OnChangeDropdown(int selected)
         {
             _selectedLocation = selected;
-            printLocationInt.text = selected.ToString();
+            printLocationInt.text = selected.ToString(); // bw 
         }
 
         private void LoadButtonClicked()
         {
             _locationManifestManager.LoadWayspotAnchors(_selectedLocation);
+            Debug.Log(_selectedLocation);
         }
 
         private void CloseButtonClicked()
@@ -97,6 +111,16 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         private void LocationStatusChanged(string statusMessage)
         {
             localizationStatus.text = "Localization Status: " + statusMessage;
+        }
+
+        private void LoadPuzzleAnchors(int puzzleID)
+        {
+            _locationManifestManager.LoadWayspotAnchors(puzzleID);
+        }
+
+        void Update()
+        {
+            puzzleIDLoad.text = GameManager.Instance.puzzleID.ToString();
         }
     }
 }

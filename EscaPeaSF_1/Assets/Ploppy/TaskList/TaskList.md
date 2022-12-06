@@ -7,3 +7,13 @@
 1. Screenshot of location
 2. Puzzle Details
 3. Button to play as triger for localizing, button pass index number for what anchor to load from the index int number
+
+# VPS
+1. May have to do this on site
+    https://lightship.dev/docs/ardk/vps/vps_localization.html#continuous-localization
+
+# Intro Screen
+1. GPS check location
+    If close, continue
+    If not in SF, tell player to navigate to SF, then close app. 
+    Check the template for navigation option

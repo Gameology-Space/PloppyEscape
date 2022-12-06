@@ -5,8 +5,11 @@ ScriptsOnlyBuild:
     ARDK-Examples.dll:
     - Niantic.ARDKExamples.RemoteAuthoring.LocationManifestManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
+    - Niantic.ARDKExamples.WayspotAnchors.ColorChangingTracker
     ARDK.dll:
+    - Niantic.ARDK.AR.WayspotAnchors.VPSLocationManifest
     - Niantic.ARDK.AR.WayspotAnchors._RemoteAuthoringSceneTag
+    - Niantic.ARDK.AR.WayspotAnchors._TransformFixer
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
     - Niantic.ARDK.Extensions.ARDepthManager
@@ -15,12 +18,31 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.CapabilityChecker
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockSceneConfiguration
+    - Niantic.ARDK.VirtualStudio.AR.Mock.MockWayspot
+    Assembly-CSharp.dll:
+    - MapIconSpawner
+    - SceneControl
+    - UIFunctions
+    Maps.Samples.GameSample.dll:
+    - Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions
+    - Niantic.Lightship.Maps.Samples.GameSample.MapGameState
+    - Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
+    - Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController
+    - PuzzleDetails
     Niantic.Lightship.Maps.Unity.dll:
+    - Niantic.Lightship.Maps.Unity.Builders.Areas.AreaFeatureBuilder
+    - Niantic.Lightship.Maps.Unity.Builders.Buildings.BuildingFeatureBuilder
+    - Niantic.Lightship.Maps.Unity.Builders.Ground.GroundBuilder
+    - Niantic.Lightship.Maps.Unity.Builders.Labels.LabelBuilder
+    - Niantic.Lightship.Maps.Unity.Builders.Labels.LabelObject
+    - Niantic.Lightship.Maps.Unity.Builders.Roads.RoadBuilder
     - Niantic.Lightship.Maps.Unity.Configuration.MapsAuthConfig
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
+    - Niantic.Lightship.Maps.Unity.Core.LightshipMap
+    - Niantic.Lightship.Maps.Unity.Core.MapTileObject
+    - Niantic.Lightship.Maps.Unity.MapLayers.MapLayer
+    OrbitCamera.dll:
+    - Niantic.Platform.Util.OrbitCamera
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -28,6 +50,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -54,6 +78,12 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.CapabilityChecker/SuccessEvent
     ARDK-Examples:
     - Niantic.ARDKExamples.RemoteAuthoring.AnchoredContent
+    Niantic.Lightship.Maps:
+    - Niantic.Lightship.Maps.Coordinates.LatLng
+    Niantic.Lightship.Maps.Unity:
+    - Niantic.Lightship.Maps.Unity.Core.LightshipMap/ViewableMapArea
+    OrbitCamera:
+    - Niantic.Platform.Util.OrbitCameraInternal.CameraGestureTracker/Settings
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -68,8 +98,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -89,9 +122,139 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToPuzzScene
+  - assembly: Assembly-CSharp
+    fullTypeName: UIFunctions
+    methodName: onFountainPressed
+  - assembly: Maps.Samples.GameSample
+    fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
+    methodName: OnIntroContinuePressed
+  - assembly: Assembly-CSharp
+    fullTypeName: UIFunctions
+    methodName: onCloudPressed
+  - assembly: Maps.Samples.GameSample
+    fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
+    methodName: OnGameOverContinuePressed
+  - assembly: Assembly-CSharp
+    fullTypeName: UIFunctions
+    methodName: onExplorePressed
+  - assembly: Assembly-CSharp
+    fullTypeName: UIFunctions
+    methodName: onArroyoPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: UIFunctions
+    methodName: onQuarryPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToMapScene
   sceneClasses:
     Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1660}
+    - Class: 114
+      Script: {instanceID: 1662}
+    - Class: 114
+      Script: {instanceID: 1664}
+    - Class: 114
+      Script: {instanceID: 1666}
+    - Class: 114
+      Script: {instanceID: 1886}
+    - Class: 114
+      Script: {instanceID: 2698}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3070}
+    - Class: 114
+      Script: {instanceID: 3358}
+    - Class: 114
+      Script: {instanceID: 3762}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4796}
+    - Class: 114
+      Script: {instanceID: 5140}
+    - Class: 114
+      Script: {instanceID: 5346}
+    - Class: 114
+      Script: {instanceID: 5698}
+    - Class: 114
+      Script: {instanceID: 6368}
+    - Class: 114
+      Script: {instanceID: 6444}
+    - Class: 114
+      Script: {instanceID: 7202}
+    - Class: 114
+      Script: {instanceID: 7292}
+    - Class: 114
+      Script: {instanceID: 7384}
+    - Class: 114
+      Script: {instanceID: 7610}
+    - Class: 114
+      Script: {instanceID: 7854}
+    - Class: 114
+      Script: {instanceID: 8876}
+    - Class: 114
+      Script: {instanceID: 9084}
+    - Class: 114
+      Script: {instanceID: 9274}
+    - Class: 114
+      Script: {instanceID: 9408}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -116,7 +279,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -125,66 +288,76 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
-    - Class: 114
-      Script: {instanceID: 1662}
-    - Class: 114
       Script: {instanceID: 1664}
     - Class: 114
       Script: {instanceID: 1666}
     - Class: 114
-      Script: {instanceID: 1886}
+      Script: {instanceID: 1670}
     - Class: 114
       Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 2692}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3358}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3512}
     - Class: 114
-      Script: {instanceID: 3742}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 4380}
+      Script: {instanceID: 3824}
     - Class: 114
-      Script: {instanceID: 4772}
+      Script: {instanceID: 4342}
     - Class: 114
-      Script: {instanceID: 5088}
+      Script: {instanceID: 4464}
+    - Class: 114
+      Script: {instanceID: 5108}
     - Class: 114
       Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5318}
+      Script: {instanceID: 5202}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5598}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6176}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 6270}
     - Class: 114
-      Script: {instanceID: 7162}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 7572}
+      Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 7816}
+      Script: {instanceID: 6460}
     - Class: 114
-      Script: {instanceID: 8836}
+      Script: {instanceID: 7202}
     - Class: 114
-      Script: {instanceID: 9044}
+      Script: {instanceID: 7346}
     - Class: 114
-      Script: {instanceID: 9054}
+      Script: {instanceID: 7384}
     - Class: 114
-      Script: {instanceID: 9228}
+      Script: {instanceID: 7490}
+    - Class: 114
+      Script: {instanceID: 9094}
+    - Class: 114
+      Script: {instanceID: 9244}
+    - Class: 114
+      Script: {instanceID: 9408}
+    - Class: 114
+      Script: {instanceID: 9888}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -197,6 +370,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -253,6 +430,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.AR.Mock
     className: MockWayspot
+  - hash:
+      serializedVersion: 2
+      Hash: d8209327a49fa3ac55e08603ef4105b2
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: MapFeaturePrefabSpawner
   - hash:
       serializedVersion: 2
       Hash: 6a20d178fd9b1d5941f7662d22d4a4f5
@@ -358,6 +541,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
@@ -459,7 +648,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3a2ef5c947ba077be16fb57c0cc7641c
+      Hash: 889aa8beb90ba3f876185ded87df674c
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationSelectView
@@ -537,6 +726,12 @@ ScriptsOnlyBuild:
     className: PlayerAvatarBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 390e2f2634bb5e1bb7ae642d7c262465
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: MapGameResourceFeature
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -609,6 +804,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: MapGameState
+  - hash:
+      serializedVersion: 2
       Hash: 76dd4052330c77a429d7eb43459567d0
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio
@@ -655,6 +856,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Depth
     className: DepthPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: 74dd00790907856d5c5134239b1dcb3f
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: 
+    className: PuzzleDetails
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -805,6 +1012,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationManifestManager
+  - hash:
+      serializedVersion: 2
+      Hash: e78c0666bb11d07270ef89c574da313f
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample.FloatingText
+    className: FloatingText
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -981,6 +1194,12 @@ ScriptsOnlyBuild:
     className: LayerLineRenderer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIFunctions
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1033,6 +1252,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveTransparency
+  - hash:
+      serializedVersion: 2
+      Hash: 252c7972b695c5fd2e494582d6e616f9
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: MapGameMapInteractions
   - hash:
       serializedVersion: 2
       Hash: 289618fbea882e02d1486eaff129f0c3
@@ -1149,6 +1374,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 803b3169f39b8e68e440ca667b47ef1f
+    assemblyName: OrbitCamera.dll
+    namespaceName: Niantic.Platform.Util
+    className: OrbitCamera
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1171,6 +1402,12 @@ ScriptsOnlyBuild:
     assemblyName: Niantic.Lightship.Maps.Unity.dll
     namespaceName: Niantic.Lightship.Maps.Unity.MapLayers
     className: MapLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71ebc6f134bf7af8fd52ccbe58945f7d
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: PlayerLocationController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1323,10 +1560,10 @@ ScriptsOnlyBuild:
     className: SyncStateHelpText
   - hash:
       serializedVersion: 2
-      Hash: 58e68364412c67eae2bdb4954be2dcc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Readme
+      Hash: d2c874daffbb56d5b10959e53d988beb
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: MapGameUIController
   - hash:
       serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
@@ -1677,6 +1914,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: c8d50de8b55861e1c9d3abc462e41c20
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MapIconSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
@@ -1711,6 +1954,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveMSAA
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneControl
   - hash:
       serializedVersion: 2
       Hash: 9afb3e58393d1fa929c000000ce08408
@@ -1857,5 +2106,6 @@ ScriptsOnlyBuild:
     className: ARFeaturePointRenderer
   platform: 9
   scenePathNames:
+  - Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity
   - Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
   playerPath: /Users/billw/Unity Projects/EscaPeaSF/iosBuild
