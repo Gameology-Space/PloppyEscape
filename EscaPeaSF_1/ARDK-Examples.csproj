@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/Test new Main.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.cs" />
      <Compile Include="Assets/ARDKExamples/ImageDetection/ImageDetectionExampleManager.cs" />
@@ -99,7 +100,6 @@
      <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/Test new Main.cs" />
      <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
      <None Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticOverlay.shader" />
     <Reference Include="UnityEngine">
