@@ -3,9 +3,11 @@ ScriptsOnlyBuild:
     ARDK-Editor.dll:
     - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
     ARDK-Examples.dll:
+    - Niantic.ARDKExamples.RemoteAuthoring.GameManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationManifestManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
     - Niantic.ARDKExamples.WayspotAnchors.ColorChangingTracker
+    - UIFunctions
     ARDK.dll:
     - Niantic.ARDK.AR.WayspotAnchors.VPSLocationManifest
     - Niantic.ARDK.AR.WayspotAnchors._RemoteAuthoringSceneTag
@@ -23,7 +25,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - MapIconSpawner
     - SceneControl
-    - UIFunctions
     Maps.Samples.GameSample.dll:
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameState
@@ -126,25 +127,28 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
     methodName: navToPuzzScene
-  - assembly: Assembly-CSharp
+  - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onFountainPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnIntroContinuePressed
-  - assembly: Assembly-CSharp
+  - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onCloudPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onEnsanadaPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnGameOverContinuePressed
-  - assembly: Assembly-CSharp
+  - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onExplorePressed
-  - assembly: Assembly-CSharp
+  - assembly: ARDK-Examples
     fullTypeName: UIFunctions
-    methodName: onArroyoPressed
-  - assembly: Assembly-CSharp
+    methodName: onNummiPressed
+  - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onQuarryPressed
   - assembly: Assembly-CSharp
@@ -187,51 +191,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1664}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1886}
+      Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2966}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 4796}
+      Script: {instanceID: 4800}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5144}
     - Class: 114
-      Script: {instanceID: 5346}
+      Script: {instanceID: 5350}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5702}
     - Class: 114
-      Script: {instanceID: 6368}
+      Script: {instanceID: 6372}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 7202}
+      Script: {instanceID: 7206}
     - Class: 114
-      Script: {instanceID: 7292}
+      Script: {instanceID: 7296}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7388}
     - Class: 114
-      Script: {instanceID: 7610}
+      Script: {instanceID: 7614}
     - Class: 114
-      Script: {instanceID: 7854}
+      Script: {instanceID: 7858}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 9084}
+      Script: {instanceID: 9086}
     - Class: 114
-      Script: {instanceID: 9274}
+      Script: {instanceID: 9276}
     - Class: 114
-      Script: {instanceID: 9408}
+      Script: {instanceID: 9410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -288,67 +292,71 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1660}
+    - Class: 114
       Script: {instanceID: 1664}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 2006}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 3514}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3826}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4236}
     - Class: 114
-      Script: {instanceID: 4464}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 5108}
+      Script: {instanceID: 4468}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 5202}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 5206}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 6176}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 6270}
+      Script: {instanceID: 6180}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6274}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6460}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 7202}
+      Script: {instanceID: 6464}
     - Class: 114
-      Script: {instanceID: 7346}
+      Script: {instanceID: 7206}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7350}
     - Class: 114
-      Script: {instanceID: 7490}
+      Script: {instanceID: 7388}
     - Class: 114
-      Script: {instanceID: 9094}
+      Script: {instanceID: 7494}
     - Class: 114
-      Script: {instanceID: 9244}
+      Script: {instanceID: 9096}
     - Class: 114
-      Script: {instanceID: 9408}
+      Script: {instanceID: 9246}
     - Class: 114
-      Script: {instanceID: 9888}
+      Script: {instanceID: 9410}
+    - Class: 114
+      Script: {instanceID: 9890}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -394,6 +402,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -541,12 +555,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
@@ -648,7 +656,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 889aa8beb90ba3f876185ded87df674c
+      Hash: 58e4a77d0d61c07f2cd28846136234db
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationSelectView
@@ -858,7 +866,7 @@ ScriptsOnlyBuild:
     className: DepthPointCloudManager
   - hash:
       serializedVersion: 2
-      Hash: 74dd00790907856d5c5134239b1dcb3f
+      Hash: c94547f4e93700909c5d3fb66ef55cfe
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: 
     className: PuzzleDetails
@@ -976,6 +984,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: faabe7295ff7b1965635de2c7f569d4b
+    assemblyName: ARDK-Examples.dll
+    namespaceName: Niantic.ARDKExamples.RemoteAuthoring
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1194,8 +1208,8 @@ ScriptsOnlyBuild:
     className: LayerLineRenderer
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+      Hash: 9ec7816374ae5bdb48c877cda9df0bdd
+    assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: UIFunctions
   - hash:
@@ -1254,7 +1268,7 @@ ScriptsOnlyBuild:
     className: AdaptiveTransparency
   - hash:
       serializedVersion: 2
-      Hash: 252c7972b695c5fd2e494582d6e616f9
+      Hash: 4ab23fa2dd7cfac1ea854a44630dbd44
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
     className: MapGameMapInteractions
@@ -1716,12 +1730,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
       Hash: cedf3059a9b01b20f6fc720c0f65e756
     assemblyName: Niantic.Lightship.Maps.Unity.dll
     namespaceName: Niantic.Lightship.Maps.Unity.Builders.Buildings
@@ -1914,7 +1922,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: c8d50de8b55861e1c9d3abc462e41c20
+      Hash: 1cbe9a410f2ae72e39f1ef972386819e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapIconSpawner

@@ -143,5 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleName: Arroyo
+  puzzleID: 8
   puzzleDifficulty: Easy
   puzzleClear: 0

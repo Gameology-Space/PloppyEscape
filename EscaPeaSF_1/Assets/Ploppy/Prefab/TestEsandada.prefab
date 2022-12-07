@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleName: Ensanada
+  puzzleID: 9
   puzzleDifficulty: 
   puzzleClear: 0
 --- !u!1 &9036387283945172455

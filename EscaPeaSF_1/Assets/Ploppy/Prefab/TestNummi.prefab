@@ -143,5 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzleName: Nummi
+  puzzleID: 10
   puzzleDifficulty: 
   puzzleClear: 0

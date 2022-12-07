@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class PuzzleDetails : MonoBehaviour
 {
-    [SerializeField]
     public string puzzleName;
-    
-    [SerializeField]
+    public int puzzleID;
     public string puzzleDifficulty;
-
-    [SerializeField]
     public bool puzzleClear;
 
     // Start is called before the first frame update
