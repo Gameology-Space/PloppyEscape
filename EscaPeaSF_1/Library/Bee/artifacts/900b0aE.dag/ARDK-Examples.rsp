@@ -396,6 +396,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/Test new Main.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs"
 "Assets/ARDKExamples/Rendering/ARDepthRenderer.cs"
