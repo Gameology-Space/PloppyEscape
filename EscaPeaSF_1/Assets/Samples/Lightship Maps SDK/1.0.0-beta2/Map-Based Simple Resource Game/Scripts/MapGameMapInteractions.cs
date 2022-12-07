@@ -6,6 +6,7 @@ using Niantic.Lightship.Maps.Coordinates;
 using Niantic.Lightship.Maps.Unity.Core;
 using Niantic.Lightship.Maps.Unity.MapLayers.Components;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {
@@ -23,6 +24,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         [SerializeField]
         private LightshipMap _lightshipMap;
+        public Text transferID;
 
         private void Update()
         {
@@ -86,6 +88,9 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             Debug.Log(hitResourceItem.puzzleName);
             Debug.Log(hitResourceItem.puzzleDifficulty);
             Debug.Log(hitResourceItem.puzzleClear);
+            
+            transferID.text = hitResourceItem.puzzleID.ToString();
+            Debug.Log(transferID.text);
 
             // spawn an animated floating text to show resources being gained
             //var floatingTextPosition = hitInfo.point + Vector3.up * 20.0f;

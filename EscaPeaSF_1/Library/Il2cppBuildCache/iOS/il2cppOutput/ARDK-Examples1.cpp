@@ -818,6 +818,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* ARCursorRenderer__OnSessionDeinitialized_m5
 IL2CPP_EXTERN_C const RuntimeMethod* ARCursorRenderer__SessionInitialized_m6FEA44525B67C1BD158F8771353E1F14B7525BC2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARHitTester_OnAnyARSessionDidInitialize_m182FEB8AF45044254C30917EF135B90D49FFFA4C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARHitTester_OnSessionDeinitialized_m4495B281BD5C90ADD05BBA0E4BAF76AE2C3DB1F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BallBehaviour_U3CSetupSessionU3Eb__14_0_mE98ABAB40ED4151D0161CBE18D0DB6995B25FF0F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseItemSerializer_1_Deserialize_mFCAB24EE80F348A99FE6AC6EF2BFD73953F03BB1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseItemSerializer_1_Serialize_mF3303CEA45F41C7B8C656C2FFF78C17C38C0ED03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59_mDB47690C23142C6D41465B50E4E1C82D25449EDF_RuntimeMethod_var;
@@ -4269,6 +4270,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_First_TisRuntimeObj
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
 
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Time::get_deltaTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+// System.String UnityEngine.GameObject::get_tag()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.PongHLAPI.GameController::GoalScored(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GoalScored_m9A140555C817502394F4A08404E2F1FBF6472A2F (GameController_t280CC3EB2D4E94A01D2E20424EB03C13A826BF08* __this, String_t* ___color0, const RuntimeMethod* method) ;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkedBehaviour__ctor_m5CEF6DDD3CC6CD880BA7DD124FA69A86A3B62F01 (NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2* __this, const RuntimeMethod* method) ;
+// Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedBehaviour::get_Owner()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* NetworkedBehaviour_get_Owner_mDDD2D69152023AA1667870A341E392385EED66F3 (NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2* __this, const RuntimeMethod* method) ;
+// Niantic.ARDK.Networking.HLAPI.Object.Unity.AuthBehaviour Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject::get_Auth()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* NetworkedUnityObject_get_Auth_m9ED9BF9B4EE627D91A472D8EC32D134BF82D158D_inline (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* __this, const RuntimeMethod* method) ;
+// Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptor Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptorExtension::AuthorityToObserverDescriptor(Niantic.ARDK.Networking.HLAPI.Authority.IAuthorityReplicator,Niantic.ARDK.Networking.TransportType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 NetworkedDataDescriptorExtension_AuthorityToObserverDescriptor_m6848949AE14070C0198F6D33D2446A79FB52FA4B (RuntimeObject* ___auth0, uint8_t ___transportType1, const RuntimeMethod* method) ;
+// Niantic.ARDK.Networking.HLAPI.INetworkGroup Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject::get_Group()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkedUnityObject_get_Group_mD41647C8161C7A72EF3E7AEC120F46CF8B7219F7 (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Networking.HLAPI.Object.Unity.UnreliableBroadcastTransformPacker::.ctor(System.String,UnityEngine.Transform,Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptor,Niantic.ARDK.Networking.HLAPI.Object.Unity.TransformPiece,Niantic.ARDK.Networking.HLAPI.INetworkGroup)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnreliableBroadcastTransformPacker__ctor_mBBA3D9385DD55AC0A8B87CB343C50E5A17738FB2 (UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123* __this, String_t* ___identifier0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___transform1, NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 ___descriptor2, int32_t ___pieces3, RuntimeObject* ___group4, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>::.ctor(System.Object,System.IntPtr)
@@ -4318,14 +4355,8 @@ inline void Optional_1__ctor_m98295A6200DFDFFCEE2CDE132088F3D9B3C114C5 (Optional
 {
 	((  void (*) (Optional_1_tC78F4E5168384127FB3A6C0EF46E275DCFE545BA*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*))Optional_1__ctor_m98295A6200DFDFFCEE2CDE132088F3D9B3C114C5_gshared)(__this, ___value0, method);
 }
-// UnityEngine.Transform UnityEngine.GameObject::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
 // System.Void System.Nullable`1<UnityEngine.Vector3>::.ctor(T)
 inline void Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2 (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method)
 {
@@ -4345,8 +4376,6 @@ inline void Nullable_1__ctor_mA21F4F6061149704CCA78CD10F3B4EDFCF3CD9CA (Nullable
 }
 // Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkSpawner::NetworkSpawn(Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject,Niantic.ARDK.Networking.IMultipeerNetworking,System.Nullable`1<UnityEngine.Vector3>,System.Nullable`1<UnityEngine.Quaternion>,System.Nullable`1<Niantic.ARDK.Networking.HLAPI.Authority.Role>,System.Nullable`1<Niantic.ARDK.Networking.HLAPI.Routing.NetworkId>,System.Collections.Generic.List`1<Niantic.ARDK.Networking.IPeer>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* NetworkSpawner_NetworkSpawn_m88D02FA270F814FB56EC4333EC4715615F53E630 (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* ___spawnObject0, RuntimeObject* ___networking1, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___position2, Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 ___rotation3, Nullable_1_tE845C3DD083C1AE81861186E56D654EBC0CB16CC ___startingLocalRole4, Nullable_1_tB35872C9EFB472EDC1DBF8D2E179580B93186A17 ___newNetId5, List_1_t02221EA616CB225B3D7D04B6BF161F55603A5391* ___targetPeers6, const RuntimeMethod* method) ;
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // Niantic.ARDK.Utilities.Optional`1<T> Niantic.ARDK.Utilities.Optional`1<System.String>::op_Implicit(T)
 inline Optional_1_t3D70C19D51C4BEF0CA1F740332276B28D66516E1 Optional_1_op_Implicit_mFB83A8B7C524F2452A87E766DBAAB7B197A1F03D (String_t* ___value0, const RuntimeMethod* method)
 {
@@ -4354,8 +4383,6 @@ inline Optional_1_t3D70C19D51C4BEF0CA1F740332276B28D66516E1 Optional_1_op_Implic
 }
 // Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedBehaviour Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject::get_DefaultBehaviour()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2* NetworkedUnityObject_get_DefaultBehaviour_m8CED0DF363F90B94749DA709CA561BBE3F09BFD9_inline (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* __this, const RuntimeMethod* method) ;
-// System.Boolean System.String::op_Equality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
 // System.Int32 Niantic.ARDK.Utilities.Input.Legacy.PlatformAgnosticInput::get_touchCount()
@@ -4366,8 +4393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t03E51455ED508492B3F278903A0114FA0E87B4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
-// UnityEngine.Vector3 UnityEngine.Transform::get_position()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector2::Distance(UnityEngine.Vector2,UnityEngine.Vector2)
@@ -4433,10 +4458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HlapiSession__ctor_m83282E1033C07E5F1D49
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkId__ctor_m3E0969F7998551C77B7817E78B207308053E74C4_inline (NetworkId_tA940386AFE400DEF120A9E86B180CD3A2C01FAD3* __this, uint64_t ___id0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Networking.HLAPI.Authority.GreedyAuthorityReplicator::.ctor(System.String,Niantic.ARDK.Networking.HLAPI.INetworkGroup)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GreedyAuthorityReplicator__ctor_m7785A5D09605A36BEA3FBCCD3E2C2C273F6D6667 (GreedyAuthorityReplicator_tB960D39FA2B08B48BC16352F73C3114068898FE3* __this, String_t* ___identifier0, RuntimeObject* ___group1, const RuntimeMethod* method) ;
-// System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptor Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptorExtension::AuthorityToObserverDescriptor(Niantic.ARDK.Networking.HLAPI.Authority.IAuthorityReplicator,Niantic.ARDK.Networking.TransportType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 NetworkedDataDescriptorExtension_AuthorityToObserverDescriptor_m6848949AE14070C0198F6D33D2446A79FB52FA4B (RuntimeObject* ___auth0, uint8_t ___transportType1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Networking.HLAPI.Object.NetworkedField`1<UnityEngine.Vector3>::.ctor(System.String,Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptor,Niantic.ARDK.Networking.HLAPI.INetworkGroup,Niantic.ARDK.Utilities.Optional`1<TValue>)
 inline void NetworkedField_1__ctor_mAB1D73D4938851D4CC5B226A4E2725253E96B2AD (NetworkedField_1_t0DD15346BA20E4850C04DE6E1D8E391D61E6461A* __this, String_t* ___identifier0, NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 ___descriptor1, RuntimeObject* ___group2, Optional_1_tC78F4E5168384127FB3A6C0EF46E275DCFE545BA ___defaultValue3, const RuntimeMethod* method)
 {
@@ -4536,29 +4557,13 @@ inline BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* Object_FindObjec
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC502026AD0110709CF0000CD57A241427AB1EFE2 (U3CU3Ec_t30D66E7768BE67884A4787F9E8C7A65336EBDA66* __this, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkedBehaviour__ctor_m5CEF6DDD3CC6CD880BA7DD124FA69A86A3B62F01 (NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Niantic.ARDK.Networking.HLAPI.Object.Unity.AuthBehaviour>()
 inline AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* Component_GetComponent_TisAuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59_mDB47690C23142C6D41465B50E4E1C82D25449EDF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
-// UnityEngine.Transform UnityEngine.Component::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-// Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedBehaviour::get_Owner()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* NetworkedBehaviour_get_Owner_mDDD2D69152023AA1667870A341E392385EED66F3 (NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2* __this, const RuntimeMethod* method) ;
-// Niantic.ARDK.Networking.HLAPI.INetworkGroup Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject::get_Group()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetworkedUnityObject_get_Group_mD41647C8161C7A72EF3E7AEC120F46CF8B7219F7 (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* __this, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Networking.HLAPI.Object.Unity.UnreliableBroadcastTransformPacker::.ctor(System.String,UnityEngine.Transform,Niantic.ARDK.Networking.HLAPI.Data.NetworkedDataDescriptor,Niantic.ARDK.Networking.HLAPI.Object.Unity.TransformPiece,Niantic.ARDK.Networking.HLAPI.INetworkGroup)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnreliableBroadcastTransformPacker__ctor_mBBA3D9385DD55AC0A8B87CB343C50E5A17738FB2 (UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123* __this, String_t* ___identifier0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___transform1, NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 ___descriptor2, int32_t ___pieces3, RuntimeObject* ___group4, const RuntimeMethod* method) ;
-// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Time::get_deltaTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.Pong.MessagingManager::BroadcastBallPosition(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagingManager_BroadcastBallPosition_mE740073D5911CB893E9C464E3FB66BD774A44BA9 (MessagingManager_t417FF9C693F0E701203C38315D303249C913D3B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position0, const RuntimeMethod* method) ;
-// System.String UnityEngine.GameObject::get_tag()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.Pong.GameController::GoalScored(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GoalScored_mBDD065B9ACB27B5A19C5D31A7A80343115E554CA (GameController_t3D8F63A63632C0B7E130B6477812C19954642A09* __this, String_t* ___color0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.Pong.GameController::OnPreloadFinished(System.Boolean)
@@ -5205,6 +5210,461 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_Start_m4EB8510E7A1F63D2AD7C917E0F7BA12AC8BABAE6 (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, const RuntimeMethod* method) 
+{
+	{
+		// _initialPosition = transform.position;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		__this->____initialPosition_11 = L_1;
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::GameStart(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_GameStart_mDB90B1B5188EDE865BB41920E2BED2336559606F (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, bool ___isHost0, const RuntimeMethod* method) 
+{
+	{
+		// _isHost = isHost;
+		bool L_0 = ___isHost0;
+		__this->____isHost_13 = L_0;
+		// _gameStart = true;
+		__this->____gameStart_12 = (bool)1;
+		// _initialPosition = transform.position;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		__this->____initialPosition_11 = L_2;
+		// if (!_isHost)
+		bool L_3 = __this->____isHost_13;
+		if (L_3)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0028:
+	{
+		// _velocity = new Vector3(_initialVelocity, 0, _initialVelocity);
+		float L_4 = __this->____initialVelocity_9;
+		float L_5 = __this->____initialVelocity_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), L_4, (0.0f), L_5, /*hidden argument*/NULL);
+		__this->____velocity_10 = L_6;
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::Hit(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_Hit_m7592C6C4EB9C17E9CA58961B2AB9DC827182A582 (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___direction0, const RuntimeMethod* method) 
+{
+	{
+		// if (!_gameStart || !_isHost)
+		bool L_0 = __this->____gameStart_12;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->____isHost_13;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		// return;
+		return;
+	}
+
+IL_0011:
+	{
+		// _velocity = direction * _initialVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___direction0;
+		float L_3 = __this->____initialVelocity_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
+		__this->____velocity_10 = L_4;
+		// _initialVelocity *= 1.1f;
+		float L_5 = __this->____initialVelocity_9;
+		__this->____initialVelocity_9 = ((float)il2cpp_codegen_multiply(L_5, (1.10000002f)));
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_Update_m1642B90098CA5D563A136D8ECDCB36A8D44D9B09 (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (!_gameStart || !_isHost)
+		bool L_0 = __this->____gameStart_12;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->____isHost_13;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		// return;
+		return;
+	}
+
+IL_0011:
+	{
+		// _pos = gameObject.transform.position;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		__this->____pos_6 = L_4;
+		// _pos.x += _velocity.x * Time.deltaTime;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = (&__this->____pos_6);
+		float* L_6 = (&L_5->___x_2);
+		float* L_7 = L_6;
+		float L_8 = *((float*)L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (&__this->____velocity_10);
+		float L_10 = L_9->___x_2;
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		*((float*)L_7) = (float)((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_multiply(L_10, L_11))));
+		// _pos.z += _velocity.z * Time.deltaTime;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = (&__this->____pos_6);
+		float* L_13 = (&L_12->___z_4);
+		float* L_14 = L_13;
+		float L_15 = *((float*)L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_16 = (&__this->____velocity_10);
+		float L_17 = L_16->___z_4;
+		float L_18;
+		L_18 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		*((float*)L_14) = (float)((float)il2cpp_codegen_add(L_15, ((float)il2cpp_codegen_multiply(L_17, L_18))));
+		// transform.position = _pos;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = __this->____pos_6;
+		NullCheck(L_19);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_19, L_20, NULL);
+		// if (_pos.x > _initialPosition.x + _lrBound)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_21 = (&__this->____pos_6);
+		float L_22 = L_21->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_23 = (&__this->____initialPosition_11);
+		float L_24 = L_23->___x_2;
+		float L_25 = __this->____lrBound_7;
+		if ((!(((float)L_22) > ((float)((float)il2cpp_codegen_add(L_24, L_25))))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		// _velocity.x = -_initialVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_26 = (&__this->____velocity_10);
+		float L_27 = __this->____initialVelocity_9;
+		L_26->___x_2 = ((-L_27));
+		goto IL_00db;
+	}
+
+IL_00ab:
+	{
+		// else if (_pos.x < _initialPosition.x - _lrBound)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_28 = (&__this->____pos_6);
+		float L_29 = L_28->___x_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_30 = (&__this->____initialPosition_11);
+		float L_31 = L_30->___x_2;
+		float L_32 = __this->____lrBound_7;
+		if ((!(((float)L_29) < ((float)((float)il2cpp_codegen_subtract(L_31, L_32))))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		// _velocity.x = _initialVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_33 = (&__this->____velocity_10);
+		float L_34 = __this->____initialVelocity_9;
+		L_33->___x_2 = L_34;
+	}
+
+IL_00db:
+	{
+		// if (_pos.z > _initialPosition.z + _fbBound)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_35 = (&__this->____pos_6);
+		float L_36 = L_35->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_37 = (&__this->____initialPosition_11);
+		float L_38 = L_37->___z_4;
+		float L_39 = __this->____fbBound_8;
+		if ((!(((float)L_36) > ((float)((float)il2cpp_codegen_add(L_38, L_39))))))
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		// _velocity.z = -_initialVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_40 = (&__this->____velocity_10);
+		float L_41 = __this->____initialVelocity_9;
+		L_40->___z_4 = ((-L_41));
+		return;
+	}
+
+IL_010d:
+	{
+		// else if (_pos.z < _initialPosition.z - _fbBound)
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_42 = (&__this->____pos_6);
+		float L_43 = L_42->___z_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_44 = (&__this->____initialPosition_11);
+		float L_45 = L_44->___z_4;
+		float L_46 = __this->____fbBound_8;
+		if ((!(((float)L_43) < ((float)((float)il2cpp_codegen_subtract(L_45, L_46))))))
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// _velocity.z = _initialVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_47 = (&__this->____velocity_10);
+		float L_48 = __this->____initialVelocity_9;
+		L_47->___z_4 = L_48;
+	}
+
+IL_013d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::OnTriggerEnter(UnityEngine.Collider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_OnTriggerEnter_mA34667D22A1E890FFB05411CB569DCEAFAD1795F (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___other0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral126CF9315737D260B028A2A6D6B0D5E284C8F683);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31A0D7054359216EFE7213AEA1E910EEFC934B74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B736A9739934A4ACD0D222F5EDAB3AB0209F008);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD2D8E6D21C631311BB54FA3CE1A91DD24B7B3FF);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// if (!_gameStart || !_isHost)
+		bool L_0 = __this->____gameStart_12;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->____isHost_13;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		// return;
+		return;
+	}
+
+IL_0011:
+	{
+		// _initialVelocity = 0.6f;
+		__this->____initialVelocity_9 = (0.600000024f);
+		// _velocity = new Vector3(0, 0, _initialVelocity);
+		float L_2 = __this->____initialVelocity_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), (0.0f), (0.0f), L_2, /*hidden argument*/NULL);
+		__this->____velocity_10 = L_3;
+		// gameObject.transform.position = _initialPosition;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = __this->____initialPosition_11;
+		NullCheck(L_5);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_5, L_6, NULL);
+		// switch (other.gameObject.tag)
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7 = ___other0;
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_8, NULL);
+		V_0 = L_9;
+		String_t* L_10 = V_0;
+		bool L_11;
+		L_11 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_10, _stringLiteralFD2D8E6D21C631311BB54FA3CE1A91DD24B7B3FF, NULL);
+		if (L_11)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		String_t* L_12 = V_0;
+		bool L_13;
+		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_12, _stringLiteral126CF9315737D260B028A2A6D6B0D5E284C8F683, NULL);
+		if (L_13)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0074:
+	{
+		// Controller.GoalScored("red");
+		GameController_t280CC3EB2D4E94A01D2E20424EB03C13A826BF08* L_14 = __this->___Controller_5;
+		NullCheck(L_14);
+		GameController_GoalScored_m9A140555C817502394F4A08404E2F1FBF6472A2F(L_14, _stringLiteral31A0D7054359216EFE7213AEA1E910EEFC934B74, NULL);
+		// break;
+		return;
+	}
+
+IL_0085:
+	{
+		// Controller.GoalScored("blue");
+		GameController_t280CC3EB2D4E94A01D2E20424EB03C13A826BF08* L_15 = __this->___Controller_5;
+		NullCheck(L_15);
+		GameController_GoalScored_m9A140555C817502394F4A08404E2F1FBF6472A2F(L_15, _stringLiteral9B736A9739934A4ACD0D222F5EDAB3AB0209F008, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::SetupSession(System.Action&,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_SetupSession_m93C04B4F3F0E5971D7A57F8F0128A9D74611C05F (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** ___initializer0, int32_t* ___order1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BallBehaviour_U3CSetupSessionU3Eb__14_0_mE98ABAB40ED4151D0161CBE18D0DB6995B25FF0F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// initializer = () =>
+		// {
+		//   var auth = Owner.Auth;
+		//   var descriptor = auth.AuthorityToObserverDescriptor(TransportType.UnreliableUnordered);
+		// 
+		//   new UnreliableBroadcastTransformPacker
+		//   (
+		//     "netTransform",
+		//     transform,
+		//     descriptor,
+		//     TransformPiece.Position,
+		//     Owner.Group
+		//   );
+		// };
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_0 = ___initializer0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)BallBehaviour_U3CSetupSessionU3Eb__14_0_mE98ABAB40ED4151D0161CBE18D0DB6995B25FF0F_RuntimeMethod_var), NULL);
+		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
+		// order = 0;
+		int32_t* L_2 = ___order1;
+		*((int32_t*)L_2) = (int32_t)0;
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour__ctor_m7FDDC1C72248C71B3BB9EA0EB647EBEEF24955E7 (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, const RuntimeMethod* method) 
+{
+	{
+		// private float _lrBound = 1.25f;
+		__this->____lrBound_7 = (1.25f);
+		// private float _fbBound = 1.25f;
+		__this->____fbBound_8 = (1.25f);
+		// private float _initialVelocity = 0.6f;
+		__this->____initialVelocity_9 = (0.600000024f);
+		NetworkedBehaviour__ctor_m5CEF6DDD3CC6CD880BA7DD124FA69A86A3B62F01(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.PongHLAPI.BallBehaviour::<SetupSession>b__14_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallBehaviour_U3CSetupSessionU3Eb__14_0_mE98ABAB40ED4151D0161CBE18D0DB6995B25FF0F (BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBCD3666413E00B49638F824BF5F6BB556431D109);
+		s_Il2CppMethodInitialized = true;
+	}
+	NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var auth = Owner.Auth;
+		NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* L_0;
+		L_0 = NetworkedBehaviour_get_Owner_mDDD2D69152023AA1667870A341E392385EED66F3(__this, NULL);
+		NullCheck(L_0);
+		AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* L_1;
+		L_1 = NetworkedUnityObject_get_Auth_m9ED9BF9B4EE627D91A472D8EC32D134BF82D158D_inline(L_0, NULL);
+		// var descriptor = auth.AuthorityToObserverDescriptor(TransportType.UnreliableUnordered);
+		NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 L_2;
+		L_2 = NetworkedDataDescriptorExtension_AuthorityToObserverDescriptor_m6848949AE14070C0198F6D33D2446A79FB52FA4B(L_1, 1, NULL);
+		V_0 = L_2;
+		// new UnreliableBroadcastTransformPacker
+		// (
+		//   "netTransform",
+		//   transform,
+		//   descriptor,
+		//   TransformPiece.Position,
+		//   Owner.Group
+		// );
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NetworkedDataDescriptor_t12E9FA0E64E45DDAC25B664D7596A38BD6E83355 L_4 = V_0;
+		NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* L_5;
+		L_5 = NetworkedBehaviour_get_Owner_mDDD2D69152023AA1667870A341E392385EED66F3(__this, NULL);
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = NetworkedUnityObject_get_Group_mD41647C8161C7A72EF3E7AEC120F46CF8B7219F7(L_5, NULL);
+		UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123* L_7 = (UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123*)il2cpp_codegen_object_new(UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		UnreliableBroadcastTransformPacker__ctor_mBBA3D9385DD55AC0A8B87CB343C50E5A17738FB2(L_7, _stringLiteralBCD3666413E00B49638F824BF5F6BB556431D109, L_3, L_4, 1, L_6, NULL);
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -16154,6 +16614,41 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
+		float L_1 = L_0.___x_2;
+		float L_2 = ___d1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___a0;
+		float L_4 = L_3.___y_3;
+		float L_5 = ___d1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
+		float L_7 = L_6.___z_4;
+		float L_8 = ___d1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* NetworkedUnityObject_get_Auth_m9ED9BF9B4EE627D91A472D8EC32D134BF82D158D_inline (NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _auth;
+		AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* L_0 = __this->____auth_8;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -16430,33 +16925,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARNetworkingIni
 		// public IARNetworking ARNetworking { get; private set; }
 		RuntimeObject* L_0 = __this->___U3CARNetworkingU3Ek__BackingField_0;
 		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
-		float L_1 = L_0.___x_2;
-		float L_2 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___a0;
-		float L_4 = L_3.___y_3;
-		float L_5 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
-		float L_7 = L_6.___z_4;
-		float L_8 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
-		V_0 = L_9;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
-		return L_10;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MessagingManager_SetBallReference_mFC74169E2813AD45076FD7D65512D608268F6CEC_inline (MessagingManager_t417FF9C693F0E701203C38315D303249C913D3B2* __this, BallBehaviour_t27961BAEAFF7E00DDBCDF3A3BEEA129B39935F0A* ___ball0, const RuntimeMethod* method) 

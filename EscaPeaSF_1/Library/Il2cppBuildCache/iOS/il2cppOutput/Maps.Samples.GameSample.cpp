@@ -22,6 +22,17 @@ struct VirtualActionInvoker1
 		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
 struct InterfaceActionInvoker0
 {
 	typedef void (*Action)(void*, const RuntimeMethod*);
@@ -151,6 +162,8 @@ struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
 struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
 // UnityEngine.Touch[]
 struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3;
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
 // System.UInt32[]
 struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
 // UnityEngine.Vector2[]
@@ -185,6 +198,8 @@ struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct FeatureBuilderBase_t230909C146A519BC873C428275E988126A21FBBC;
 // Niantic.Lightship.Maps.Samples.GameSample.FloatingText.FloatingText
 struct FloatingText_tC06A4948E3854A55715CF53F95F4CD43FBB5E1B1;
+// UnityEngine.UI.FontData
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 // System.Collections.IDictionary
@@ -269,6 +284,10 @@ struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
 struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
 // TMPro.TMP_TextInfo
 struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+// UnityEngine.UI.Text
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+// UnityEngine.TextGenerator
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // UnityEngine.Transform
@@ -2023,6 +2042,8 @@ struct MapGameMapInteractions_tA90183F5CFE75E1E7DF1391E1315383A89619E60  : publi
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ____mapCamera_4;
 	// Niantic.Lightship.Maps.Unity.Core.LightshipMap Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions::_lightshipMap
 	LightshipMap_t9C29B6159DC89EC7C528E18A56C2AFCA181AA3DA* ____lightshipMap_5;
+	// UnityEngine.UI.Text Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions::transferID
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___transferID_6;
 };
 
 // Niantic.Lightship.Maps.Samples.GameSample.MapGameResourceFeature
@@ -2094,10 +2115,12 @@ struct PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471  : public MonoBeh
 {
 	// System.String PuzzleDetails::puzzleName
 	String_t* ___puzzleName_4;
+	// System.Int32 PuzzleDetails::puzzleID
+	int32_t ___puzzleID_5;
 	// System.String PuzzleDetails::puzzleDifficulty
-	String_t* ___puzzleDifficulty_5;
+	String_t* ___puzzleDifficulty_6;
 	// System.Boolean PuzzleDetails::puzzleClear
-	bool ___puzzleClear_6;
+	bool ___puzzleClear_7;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -2649,6 +2672,29 @@ struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
 	// System.Int32 TMPro.TMP_Text::k_LargeNegativeInt
 	int32_t ___k_LargeNegativeInt_264;
 };
+
+// UnityEngine.UI.Text
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_36;
+	// System.String UnityEngine.UI.Text::m_Text
+	String_t* ___m_Text_37;
+	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCache
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_38;
+	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCacheForLayout
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_39;
+	// System.Boolean UnityEngine.UI.Text::m_DisableFontTextureRebuiltCallback
+	bool ___m_DisableFontTextureRebuiltCallback_41;
+	// UnityEngine.UIVertex[] UnityEngine.UI.Text::m_TempVerts
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_42;
+};
+
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	// UnityEngine.Material UnityEngine.UI.Text::s_DefaultText
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_40;
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2898,6 +2944,8 @@ inline PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* Component_GetCom
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Samples.GameSample.MapGameState::set_Instance(Niantic.Lightship.Maps.Samples.GameSample.MapGameState)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MapGameState_set_Instance_m8AB7B5492FEB1A657A91935C8329D7450E5E3D42_inline (MapGameState_tF588F1C41DB205146F67AA2BCBDBFDB0AE85D45F* ___value0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
@@ -3049,7 +3097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PuzzleDetails_Start_m495922A35B27B08F32E
 {
 	{
 		// puzzleClear = false;
-		__this->___puzzleClear_6 = (bool)0;
+		__this->___puzzleClear_7 = (bool)0;
 		// }
 		return;
 	}
@@ -3714,15 +3762,30 @@ IL_002d:
 		// Debug.Log(hitResourceItem.puzzleDifficulty);
 		PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* L_10 = V_1;
 		NullCheck(L_10);
-		String_t* L_11 = L_10->___puzzleDifficulty_5;
+		String_t* L_11 = L_10->___puzzleDifficulty_6;
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
 		// Debug.Log(hitResourceItem.puzzleClear);
 		PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* L_12 = V_1;
 		NullCheck(L_12);
-		bool L_13 = L_12->___puzzleClear_6;
+		bool L_13 = L_12->___puzzleClear_7;
 		bool L_14 = L_13;
 		RuntimeObject* L_15 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_14);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+		// transferID.text = hitResourceItem.puzzleID.ToString();
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___transferID_6;
+		PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* L_17 = V_1;
+		NullCheck(L_17);
+		int32_t* L_18 = (&L_17->___puzzleID_5);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		NullCheck(L_16);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, L_19);
+		// Debug.Log(transferID.text);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___transferID_6;
+		NullCheck(L_20);
+		String_t* L_21;
+		L_21 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_20);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_21, NULL);
 		// }
 		return;
 	}

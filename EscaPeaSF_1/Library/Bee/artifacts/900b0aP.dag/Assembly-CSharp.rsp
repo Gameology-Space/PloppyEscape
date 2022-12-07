@@ -321,10 +321,9 @@
 -r:"Library/Bee/artifacts/900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityDebugging.ref.dll"
 -r:"Library/Bee/artifacts/900b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/Ploppy/Script/GameManager.cs"
-"Assets/Ploppy/Script/MapIconSpawner.cs"
-"Assets/Ploppy/Script/SceneControl.cs"
-"Assets/Ploppy/Script/UIFunctions.cs"
+"Assets/Script/GameManager2.cs"
+"Assets/Script/MapIconSpawner.cs"
+"Assets/Script/SceneControl.cs"
 "Assets/Script/SpawnMyObject.cs"
 -langversion:9.0
 
