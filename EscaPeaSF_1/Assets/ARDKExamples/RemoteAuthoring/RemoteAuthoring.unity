@@ -698,6 +698,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 119465159}
     m_Modifications:
+    - target: {fileID: 498767278740983504, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 498767280203711894, guid: 43cea8e46d25a451bb860bb51d229f83,
         type: 3}
       propertyPath: puzzleIDLoad
@@ -813,10 +818,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2572107620751357143, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2572107620751357161, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2572107621230264889, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277080445997004204, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5764740447363492349, guid: 43cea8e46d25a451bb860bb51d229f83,
         type: 3}
       propertyPath: m_Name
       value: LocationManifestView
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293519401239130076, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293519401239130076, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293519401239130076, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293519401239130076, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759727218023106868, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120274256146368765, guid: 43cea8e46d25a451bb860bb51d229f83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cea8e46d25a451bb860bb51d229f83, type: 3}

@@ -43,13 +43,13 @@
                     "UxmlPath": "Assets/UI Toolkit/FirstMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 350,
-                    "CanvasHeight": 450,
-                    "MatchGameView": false,
-                    "ZoomScale": 1.0,
+                    "CanvasWidth": 1668,
+                    "CanvasHeight": 2388,
+                    "MatchGameView": true,
+                    "ZoomScale": 0.25,
                     "PanOffset": {
-                        "x": 20.0,
-                        "y": 20.0
+                        "x": 246.70834350585938,
+                        "y": 134.9999237060547
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
