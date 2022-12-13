@@ -38,8 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
      <Compile Include="Assets/Script/GameManager2.cs" />
+     <Compile Include="Assets/Models/Factory Control Panels/scripts/FlyCamera.cs" />
      <Compile Include="Assets/Script/MapIconSpawner.cs" />
      <Compile Include="Assets/Script/SceneControl.cs" />
+     <None Include="Assets/Models/Factory Control Panels/camera movement.txt" />
      <None Include="Assets/UI Toolkit/PloppyStyle.uss" />
      <None Include="Assets/UI Toolkit/FirstMenu.uxml" />
     <Reference Include="UnityEngine">

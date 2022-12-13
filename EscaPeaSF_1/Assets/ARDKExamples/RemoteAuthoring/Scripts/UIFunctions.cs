@@ -12,19 +12,22 @@ public class UIFunctions : MonoBehaviour
     public void onExplorePressed()
     {
         Debug.Log("explore puzzle pressed");
-        GameManager.Instance.puzzleID = 11;
+        GameManager.Instance.puzzleID = 1;
+        transferTemp.text = 1.ToString();
     }
 
     public void onCloudPressed()
     {
         Debug.Log("cloud puzzle pressed");
-        GameManager.Instance.puzzleID = 1;
+        GameManager.Instance.puzzleID = 0;
+        transferTemp.text = 0.ToString();
     }
 
     public void onFountainPressed()
     {
         Debug.Log("Fountain puzzle pressed");
-        GameManager.Instance.puzzleID = 7;
+        GameManager.Instance.puzzleID = 2;
+        transferTemp.text = 2.ToString();
     }
 
 // -------------- test sites --------------------
@@ -32,6 +35,7 @@ public class UIFunctions : MonoBehaviour
     {
         Debug.Log("Quarry puzzle pressed");
         GameManager.Instance.puzzleID = 8;
+        transferTemp.text = 8.ToString();
 
     }
 
@@ -39,12 +43,14 @@ public class UIFunctions : MonoBehaviour
     {
         Debug.Log("Nummi puzzle pressed");
         GameManager.Instance.puzzleID = 10;
+        transferTemp.text = 10.ToString();
     }
 
     public void onEnsanadaPressed()
     {
         Debug.Log("Ensanada");
         GameManager.Instance.puzzleID = 9;
+        transferTemp.text = 9.ToString();
     }
     // -------------- test sites --------------------
 

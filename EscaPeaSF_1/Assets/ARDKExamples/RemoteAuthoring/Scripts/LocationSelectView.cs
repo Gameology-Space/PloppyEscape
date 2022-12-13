@@ -47,33 +47,34 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
                 options.Add(new Dropdown.OptionData(locName));
             }
 
-            locationDropdown.options = options;
+            //locationDropdown.options = options;
 
-            //keep track of selected location
-            locationDropdown.onValueChanged.AddListener(OnChangeDropdown);
+            // //keep track of selected location
+            // locationDropdown.onValueChanged.AddListener(OnChangeDropdown);
 
             //link load button to load behavior
             loadLocationButton.onClick.AddListener(LoadButtonClicked);
 
-            //link close button
-            closeButton.onClick.AddListener(CloseButtonClicked);
+            // //link close button
+            // closeButton.onClick.AddListener(CloseButtonClicked);
 
-            //link open button
-            openButton.onClick.AddListener(OpenButtonClicked);
+            // //link open button
+            // openButton.onClick.AddListener(OpenButtonClicked);
 
             //subscribe to status tracking to present to user
             _locationManifestManager.StatusLogChangeEvent += StatusLogChanged;
             _locationManifestManager.AddLocalizationStatusListener(LocationStatusChanged);
 
             //default to first item selected
-            locationDropdown.value = 0;
+            //locationDropdown.value = 0;
 
             //my add for ploppy to load on start with puzzle id pass from manager
             
-            if(GameManager.Instance.puzzleID < 12)
+            if(GameManager.Instance.puzzleID < 3)
             {
                 _selectedLocation = GameManager.Instance.puzzleID;
-               // LoadButtonClicked();
+               //LoadButtonClicked();
+               Debug.Log("Current Selected:" + _selectedLocation);
             }
             else
             {
@@ -81,27 +82,28 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
             }
         }
 
-        private void OnChangeDropdown(int selected)
-        {
-            _selectedLocation = selected;
-            printLocationInt.text = selected.ToString(); // bw 
-        }
+        // private void OnChangeDropdown(int selected)
+        // {
+        //     _selectedLocation = selected;
+        //     printLocationInt.text = selected.ToString(); // bw 
+        // }
 
         private void LoadButtonClicked()
         {
+            _selectedLocation = GameManager.Instance.puzzleID;
             _locationManifestManager.LoadWayspotAnchors(_selectedLocation);
-            Debug.Log(_selectedLocation);
+            Debug.Log("loaded: " + _selectedLocation);
         }
 
-        private void CloseButtonClicked()
-        {
-            gameObject.SetActive(false);
-        }
+        // private void CloseButtonClicked()
+        // {
+        //     gameObject.SetActive(false);
+        // }
 
-        private void OpenButtonClicked()
-        {
-            gameObject.SetActive(true);
-        }
+        // private void OpenButtonClicked()
+        // {
+        //     gameObject.SetActive(true);
+        // }
 
         private void StatusLogChanged(string message)
         {

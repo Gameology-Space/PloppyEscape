@@ -166,7 +166,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119465155
 GameObject:
@@ -691,6 +691,52 @@ MonoBehaviour:
   _occlusionMode: 3
   _textureFilterMode: 0
   _stabilizeOcclusionsExperimental: 0
+--- !u!1 &859511863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 859511865}
+  - component: {fileID: 859511864}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &859511864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859511863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d32264fc15e4df6801c0076b567adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleID: 0
+  difficulty: 0
+--- !u!4 &859511865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859511863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 319.85562, y: 685.9405, z: -58.623882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1196203959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -943,6 +989,50 @@ Transform:
   m_GameObject: {fileID: 1236272534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1303099439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303099441}
+  - component: {fileID: 1303099440}
+  m_Layer: 0
+  m_Name: PuzzleLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1303099440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303099439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10e2f09107154a0587a3254f73d2537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1303099441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303099439}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.861206, y: -0.3079834, z: -0.53169405}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1206,7 +1296,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829151716
 GameObject:
@@ -1238,107 +1328,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _manifests:
-  - LocationName: Allsteel Fountain
-    AuthoredAnchors:
-    - Name: fo1
-      Payload: ChYI8873z+TGoKThARC0rbHp16ij5MUBGKbnyYW5wvsCKjYKFQj0p7jaj9GeoEQQm6OV+vG709nmARIYCg8NFK5iQhU9CgtBHc3MwkESBSUAAIA/HQAAgD8=
   - LocationName: Cloud Portal
     AuthoredAnchors:
     - Name: cloud1
       Payload: ChUIjOqdk5HS3KAFEKuJmMWGt5/a8AEY1OSh97jC+wIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8N8g6TPhWlrADAHbGhvj0SFA0IVpI6FaHyDLwd8C4luyVW/X8/HQAAgD8qNwoWCOi8pbiOu92kuwEQn52RoYflobmEARIYCg8NoJmZPhWuRwHAHUARgD0SBSUAAIA/HQAAgD8=
-  - LocationName: Ferry Building Clock Tower
+  - LocationName: What Does It Say2
     AuthoredAnchors:
-    - Name: f1
-      Payload: ChUIncWOmo2WwKS0ARCH36Hvqfj8xw4Y+bLE5rjC+wIqNwoWCJyOs6SAxYemgAEQu5fO4cnShsmaARIYCg8Nh64BQBUK1yO8HQAANUESBSUAAIA/HQAAgD8=
-  - LocationName: Icosaspirale
-    AuthoredAnchors:
-    - Name: L1
-      Payload: ChUIs673oM2p4qRuEL+l57mNhJOSqAEYp+3J17jC+wIqRQoVCI6Gqvv5mP2lvwEQgv2u4fH6+780EicKDw3M+ANBFRDc7j4dcC/nvhIUDe/YrDoVx7DTPh3mdUS7JakXaT8dAACAPypFChUIxKbqy4jd1qd+EJvn+Piv5aqIhQESJwoPDbAORUAV5L0DPx2ZlCpBEhQNV6xBuxV5y2Y/Hb6sGbslgIfdvh0AAIA/KkYKFgiV5oX2wovNpOYBEJz13Nauipe+kAESJwoPDTDTLkEViZSoPh240w1AEhQNCvrEuhVdjFO+HZGmC7wlt3d6Px0AAIA/KkQKFAiHytfR0ZKipCoQor3Hj5zig5g2EicKDw2ok0xAFRbeCD8dFBorQRIUDUknWToV5rBlPx3oVXK6JT4U4r4dAACAPw==
-  - LocationName: Mistral by Elbert Weinberg
-    AuthoredAnchors:
-    - Name: m1
-      Payload: ChUIheeCjdWpnqLpARC9rYSqnPjryTAYyqTdx7jC+wIqRgoWCLmvmJrg2YCn0AEQvuG/ru7agqOfARInCg8NoD89wBUAhpc+HRB2HkESFA0692O6FVj/Zj8dHlN9PCWuQdW+HQAAgD8qRQoVCO/iqLu7mq6k4AEQm5+w4aWm+4ZTEicKDw2wvI7AFYCZkz4dcAgqQRIUDVZehDoVEiFnPx16vCQ8Jd7F1L4dAACAPypFChUI+5Om8N//gqBZEJbr4vTPu/Pw9wESJwoPDfCdKsEVyA2VQB0AKzs/EhQNw1+WuxWHIYC+HUcFE7wlEW12Px0AAIA/KkQKFAiR5YOkqPWWp2MQl8X54PPjo89XEicKDw2QLiXBFWDlmEAdkNXNQBIUDWRnwrsVKg7Ivh3OwyC8JaNuaj8dAACAPw==
-  - LocationName: The Concrete Jungle
-    AuthoredAnchors:
-    - Name: j1
-      Payload: ChQIw8Xd0a7P0qdvEIy57LrG9pbKbhiCmcaduML7AipGChYIndT+7rmK/6CPARC+l6fW5MjY5coBEicKDw2AGAO+FUsikz8d8H3LQBIUDeTJ37sVIpH+vR1cXVk8JRo0fj8dAACAPypFChUI6J+RmJ241qFJEKGn0of/44mRigESJwoPDYAOJj8Vl5ajPx0e+eFAEhQNFeANvBXXhJk8HXR2jTslNep/Px0AAIA/KkQKFAjWqZOj68j9pSYQsqGc7IqR2+hfEicKDw0oayJAFUeWmz8d0O4UQRIUDRm8GLwVfbuCPR2PfuA7JSFsfz8dAACAPypGChYIkP3pis+p+aTHARCY7+Wn75LOseYBEicKDw0YeaFAFRRteT8dIq8pQRIUDTEVGrsVZnDPPR1UJrI7JfOnfj8dAACAPw==
-  - LocationName: Arroyo Park
-    AuthoredAnchors:
-    - Name: Anchor (1)
-      Payload: ChYIi/bf/4asiaK/ARCMvav4/I+GvLQBGOuQtMud4/sCKjYKFQi42Ynku53QocoBELKN6aSP0qq2VRIYCg8NAABAvxXsUbg+HTIz4z8SBSUAAIA/HQAAgD8=
+    - Name: SolarPanel
+      Payload: ChUIz9TD08Kl9aPYARC8m4zcsvHXxzgYq5S83oL3+wIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDfL3oD8V/hNhPx3QN8o/EhQNonAcvRU3i3w/HZxvkj0l8s8UPh0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NINzrvhXmHTg/HQ8FQcASFA3Ra9s6Fd6+dD8dO8Q3PSUQB5Q+HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDTV1iEAVLAetPx0O+idAEhQN1OWLvRUQ8Hk/HZojoD0lmHhGPh0AAIA/KkUKFQifxsvqpsqEofwBEIzfmcTG7/jHChInCg8NdqwiQBVqzlg/Hb6Pr8ASFA32+Nc8FZLpCj8dd3BGvSUzxlY/HQAAgD8=
+    - Name: PowerMeter
+      Payload: ChYIxaa7rf+SnaWIARCc0/uRhujplvUBGKGvoYGu9/sCKkUKFQje/ufykaKyoJABEKKTio+Y0r6UXBInCg8NEJkBQBUUTSbAHdJ9h8ASFA3I37w9FXj1fj8d1YWmvCWyEgk9HQAAgD8qRgoWCPHs3uiuvtin/wEQg53ourf6gsisARInCg8NeBXJQBWaEGm/HVNJhMASFA2ABqE9FZ11gD8dBCs3vCUs5ee7HQAAgD8qRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDcoFlkAVPUXKPx18huXAEhQNgROhPRUCNkW/HfxjobwlbyoiPx0AAIA/KkYKFgiS9/nl3ojApYEBEJm11PrClq2ktwESJwoPDQbto0AVVUXPwB0ua5DAEhQNOWoUPhXCin4/Hcrphzslm+BtPR0AAIA/
+    - Name: ESwitch1
+      Payload: ChYI4uTSrsGl7aaNARC4u97f/pLktOQBGKKOsIGu9/sCKkQKFAiM75jFyv6NoFQQtsvU/dfBj5YmEicKDw07Oi5AFeQa/T4dEFYJwBIUDYEToT0VAjZFvx38Y6G8JW8qIj8dAACAPypGChYI8eze6K6+2Kf/ARCDnei6t/qCyKwBEicKDw3wsEw/FUCgnr4d67miwBIUDYAGoT0VnXWAPx0EKze8JSzl57sdAACAPypEChQInNvsjfaCu6LnARCLz7q8i8bjdBInCg8NZeHDQBWY7Ys/HQD1b78SFA3Ns9Q9FbfATL8dQQ71uiUM4Bc/HQAAgD8qRQoVCKmayc2FgaCj7AEQkLGr6uLgl7BcEicKDw0Uafk/FeA1KT0diPrEwBIUDfaRAz0VLRtbvx3hbgC9JRm3Az8dAACAPw==
+    - Name: ESwitch2
+      Payload: ChUI3IrsxvaX/qY+EJSzjrKQwI+/mwEYuKu/ga73+wIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDSNSOkAVWmwcPx1UKDnAEhQNgROhPRUCNkW/HfxjobwlbyoiPx0AAIA/KkYKFgjx7N7orr7Yp/8BEIOd6Lq3+oLIrAESJwoPDVB9yj8VDP/cvh0ZjaHAEhQNgAahPRWddYA/HQQrN7wlLOXnux0AAIA/KkUKFQje/ufykaKyoJABEKKTio+Y0r6UXBInCg8NdEcgwBVAswHAHRhhsMASFA3I37w9FXj1fj8d1YWmvCWyEgk9HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDZIezEAVIFudPx3An9S/EhQNzbPUPRW3wEy/HUEO9bolDOAXPx0AAIA/
+    - Name: ESwitch1Handle
+      Payload: ChQI18DFoqLS+6NoEIHd8cbj/ZarFhip6tjRsPf7AipEChQIjO+Yxcr+jaBUELbL1P3XwY+WJhInCg8NlaMnQBUkv8U+HZSVAcASFA1rYqI9FXdoP78d2L+KvCUJ9yg/HQAAgD8qRgoWCPHs3uiuvtin/wEQg53ourf6gsisARInCg8NoNghPxUg67y+HbJYpcASFA13uqE9FUlZgD8dZP4JvCX2aC29HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDShnwEAV6F96Px1g+FO/EhQNXLHUPRVqS0e/HdZG5zolwfEePx0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NxP/mPxVQa1C9HSguwsASFA1c/Ac9FUFfVr8do4L3vCWgTAs/HQAAgD8=
   - LocationName: Fountain of Four Seasons
     AuthoredAnchors:
     - Name: Anchor (1)
       Payload: ChQIuLH22P+0jaUkELS9yqGXoom/dRjZ54/ShMr7AipFChUI+cLo8fbCh6N8ELDl2v+p85DynAESJwoPDchQM8EVcEWivR0oy4S/EhQNKWtLuxXMC6M8HfLqvLoljiOAPx0AAIA/KkYKFgiwqrPZvdvJp4ABEILxyeLM7LiGgQESJwoPDYwTNcEVJpXEvR1IPoS/EhQNtxamuhUhz9w8HQm+Nzglq+F/Px0AAIA/KkUKFQjaloujuofoowgQp8Wu1e+hs4LKARInCg8NueZwQhWHaoW+Hc1GGcESFA1h2fk6FZbeazwdMYOOOiWW8n8/HQAAgD8qRAoUCPDfpb3ij6mkfBCls9CQnrTl8gwSJwoPDfGjcUIVHp6Bvh12TxfBEhQNJvkcuhVwdQs8HTMyOzolMPp/Px0AAIA/
-  - LocationName: Environmentally Sustainable Garden
-    AuthoredAnchors:
-    - Name: Anchor (1)
-      Payload: ChYIlsi30ZybtqLdARCx/d7tor/M3oEBGKvYoJKe4/sCKkYKFgj13OOB463Mp/wBEJHv+Pm2pYydswESJwoPDUJA3L8V3ORLPh3lZixAEhQNFfD9OxXB6x89HTKWvbwltL1/Px0AAIA/KkUKFQiPvc3gncGdo7IBEIvpg7zcoODFGxInCg8Nu6HUvxVlORE+Heb8MEASFA2RzeI6FRwVHj0d/rxhOyWxzn8/HQAAgD8qRAoUCJb+9ISr0cWiaBCHxZ+89vK6/kQSJwoPDe3pzr8VLGo/Ph127jVAEhQNwpnfOhW3Yjw9Hcp7ozolg7p/Px0AAIA/KkUKFQjfut3uy8DSofgBEL7Fr5mQgMmBSBInCg8Np3zSvxUuJD0+HX0nNUASFA3MHSY7FW1XJD0dL0vROiUWz38/HQAAgD8=
-  - LocationName: Ensenada South Gazebo
-    AuthoredAnchors:
-    - Name: Anchor (1)
-      Payload: ChUI4M+XgvvHsqVjEL/jjMvb5f/KjwEY5eqv0LXj+wIqRgoWCLfJwICkheek5QEQu53E+sfhj6XXARInCg8NgFNPPhUgXeG+HQTJEkASFA2lDFu7FfhSar4d/J9WPSXr1Xg/HQAAgD8qRQoVCLTrnZiAnueg3wEQtbWSp52dodcjEicKDw1vlurAFXGB3z4dYPI2QRIUDenqTToVHFMDOh0JGMa5Jcr9fz8dAACAPypFChUIraTWqemnv6acARCkw9T+opecskQSJwoPDRF878AVYkHfPh29KDdBEhQNsSwlOxWX5Hy7HXNcmLolFf1/Px0AAIA/KkUKFQiI8Nm5yIjtpqsBEJvLn4PC0b+NKxInCg8NTSHqwBWkihg/HSXFOEESFA2FexE8FVZgTTsdG3M9vCWJ9n8/HQAAgD8=
-  - LocationName: Nummi Grove
-    AuthoredAnchors:
-    - Name: Anchor (1)
-      Payload: ChUIx4Otk8G0pKTRARCS2/SZwJOE4mQYk43dorXj+wIqRgoWCLKI1tfHybeikAEQoN2w4uqYueHRARInCg8NTAFkPxUQRDc9HTgb7j4SFA2sZX+9Fb4xSz4dPm0CvSUzVno/HQAAgD8qRgoWCIy99vWD1uSnlgEQn4vswZumx/H5ARInCg8N1NuGPxXQceO9HaBBRb4SFA1LSzS8FWtTYD8dl7JfPSXRnvQ+HQAAgD8qRQoVCPOd6+DKxtWj5AEQtpmSsoWy94gIEicKDw3Zi6M/FUDe/j4dYE8APxIUDembjr0VN9mLPh2QdwU9JZ8bdT8dAACAPypFChUImbbC4+urhaYKELidsqHSp8TxpAESJwoPDSyAhD8VIIVUPR0s/qI/EhQNbkk7vRXW9JQ+HZ7/HTwldXN0Px0AAIA/
-  - LocationName: What Does It Say
-    AuthoredAnchors: []
   _anchoredContent:
-  - AnchorName: fo1-Allsteel Fountain
-    ManifestID: 0
-    AnchorDataIdentifier: fo1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
-      type: 3}
   - AnchorName: cloud1-Cloud Portal
-    ManifestID: 1
+    ManifestID: 0
     AnchorDataIdentifier: cloud1
     Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
       type: 3}
-  - AnchorName: f1-Ferry Building Clock Tower
-    ManifestID: 2
-    AnchorDataIdentifier: f1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+  - AnchorName: SolarPanel-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: SolarPanel
+    Content: {fileID: 102272, guid: 771881ff49108cc44801e47e0e971d6d, type: 3}
+  - AnchorName: PowerMeter-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: PowerMeter
+    Content: {fileID: 2372243927506636573, guid: 4c9f9e445da8241d6b09d7113bbe91c2,
       type: 3}
-  - AnchorName: L1-Icosaspirale
-    ManifestID: 3
-    AnchorDataIdentifier: L1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+  - AnchorName: ESwitch1-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch1
+    Content: {fileID: 2152656960904121141, guid: 93161fb122ef5404e84254e8370ec890,
       type: 3}
-  - AnchorName: m1-Mistral by Elbert Weinberg
-    ManifestID: 4
-    AnchorDataIdentifier: m1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+  - AnchorName: ESwitch2-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch2
+    Content: {fileID: 2152656960904121141, guid: 93161fb122ef5404e84254e8370ec890,
       type: 3}
-  - AnchorName: j1-The Concrete Jungle
-    ManifestID: 5
-    AnchorDataIdentifier: j1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
-      type: 3}
-  - AnchorName: Anchor (1)-Arroyo Park
-    ManifestID: 6
-    AnchorDataIdentifier: Anchor (1)
-    Content: {fileID: 471913477569429687, guid: 0092eec63f6be4976bd0c5c859b9e3af,
-      type: 3}
+  - AnchorName: ESwitch1Handle-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch1Handle
+    Content: {fileID: 1000012918175102, guid: 2635be41d2d06174794fbe43107f108d, type: 3}
   - AnchorName: Anchor (1)-Fountain of Four Seasons
-    ManifestID: 7
+    ManifestID: 2
     AnchorDataIdentifier: Anchor (1)
     Content: {fileID: 1321982507108314, guid: 6484d8fda33c04b9488646671e593855, type: 3}
-  - AnchorName: Anchor (1)-Environmentally Sustainable Garden
-    ManifestID: 8
-    AnchorDataIdentifier: Anchor (1)
-    Content: {fileID: 7761353117696357764, guid: 0e8b39087907f476495816ee16a1a082,
-      type: 3}
-  - AnchorName: Anchor (1)-Ensenada South Gazebo
-    ManifestID: 9
-    AnchorDataIdentifier: Anchor (1)
-    Content: {fileID: 2641443689767792359, guid: e0d9302867cd7495089a9042da5f1024,
-      type: 3}
-  - AnchorName: Anchor (1)-Nummi Grove
-    ManifestID: 10
-    AnchorDataIdentifier: Anchor (1)
-    Content: {fileID: 471913477569429687, guid: 0092eec63f6be4976bd0c5c859b9e3af,
-      type: 3}
 --- !u!4 &1829151718
 Transform:
   m_ObjectHideFlags: 0
