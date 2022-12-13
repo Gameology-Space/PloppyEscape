@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/Test new Main.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.cs" />
      <Compile Include="Assets/ARDKExamples/ImageDetection/ImageDetectionExampleManager.cs" />

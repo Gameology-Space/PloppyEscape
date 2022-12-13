@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/PloppyStyle.uss?fileID=7433441132597879392&amp;guid=7408d795938d14b47a04f664719c7ff5&amp;type=3#PloppyStyle" />
+    <ui:VisualElement name="MainContainer">
+        <ui:VisualElement name="TopMenu" style="flex-basis: 20%;" />
+        <ui:VisualElement name="SideMenu" style="flex-basis: 70%;" />
+        <ui:VisualElement name="BottomMenu" style="flex-basis: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>

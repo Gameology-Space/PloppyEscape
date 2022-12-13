@@ -40,6 +40,8 @@
      <Compile Include="Assets/Script/GameManager2.cs" />
      <Compile Include="Assets/Script/MapIconSpawner.cs" />
      <Compile Include="Assets/Script/SceneControl.cs" />
+     <None Include="Assets/UI Toolkit/PloppyStyle.uss" />
+     <None Include="Assets/UI Toolkit/FirstMenu.uxml" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
