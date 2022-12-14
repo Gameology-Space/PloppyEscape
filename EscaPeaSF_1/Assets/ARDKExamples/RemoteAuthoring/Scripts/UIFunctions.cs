@@ -30,30 +30,6 @@ public class UIFunctions : MonoBehaviour
         transferTemp.text = 2.ToString();
     }
 
-// -------------- test sites --------------------
-    public void onQuarryPressed()
-    {
-        Debug.Log("Quarry puzzle pressed");
-        GameManager.Instance.puzzleID = 8;
-        transferTemp.text = 8.ToString();
-
-    }
-
-    public void onNummiPressed()
-    {
-        Debug.Log("Nummi puzzle pressed");
-        GameManager.Instance.puzzleID = 10;
-        transferTemp.text = 10.ToString();
-    }
-
-    public void onEnsanadaPressed()
-    {
-        Debug.Log("Ensanada");
-        GameManager.Instance.puzzleID = 9;
-        transferTemp.text = 9.ToString();
-    }
-    // -------------- test sites --------------------
-
     private void Start()
     {
         transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
