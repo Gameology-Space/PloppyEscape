@@ -45,7 +45,10 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             _lightshipMap.MapOriginChanged += OnMapOriginChanged;
 
             // start the player at a default location, mainly used for editor testing
-            UpdatePlayerLocation((float)_defaultCoordinates.Latitude, (float)_defaultCoordinates.Longitude);
+
+            //------ploppy-------
+            // use this to move map to ploppy location then back to user
+            // UpdatePlayerLocation((float)_defaultCoordinates.Latitude, (float)_defaultCoordinates.Longitude);
 
             _currentMapPosition = _targetMapPosition = transform.position;
 

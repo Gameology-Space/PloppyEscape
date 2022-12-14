@@ -12,41 +12,23 @@ public class UIFunctions : MonoBehaviour
     public void onExplorePressed()
     {
         Debug.Log("explore puzzle pressed");
-        GameManager.Instance.puzzleID = 11;
+        GameManager.Instance.puzzleID = 1;
+        transferTemp.text = 1.ToString();
     }
 
     public void onCloudPressed()
     {
         Debug.Log("cloud puzzle pressed");
-        GameManager.Instance.puzzleID = 1;
+        GameManager.Instance.puzzleID = 0;
+        transferTemp.text = 0.ToString();
     }
 
     public void onFountainPressed()
     {
         Debug.Log("Fountain puzzle pressed");
-        GameManager.Instance.puzzleID = 7;
+        GameManager.Instance.puzzleID = 2;
+        transferTemp.text = 2.ToString();
     }
-
-// -------------- test sites --------------------
-    public void onQuarryPressed()
-    {
-        Debug.Log("Quarry puzzle pressed");
-        GameManager.Instance.puzzleID = 8;
-
-    }
-
-    public void onNummiPressed()
-    {
-        Debug.Log("Nummi puzzle pressed");
-        GameManager.Instance.puzzleID = 10;
-    }
-
-    public void onEnsanadaPressed()
-    {
-        Debug.Log("Ensanada");
-        GameManager.Instance.puzzleID = 9;
-    }
-    // -------------- test sites --------------------
 
     private void Start()
     {

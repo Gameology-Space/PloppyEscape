@@ -1,0 +1,24 @@
+.simpleBoxRed {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(161, 57, 77);
+    flex-grow: 1;
+}
+
+.simpleBoxGreen {
+    width: auto;
+    height: auto;
+    background-color: rgb(36, 154, 36);
+    flex-grow: 1;
+}
+
+.sideMenuSize {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: rgba(42, 141, 190, 255);
+}

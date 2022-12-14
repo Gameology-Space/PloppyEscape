@@ -7,6 +7,7 @@ TagManager:
   - BlueGoal
   - RedGoal
   - gmSave
+  - ELever
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - 
   - ARDK_MockWorld
-  - 
+  - Lever
   - 
   - 
   - 

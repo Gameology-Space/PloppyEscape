@@ -7,6 +7,7 @@ using Niantic.Lightship.Maps.Unity.Core;
 using Niantic.Lightship.Maps.Unity.MapLayers.Components;
 using UnityEngine;
 using UnityEngine.UI;
+//using "Asset.ARDKExamples.RemoteAuthoring.Scripts";
 
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {

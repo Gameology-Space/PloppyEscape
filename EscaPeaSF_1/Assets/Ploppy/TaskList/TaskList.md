@@ -21,8 +21,10 @@
 
 Day 3
 1. Done - Map spawn testing prefabs
+4. Done - Play button goes to remote auth scene
+5. Done - Player localize, plays puzzle, finish puzzle, back to map scene
+
+Day 4
+6. General UI clean up
 2. Point prefab in map will bring up UI 
 3. UI will show image, puzzle detail and play button
-4. Play button goes to remote auth scene
-5. Player localize, plays puzzle, finish puzzle, back to map scene
-6. General UI clean up
