@@ -6,12 +6,12 @@ ScriptsOnlyBuild:
     - Niantic.ARDKExamples.RemoteAuthoring.GameManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationManifestManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
-    - Niantic.ARDKExamples.WayspotAnchors.ColorChangingTracker
+    - PrefabHandle
+    - PuzzleLogic
     - UIFunctions
+    - togglescript
     ARDK.dll:
-    - Niantic.ARDK.AR.WayspotAnchors.VPSLocationManifest
     - Niantic.ARDK.AR.WayspotAnchors._RemoteAuthoringSceneTag
-    - Niantic.ARDK.AR.WayspotAnchors._TransformFixer
     - Niantic.ARDK.Configuration.Authentication.ArdkAuthConfig
     - Niantic.ARDK.Extensions.ARCameraPositionHelper
     - Niantic.ARDK.Extensions.ARDepthManager
@@ -20,8 +20,6 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.CapabilityChecker
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
-    - Niantic.ARDK.VirtualStudio.AR.Mock.MockSceneConfiguration
-    - Niantic.ARDK.VirtualStudio.AR.Mock.MockWayspot
     Assembly-CSharp.dll:
     - MapIconSpawner
     - SceneControl
@@ -136,24 +134,27 @@ ScriptsOnlyBuild:
   - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onCloudPressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onEnsanadaPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnGameOverContinuePressed
   - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onExplorePressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onNummiPressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onQuarryPressed
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
     methodName: navToMapScene
+  - assembly: ARDK-Examples
+    fullTypeName: togglescript
+    methodName: ToggleHint1
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onCloudPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onFountainPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onExplorePressed
   sceneClasses:
     Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity:
     - Class: 1
@@ -180,6 +181,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -205,11 +210,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3764}
     - Class: 114
+      Script: {instanceID: 4236}
+    - Class: 114
       Script: {instanceID: 4408}
     - Class: 114
       Script: {instanceID: 4800}
     - Class: 114
       Script: {instanceID: 5144}
+    - Class: 114
+      Script: {instanceID: 5206}
     - Class: 114
       Script: {instanceID: 5350}
     - Class: 114
@@ -221,21 +230,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7206}
     - Class: 114
-      Script: {instanceID: 7296}
-    - Class: 114
       Script: {instanceID: 7388}
     - Class: 114
       Script: {instanceID: 7614}
     - Class: 114
       Script: {instanceID: 7858}
     - Class: 114
-      Script: {instanceID: 8878}
+      Script: {instanceID: 7904}
     - Class: 114
-      Script: {instanceID: 9086}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 9276}
+      Script: {instanceID: 8884}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 9092}
+    - Class: 114
+      Script: {instanceID: 9282}
+    - Class: 114
+      Script: {instanceID: 9416}
+    - Class: 114
+      Script: {instanceID: 38580}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -350,13 +363,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7494}
     - Class: 114
-      Script: {instanceID: 9096}
+      Script: {instanceID: 9102}
     - Class: 114
-      Script: {instanceID: 9246}
+      Script: {instanceID: 9252}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9890}
+      Script: {instanceID: 9896}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -986,7 +999,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: faabe7295ff7b1965635de2c7f569d4b
+      Hash: 45cdef8d0ed726d3a7e2421c41ce9343
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: GameManager
@@ -1664,6 +1677,18 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: PrefabHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 66ac57287249f5402d7c2742c5f5ed8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlyCamera
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1680,6 +1705,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: ARDKExamples.LocationService
     className: LocationServiceExampleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: PuzzleLogic
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -2112,6 +2143,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: togglescript
   platform: 9
   scenePathNames:
   - Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity

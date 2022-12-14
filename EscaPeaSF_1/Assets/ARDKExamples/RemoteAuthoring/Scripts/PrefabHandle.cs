@@ -11,14 +11,23 @@ public class PrefabHandle : MonoBehaviour
     void Start()
     {
         gameManager = Object.FindObjectOfType<GameManager>();
+        gameObject.GetComponent<Renderer>().enabled = false;
+        //gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(gameManager.difficulty > 10)
+        if(gameManager.explore_Hint1)
         {
-            this.transform.Rotate(90f,45f,45f);
+            gameObject.GetComponent<Renderer>().enabled = true;
+            //gameObject.SetActive(false);
+            Debug.Log("Setting wallbox on");
+        }
+        else
+        {
+            gameObject.GetComponent<Renderer>().enabled = false;
         }
     }
+
 }
