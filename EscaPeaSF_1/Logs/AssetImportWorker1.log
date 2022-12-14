@@ -5195,3 +5195,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28656.483368 seconds.
+  path: Assets/Eternal Temple/Textures/Atlas/Atlas_02_Normal.png
+  artifactKey: Guid(5ad7c940eeb8c044ea150fd71f365820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eternal Temple/Textures/Atlas/Atlas_02_Normal.png using Guid(5ad7c940eeb8c044ea150fd71f365820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a88f848e456635e33c8dd7886db9b7') in 0.749995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.622898 seconds.
+  path: Assets/Eternal Temple/Textures/Atlas/Atlas_Architecture_01_Normal.png
+  artifactKey: Guid(f52cee20bd564d5469de681fc2f281ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eternal Temple/Textures/Atlas/Atlas_Architecture_01_Normal.png using Guid(f52cee20bd564d5469de681fc2f281ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc50ab609a3e2a9899d09f60fc5307a') in 0.011072 seconds 
