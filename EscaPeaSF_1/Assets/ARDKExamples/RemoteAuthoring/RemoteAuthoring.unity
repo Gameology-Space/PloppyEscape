@@ -2234,14 +2234,6 @@ MonoBehaviour:
       Payload: ChQIxu3ohoasgKctEJehjJ35hLzIOBiY0LDrr/j7AipFChUI+cLo8fbCh6N8ELDl2v+p85DynAESJwoPDazkbcEVfBSVPx0mttrAEhQNKWtLuxXMC6M8HfLqvLoljiOAPx0AAIA/KkYKFgiwqrPZvdvJp4ABEILxyeLM7LiGgQESJwoPDQjNcMEV08CTPx08ENjAEhQNtxamuhUhz9w8HQm+Nzglq+F/Px0AAIA/KkUKFQjaloujuofoowgQp8Wu1e+hs4LKARInCg8NCopiQhW7foI/HcIedsESFA1h2fk6FZbeazwdMYOOOiWW8n8/HQAAgD8qRAoUCPDfpb3ij6mkfBCls9CQnrTl8gwSJwoPDfyNY0IV3AuAPx3o73TBEhQNJvkcuhVwdQs8HTMyOzolMPp/Px0AAIA/
     - Name: Stone_Altar_4
       Payload: ChYImMW6nbKCwKOuARCArcqA6fTo7JkBGPvD0Imw+PsCKkUKFQj5wujx9sKHo3wQsOXa/6nzkPKcARInCg8NBj6qwRWrSpw/HTAeJb8SFA3vKZq6FVgPOT8dn7pSuyWXiDE/HQAAgD8qRgoWCLCqs9m928mngAEQgvHJ4szsuIaBARInCg8NRM2qwRWsp5U/HYBZ/b4SFA0T/3K6Fc3LOT8docFiuiX7DzA/HQAAgD8qRQoVCNqWi6O6h+ijCBCnxa7V76GzgsoBEicKDw3Ft0hCFcF8ez8dDJIUwRIUDarKFzoV7JE3Px1Ktwo7Jd5hMj8dAACAPypEChQI8N+lveKPqaR8EKWz0JCetOXyDBInCg8NznFJQhUrhH8/HdqYFMESFA0vXHO6FdmINj8dj/aqOCUydzM/HQAAgD8=
-    - Name: Fountain1
-      Payload: ChUIlYSO8ruxlKDxARCggcr0zJqS3FgY0fCR27X4+wIqRQoVCPnC6PH2woejfBCw5dr/qfOQ8pwBEicKDw3gDm3BFZhZBMAdIPGQPhIUDSlrS7sVzAujPB3y6ry6JY4jgD8dAACAPypGChYIsKqz2b3byaeAARCC8cnizOy4hoEBEicKDw0cNm7BFebsBcAdIOemPhIUDbcWproVIc/cPB0Jvjc4Javhfz8dAACAPypFChUI2paLo7qH6KMIEKfFrtXvobOCygESJwoPDXCAYkIVKHERwB1VLQXBEhQNYdn5OhWW3ms8HTGDjjollvJ/Px0AAIA/KkQKFAjw36W94o+ppHwQpbPQkJ605fIMEicKDw3PLGNCFbpsEMAdOboDwRIUDSb5HLoVcHULPB0zMjs6JTD6fz8dAACAPw==
-    - Name: Fountain2
-      Payload: ChYIpbOFqdWir6HCARCFkeXRrNT6j8UBGLXqn9y1+PsCKkUKFQj5wujx9sKHo3wQsOXa/6nzkPKcARInCg8NONJfwRXN548+HWADT78SFA0pa0u7FcwLozwd8uq8uiWOI4A/HQAAgD8qRgoWCLCqs9m928mngAEQgvHJ4szsuIaBARInCg8NpGBhwRWKIoI+HWC3Q78SFA23Fqa6FSHP3DwdCb43OCWr4X8/HQAAgD8qRQoVCNqWi6O6h+ijCBCnxa7V76GzgsoBEicKDw23zGVCFRxSqT0dpw4WwRIUDWHZ+ToVlt5rPB0xg446JZbyfz8dAACAPypEChQI8N+lveKPqaR8EKWz0JCetOXyDBInCg8Nm4dmQhUEdL49HTqkFMESFA0m+Ry6FXB1CzwdMzI7OiUw+n8/HQAAgD8=
-    - Name: Fountain4
-      Payload: ChUIjMLmipbAzqL1ARCG8+ml18i31kEY+4ub3bX4+wIqRQoVCPnC6PH2woejfBCw5dr/qfOQ8pwBEicKDw26RoDBFXSEmj8d0F8NvxIUDSlrS7sVzAujPB3y6ry6JY4jgD8dAACAPypGChYIsKqz2b3byaeAARCC8cnizOy4hoEBEicKDw3y+4DBFeLDlT8d4A/0vhIUDbcWproVIc/cPB0Jvjc4Javhfz8dAACAPypFChUI2paLo7qH6KMIEKfFrtXvobOCygESJwoPDUOeXUIV/Sx+Px3KLRLBEhQNYdn5OhWW3ms8HTGDjjollvJ/Px0AAIA/KkQKFAjw36W94o+ppHwQpbPQkJ605fIMEicKDw3LVl5CFYDAgD8dqjgRwRIUDSb5HLoVcHULPB0zMjs6JTD6fz8dAACAPw==
-    - Name: Fountain5
-      Payload: ChUIn8regJWMnKYLELTPq4TIx6WnkwEY0rjG2rb4+wIqRQoVCPnC6PH2woejfBCw5dr/qfOQ8pwBEicKDw2Uu2zBFUQkmT8diPPcvxIUDSlrS7sVzAujPB3y6ry6JY4jgD8dAACAPypGChYIsKqz2b3byaeAARCC8cnizOy4hoEBEicKDw04fW7BFaNnlT8dEPXUvxIUDbcWproVIc/cPB0Jvjc4Javhfz8dAACAPypFChUI2paLo7qH6KMIEKfFrtXvobOCygESJwoPDRKbYkIVc/1/Px0RrSTBEhQNYdn5OhWW3ms8HTGDjjollvJ/Px0AAIA/KkQKFAjw36W94o+ppHwQpbPQkJ605fIMEicKDw2eYWNCFZTPgD8dIXwjwRIUDSb5HLoVcHULPB0zMjs6JTD6fz8dAACAPw==
   _anchoredContent:
   - AnchorName: cloud1-Cloud Portal
     ManifestID: 0
@@ -2287,26 +2279,6 @@ MonoBehaviour:
     ManifestID: 2
     AnchorDataIdentifier: Stone_Altar_4
     Content: {fileID: 194332, guid: e5d683159be572d46bb4edc6554b120e, type: 3}
-  - AnchorName: Fountain1-Fountain of Four Seasons
-    ManifestID: 2
-    AnchorDataIdentifier: Fountain1
-    Content: {fileID: 2641443689767792359, guid: e0d9302867cd7495089a9042da5f1024,
-      type: 3}
-  - AnchorName: Fountain2-Fountain of Four Seasons
-    ManifestID: 2
-    AnchorDataIdentifier: Fountain2
-    Content: {fileID: 4110063210999699610, guid: 9741f82aa2c1c47deb94ee2b72d7bcaa,
-      type: 3}
-  - AnchorName: Fountain4-Fountain of Four Seasons
-    ManifestID: 2
-    AnchorDataIdentifier: Fountain4
-    Content: {fileID: 2011845637267980421, guid: 30f2ee388f9ff435086a384a30f7c3cd,
-      type: 3}
-  - AnchorName: Fountain5-Fountain of Four Seasons
-    ManifestID: 2
-    AnchorDataIdentifier: Fountain5
-    Content: {fileID: 2993990669352279941, guid: 955e24d8b579643e1bf06cc218be20f3,
-      type: 3}
 --- !u!4 &1829151718
 Transform:
   m_ObjectHideFlags: 0
