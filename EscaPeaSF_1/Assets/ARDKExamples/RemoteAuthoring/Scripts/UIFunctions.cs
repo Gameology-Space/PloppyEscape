@@ -9,6 +9,10 @@ public class UIFunctions : MonoBehaviour
 {
     public Text transferTemp;
     public GameObject ploppyItemMenu;
+    public RawImage playerIcon;
+    public Texture cloudTexture;
+    public Texture exploreTexture;
+    public Texture fountainTexture;
     
     public void onExplorePressed()
     {
@@ -16,6 +20,8 @@ public class UIFunctions : MonoBehaviour
         GameManager.Instance.puzzleID = 1;
         transferTemp.text = 1.ToString();
         ploppyItemMenu.SetActive(false);
+        playerIcon.texture = exploreTexture;
+        playerIcon.canvasRenderer.SetAlpha(1.0f);
     }
 
     public void onCloudPressed()
@@ -24,6 +30,8 @@ public class UIFunctions : MonoBehaviour
         GameManager.Instance.puzzleID = 0;
         transferTemp.text = 0.ToString();
         ploppyItemMenu.SetActive(false);
+        playerIcon.texture = cloudTexture;
+        playerIcon.canvasRenderer.SetAlpha(1.0f);
     }
 
     public void onFountainPressed()
@@ -32,6 +40,8 @@ public class UIFunctions : MonoBehaviour
         GameManager.Instance.puzzleID = 2;
         transferTemp.text = 2.ToString();
         ploppyItemMenu.SetActive(false);
+        playerIcon.texture = fountainTexture;
+        playerIcon.canvasRenderer.SetAlpha(1.0f);
     }
 
     public void onPloppyPressed()
@@ -42,6 +52,7 @@ public class UIFunctions : MonoBehaviour
     private void Start()
     {
         transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
+        playerIcon.canvasRenderer.SetAlpha(0.0f);
     }
 
     private void Update()
@@ -70,7 +81,13 @@ public class UIFunctions : MonoBehaviour
             
            GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
         }
+
+
+
+
     }
+
+
 
 
 }
