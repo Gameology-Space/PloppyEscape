@@ -8,12 +8,14 @@ using System;
 public class UIFunctions : MonoBehaviour
 {
     public Text transferTemp;
+    public GameObject ploppyItemMenu;
     
     public void onExplorePressed()
     {
         Debug.Log("explore puzzle pressed");
         GameManager.Instance.puzzleID = 1;
         transferTemp.text = 1.ToString();
+        ploppyItemMenu.SetActive(false);
     }
 
     public void onCloudPressed()
@@ -21,6 +23,7 @@ public class UIFunctions : MonoBehaviour
         Debug.Log("cloud puzzle pressed");
         GameManager.Instance.puzzleID = 0;
         transferTemp.text = 0.ToString();
+        ploppyItemMenu.SetActive(false);
     }
 
     public void onFountainPressed()
@@ -28,6 +31,12 @@ public class UIFunctions : MonoBehaviour
         Debug.Log("Fountain puzzle pressed");
         GameManager.Instance.puzzleID = 2;
         transferTemp.text = 2.ToString();
+        ploppyItemMenu.SetActive(false);
+    }
+
+    public void onPloppyPressed()
+    {
+        ploppyItemMenu.SetActive(true);
     }
 
     private void Start()
