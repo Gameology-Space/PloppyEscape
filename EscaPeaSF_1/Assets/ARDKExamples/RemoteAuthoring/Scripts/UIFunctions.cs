@@ -4,6 +4,7 @@ using UnityEngine;
 using Niantic.ARDKExamples.RemoteAuthoring;
 using UnityEngine.UI;
 using System;
+using TextMeshProUGUI;
 
 public class UIFunctions : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class UIFunctions : MonoBehaviour
     public Texture cloudTexture;
     public Texture exploreTexture;
     public Texture fountainTexture;
+    public TextMeshProUGUI currentObjectTxt;
     
     public void onExplorePressed()
     {
@@ -22,6 +24,7 @@ public class UIFunctions : MonoBehaviour
         ploppyItemMenu.SetActive(false);
         playerIcon.texture = exploreTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
+        currentObjectTxt.text = "Explore";
     }
 
     public void onCloudPressed()
@@ -32,6 +35,7 @@ public class UIFunctions : MonoBehaviour
         ploppyItemMenu.SetActive(false);
         playerIcon.texture = cloudTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
+        currentObjectTxt.text = "Cloud";
     }
 
     public void onFountainPressed()
@@ -42,6 +46,7 @@ public class UIFunctions : MonoBehaviour
         ploppyItemMenu.SetActive(false);
         playerIcon.texture = fountainTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
+        currentObjectTxt.text = "Fountain";
     }
 
     public void onPloppyPressed()
