@@ -38,13 +38,19 @@
   <ItemGroup>
      <Compile Include="Assets/Script/SpawnMyObject.cs" />
      <Compile Include="Assets/Script/GameManager2.cs" />
+     <Compile Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Scripts/PanelFantasyRPG.cs" />
+     <Compile Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/UIParticleSystem.cs" />
+     <Compile Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Scripts/PanelControlFantasyRPG.cs" />
+     <Compile Include="Assets/Script/ManualAlignAnchor.cs" />
      <Compile Include="Assets/Models/Factory Control Panels/scripts/FlyCamera.cs" />
      <Compile Include="Assets/Script/MapIconSpawner.cs" />
      <Compile Include="Assets/Script/SceneControl.cs" />
      <None Include="Assets/Models/Factory Control Panels/camera movement.txt" />
      <None Include="Assets/UI Toolkit/PloppyStyle.uss" />
      <None Include="Assets/EternalTemple/Read First!.txt" />
+     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/hidden particle.shader" />
      <None Include="Assets/UI Toolkit/FirstMenu.uxml" />
+     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/UIAdditive.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

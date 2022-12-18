@@ -94,6 +94,7 @@
      <Compile Include="Assets/ARDKExamples/Common/Logging/ScrollingLog.cs" />
      <Compile Include="Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValueExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageListExampleManager.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionStartGatekeeper.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs" />
      <Compile Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticSegmentationExampleManager.cs" />
@@ -101,7 +102,6 @@
      <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
      <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
      <None Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticOverlay.shader" />
     <Reference Include="UnityEngine">

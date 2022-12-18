@@ -7,11 +7,14 @@ using Niantic.ARDK.AR.WayspotAnchors;
 using Niantic.ARDK.Extensions;
 using UnityEngine;
 
+
 namespace Niantic.ARDKExamples.RemoteAuthoring
 {
   public class LocationManifestManager : MonoBehaviour
   {
     public event StatusLogChanged StatusLogChangeEvent;
+
+    public GameObject AnchorHolder; // added for ploppy game
     
     [SerializeField, HideInInspector] private TinyVPSLocationManifest[] _manifests;
 
@@ -39,6 +42,8 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
       AddWayspotManagerStatusListener(WayspotManagerOnStatusLogChangeEvent);
 
       AddLocalizationStatusListener(OnLocalized);
+      
+      AnchorHolder = GameObject.Find("AnchorHolder"); // added flor plopply game
     }
 
     private void Update()
@@ -202,8 +207,14 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
       Quaternion rotation
     )
     {
-      var go = Instantiate(anchorPrefab, position, rotation);
+      // ------ ploppy -------
+      // find a way to instantiate objects under a single empty object
 
+      var go = Instantiate(anchorPrefab, position, rotation);
+      
+      // added ploppy code here, assign var go to have AnchorHolder as parent
+      go.transform.SetParent(AnchorHolder.transform);
+      
       var tracker = go.GetComponent<AnchorStatusTracker>();
       if (tracker == null)
       {
