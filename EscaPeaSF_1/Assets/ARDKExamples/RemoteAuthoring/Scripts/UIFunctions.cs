@@ -4,7 +4,7 @@ using UnityEngine;
 using Niantic.ARDKExamples.RemoteAuthoring;
 using UnityEngine.UI;
 using System;
-using TextMeshProUGUI;
+//using TMPRo;
 
 public class UIFunctions : MonoBehaviour
 {
@@ -14,7 +14,7 @@ public class UIFunctions : MonoBehaviour
     public Texture cloudTexture;
     public Texture exploreTexture;
     public Texture fountainTexture;
-    public TextMeshProUGUI currentObjectTxt;
+    public Text currentObjectTxt;
     
     public void onExplorePressed()
     {
