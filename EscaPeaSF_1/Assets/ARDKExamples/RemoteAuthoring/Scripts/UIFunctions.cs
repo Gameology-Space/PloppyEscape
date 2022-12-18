@@ -10,8 +10,6 @@ public class UIFunctions : MonoBehaviour
 {
     public Text transferTemp;
     public GameObject ploppyItemMenu;
-    public GameObject ploppyDetail;
-    //public GameObject LocationMenu;
     public RawImage playerIcon;
     public Texture cloudTexture;
     public Texture exploreTexture;
@@ -19,8 +17,11 @@ public class UIFunctions : MonoBehaviour
     public Text currentObjectTxt;
     public Button locate;
 
-    //private LocationSelectView _locationSelectView;
-    
+
+        private void Start()
+    {
+
+    }
     public void onExplorePressed()
     {
         Debug.Log("explore puzzle pressed");
@@ -62,24 +63,6 @@ public class UIFunctions : MonoBehaviour
         ploppyItemMenu.SetActive(true);
     }
 
-    public void onStartLocationScanPressed()
-    {
-        //_locationSelectView.LoadButtonClicked();
-        //ploppyDetail.SetActive(false);
-
-    }
-
-    private void Start()
-    {
-        //transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
-        //_locationSelectView = LocationMenu.GetComponent<LocationSelectView>();
-        
-        //Debug.Log(_locationSelectView.name);
-
-        playerIcon.canvasRenderer.SetAlpha(0.0f);
-        locate.gameObject.SetActive(false);
-    }
-
     private void Update()
     {
         // var touchPosition = Vector3.zero;
@@ -103,7 +86,7 @@ public class UIFunctions : MonoBehaviour
         // if (touchDetected)
         // {
             
-        //    //GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
+        //    GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
         // }
 
 

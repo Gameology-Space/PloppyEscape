@@ -3,6 +3,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+//using Niantic.ARDKExamples.RemoteAuthoring;
 
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {
@@ -34,7 +35,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         {
             _introScreen.SetActive(true);
             _gameOverScreen.SetActive(false);
-
             _player.OnGPSError += OnGpsError;
         }
 
