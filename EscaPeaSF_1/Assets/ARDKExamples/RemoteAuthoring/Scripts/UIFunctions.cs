@@ -10,11 +10,16 @@ public class UIFunctions : MonoBehaviour
 {
     public Text transferTemp;
     public GameObject ploppyItemMenu;
+    public GameObject ploppyDetail;
+    //public GameObject LocationMenu;
     public RawImage playerIcon;
     public Texture cloudTexture;
     public Texture exploreTexture;
     public Texture fountainTexture;
     public Text currentObjectTxt;
+    public Button locate;
+
+    //private LocationSelectView _locationSelectView;
     
     public void onExplorePressed()
     {
@@ -25,6 +30,7 @@ public class UIFunctions : MonoBehaviour
         playerIcon.texture = exploreTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
         currentObjectTxt.text = "Explore";
+        locate.gameObject.SetActive(true);
     }
 
     public void onCloudPressed()
@@ -36,6 +42,7 @@ public class UIFunctions : MonoBehaviour
         playerIcon.texture = cloudTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
         currentObjectTxt.text = "Cloud";
+        locate.gameObject.SetActive(true);
     }
 
     public void onFountainPressed()
@@ -47,6 +54,7 @@ public class UIFunctions : MonoBehaviour
         playerIcon.texture = fountainTexture;
         playerIcon.canvasRenderer.SetAlpha(1.0f);
         currentObjectTxt.text = "Fountain";
+        locate.gameObject.SetActive(true);
     }
 
     public void onPloppyPressed()
@@ -54,38 +62,49 @@ public class UIFunctions : MonoBehaviour
         ploppyItemMenu.SetActive(true);
     }
 
+    public void onStartLocationScanPressed()
+    {
+        //_locationSelectView.LoadButtonClicked();
+        //ploppyDetail.SetActive(false);
+
+    }
+
     private void Start()
     {
-        transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
+        //transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
+        //_locationSelectView = LocationMenu.GetComponent<LocationSelectView>();
+        
+        //Debug.Log(_locationSelectView.name);
+
         playerIcon.canvasRenderer.SetAlpha(0.0f);
+        locate.gameObject.SetActive(false);
     }
 
     private void Update()
     {
-        var touchPosition = Vector3.zero;
-        bool touchDetected = false;
+        // var touchPosition = Vector3.zero;
+        // bool touchDetected = false;
         
+        // if (Input.touchCount == 1)
+        // {
+        //     if (Input.touches[0].phase == TouchPhase.Ended)
+        //     {
+        //         touchPosition = Input.touches[0].position;
+        //         touchDetected = true;
+        //     }
+        // }
 
-        if (Input.touchCount == 1)
-        {
-            if (Input.touches[0].phase == TouchPhase.Ended)
-            {
-                touchPosition = Input.touches[0].position;
-                touchDetected = true;
-            }
-        }
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     touchPosition = Input.mousePosition;
+        //     touchDetected = true;
+        // }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            touchPosition = Input.mousePosition;
-            touchDetected = true;
-        }
-
-        if (touchDetected)
-        {
+        // if (touchDetected)
+        // {
             
-           GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
-        }
+        //    //GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
+        // }
 
 
 

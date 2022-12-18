@@ -28,6 +28,8 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         public Text printLocationInt;
         public Text puzzleIDLoad;
 
+        public GameObject ploppyDetails;
+
 
         [SerializeField]
         private Text localizationStatus;
@@ -88,11 +90,13 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         //     printLocationInt.text = selected.ToString(); // bw 
         // }
 
-        private void LoadButtonClicked()
+        public void LoadButtonClicked()
         {
             _selectedLocation = GameManager.Instance.puzzleID;
             _locationManifestManager.LoadWayspotAnchors(_selectedLocation);
             Debug.Log("loaded: " + _selectedLocation);
+            ploppyDetails.SetActive(false);
+
         }
 
         // private void CloseButtonClicked()

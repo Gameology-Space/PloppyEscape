@@ -400,6 +400,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleLogic.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs"
 "Assets/ARDKExamples/Rendering/ARDepthRenderer.cs"
 "Assets/ARDKExamples/Rendering/ARRenderer.cs"
