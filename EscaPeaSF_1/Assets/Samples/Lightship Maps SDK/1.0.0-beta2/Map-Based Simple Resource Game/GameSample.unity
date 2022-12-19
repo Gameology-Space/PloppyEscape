@@ -4109,7 +4109,7 @@ Light:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.5
+    m_Strength: 1
     m_Bias: 2
     m_NormalBias: 0.1
     m_NearPlane: 0.1
@@ -5314,13 +5314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transferTemp: {fileID: 0}
-  ploppyItemMenu: {fileID: 0}
-  playerIcon: {fileID: 0}
-  cloudTexture: {fileID: 0}
-  exploreTexture: {fileID: 0}
-  fountainTexture: {fileID: 0}
-  currentObjectTxt: {fileID: 0}
-  locate: {fileID: 0}
 --- !u!1 &1515683412
 GameObject:
   m_ObjectHideFlags: 0
