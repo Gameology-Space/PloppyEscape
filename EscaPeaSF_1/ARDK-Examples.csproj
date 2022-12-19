@@ -103,6 +103,7 @@
      <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs" />
      <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
      <None Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticOverlay.shader" />
     <Reference Include="UnityEngine">
