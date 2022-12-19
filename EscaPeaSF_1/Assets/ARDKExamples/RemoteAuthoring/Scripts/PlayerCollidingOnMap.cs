@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using Ploppy.Puzzle;
+
 
 public class PlayerCollidingOnMap : MonoBehaviour
 {
     public Text transferID;
+    private UIFunctionsMap _UIFunctionMap;
+    public Button playButton;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        _UIFunctionMap = GameObject.Find("UI").GetComponent<UIFunctionsMap>();
     }
 
     // Update is called once per frame
@@ -23,35 +25,28 @@ public class PlayerCollidingOnMap : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
+        
+        playButton.gameObject.SetActive(true);
 
         if(collider.name == "cloudMapIcon")
         {
             Debug.Log("Collided cloud");
+            _UIFunctionMap.onCloudPressed();
         }
         else if(collider.name == "ExploreMapIcon")
         {
             Debug.Log("Collided explore");
+            _UIFunctionMap.onExplorePressed();
         }
         else if(collider.name == "FountainMapIcon")
         {
             Debug.Log("Collided fountain");
+            _UIFunctionMap.onFountainPressed();
         }
+    }
 
-
-        // var hitResourceItem = collider.GetComponent<PuzzleDetails>();
-        // if (hitResourceItem == null)
-        // {
-        //     return;
-        // }
-
-
-        // // --Ploppy-- 
-        // // Add action if button is pressed here
-
-        // Debug.Log(hitResourceItem.puzzleName);
-        // Debug.Log(hitResourceItem.puzzleDifficulty);
-        // Debug.Log(hitResourceItem.puzzleClear);
-
-        // transferID.text = hitResourceItem.puzzleID.ToString();
+    void OnTriggerExit(Collider collider)
+    {
+        playButton.gameObject.SetActive(false);
     }
 }
