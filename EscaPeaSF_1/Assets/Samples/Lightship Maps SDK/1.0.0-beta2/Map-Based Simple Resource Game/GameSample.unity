@@ -409,7 +409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &48198031
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1082,7 +1082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &182297565
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1852,6 +1852,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336492053}
   m_CullTransparentMesh: 1
+--- !u!1 &364009076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7531433366306101547, guid: ad902307b5dbb4189b266a0baca24947,
+    type: 3}
+  m_PrefabInstance: {fileID: 1786563439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &396558785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,7 +2315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6603774, g: 0.6261125, b: 0.6261125, a: 1}
+  m_Color: {r: 0.023529412, g: 0.09019608, b: 0.4745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2318,11 +2324,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 45051d5d816ef4b8d84119f09ef942fb, type: 3}
-    m_FontSize: 30
+    m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 42
+    m_MaxSize: 43
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2675,14 +2681,6 @@ MonoBehaviour:
     type: 3}
   puzzleFourSeason_Icon: {fileID: 8188529733154924137, guid: cc9409a0d8a724a76a59862da2493a7e,
     type: 3}
-  testingArroyoPark_Icon: {fileID: 7997068137114366620, guid: e8a16468b1307450ea579504a339cf2c,
-    type: 3}
-  testingQuarryLakesGarden_Icon: {fileID: 5226542667672946871, guid: 735d6e9616f134444ab68a44ab28bfb0,
-    type: 3}
-  testingNummi_Icon: {fileID: 2250387319811304266, guid: d41438c27eb194e84a3f36b3ac2f626c,
-    type: 3}
-  testingEnsanada_Icon: {fileID: 9036387283945172455, guid: 42333eb1ff8b34080a91f60e0ee0a724,
-    type: 3}
   _lightshipMap: {fileID: 1478799756}
 --- !u!1 &736653382
 GameObject:
@@ -2853,6 +2851,7 @@ RectTransform:
   - {fileID: 1738391680}
   - {fileID: 1420673828}
   - {fileID: 1398128998}
+  - {fileID: 881429045}
   m_Father: {fileID: 1011308920}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3285,6 +3284,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875926989}
   m_CullTransparentMesh: 1
+--- !u!1 &881429044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881429045}
+  - component: {fileID: 881429047}
+  - component: {fileID: 881429046}
+  m_Layer: 5
+  m_Name: objText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &881429045
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881429044}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 759904691}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 140}
+  m_SizeDelta: {x: 400, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &881429046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881429044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 45051d5d816ef4b8d84119f09ef942fb, type: 3}
+    m_FontSize: 41
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 43
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Pick a ploppy
+--- !u!222 &881429047
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881429044}
+  m_CullTransparentMesh: 1
 --- !u!1 &905712118
 GameObject:
   m_ObjectHideFlags: 0
@@ -3511,6 +3590,7 @@ GameObject:
   - component: {fileID: 1011308921}
   - component: {fileID: 1011308923}
   - component: {fileID: 1011308924}
+  - component: {fileID: 1011308925}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -3623,7 +3703,6 @@ MonoBehaviour:
   _player: {fileID: 1736672386901606265}
   _introScreen: {fileID: 1301271791}
   _errorScreen: {fileID: 1923757667}
-  _gamePlayScreen: {fileID: 0}
   _gameOverScreen: {fileID: 336492053}
   _errorText: {fileID: 1515683413}
 --- !u!114 &1011308923
@@ -3658,6 +3737,21 @@ MonoBehaviour:
   fountainTexture: {fileID: 2800000, guid: 4a693ff7de965458697a4e763390d3a6, type: 3}
   currentObjectTxt: {fileID: 1415056523}
   locate: {fileID: 1679066530}
+--- !u!114 &1011308925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011308916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3232ed9eb20eb4038bdb70246996547d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transfer: {fileID: 1506703089}
+  playerHolder: {fileID: 1736672386901606271}
+  playerIcon: {fileID: 364009076}
 --- !u!1 &1054179402
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,11 +5179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._latitude
-      value: 37.57601
+      value: 37.797607
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._longitude
-      value: -122.00805
+      value: -122.39887
       objectReference: {fileID: 0}
     - target: {fileID: 11424330, guid: 26c10cac93cf841b591d777b9a1d0c83, type: 3}
       propertyPath: _defaultLocation._mapRadius
@@ -5221,7 +5315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transferTemp: {fileID: 0}
   ploppyItemMenu: {fileID: 0}
-  ploppyDetail: {fileID: 0}
   playerIcon: {fileID: 0}
   cloudTexture: {fileID: 0}
   exploreTexture: {fileID: 0}
@@ -5983,7 +6076,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1679066531}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1011308925}
+        m_TargetAssemblyTypeName: Niantic.Lightship.Maps.Samples.GameSample.LocateButton,
+          Maps.Samples.GameSample
+        m_MethodName: onLocatePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1679066531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6479,7 +6585,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1011308923}
         m_TargetAssemblyTypeName: SceneControl, Assembly-CSharp
         m_MethodName: navToPuzzScene
         m_Mode: 1

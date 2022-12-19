@@ -1,0 +1,38 @@
+<linker>
+	<assembly fullname="ARDK-Examples" ignoreIfMissing="1">
+		<type fullname="Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView">
+			<method name="LoadButtonClicked"/>
+		</type>
+		<type fullname="togglescript">
+			<method name="ToggleHint1"/>
+		</type>
+		<type fullname="UIFunctions">
+			<method name="onCloudPressed"/>
+			<method name="onExplorePressed"/>
+			<method name="onFountainPressed"/>
+			<method name="onPloppyPressed"/>
+		</type>
+		<type fullname="UIFunctionsMap">
+			<method name="onCloudPressed"/>
+			<method name="onExplorePressed"/>
+			<method name="onFountainPressed"/>
+			<method name="onPloppyPressed"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SceneControl">
+			<method name="navToMapScene"/>
+			<method name="navToPuzzScene"/>
+			<method name="navToPuzzScene"/>
+		</type>
+	</assembly>
+	<assembly fullname="Maps.Samples.GameSample" ignoreIfMissing="1">
+		<type fullname="Niantic.Lightship.Maps.Samples.GameSample.LocateButton">
+			<method name="onLocatePressed"/>
+		</type>
+		<type fullname="Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController">
+			<method name="OnGameOverContinuePressed"/>
+			<method name="OnIntroContinuePressed"/>
+		</type>
+	</assembly>
+</linker>
