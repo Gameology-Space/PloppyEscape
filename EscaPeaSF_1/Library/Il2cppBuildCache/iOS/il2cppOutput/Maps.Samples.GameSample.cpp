@@ -222,6 +222,8 @@ struct ITileStreamService_t1D65F8F06D17601F4EB1A2F7B442E28F943C5E48;
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 // Niantic.Lightship.Maps.Unity.Core.LightshipMap
 struct LightshipMap_t9C29B6159DC89EC7C528E18A56C2AFCA181AA3DA;
+// Niantic.Lightship.Maps.Samples.GameSample.LocateButton
+struct LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50;
 // UnityEngine.LocationService
 struct LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2;
 // Niantic.Lightship.Maps.Samples.GameSample.MapFeaturePrefabSpawner
@@ -306,13 +308,14 @@ struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct ViewableMapArea_t0DE7838E83D5C6EA927CE6CAB71121FBF072DDDF;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
-// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11
-struct U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B;
+// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12
+struct U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tCB3679DBEE5FCA8489F4A353B381652A3A236A39_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ChannelLogger_t197F6E57AF05370167D991478AB0CB34F7FC4C88_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t3C0919F7220F9E92665B024DFC31DE0964DE40E7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IAreaFeature_tB8D9690EB342EC4818EB040C1888AA60D9B8FBB8_il2cpp_TypeInfo_var;
@@ -328,25 +331,30 @@ IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectPool_1_t174FF6C30E89930F23C51B3CED26BE1EF500532D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral07D7F89F38965983D4843CA623F7545E7C2DAB46;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CB97E89F70AA8EE2925A55DBD40F3D3378CAF85;
+IL2CPP_EXTERN_C String_t* _stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2;
 IL2CPP_EXTERN_C String_t* _stringLiteralC4362021CD55BD6C6A04DBF5CA1C2E357F274EEA;
 IL2CPP_EXTERN_C String_t* _stringLiteralD04A7461F22E7D927B31DB84DEB8034A56F012D0;
+IL2CPP_EXTERN_C String_t* _stringLiteralDD9A078FD2E7224FB2F4C3CCEB5986790DF064D8;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2EE8E73413D8C0EC384803067E74CF1A2A1AAFB;
+IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+IL2CPP_EXTERN_C String_t* _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471_mAFA4E0DEDBEE45A6730DDF3930CCBD68D3A1ACF0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m07513FAAEEF084BFCED6593C8D2AEEDB2271D736_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mEA4A1A06C63BB85A87B91BD810BC7E85346B0CEC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m746DF18B2418FE3C8ECD4B283D0383D4A5248F76_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MapGameUIController_OnGpsError_mBFF1FDB41F2665B42DFDA02F06B3A57825F706A9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectPool_1_GetOrCreate_m0E2909D9CFCCFFCAD6029989B65681D1A66D616C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectPool_1__ctor_m3CACBFCF42231C44F989108BAEFA57C79506E7D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayerLocationController_OnMapOriginChanged_m2E9CB3CCB2654038056100487CC57639A967F299_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PooledObject_1_Dispose_mE4314F3A11237479C59B74621EC79739B766913F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PooledObject_1_get_Value_m052426ED679EB65630176392DA945C2684CFDE48_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateGPSLocationU3Ed__11_System_Collections_IEnumerator_Reset_m92A0CF966E8554F831C05096E15CCC823D405FD4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateGPSLocationU3Ed__12_System_Collections_IEnumerator_Reset_mA58BFECA97CC7E46BF5BBBAF824B13DCA72AFEC0_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -472,16 +480,16 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11
-struct U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B  : public RuntimeObject
+// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12
+struct U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A  : public RuntimeObject
 {
-	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::<>1__state
+	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::<>2__current
+	// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::<>4__this
+	// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::<>4__this
 	PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* ___U3CU3E4__this_2;
-	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::<maxWait>5__2
+	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::<maxWait>5__2
 	int32_t ___U3CmaxWaitU3E5__2_3;
 };
 
@@ -2016,6 +2024,17 @@ struct LightshipMap_t9C29B6159DC89EC7C528E18A56C2AFCA181AA3DA_StaticFields
 	ChannelLogger_t197F6E57AF05370167D991478AB0CB34F7FC4C88* ___U3CLogU3Ek__BackingField_25;
 };
 
+// Niantic.Lightship.Maps.Samples.GameSample.LocateButton
+struct LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.UI.Text Niantic.Lightship.Maps.Samples.GameSample.LocateButton::transfer
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___transfer_4;
+	// UnityEngine.GameObject Niantic.Lightship.Maps.Samples.GameSample.LocateButton::playerHolder
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___playerHolder_5;
+	// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController Niantic.Lightship.Maps.Samples.GameSample.LocateButton::playerLocationController
+	PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* ___playerLocationController_6;
+};
+
 // Niantic.Lightship.Maps.Samples.GameSample.MapFeaturePrefabSpawner
 struct MapFeaturePrefabSpawner_tB8100582FFA6A82D800E3F5FADAB4F2824777405  : public ObjectBuilder_tAAAB0EE7D4D24C5CF09F72BC9F2FB0DAEB9A5EBD
 {
@@ -2079,12 +2098,10 @@ struct MapGameUIController_t2BB64D90ADE5A46D77F97A70D33D52E020D5687E  : public M
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____introScreen_6;
 	// UnityEngine.GameObject Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController::_errorScreen
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____errorScreen_7;
-	// UnityEngine.GameObject Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController::_gamePlayScreen
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____gamePlayScreen_8;
 	// UnityEngine.GameObject Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController::_gameOverScreen
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____gameOverScreen_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____gameOverScreen_8;
 	// TMPro.TMP_Text Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController::_errorText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____errorText_10;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____errorText_9;
 };
 
 // Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController
@@ -2799,6 +2816,8 @@ struct TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3  : public RuntimeAr
 };
 
 
+// T UnityEngine.GameObject::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Unity.Core.ObjectPool`1<System.Object>::.ctor(T,System.Action`1<T>,System.Action`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_1__ctor_m616B3C1602B037429394F9828C8AF76FDDFCCD94_gshared (ObjectPool_1_t193E1A991BDFBF6126C8A6739856927F41397343* __this, RuntimeObject* ___source0, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___onCreate1, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___onRelease2, const RuntimeMethod* method) ;
 // Niantic.Lightship.Maps.Unity.Core.PooledObject`1<T> Niantic.Lightship.Maps.Unity.Core.ObjectPool`1<System.Object>::GetOrCreate()
@@ -2824,6 +2843,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController>()
+inline PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// System.Int32 System.Convert::ToInt32(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::LocatePuzzle(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111 (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, float ___movelat0, float ___movelong1, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Unity.Builders.BaseTypes.FeatureBuilderBase::Initialize(Niantic.Lightship.Maps.Unity.Core.ILightshipMap)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeatureBuilderBase_Initialize_m08E6081C95919283511854FE8E9B8475D22E3A35 (FeatureBuilderBase_t230909C146A519BC873C428275E988126A21FBBC* __this, RuntimeObject* ___lightshipMap0, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Unity.Core.ObjectPool`1<UnityEngine.GameObject>::.ctor(T,System.Action`1<T>,System.Action`1<T>)
@@ -2942,8 +2972,6 @@ inline PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* Component_GetCom
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Samples.GameSample.MapGameState::set_Instance(Niantic.Lightship.Maps.Samples.GameSample.MapGameState)
@@ -2978,8 +3006,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF87
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 Niantic.Lightship.Maps.Unity.Core.LightshipMap::LatLngToScene(Niantic.Lightship.Maps.Coordinates.LatLng&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 LightshipMap_LatLngToScene_m2103F317163789E62D12D3E64F97B35F7C6C2279 (LightshipMap_t9C29B6159DC89EC7C528E18A56C2AFCA181AA3DA* __this, LatLng_t55BF3D5192350D0A2DACDA35E20AB0A2066F4D05* ___location0, const RuntimeMethod* method) ;
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__11__ctor_m587DDFCCA717C8AF59E086ADB65371CE3BAFA623 (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::UpdatePlayerLocation(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_UpdatePlayerLocation_m259242344F8E240AFC55267D6A313B7FBD0AA824 (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, float ___latitude0, float ___longitude1, const RuntimeMethod* method) ;
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__12__ctor_m78EB88491398A80BB6B53FF521C9C413404A512F (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Coordinates.LatLng::.ctor(System.Double,System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LatLng__ctor_m5846928F012BF1BBAE4626B9A45411B8B7B3DFB3 (LatLng_t55BF3D5192350D0A2DACDA35E20AB0A2066F4D05* __this, double ___latitude0, double ___longitude1, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::UpdateMapViewPosition()
@@ -3051,8 +3081,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double LocationInfo_get_timestamp_mAD1095E60A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863 (LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.LocationInfo::get_longitude()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2 (LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441* __this, const RuntimeMethod* method) ;
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::UpdatePlayerLocation(System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_UpdatePlayerLocation_m259242344F8E240AFC55267D6A313B7FBD0AA824 (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, float ___latitude0, float ___longitude1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.LocationService::Stop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationService_Stop_mB9332CB653E7A7CE6AE07240EA6C0B6C9AEC0D96 (LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* __this, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
@@ -3112,6 +3140,151 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PuzzleDetails_Update_mA98401A3669AEA82DC
 }
 // System.Void PuzzleDetails::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PuzzleDetails__ctor_mEC4C07CA14D20F6C7D2CCAE22CBDC25DCFB5C084 (PuzzleDetails_t63245A8552ADD5D224A007C461AB03D94754B471* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_Start_m0A51C381A4E32CFD1BFF40F4385870D518382A88 (LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// playerLocationController = playerHolder.GetComponent<PlayerLocationController>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___playerHolder_5;
+		NullCheck(L_0);
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_1;
+		L_1 = GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45(L_0, GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45_RuntimeMethod_var);
+		__this->___playerLocationController_6 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerLocationController_6), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_Update_m5C95109CB7AF60C239DB102ED5BEE4ED546BCF2A (LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton::onLocatePressed()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_onLocatePressed_m3DFEE5FBB782F6467CC417950CBDFAE246F6278B (LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD9A078FD2E7224FB2F4C3CCEB5986790DF064D8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (Convert.ToInt32(transfer.text) == 0)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___transfer_4;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_0);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		// Debug.Log("0");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
+		// playerLocationController.LocatePuzzle(37.79639f, -122.39814f); //cloud
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_3 = __this->___playerLocationController_6;
+		NullCheck(L_3);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_3, (37.7963905f), (-122.39814f), NULL);
+		return;
+	}
+
+IL_0032:
+	{
+		// else if (Convert.ToInt32(transfer.text) == 1)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___transfer_4;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_4);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_5, NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		// Debug.Log("1");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
+		// playerLocationController.LocatePuzzle(37.800644999999996f, -122.398381f); //explore
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_7 = __this->___playerLocationController_6;
+		NullCheck(L_7);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_7, (37.8006439f), (-122.398384f), NULL);
+		return;
+	}
+
+IL_0065:
+	{
+		// else if (Convert.ToInt32(transfer.text) == 2)
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___transfer_4;
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_8);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_9, NULL);
+		if ((!(((uint32_t)L_10) == ((uint32_t)2))))
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		// Debug.Log("2");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2, NULL);
+		// playerLocationController.LocatePuzzle(37.797607f, -122.39887f); //fountain
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_11 = __this->___playerLocationController_6;
+		NullCheck(L_11);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_11, (37.7976074f), (-122.398872f), NULL);
+		return;
+	}
+
+IL_0098:
+	{
+		// Debug.Log("nothing selected");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDD9A078FD2E7224FB2F4C3CCEB5986790DF064D8, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton__ctor_m459BEDACC92961E6943972082351D4CF410AAF5A (LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -3912,27 +4085,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGameUIController_Start_m7218D4DF1C037
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____introScreen_6;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		// _gamePlayScreen.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____gamePlayScreen_8;
+		// _gameOverScreen.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____gameOverScreen_8;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		// _gameOverScreen.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->____gameOverScreen_9;
-		NullCheck(L_2);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
 		// _player.OnGPSError += OnGpsError;
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_3 = __this->____player_5;
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_4 = L_3;
-		NullCheck(L_4);
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = L_4->___OnGPSError_12;
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_6 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_6, __this, (intptr_t)((void*)MapGameUIController_OnGpsError_mBFF1FDB41F2665B42DFDA02F06B3A57825F706A9_RuntimeMethod_var), NULL);
-		Delegate_t* L_7;
-		L_7 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_5, L_6, NULL);
-		NullCheck(L_4);
-		L_4->___OnGPSError_12 = ((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_7, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&L_4->___OnGPSError_12), (void*)((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_7, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var)));
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_2 = __this->____player_5;
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_3 = L_2;
+		NullCheck(L_3);
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_4 = L_3->___OnGPSError_12;
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_5, __this, (intptr_t)((void*)MapGameUIController_OnGpsError_mBFF1FDB41F2665B42DFDA02F06B3A57825F706A9_RuntimeMethod_var), NULL);
+		Delegate_t* L_6;
+		L_6 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_4, L_5, NULL);
+		NullCheck(L_3);
+		L_3->___OnGPSError_12 = ((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_6, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___OnGPSError_12), (void*)((Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)Castclass((RuntimeObject*)L_6, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -3942,7 +4111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGameUIController_OnGpsError_mBFF1FDB4
 {
 	{
 		// _errorText.text = errorMessage;
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->____errorText_10;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->____errorText_9;
 		String_t* L_1 = ___errorMessage0;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_1);
@@ -4006,10 +4175,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGameUIController_OnIntroContinuePress
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____introScreen_6;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		// _gamePlayScreen.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____gamePlayScreen_8;
-		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
 		// }
 		return;
 	}
@@ -4019,13 +4184,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapGameUIController_OnGameOverContinuePr
 {
 	{
 		// _gameOverScreen.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____gameOverScreen_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____gameOverScreen_8;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		// _gamePlayScreen.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____gamePlayScreen_8;
-		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
 		// }
 		return;
 	}
@@ -4114,20 +4275,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_OnMapOriginChan
 		return;
 	}
 }
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::LocatePuzzle(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111 (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, float ___movelat0, float ___movelong1, const RuntimeMethod* method) 
+{
+	{
+		// UpdatePlayerLocation(movelat, movelong);
+		float L_0 = ___movelat0;
+		float L_1 = ___movelong1;
+		PlayerLocationController_UpdatePlayerLocation_m259242344F8E240AFC55267D6A313B7FBD0AA824(__this, L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
 // System.Collections.IEnumerator Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::UpdateGPSLocation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayerLocationController_UpdateGPSLocation_m0EB8F748A695E461BA2E31419C820B1B5FA1F4FC (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* L_0 = (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B*)il2cpp_codegen_object_new(U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B_il2cpp_TypeInfo_var);
+		U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* L_0 = (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A*)il2cpp_codegen_object_new(U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CUpdateGPSLocationU3Ed__11__ctor_m587DDFCCA717C8AF59E086ADB65371CE3BAFA623(L_0, 0, NULL);
-		U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* L_1 = L_0;
+		U3CUpdateGPSLocationU3Ed__12__ctor_m78EB88491398A80BB6B53FF521C9C413404A512F(L_0, 0, NULL);
+		U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -4431,8 +4604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController__ctor_m4D2371A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__11__ctor_m587DDFCCA717C8AF59E086ADB65371CE3BAFA623 (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__12__ctor_m78EB88491398A80BB6B53FF521C9C413404A512F (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -4441,15 +4614,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__11__ctor_m587D
 		return;
 	}
 }
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__11_System_IDisposable_Dispose_m02AD08457F034FA29EE29D1D0CA3883544F71ABB (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__12_System_IDisposable_Dispose_m95B13163F7D2E9986B6C4DB8E3D9876E8454FA76 (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateGPSLocationU3Ed__11_MoveNext_m96B19B959516A6CECA4355AD16308CEDD0442AD0 (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, const RuntimeMethod* method) 
+// System.Boolean Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateGPSLocationU3Ed__12_MoveNext_m221E6FAF1ADAFDD8E6BB16859B809746446BF233 (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4818,26 +4991,26 @@ IL_01a3:
 		return (bool)0;
 	}
 }
-// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateGPSLocationU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBF6D9055A9115A976358E34267C65AE34811A02C (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, const RuntimeMethod* method) 
+// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateGPSLocationU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA21E845DAF6354AA2297CCF0363D13A2320A8518 (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__11_System_Collections_IEnumerator_Reset_m92A0CF966E8554F831C05096E15CCC823D405FD4 (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateGPSLocationU3Ed__12_System_Collections_IEnumerator_Reset_mA58BFECA97CC7E46BF5BBBAF824B13DCA72AFEC0 (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateGPSLocationU3Ed__11_System_Collections_IEnumerator_Reset_m92A0CF966E8554F831C05096E15CCC823D405FD4_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateGPSLocationU3Ed__12_System_Collections_IEnumerator_Reset_mA58BFECA97CC7E46BF5BBBAF824B13DCA72AFEC0_RuntimeMethod_var)));
 	}
 }
-// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__11::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateGPSLocationU3Ed__11_System_Collections_IEnumerator_get_Current_m35F5E91A191FB74535C7BA491275225A7CA2F547 (U3CUpdateGPSLocationU3Ed__11_t09795292420EE2DF2C47DDC101668855A715349B* __this, const RuntimeMethod* method) 
+// System.Object Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__12::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateGPSLocationU3Ed__12_System_Collections_IEnumerator_get_Current_m5C2B2FEFCCF47898414E07F98EFD6D6954AC93DF (U3CUpdateGPSLocationU3Ed__12_t4A2213C57202228E00C689E6C157AE711BB3354A* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

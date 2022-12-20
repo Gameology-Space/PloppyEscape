@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - PrefabHandle
     - PuzzleLogic
     - UIFunctions
+    - UIFunctionsMap
     - togglescript
     ARDK.dll:
     - Niantic.ARDK.AR.WayspotAnchors._RemoteAuthoringSceneTag
@@ -21,9 +22,11 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
     Assembly-CSharp.dll:
+    - ManualAlignAnchor
     - MapIconSpawner
     - SceneControl
     Maps.Samples.GameSample.dll:
+    - Niantic.Lightship.Maps.Samples.GameSample.LocateButton
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameState
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
@@ -45,6 +48,7 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
@@ -65,8 +69,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   serializedClasses:
@@ -125,36 +131,51 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
     methodName: navToPuzzScene
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onFountainPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnIntroContinuePressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onCloudPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnGameOverContinuePressed
   - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
+    fullTypeName: UIFunctionsMap
+    methodName: onFountainPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctionsMap
     methodName: onExplorePressed
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneControl
-    methodName: navToMapScene
+  - assembly: Maps.Samples.GameSample
+    fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.LocateButton
+    methodName: onLocatePressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctionsMap
+    methodName: onCloudPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctionsMap
+    methodName: onPloppyPressed
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onCloudPressed
   - assembly: ARDK-Examples
     fullTypeName: togglescript
     methodName: ToggleHint1
   - assembly: ARDK-Examples
     fullTypeName: UIFunctions
-    methodName: onCloudPressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
     methodName: onFountainPressed
   - assembly: ARDK-Examples
     fullTypeName: UIFunctions
     methodName: onExplorePressed
+  - assembly: ARDK-Examples
+    fullTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
+    methodName: LoadButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToPuzzScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToMapScene
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctions
+    methodName: onPloppyPressed
   sceneClasses:
     Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity:
     - Class: 1
@@ -190,65 +211,71 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
-    - Class: 114
-      Script: {instanceID: 1662}
-    - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1666}
     - Class: 114
       Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1888}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2700}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 3764}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 4236}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 4408}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 5144}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 5206}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 5350}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 6372}
+      Script: {instanceID: 4440}
     - Class: 114
-      Script: {instanceID: 6448}
+      Script: {instanceID: 5180}
     - Class: 114
-      Script: {instanceID: 7206}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 7388}
+      Script: {instanceID: 5390}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 7858}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 7904}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 8052}
+      Script: {instanceID: 7110}
     - Class: 114
-      Script: {instanceID: 8884}
+      Script: {instanceID: 7264}
     - Class: 114
-      Script: {instanceID: 9092}
+      Script: {instanceID: 7448}
     - Class: 114
-      Script: {instanceID: 9282}
+      Script: {instanceID: 7674}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 7920}
     - Class: 114
-      Script: {instanceID: 38580}
+      Script: {instanceID: 7966}
+    - Class: 114
+      Script: {instanceID: 8114}
+    - Class: 114
+      Script: {instanceID: 8956}
+    - Class: 114
+      Script: {instanceID: 9168}
+    - Class: 114
+      Script: {instanceID: 9290}
+    - Class: 114
+      Script: {instanceID: 9492}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -292,8 +319,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 84
@@ -305,71 +330,81 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1660}
-    - Class: 114
-      Script: {instanceID: 1664}
+      Script: {instanceID: 1666}
     - Class: 114
       Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1672}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2008}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 2504}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 2686}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 2026}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 3514}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 3764}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 3826}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 4236}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4468}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 5118}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 5206}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5010}
     - Class: 114
-      Script: {instanceID: 5602}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 6180}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 6274}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 6310}
+      Script: {instanceID: 5504}
     - Class: 114
-      Script: {instanceID: 6448}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 6464}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 7206}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 7350}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 7388}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 7494}
+      Script: {instanceID: 6516}
     - Class: 114
-      Script: {instanceID: 9102}
+      Script: {instanceID: 7264}
     - Class: 114
-      Script: {instanceID: 9252}
+      Script: {instanceID: 7410}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 7448}
     - Class: 114
-      Script: {instanceID: 9896}
+      Script: {instanceID: 7554}
+    - Class: 114
+      Script: {instanceID: 8186}
+    - Class: 114
+      Script: {instanceID: 8422}
+    - Class: 114
+      Script: {instanceID: 9178}
+    - Class: 114
+      Script: {instanceID: 9330}
+    - Class: 114
+      Script: {instanceID: 9492}
+    - Class: 114
+      Script: {instanceID: 9980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -399,16 +434,10 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
+    className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -417,10 +446,64 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -489,12 +572,6 @@ ScriptsOnlyBuild:
     className: NetworkSceneSpawnManifest
   - hash:
       serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
-  - hash:
-      serializedVersion: 2
       Hash: 3b6d05a41a4bd42d58a944a04c3d1970
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -507,16 +584,16 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
       Hash: 96e081ff8bed474e6cc0bf2226840a3b
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.AR.Mock
     className: MockPlaneAnchor
-  - hash:
-      serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Shadow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -541,6 +618,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -669,10 +752,16 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 58e4a77d0d61c07f2cd28846136234db
+      Hash: 6fd0421325c5feccd0c260dbf627bd94
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationSelectView
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
   - hash:
       serializedVersion: 2
       Hash: a31b40ad2daf2903173264390fe278ab
@@ -721,6 +810,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: f7b138083d0a0218ac6acbbb940de3d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab.FantasyRPG
+    className: PanelFantasyRPG
   - hash:
       serializedVersion: 2
       Hash: bcd36a350b5c4718e0fc024080e9e57a
@@ -855,6 +956,12 @@ ScriptsOnlyBuild:
     className: ARDepthInterpolationAdapter
   - hash:
       serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -867,10 +974,10 @@ ScriptsOnlyBuild:
     className: AdaptiveFramerate
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
   - hash:
       serializedVersion: 2
       Hash: 4adea20207ea0abfe22e8f5c49c64870
@@ -993,6 +1100,12 @@ ScriptsOnlyBuild:
     className: ARHandTrackingManager
   - hash:
       serializedVersion: 2
+      Hash: 2c0a467ee7950c941c2dd8ef6b974a7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1003,6 +1116,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7536c3aaa3b668b80f1580147a12d30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1035,7 +1154,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b4d8bc88cf5195af707bc6ca3717df53
+      Hash: 1a68f85578a9ccd6bf8037ade95a68d0
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
     className: LocationManifestManager
@@ -1083,6 +1202,12 @@ ScriptsOnlyBuild:
     className: ARHitTester
   - hash:
       serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
       Hash: b711aabadb1a2692d4ce69d1ca160f07
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
@@ -1113,16 +1238,22 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.AdaptivePerformance.dll
     namespaceName: UnityEngine.AdaptivePerformance
     className: AdaptiveViewDistance
   - hash:
       serializedVersion: 2
-      Hash: aba7b2852ef61d175dd9602e7723d5e5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Mask
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
   - hash:
       serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
@@ -1209,6 +1340,12 @@ ScriptsOnlyBuild:
     className: ARSessionManager
   - hash:
       serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: ee1b8fd2c7baefbaf6fc00f8c1622b2c
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Pong
@@ -1221,7 +1358,7 @@ ScriptsOnlyBuild:
     className: LayerLineRenderer
   - hash:
       serializedVersion: 2
-      Hash: 9ec7816374ae5bdb48c877cda9df0bdd
+      Hash: 49b54168bfd1b48f940313442173b39e
     assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: UIFunctions
@@ -1243,6 +1380,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: e709540eeab44e0a072da4c8ff694992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.UI.Extensions.FantasyRPG
+    className: UIParticleSystem
   - hash:
       serializedVersion: 2
       Hash: 184f3521858735cafd8564ba88647b0d
@@ -1269,6 +1412,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
@@ -1281,10 +1430,22 @@ ScriptsOnlyBuild:
     className: AdaptiveTransparency
   - hash:
       serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
       Hash: 4ab23fa2dd7cfac1ea854a44630dbd44
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
     className: MapGameMapInteractions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
       Hash: 289618fbea882e02d1486eaff129f0c3
@@ -1297,6 +1458,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
     className: NetworkStatus
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
   - hash:
       serializedVersion: 2
       Hash: f4b041cf88b42f9ef5b60fba75f8d5b3
@@ -1321,6 +1488,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.PongHLAPI
     className: BallBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
       Hash: 868b7726875c735d8b9cce61fb8c5dc8
@@ -1359,10 +1532,10 @@ ScriptsOnlyBuild:
     className: MockImageAnchor
   - hash:
       serializedVersion: 2
-      Hash: 7ab0e790220bdca831fdd886b339039d
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GridLayoutGroup
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
       Hash: 8fbc134fd506d97c845cf2b715231396
@@ -1413,6 +1586,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
       Hash: 9317ee940ce96cf8c6249523c8b2a1f0
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.AR.WayspotAnchors
@@ -1437,22 +1616,16 @@ ScriptsOnlyBuild:
     className: PlayerLocationController
   - hash:
       serializedVersion: 2
+      Hash: 0e60655a65105e2189bae4c8749909ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab.FantasyRPG
+    className: PanelControlFantasyRPG
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: GlobalMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: 07f3fc7576d4e7d7f51d38edcf7b487f
@@ -1465,6 +1638,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
   - hash:
       serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
@@ -1495,6 +1674,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples
     className: GameboardExampleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1551,10 +1736,28 @@ ScriptsOnlyBuild:
     className: DepthExampleManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ManualAlignAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 4f60ff347d4efee4ef8cc7f627735018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
   - hash:
       serializedVersion: 2
       Hash: 7f6a7fd068189b9892bdd39039e87da4
@@ -1587,7 +1790,7 @@ ScriptsOnlyBuild:
     className: SyncStateHelpText
   - hash:
       serializedVersion: 2
-      Hash: d2c874daffbb56d5b10959e53d988beb
+      Hash: 6c7f3c4144fb0ad4df7a24dd938ba285
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
     className: MapGameUIController
@@ -1659,6 +1862,12 @@ ScriptsOnlyBuild:
     className: WayspotAnchorExampleManager
   - hash:
       serializedVersion: 2
+      Hash: 6663435805926faf16934aed992cd26b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1719,6 +1928,18 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: f250f9707d36ee85e9ea7e8d47cbf574
+    assemblyName: Maps.Samples.GameSample.dll
+    namespaceName: Niantic.Lightship.Maps.Samples.GameSample
+    className: LocateButton
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
       Hash: ee0d08ac341fb8c3015943e0c4611755
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
@@ -1747,6 +1968,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.VirtualStudio
     className: ExamplePlayController
+  - hash:
+      serializedVersion: 2
+      Hash: 49b54168bfd1b48f940313442173b39e
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: UIFunctionsMap
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1783,6 +2010,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.AR.WayspotAnchors
     className: _TransformFixer
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -1825,6 +2058,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1893,6 +2132,12 @@ ScriptsOnlyBuild:
     className: ScrollingLog
   - hash:
       serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1941,6 +2186,12 @@ ScriptsOnlyBuild:
     className: ARImageDetectionManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: togglescript
+  - hash:
+      serializedVersion: 2
       Hash: 6a9dc91cb907001d7356d1558b85db20
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.Helpers
@@ -1953,7 +2204,7 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
-      Hash: 1cbe9a410f2ae72e39f1ef972386819e
+      Hash: 1d20e3d0e2e28dcab9effb5db2d0129c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MapIconSpawner
@@ -1963,12 +2214,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
     className: MeshObjSaver
-  - hash:
-      serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2049,16 +2294,34 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateMachine
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
       Hash: 9cb19437c8edb7aaf7f2f93ff4429494
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARSemanticSegmentationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2085,10 +2348,22 @@ ScriptsOnlyBuild:
     className: FeaturePreloadManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
       Hash: 77aace8dadfd73aa68b960afded140b6
     assemblyName: Niantic.Lightship.Maps.Unity.dll
     namespaceName: Niantic.Lightship.Maps.Unity.Builders.Roads
     className: RoadBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
   - hash:
       serializedVersion: 2
       Hash: 853e1509d4bc28ecc53d86a7633cc74f
@@ -2127,6 +2402,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
       Hash: 6a6db7e3c54c2ebc044586d4a7e2aacc
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.PongHLAPI
@@ -2143,12 +2424,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARFeaturePointRenderer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: ARDK-Examples.dll
-    namespaceName: 
-    className: togglescript
   platform: 9
   scenePathNames:
   - Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity

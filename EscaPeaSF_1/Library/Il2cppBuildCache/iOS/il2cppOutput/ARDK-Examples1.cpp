@@ -541,6 +541,8 @@ struct PlayerAvatarBehaviour_tA199624F3F5B82F310AD19C574AB5B2BAF914C79;
 struct PlayerColor_tF4CD91EE5C3B581B9404091F3D85C37F7CA6CADA;
 // Niantic.ARDKExamples.PongHLAPI.PlayingFieldBehaviour
 struct PlayingFieldBehaviour_tEA8132F1E8342A3A28172A08850F1DDF316C9CA7;
+// Niantic.ARDKExamples.Preloading.PreloaderTestManager
+struct PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657;
 // System.Random
 struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
 // UnityEngine.UI.RawImage
@@ -567,6 +569,8 @@ struct SessionIDField_t5645A97F19D6F571088AA953CA9C96ABCCC2F60E;
 struct SessionIDGenerator_tE061B3D4180AE28BC0B464F61BFA40FD6F8920C7;
 // Niantic.ARDKExamples.Helpers.SessionStartGatekeeper
 struct SessionStartGatekeeper_t952D9782379CF47F611D77EDDBAD6F0CACCD234D;
+// UnityEngine.UI.Slider
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // System.IO.Stream
@@ -597,6 +601,8 @@ struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
 // UnityEngine.Events.UnityEvent
 struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+// Niantic.ARDK.Extensions.UnityLifecycleDriver
+struct UnityLifecycleDriver_t19A065B156F390FF32D17F4891660C8DA190B708;
 // Niantic.ARDK.Networking.HLAPI.Object.Unity.UnreliableBroadcastTransformPacker
 struct UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535123;
 // UnityEngine.UI.VertexHelper
@@ -633,11 +639,14 @@ struct OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B;
 struct SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+// UnityEngine.UI.Slider/SliderEvent
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
 // System.IO.Stream/ReadWriteTask
 struct ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05;
 // Niantic.ARDK.Utilities.Marker.ZXingMarkerGenerator/MarkerGenerationResult
 struct MarkerGenerationResult_t048FE5A946C2CC7D9DBE03878F3556A34A3494E0;
 
+IL2CPP_EXTERN_C RuntimeClass* ARLog_t318A8E8D8713936AE714EF5F2FEAF0EEAADCD1C4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ARNetworkingFactory_t2DED7AA3152B0F4979B07BB5877DA1E7EB17007F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ARSessionFactory_t1D5BCA669C6345AF0C3971E4EB21DECD02227A5E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tE87A7548CA523908E824A6BBF45F5E03EA42E406_il2cpp_TypeInfo_var;
@@ -697,6 +706,7 @@ IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t60FB2FF7ACAC822916320B47A053747037C
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_tA324E38F4C68B7D6FDCFE1D53348CEC2E93EA16C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEquatable_1_tAB27EFCEEC8B73006079F75F9928B2D32C59F763_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IHlapiSession_t62EC17F845CFCF5A53BE770B6FB4DD711D467E29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IMultipeerNetworking_tA5B22EB4EDF24C862318C8A807E5165F8E8E3F5F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* INetworkedField_1_t381E5C6EA6039BDD83FD2BAAC0BA63018AF04F65_il2cpp_TypeInfo_var;
@@ -728,6 +738,7 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* PeerState_tA01351ACC4C28BF4BCAC07CA68A80381C0C446EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlatformAgnosticInput_tB0003440F676D5712F8A78BBE7BA335FC593809D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlayerColor_tF4CD91EE5C3B581B9404091F3D85C37F7CA6CADA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PreloadedFeatureState_t5B5B3FEA7A1C0667721A4E98A61064D17D63C4B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ScrollingLog_t9015254AF17872349A8CC1B3AD833033EF834FE0_il2cpp_TypeInfo_var;
@@ -739,6 +750,7 @@ IL2CPP_EXTERN_C RuntimeClass* UnreliableBroadcastTransformPacker_t1216F94BF48FBA
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3Serializer_t5836FE3C9E8F4F901CD7F2624346F034FC8DE47D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral001AAED61FB96878C0CC28B970B32A7192C4B4DB;
 IL2CPP_EXTERN_C String_t* _stringLiteral03F01AA52D4B8DEE6D370163031323DF4A194C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9;
 IL2CPP_EXTERN_C String_t* _stringLiteral0ED788DF2380D6BF3C3AA3A3C852A8D05A2EB335;
@@ -751,6 +763,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1C33ED8ACBB677640232E0A387399AC60ACB2823
 IL2CPP_EXTERN_C String_t* _stringLiteral1D03FF673DA8DD217B4224CE6C30DD116EC7293C;
 IL2CPP_EXTERN_C String_t* _stringLiteral1DA847B0C8711F8529FBC7BC20711A1361A8B323;
 IL2CPP_EXTERN_C String_t* _stringLiteral1DFADAE9847FFE066EF2E3B11DFF7A26D8290083;
+IL2CPP_EXTERN_C String_t* _stringLiteral1E8317791FCB425B27E60E1259F1420B0F403815;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral25B7FDB1B17EAA279DB149A6E291F2F0454FD05B;
 IL2CPP_EXTERN_C String_t* _stringLiteral261ACDC92E5606E2F08283A3F1C709B2EBB8AC94;
@@ -772,6 +785,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral53A9F49B7E11E91814DFD16C31B6DA90C74AAA9A
 IL2CPP_EXTERN_C String_t* _stringLiteral5684F3071933DB49B55A45583E7FE6BD607EF608;
 IL2CPP_EXTERN_C String_t* _stringLiteral56C9CB5E98059CA91FFD6D40005E380317AD84FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral59CABCB9E7941A7EEBB3AFAA4E50FB4BF8C816E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5DEC1030E70193F4AD8C4F0A7C300C20BCB41D53;
 IL2CPP_EXTERN_C String_t* _stringLiteral5EAB3542AA1E352D8F99B5BE745A63AD4B461B47;
 IL2CPP_EXTERN_C String_t* _stringLiteral669F530C1559EDA978405057AF4C99A595A0CFF5;
@@ -789,7 +803,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA55CB4C7E431EEAEA4333B4876B47C2E0DD6638D
 IL2CPP_EXTERN_C String_t* _stringLiteralAA0FA8A6E8BA3692B70AF28DAE7C8C9B829B0716;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA22D570E6C4A129777FCFB302C12DD9C8F5BA43;
 IL2CPP_EXTERN_C String_t* _stringLiteralAADCBA6E9DD00D77369AF3DFD0B2536CE7836E8D;
+IL2CPP_EXTERN_C String_t* _stringLiteralABD884F7688123CE5EAB301152D58085806E28FD;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFA3595C376CB158D6E6CCDF879CE72A3D8F44C4;
+IL2CPP_EXTERN_C String_t* _stringLiteralB4D750149304346FA9F6C85B86DC614F8426ADC3;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC85761EAF69D5FC435FE2EF85D8F56E97550196;
 IL2CPP_EXTERN_C String_t* _stringLiteralBCD3666413E00B49638F824BF5F6BB556431D109;
 IL2CPP_EXTERN_C String_t* _stringLiteralC24AEB9F54E9970F338BD30A2D95310CE8469FED;
@@ -927,6 +943,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* PlayerColor_OnDeinitialized_mFDC613AFC78D64
 IL2CPP_EXTERN_C const RuntimeMethod* PlayerColor_OnDisconnected_mBF07478A671BB0B264FD12A8F0CAFB8B7110DFA1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayerColor_OnNetworkInitialized_m9299C67222B2535E71F98B559667540340E163C9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayingFieldBehaviour_U3CSetupSessionU3Eb__0_0_m198EE777F3F3C7EBB4326BDB7D225D431E237CB5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PreloaderTestManager_OnProgressUpdated_m4E848630AA2A2276569AE5E92650A4892DF5C7FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PreloaderTestManager_U3CAwakeU3Eb__8_0_m26FD0725733E52EF6E99542EB783F0E49D4E39B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PreloaderTestManager_U3CAwakeU3Eb__8_1_m48E79892ACBB2D98384DAE396920C5C2CE9EC73E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_GetEnumerator_mDA35F02F535B1D0AA77658176EECBFBAB97BF3ED_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Count_m8ABD0A6BE4C934A36C53F339BCBCBCD9DC1342CA_RuntimeMethod_var;
@@ -3384,6 +3403,27 @@ struct PlayerColor_tF4CD91EE5C3B581B9404091F3D85C37F7CA6CADA_StaticFields
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___ColorDefault_5;
 };
 
+// Niantic.ARDKExamples.Preloading.PreloaderTestManager
+struct PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Niantic.ARDK.Extensions.FeaturePreloadManager Niantic.ARDKExamples.Preloading.PreloaderTestManager::_preloadManager
+	FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* ____preloadManager_4;
+	// UnityEngine.UI.Button Niantic.ARDKExamples.Preloading.PreloaderTestManager::_dbowButton
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____dbowButton_5;
+	// UnityEngine.UI.Button Niantic.ARDKExamples.Preloading.PreloaderTestManager::_contextAwarenessButton
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ____contextAwarenessButton_6;
+	// UnityEngine.UI.Text Niantic.ARDKExamples.Preloading.PreloaderTestManager::_dbowStatusText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____dbowStatusText_7;
+	// UnityEngine.UI.Text Niantic.ARDKExamples.Preloading.PreloaderTestManager::_contextAwarenessStatusText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____contextAwarenessStatusText_8;
+	// UnityEngine.UI.Text Niantic.ARDKExamples.Preloading.PreloaderTestManager::_preloadStatusText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____preloadStatusText_9;
+	// UnityEngine.UI.Slider Niantic.ARDKExamples.Preloading.PreloaderTestManager::_percentageSlider
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ____percentageSlider_10;
+	// UnityEngine.UI.Text Niantic.ARDKExamples.Preloading.PreloaderTestManager::_percentageText
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____percentageText_11;
+};
+
 // Niantic.ARDKExamples.Helpers.ScrollingLog
 struct ScrollingLog_t9015254AF17872349A8CC1B3AD833033EF834FE0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3856,6 +3896,43 @@ struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graph
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_35;
 };
 
+// UnityEngine.UI.Slider
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillRect
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect_20;
+	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_HandleRect
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect_21;
+	// UnityEngine.UI.Slider/Direction UnityEngine.UI.Slider::m_Direction
+	int32_t ___m_Direction_22;
+	// System.Single UnityEngine.UI.Slider::m_MinValue
+	float ___m_MinValue_23;
+	// System.Single UnityEngine.UI.Slider::m_MaxValue
+	float ___m_MaxValue_24;
+	// System.Boolean UnityEngine.UI.Slider::m_WholeNumbers
+	bool ___m_WholeNumbers_25;
+	// System.Single UnityEngine.UI.Slider::m_Value
+	float ___m_Value_26;
+	// UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::m_OnValueChanged
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged_27;
+	// UnityEngine.UI.Image UnityEngine.UI.Slider::m_FillImage
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage_28;
+	// UnityEngine.Transform UnityEngine.UI.Slider::m_FillTransform
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform_29;
+	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillContainerRect
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect_30;
+	// UnityEngine.Transform UnityEngine.UI.Slider::m_HandleTransform
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform_31;
+	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_HandleContainerRect
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect_32;
+	// UnityEngine.Vector2 UnityEngine.UI.Slider::m_Offset
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset_33;
+	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.Slider::m_Tracker
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker_34;
+	// System.Boolean UnityEngine.UI.Slider::m_DelayedUpdateVisuals
+	bool ___m_DelayedUpdateVisuals_35;
+};
+
 // UnityEngine.UI.Image
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
@@ -4115,12 +4192,12 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 };
 
 
-// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_mCDF11A2B25962AC5C0AF90655A8656E0F1B866C9_gshared (ArdkEventHandler_1_t065E02445515AEF28984FD062CE529CBF4358A82* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32Enum>::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyCollection_1_get_Count_m6173E9709ED323E790FE82E825A8DE6E88F23A0B_gshared (ReadOnlyCollection_1_t147FA1FCB6E2EB047E003D795B981985F4219E5F* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_mCDF11A2B25962AC5C0AF90655A8656E0F1B866C9_gshared (ArdkEventHandler_1_t065E02445515AEF28984FD062CE529CBF4358A82* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // Niantic.ARDK.Utilities.Optional`1<T> Niantic.ARDK.Utilities.Optional`1<System.Byte>::op_Implicit(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Optional_1_tC255D1744BF30D3C915A6CAB20422C93DDE50291 Optional_1_op_Implicit_m2C656DFB444F93013E88FADC144E93A872258A2B_gshared (uint8_t ___value0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.Optional`1<UnityEngine.Vector3>::.ctor(T)
@@ -4270,6 +4347,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_First_TisRuntimeObj
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
 
+// System.Void Niantic.ARDK.Utilities.Logging.ARLog::EnableLogFeature(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARLog_EnableLogFeature_m39C4AF26A5F7901CA05305F6A4028A1B92CB7EE9 (String_t* ___feature0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Extensions.UnityLifecycleDriver::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityLifecycleDriver_Initialize_mDF5D9F3C572FF88C29A57D68EA9F1F31361C701B (UnityLifecycleDriver_t19A065B156F390FF32D17F4891660C8DA190B708* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs>::.ctor(System.Object,System.IntPtr)
+inline void ArdkEventHandler_1__ctor_mDCF7C6EB2F4DFC335F295361D410569E3DF4A6FF (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+// Niantic.ARDK.Utilities.Preloading.IFeaturePreloader Niantic.ARDK.Extensions.FeaturePreloadManager::get_Preloader()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeaturePreloadManager_get_Preloader_m182D81A55153F022CB35CBEF197E6113C1E4D7EC (FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String Niantic.ARDKExamples.Preloading.PreloaderTestManager::GetFeatureStatus(Niantic.ARDK.Utilities.Preloading.Feature)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PreloaderTestManager_GetFeatureStatus_mD78BDECCE89BD0D7910B2A2E2A1F17BA4E332020 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, int32_t ___feature0, const RuntimeMethod* method) ;
+// System.String System.Single::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.ARDK.Utilities.Preloading.Feature>::get_Count()
+inline int32_t ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC (ReadOnlyCollection_1_tE1414B3F21C06343BFE1EEFA2AC542DC2F2B6E84* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (ReadOnlyCollection_1_tE1414B3F21C06343BFE1EEFA2AC542DC2F2B6E84*, const RuntimeMethod*))ReadOnlyCollection_1_get_Count_m6173E9709ED323E790FE82E825A8DE6E88F23A0B_gshared)(__this, method);
+}
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Extensions.FeaturePreloadManager::AddFeature(Niantic.ARDK.Utilities.Preloading.Feature)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FeaturePreloadManager_AddFeature_m2C6A4406D30C57C3D7E86F571720368D5BCDB381 (FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* __this, int32_t ___feature0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.UI.Selectable::set_interactable(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
@@ -4319,22 +4434,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARNetworkingFactory_add_ARNetworkingInit
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FeaturePreloadManager_AreAllFeaturesDownloaded_mEFF28898D1955A52BFD2FE758B28D1624BF8E2C5 (FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.PongHLAPI.GameController::OnPreloadFinished(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnPreloadFinished_m2160399CD432A8FA87474797A345AEB6BDA0A69A (GameController_t280CC3EB2D4E94A01D2E20424EB03C13A826BF08* __this, bool ___success0, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs>::.ctor(System.Object,System.IntPtr)
-inline void ArdkEventHandler_1__ctor_mDCF7C6EB2F4DFC335F295361D410569E3DF4A6FF (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.ARDK.Utilities.Preloading.Feature>::get_Count()
-inline int32_t ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC (ReadOnlyCollection_1_tE1414B3F21C06343BFE1EEFA2AC542DC2F2B6E84* __this, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (ReadOnlyCollection_1_tE1414B3F21C06343BFE1EEFA2AC542DC2F2B6E84*, const RuntimeMethod*))ReadOnlyCollection_1_get_Count_m6173E9709ED323E790FE82E825A8DE6E88F23A0B_gshared)(__this, method);
-}
-// System.Void UnityEngine.UI.Selectable::set_interactable(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Byte System.Convert::ToByte(System.Boolean)
@@ -4444,8 +4545,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* PeerStateReceivedA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_op_Inequality_mAA2FAB73FCD2CB2D2128ECF7016AC16AFBDF6163 (Guid_t ___a0, Guid_t ___b1, const RuntimeMethod* method) ;
 // Niantic.ARDK.AR.Networking.PeerState Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.PeerStateReceivedArgs::get_State()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PeerStateReceivedArgs_get_State_mE79951CD142633147CD62DDDE3BB3EB1A48ED77D_inline (PeerStateReceivedArgs_tA86062DFCE1020D4230FB6A3EF60C0A27A33849D* __this, const RuntimeMethod* method) ;
-// System.String System.Enum::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
 // System.Boolean Niantic.ARDK.Networking.MultipeerNetworkingEventArgs.ConnectedArgs::get_IsHost()
@@ -4539,8 +4638,6 @@ inline void ArdkEventHandler_1__ctor_m22539F947DA2CBC7EA7478AF8B4A1DEB1EC5BB0E (
 }
 // System.Void Niantic.ARDK.AR.Networking.ARNetworkingFactory::remove_ARNetworkingInitialized(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARNetworkingFactory_remove_ARNetworkingInitialized_m7C049CAA572A9A75E6C9E9E28E42B54730B2D6AF (ArdkEventHandler_1_t065E02445515AEF28984FD062CE529CBF4358A82* ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // T Niantic.ARDK.Utilities.Optional`1<System.Byte>::get_Value()
 inline uint8_t Optional_1_get_Value_mC734D6013915C80CADF7C49CE364F7A21A06055B (Optional_1_tC255D1744BF30D3C915A6CAB20422C93DDE50291* __this, const RuntimeMethod* method)
 {
@@ -4729,12 +4826,6 @@ inline void Action_1__ctor_m61E4CA3A239EFADDB76E89ABA90AC37F82875EE0 (Action_1_t
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerMappingManager__ctor_mE6B6A5835C7943CD2C462279495D9C9F2FDD36C3 (MarkerMappingManager_t620970C1422A5665B031372706B73BAEE6E9BDC3* __this, MarkerSyncSessionManager_tD34CAB97C0EAF1EFE982F11BC25FB7E187F9E88F* ___manager0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.MarkerSync.MarkerScanningManager::.ctor(Niantic.ARDKExamples.MarkerSync.MarkerSyncSessionManager)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerScanningManager__ctor_m2C29F4DC0DADC7F70D97A15F8C033F3B1D36B81F (MarkerScanningManager_tED12C4CE05E0C3D02DF62AF5B65A594643AE829E* __this, MarkerSyncSessionManager_tD34CAB97C0EAF1EFE982F11BC25FB7E187F9E88F* ___manager0, const RuntimeMethod* method) ;
-// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.MarkerSync.MarkerMappingManager::Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerMappingManager_Reset_mE9A3BB11ED0601668FB0A634E22BA6209B3B3773 (MarkerMappingManager_t620970C1422A5665B031372706B73BAEE6E9BDC3* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.MarkerSync.MarkerScanningManager::Reset()
@@ -4869,8 +4960,6 @@ inline String_t* Dictionary_2_get_Item_m9F695DD3B5A3450B2723A76ED53EEF1629BA22F0
 {
 	return ((  String_t* (*) (Dictionary_2_t0522677063AA4D3E4037BE475D506288939659F2*, int32_t, const RuntimeMethod*))Dictionary_2_get_Item_m9C4302CCAE3C1BF70D02091D0E0CED7663F18211_gshared)(__this, ___key0, method);
 }
-// System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // Niantic.ARDK.Networking.IPeer Niantic.ARDK.Networking.MultipeerNetworkingEventArgs.PeerAddedArgs::get_Peer()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* PeerAddedArgs_get_Peer_mF04D06FAC3F681FA7E4EEA53D4727E1D4A20ACAC_inline (PeerAddedArgs_t1D6549A3DBAF0BBD1AF4D379F9F41B564312BF43* __this, const RuntimeMethod* method) ;
 // Niantic.ARDK.Networking.IPeer Niantic.ARDK.Networking.MultipeerNetworkingEventArgs.PeerRemovedArgs::get_Peer()
@@ -5210,6 +5299,293 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager_Awake_mA600852DCD7C9FA22ADF747D282FFD02BE098D41 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARLog_t318A8E8D8713936AE714EF5F2FEAF0EEAADCD1C4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PreloaderTestManager_OnProgressUpdated_m4E848630AA2A2276569AE5E92650A4892DF5C7FB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PreloaderTestManager_U3CAwakeU3Eb__8_0_m26FD0725733E52EF6E99542EB783F0E49D4E39B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PreloaderTestManager_U3CAwakeU3Eb__8_1_m48E79892ACBB2D98384DAE396920C5C2CE9EC73E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E8317791FCB425B27E60E1259F1420B0F403815);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ARLog.EnableLogFeature("Niantic");
+		il2cpp_codegen_runtime_class_init_inline(ARLog_t318A8E8D8713936AE714EF5F2FEAF0EEAADCD1C4_il2cpp_TypeInfo_var);
+		ARLog_EnableLogFeature_m39C4AF26A5F7901CA05305F6A4028A1B92CB7EE9(_stringLiteral1E8317791FCB425B27E60E1259F1420B0F403815, NULL);
+		// _preloadManager.Initialize();
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_0 = __this->____preloadManager_4;
+		NullCheck(L_0);
+		UnityLifecycleDriver_Initialize_mDF5D9F3C572FF88C29A57D68EA9F1F31361C701B(L_0, NULL);
+		// _preloadManager.ProgressUpdated += OnProgressUpdated;
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_1 = __this->____preloadManager_4;
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_2 = L_1;
+		NullCheck(L_2);
+		ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720* L_3 = L_2->___ProgressUpdated_11;
+		ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720* L_4 = (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*)il2cpp_codegen_object_new(ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		ArdkEventHandler_1__ctor_mDCF7C6EB2F4DFC335F295361D410569E3DF4A6FF(L_4, __this, (intptr_t)((void*)PreloaderTestManager_OnProgressUpdated_m4E848630AA2A2276569AE5E92650A4892DF5C7FB_RuntimeMethod_var), NULL);
+		Delegate_t* L_5;
+		L_5 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_3, L_4, NULL);
+		NullCheck(L_2);
+		L_2->___ProgressUpdated_11 = ((ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*)Castclass((RuntimeObject*)L_5, ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___ProgressUpdated_11), (void*)((ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*)Castclass((RuntimeObject*)L_5, ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var)));
+		// _dbowButton.onClick.AddListener
+		// (
+		//   () =>
+		//   {
+		//     _preloadManager.AddFeature(Feature.Dbow);
+		//     _dbowButton.interactable = false;
+		//   }
+		// );
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->____dbowButton_5;
+		NullCheck(L_6);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
+		L_7 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_6, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_8 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_8, __this, (intptr_t)((void*)PreloaderTestManager_U3CAwakeU3Eb__8_0_m26FD0725733E52EF6E99542EB783F0E49D4E39B9_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_7, L_8, NULL);
+		// _contextAwarenessButton.onClick.AddListener
+		// (
+		//   () =>
+		//   {
+		//     _preloadManager.AddFeature(Feature.ContextAwareness);
+		//     _contextAwarenessButton.interactable = false;
+		//   }
+		// );
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->____contextAwarenessButton_6;
+		NullCheck(L_9);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_10;
+		L_10 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_9, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_11 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_11, __this, (intptr_t)((void*)PreloaderTestManager_U3CAwakeU3Eb__8_1_m48E79892ACBB2D98384DAE396920C5C2CE9EC73E_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_10, L_11, NULL);
+		// }
+		return;
+	}
+}
+// System.String Niantic.ARDKExamples.Preloading.PreloaderTestManager::GetFeatureStatus(Niantic.ARDK.Utilities.Preloading.Feature)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PreloaderTestManager_GetFeatureStatus_mD78BDECCE89BD0D7910B2A2E2A1F17BA4E332020 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, int32_t ___feature0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PreloadedFeatureState_t5B5B3FEA7A1C0667721A4E98A61064D17D63C4B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral001AAED61FB96878C0CC28B970B32A7192C4B4DB);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// if (_preloadManager.Preloader.ExistsInCache(feature))
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_0 = __this->____preloadManager_4;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = FeaturePreloadManager_get_Preloader_m182D81A55153F022CB35CBEF197E6113C1E4D7EC(L_0, NULL);
+		int32_t L_2 = ___feature0;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(2 /* System.Boolean Niantic.ARDK.Utilities.Preloading.IFeaturePreloader::ExistsInCache(Niantic.ARDK.Utilities.Preloading.Feature) */, IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E_il2cpp_TypeInfo_var, L_1, L_2);
+		if (!L_3)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// return "In cache";
+		return _stringLiteral001AAED61FB96878C0CC28B970B32A7192C4B4DB;
+	}
+
+IL_0019:
+	{
+		// return _preloadManager.Preloader.GetStatus(feature).ToString();
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_4 = __this->____preloadManager_4;
+		NullCheck(L_4);
+		RuntimeObject* L_5;
+		L_5 = FeaturePreloadManager_get_Preloader_m182D81A55153F022CB35CBEF197E6113C1E4D7EC(L_4, NULL);
+		int32_t L_6 = ___feature0;
+		NullCheck(L_5);
+		int32_t L_7;
+		L_7 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* Niantic.ARDK.Utilities.Preloading.PreloadedFeatureState Niantic.ARDK.Utilities.Preloading.IFeaturePreloader::GetStatus(Niantic.ARDK.Utilities.Preloading.Feature) */, IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E_il2cpp_TypeInfo_var, L_5, L_6);
+		V_0 = L_7;
+		Il2CppFakeBox<int32_t> L_8(PreloadedFeatureState_t5B5B3FEA7A1C0667721A4E98A61064D17D63C4B2_il2cpp_TypeInfo_var, (&V_0));
+		String_t* L_9;
+		L_9 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_8), NULL);
+		return L_9;
+	}
+}
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager_Update_mF1E8D57362F8F4A5492730D8581308E3DE2349FD (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, const RuntimeMethod* method) 
+{
+	{
+		// _dbowStatusText.text = GetFeatureStatus(Feature.Dbow);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->____dbowStatusText_7;
+		String_t* L_1;
+		L_1 = PreloaderTestManager_GetFeatureStatus_mD78BDECCE89BD0D7910B2A2E2A1F17BA4E332020(__this, 1, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		// _contextAwarenessStatusText.text = GetFeatureStatus(Feature.ContextAwareness);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->____contextAwarenessStatusText_8;
+		String_t* L_3;
+		L_3 = PreloaderTestManager_GetFeatureStatus_mD78BDECCE89BD0D7910B2A2E2A1F17BA4E332020(__this, 0, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, L_3);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::OnProgressUpdated(Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager_OnProgressUpdated_m4E848630AA2A2276569AE5E92650A4892DF5C7FB (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, PreloadProgressUpdatedArgs_t4862DA608D94991DE52B4004995CAC2F4BFF324C* ___args0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralABD884F7688123CE5EAB301152D58085806E28FD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB4D750149304346FA9F6C85B86DC614F8426ADC3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* G_B3_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B3_1 = NULL;
+	String_t* G_B2_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B2_1 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B4_2 = NULL;
+	{
+		// _percentageText.text = args.Progress.ToString();
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->____percentageText_11;
+		PreloadProgressUpdatedArgs_t4862DA608D94991DE52B4004995CAC2F4BFF324C* L_1 = ___args0;
+		NullCheck(L_1);
+		float* L_2 = (&L_1->___Progress_2);
+		String_t* L_3;
+		L_3 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
+		// _percentageSlider.value = args.Progress;
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->____percentageSlider_10;
+		PreloadProgressUpdatedArgs_t4862DA608D94991DE52B4004995CAC2F4BFF324C* L_5 = ___args0;
+		NullCheck(L_5);
+		float L_6 = L_5->___Progress_2;
+		NullCheck(L_4);
+		VirtualActionInvoker1< float >::Invoke(47 /* System.Void UnityEngine.UI.Slider::set_value(System.Single) */, L_4, L_6);
+		// if (args.PreloadAttemptFinished)
+		PreloadProgressUpdatedArgs_t4862DA608D94991DE52B4004995CAC2F4BFF324C* L_7 = ___args0;
+		NullCheck(L_7);
+		bool L_8 = L_7->___PreloadAttemptFinished_3;
+		if (!L_8)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		// var success = args.FailedPreloads.Count == 0;
+		PreloadProgressUpdatedArgs_t4862DA608D94991DE52B4004995CAC2F4BFF324C* L_9 = ___args0;
+		NullCheck(L_9);
+		ReadOnlyCollection_1_tE1414B3F21C06343BFE1EEFA2AC542DC2F2B6E84* L_10 = L_9->___FailedPreloads_0;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC(L_10, ReadOnlyCollection_1_get_Count_m3A75AAC7FF54285DBE652072225FD51C15048ADC_RuntimeMethod_var);
+		V_0 = (bool)((((int32_t)L_11) == ((int32_t)0))? 1 : 0);
+		// _preloadStatusText.text = string.Format("Downloads complete: {0}", success ? "success" : "failed");
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->____preloadStatusText_9;
+		bool L_13 = V_0;
+		G_B2_0 = _stringLiteralB4D750149304346FA9F6C85B86DC614F8426ADC3;
+		G_B2_1 = L_12;
+		if (L_13)
+		{
+			G_B3_0 = _stringLiteralB4D750149304346FA9F6C85B86DC614F8426ADC3;
+			G_B3_1 = L_12;
+			goto IL_0053;
+		}
+	}
+	{
+		G_B4_0 = _stringLiteralABD884F7688123CE5EAB301152D58085806E28FD;
+		G_B4_1 = G_B2_0;
+		G_B4_2 = G_B2_1;
+		goto IL_0058;
+	}
+
+IL_0053:
+	{
+		G_B4_0 = _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4;
+		G_B4_1 = G_B3_0;
+		G_B4_2 = G_B3_1;
+	}
+
+IL_0058:
+	{
+		String_t* L_14;
+		L_14 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(G_B4_1, G_B4_0, NULL);
+		NullCheck(G_B4_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, G_B4_2, L_14);
+	}
+
+IL_0062:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager__ctor_m013BBCFDA78D36C43C6F8C29A87C8A43978316D6 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::<Awake>b__8_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager_U3CAwakeU3Eb__8_0_m26FD0725733E52EF6E99542EB783F0E49D4E39B9 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, const RuntimeMethod* method) 
+{
+	{
+		// _preloadManager.AddFeature(Feature.Dbow);
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_0 = __this->____preloadManager_4;
+		NullCheck(L_0);
+		FeaturePreloadManager_AddFeature_m2C6A4406D30C57C3D7E86F571720368D5BCDB381(L_0, 1, NULL);
+		// _dbowButton.interactable = false;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->____dbowButton_5;
+		NullCheck(L_1);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_1, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Preloading.PreloaderTestManager::<Awake>b__8_1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreloaderTestManager_U3CAwakeU3Eb__8_1_m48E79892ACBB2D98384DAE396920C5C2CE9EC73E (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, const RuntimeMethod* method) 
+{
+	{
+		// _preloadManager.AddFeature(Feature.ContextAwareness);
+		FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* L_0 = __this->____preloadManager_4;
+		NullCheck(L_0);
+		FeaturePreloadManager_AddFeature_m2C6A4406D30C57C3D7E86F571720368D5BCDB381(L_0, 0, NULL);
+		// _contextAwarenessButton.interactable = false;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->____contextAwarenessButton_6;
+		NullCheck(L_1);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_1, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -16602,6 +16978,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARAnchorAttachment__ctor_m6B346A83339B83
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return m_OnClick; }
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_0 = __this->___m_OnClick_20;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
 	{
@@ -17134,14 +17518,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA6
 		float L_3 = ___w3;
 		__this->___w_3 = L_3;
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
-{
-	{
-		// get { return m_OnClick; }
-		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_0 = __this->___m_OnClick_20;
-		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MarkerSyncSessionManager_set_ARSession_m6C985BD7774D91290A17531658940AB3CC68395B_inline (MarkerSyncSessionManager_tD34CAB97C0EAF1EFE982F11BC25FB7E187F9E88F* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 

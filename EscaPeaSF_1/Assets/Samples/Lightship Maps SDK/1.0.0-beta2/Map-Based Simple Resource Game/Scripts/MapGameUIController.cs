@@ -3,6 +3,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+//using Niantic.ARDKExamples.RemoteAuthoring;
 
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {
@@ -19,13 +20,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private PlayerLocationController _player;
 
         [SerializeField]
-        private GameObject _introScreen;
-
-        [SerializeField]
         private GameObject _errorScreen;
-
-        [SerializeField]
-        private GameObject _gamePlayScreen;
 
         [SerializeField]
         private GameObject _gameOverScreen;
@@ -35,10 +30,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         private void Start()
         {
-            _introScreen.SetActive(true);
-            _gamePlayScreen.SetActive(false);
             _gameOverScreen.SetActive(false);
-
             _player.OnGPSError += OnGpsError;
         }
 
@@ -56,16 +48,9 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             }
         }
 
-        public void OnIntroContinuePressed()
-        {
-            _introScreen.SetActive(false);
-            _gamePlayScreen.SetActive(true);
-        }
-
         public void OnGameOverContinuePressed()
         {
             _gameOverScreen.SetActive(false);
-            _gamePlayScreen.SetActive(true);
         }
     }
 }

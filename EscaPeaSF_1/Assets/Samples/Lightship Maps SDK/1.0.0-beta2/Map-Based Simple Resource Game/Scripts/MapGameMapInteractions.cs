@@ -9,6 +9,8 @@ using UnityEngine;
 using UnityEngine.UI;
 //using "Asset.ARDKExamples.RemoteAuthoring.Scripts";
 
+
+
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {
     /// <summary>

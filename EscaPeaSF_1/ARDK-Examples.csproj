@@ -87,6 +87,7 @@
      <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExamplePlayController.cs" />
      <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerMappingManager.cs" />
      <Compile Include="Assets/ARDKExamples/Rendering/ARRenderer.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" />
      <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDGenerator.cs" />
      <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/Pong/BallBehaviour.cs" />
@@ -102,6 +103,8 @@
      <Compile Include="Assets/ARDKExamples/ARNetworking/ARNetworkingExampleManager.cs" />
      <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
      <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs" />
+     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
      <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
      <None Include="Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticOverlay.shader" />
     <Reference Include="UnityEngine">

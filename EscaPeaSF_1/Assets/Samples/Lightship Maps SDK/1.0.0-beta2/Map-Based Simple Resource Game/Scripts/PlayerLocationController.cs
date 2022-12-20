@@ -62,6 +62,21 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             _targetMapPosition = _currentMapPosition + offset;
         }
 
+        public void LocatePuzzle(float movelat, float movelong)
+        {
+            
+            UpdatePlayerLocation(movelat, movelong);
+
+            //_targetMapPosition = _lightshipMap.LatLngToScene(new LatLng(movelat, movelong));
+        }
+
+        public void GoBackAfterLocate()
+        {
+            //_currentMapPosition = _targetMapPosition = transform.position;
+            //UpdatePlayerLocation(gpsInfo.latitude, gpsInfo.longitude)
+        }
+
+
         private IEnumerator UpdateGPSLocation()
         {
             yield return null;

@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Niantic.ARDKExamples.RemoteAuthoring
-{
+
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance; //only one exist, all reference is to same object.
@@ -60,4 +59,3 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
             difficulty = 0;
         }
     }
-}
