@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Niantic.ARDKExamples.RemoteAuthoring;
 using UnityEngine.UI;
-using System;
+using Niantic.ARDKExamples.RemoteAuthoring;
 
 public class UIFunctionsMap : MonoBehaviour
 {
@@ -15,9 +12,10 @@ public class UIFunctionsMap : MonoBehaviour
     public Texture fountainTexture;
     public Text currentObjectTxt;
     public Button locate;
-
     private GameManager gameManager;
     public GameObject initialUI;
+
+
 
     public void onInitialUIPressed()
     {
@@ -69,6 +67,8 @@ public class UIFunctionsMap : MonoBehaviour
     {
         ploppyItemMenu.SetActive(true);
     }
+
+
 
     private void Start()
     {

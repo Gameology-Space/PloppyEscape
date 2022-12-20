@@ -291,33 +291,36 @@ struct OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76  :
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9000[1] = 
-{
-	static_cast<int32_t>(offsetof(NavMesh_t3543D236ABB9A67F696BCF9440D669A1578B3D46_StaticFields, ___onPreUpdate_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9009[10] = 
-{
-	static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____mouseScrollSpeed_4)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____pinchScrollSpeed_5)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____minimumMapRadius_6)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____camera_7)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____map_8)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____isPinchPhase_9)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____isPanPhase_10)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____lastPinchDistance_11)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____lastWorldPosition_12)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____mapRadius_13)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9010[4] = 
-{
-	static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____touchPhase_0)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____priorPosition_1)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____currentDelta_2)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____lastFrame_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9011[1] = 
-{
-	static_cast<int32_t>(offsetof(PlatformAgnosticInput_t63C04F57EFED665413A9611E942F9DB2C50ACC4E_StaticFields, ____mouseEventBuffer_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9012[2] = 
-{
-	static_cast<int32_t>(offsetof(SerializableLatLng_t7F0C73A9614B5483FACDBA454AE8234621E79B9E, ____latitude_0)),static_cast<int32_t>(offsetof(SerializableLatLng_t7F0C73A9614B5483FACDBA454AE8234621E79B9E, ____longitude_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9027[3] = 
-{
-	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9031[2] = 
-{
-	static_cast<int32_t>(offsetof(Settings_t9226A5BF2A1EEFE90D9BBFA6FA603BDF375D0388, ___U3CIncludeTimeU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(Settings_t9226A5BF2A1EEFE90D9BBFA6FA603BDF375D0388, ___U3CUseColorsInEditorU3Ek__BackingField_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9032[2] = 
-{
-	static_cast<int32_t>(offsetof(UnityLogStream_tBD04DEDCBEC3CB552211B96150312F1DE13DA065, ____settings_0)),static_cast<int32_t>(offsetof(UnityLogStream_tBD04DEDCBEC3CB552211B96150312F1DE13DA065, ____startTime_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9036[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9001[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9044[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9004[1] = 
+{
+	static_cast<int32_t>(offsetof(NavMesh_t3543D236ABB9A67F696BCF9440D669A1578B3D46_StaticFields, ___onPreUpdate_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9013[10] = 
+{
+	static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____mouseScrollSpeed_4)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____pinchScrollSpeed_5)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____minimumMapRadius_6)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____camera_7)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____map_8)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____isPinchPhase_9)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____isPanPhase_10)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____lastPinchDistance_11)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____lastWorldPosition_12)),static_cast<int32_t>(offsetof(OrthographicCameraController_tD45C62E09E786995E21473D46A03F5714BD3DB76, ____mapRadius_13)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9014[4] = 
+{
+	static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____touchPhase_0)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____priorPosition_1)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____currentDelta_2)),static_cast<int32_t>(offsetof(MouseEventBuffer_t4BF08D276CA4F693D23B806DE49617FDA1D7E991, ____lastFrame_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9015[1] = 
+{
+	static_cast<int32_t>(offsetof(PlatformAgnosticInput_t63C04F57EFED665413A9611E942F9DB2C50ACC4E_StaticFields, ____mouseEventBuffer_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9016[2] = 
+{
+	static_cast<int32_t>(offsetof(SerializableLatLng_t7F0C73A9614B5483FACDBA454AE8234621E79B9E, ____latitude_0)),static_cast<int32_t>(offsetof(SerializableLatLng_t7F0C73A9614B5483FACDBA454AE8234621E79B9E, ____longitude_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9031[3] = 
+{
+	static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___IsTextualNodeBitmap_0)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___CanReadContentAsBitmap_1)),static_cast<int32_t>(offsetof(XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields, ___HasValueBitmap_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9035[2] = 
+{
+	static_cast<int32_t>(offsetof(Settings_t9226A5BF2A1EEFE90D9BBFA6FA603BDF375D0388, ___U3CIncludeTimeU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(Settings_t9226A5BF2A1EEFE90D9BBFA6FA603BDF375D0388, ___U3CUseColorsInEditorU3Ek__BackingField_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9036[2] = 
+{
+	static_cast<int32_t>(offsetof(UnityLogStream_tBD04DEDCBEC3CB552211B96150312F1DE13DA065, ____settings_0)),static_cast<int32_t>(offsetof(UnityLogStream_tBD04DEDCBEC3CB552211B96150312F1DE13DA065, ____startTime_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9040[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9048[1] = 
 {
 	static_cast<int32_t>(offsetof(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_StaticFields, ___k_SubsystemDescriptors_0)),};

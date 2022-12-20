@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="f134a18b-23f0-4f50-acb6-c2f3159ff613" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="441a3fbe-3d4d-47fa-8ea8-b04385d683fe" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs">
     <Files>
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" Line="53" Column="6" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" Line="75" Column="82" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="16" Column="23" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" Line="22" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,6 +21,10 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__" />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

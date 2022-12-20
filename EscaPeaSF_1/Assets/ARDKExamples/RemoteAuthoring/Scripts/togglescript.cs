@@ -5,26 +5,21 @@ using Niantic.ARDKExamples.RemoteAuthoring;
 
 public class togglescript : MonoBehaviour
 {
-    GameManager gameManager;
+    public GameObject secretUI;
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void ToggleSecretUI()
     {
-        gameManager = Object.FindObjectOfType<GameManager>();
-        //gameObject.GetComponent<Renderer>().enabled = false;
-        //gameObject.SetActive(false);
-    }
-
-
-    public void ToggleHint1()
-    {
-        if(gameManager.explore_Hint1)
+        if(secretUI.activeSelf)
         {
-            gameManager.explore_Hint1 = false;
+            secretUI.SetActive(false);
         }
         else
         {
-            gameManager.explore_Hint1 = true;
+            secretUI.SetActive(true);
         }
+            
     }
+
+
 }

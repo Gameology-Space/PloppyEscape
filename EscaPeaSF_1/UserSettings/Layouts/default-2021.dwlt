@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2795
     height: 1359
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 40
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 41
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 42
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 108
+  controlID: 140
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -579,9 +579,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 342.5, y: 609, z: 0}
+    m_Target: {x: 56.212753, y: -0.13359499, z: -9.399929}
     speed: 2
-    m_Value: {x: 342.5, y: 609, z: 0}
+    m_Value: {x: 56.212753, y: -0.13359499, z: -9.399929}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -632,9 +632,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 698.704
+    m_Target: 7.748794
     speed: 2
-    m_Value: 698.704
+    m_Value: 7.748794
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -691,9 +691,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ea200000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_ExpandedIDs: 66fefbffb8fefbff8cfffbff1401fcff4203fcffe404fcff5e05fcffb005fcff8406fcff0c08fcff6809fcff420afcffb60bfcff080cfcff6c0ffcfff810fcfff612fcff0e14fcff5a17fcff0c1dfcffda29fcff7632fcfffa34fcff6e37fcffdc3afcff043bfcff963bfcffa23bfcffb63bfcff7089fcff868afcff8cd7fcff8475fdffca7afdffa27efdffa281fdffb4c6fdffc6c6fdff7ec7fdff8ac7fdff9ec7fdff32fbfffff4ffffff3e65000098a8000018a9000036a9000054a90000ccf1000000f2000010f2000058f2000066f2000072f200008ef20000acf2000098190100ce1e0100c82a0100b2300100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,7 +709,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -759,21 +759,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ARDKExamples/RemoteAuthoring/Scripts
+    - Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/ARDKExamples/RemoteAuthoring/Scripts
+  - Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 237.99939}
-    m_SelectedIDs: 126a0000
-    m_LastClickedID: 27154
+    scrollPos: {x: 0, y: 768.9987}
+    m_SelectedIDs: bc690000
+    m_LastClickedID: 27068
     m_ExpandedIDs: 00000000b6690000b8690000ba690000bc690000be690000c0690000c2690000c4690000c6690000c8690000ca690000cc690000ce690000d0690000d2690000d4690000d6690000d8690000da690000dc69000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -830,18 +830,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000207b0000266b00007670000000000000ec29010060a8000074a8000084a8000094a80000
+    m_ExpandedInstanceIDs: c6230000207b0000266b000076700000ec29010060a8000074a8000084a8000094a8000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UIFunctionsMap
-      m_OriginalName: UIFunctionsMap
+      m_Name: UIFunctions
+      m_OriginalName: UIFunctions
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 8426
+      m_UserData: 5246
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0

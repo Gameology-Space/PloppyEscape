@@ -11,6 +11,16 @@
 #include <stdint.h>
 
 
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
 template <typename T1>
 struct VirtualActionInvoker1
 {
@@ -161,6 +171,8 @@ struct ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0;
 struct ArdkEventHandler_1_t3B68CD11080AD1861C74DD8483243D67133ABA3F;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionDeinitializedArgs>
 struct ArdkEventHandler_1_t8A69E76C984D1745A71B56D8B133803E18835BC3;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>
+struct ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnchorsArgs>
 struct ArdkEventHandler_1_t49750CE4D6E7118DC43F3E338BFC789BDB443CB9;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>
@@ -179,6 +191,8 @@ struct ArdkEventHandler_1_t9E2C98658F91EF5DEA15CF24DA8D8D22E8D5A5AF;
 struct ArdkEventHandler_1_tBC9D65BAFF11DF1082BD86CB2B6C98D0A857FDBF;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.FrameUpdatedArgs>
 struct ArdkEventHandler_1_t40E765B022425EF74BDC129071F15EDAE74155F7;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs>
+struct ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>
 struct ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.MultipeerNetworkingEventArgs.PeerAddedArgs>
@@ -195,6 +209,8 @@ struct ArdkEventHandler_1_t44541BA106426545622E7E03A0B40218D592E8E7;
 struct ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720;
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.BaseItemSerializer`1<UnityEngine.Vector3>
 struct BaseItemSerializer_1_tC0585A113ECF3688EA33D9A1878CF32440E41DAE;
+// System.Collections.Generic.Dictionary`2<System.Guid,Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor>
+struct Dictionary_2_t7DC2AD3DACF3294A65F6353494E4B87287E9B757;
 // System.Collections.Generic.Dictionary`2<Niantic.ARDK.Networking.IPeer,System.Collections.Generic.Queue`1<UnityEngine.Vector3>>
 struct Dictionary_2_t26DF13BD0EDCD8355D7A7F0957702AF989E5BA25;
 // System.Collections.Generic.Dictionary`2<Niantic.ARDK.Networking.IPeer,UnityEngine.GameObject>
@@ -357,6 +373,8 @@ struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 // Niantic.ARDK.Networking.IPeer[]
 struct IPeerU5BU5D_t52ED6A8320F500844182DAAB30A02E283831DF9B;
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[]
+struct IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B;
 // System.Int32[]
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 // System.IntPtr[]
@@ -381,6 +399,8 @@ struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload[]
+struct WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE;
 // Niantic.ARDKExamples.Common.Helpers.ARAnchorAttachment
 struct ARAnchorAttachment_t35EA0933842F1CE4D0FA4511A3269B982FA8B85B;
 // Niantic.ARDKExamples.Helpers.ARCursorRenderer
@@ -487,6 +507,8 @@ struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E;
 // Niantic.ARDK.Networking.HLAPI.IHlapiSession
 struct IHlapiSession_t62EC17F845CFCF5A53BE770B6FB4DD711D467E29;
+// Niantic.ARDK.LocationService.ILocationService
+struct ILocationService_t2D698EC8C7EE4F64E9A56D7A4B3AE49FA262CB76;
 // Niantic.ARDK.Utilities.Marker.IMetadataSerializer
 struct IMetadataSerializer_tBAAA8F6C39492D2F21936B720F516D79C97196D0;
 // Niantic.ARDK.Networking.IMultipeerNetworking
@@ -495,12 +517,20 @@ struct IMultipeerNetworking_tA5B22EB4EDF24C862318C8A807E5165F8E8E3F5F;
 struct INetworkGroup_t6BB6622F421C9C9BAAC982D5AC4A37356AAF29EC;
 // Niantic.ARDK.Networking.IPeer
 struct IPeer_tB26E05AC085737591A7AE8FB14966542EB78BA81;
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor
+struct IWayspotAnchor_tEDF9143CBB8A73EECCE9470DE1B7BBF7EFFF5309;
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchorsConfiguration
+struct IWayspotAnchorsConfiguration_tE98D38CC7CAE245E674F62E7C883CA6650FDC3A0;
 // UnityEngine.UI.Image
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 // UnityEngine.UI.InputField
 struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+// Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs
+struct LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6;
+// Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged
+struct LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22;
 // Niantic.ARDKExamples.MarkerSync.MarkerMappingManager
 struct MarkerMappingManager_t620970C1422A5665B031372706B73BAEE6E9BDC3;
 // Niantic.ARDK.Utilities.Marker.MarkerMetadata
@@ -573,6 +603,8 @@ struct SessionStartGatekeeper_t952D9782379CF47F611D77EDDBAD6F0CACCD234D;
 struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+// Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged
+struct StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC;
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE;
 // System.String
@@ -613,6 +645,16 @@ struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // UnityEngine.WaitForSecondsRealtime
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorControllerBase
+struct WayspotAnchorControllerBase_tA6A7B304702DA89015F2B686DCA56F8BE5AFA3DA;
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload
+struct WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221;
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService
+struct WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7;
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase
+struct WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221;
+// Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO
+struct WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22;
 // Niantic.ARDK.Utilities._ThreadCheckedObject
 struct _ThreadCheckedObject_tB062B0CBB623B72F74B98674276DCEEE598566A6;
 // Niantic.ARDK.Utilities.BinarySerialization.Contexts._TypeDeserializationContext
@@ -659,6 +701,7 @@ IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t37C3835B1EC4E62869ACCEA705A0B35D56EB05AB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t3B68CD11080AD1861C74DD8483243D67133ABA3F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t40E765B022425EF74BDC129071F15EDAE74155F7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t424C0962EF135DC670958B9BC5F93EDFF93AF2DB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t44541BA106426545622E7E03A0B40218D592E8E7_il2cpp_TypeInfo_var;
@@ -673,6 +716,7 @@ IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tA7FCD1F57278261E95848EA2454F25
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tBC9D65BAFF11DF1082BD86CB2B6C98D0A857FDBF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkGlobalConfig_t3307B4653A987A5903FE7CB37B11BC0F03DA5DF8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB_il2cpp_TypeInfo_var;
@@ -708,6 +752,7 @@ IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666
 IL2CPP_EXTERN_C RuntimeClass* IEquatable_1_tAB27EFCEEC8B73006079F75F9928B2D32C59F763_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IFeaturePreloader_tD91C8AA3B67B80CB5BF001F4271A4CAEB4F5774E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IHlapiSession_t62EC17F845CFCF5A53BE770B6FB4DD711D467E29_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ILocationService_t2D698EC8C7EE4F64E9A56D7A4B3AE49FA262CB76_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IMultipeerNetworking_tA5B22EB4EDF24C862318C8A807E5165F8E8E3F5F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* INetworkedField_1_t381E5C6EA6039BDD83FD2BAAC0BA63018AF04F65_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* INetworkedField_1_tAABAFE66E4C74B4AB7BBEE6EC0F30BFE5AFA8D44_il2cpp_TypeInfo_var;
@@ -719,6 +764,8 @@ IL2CPP_EXTERN_C RuntimeClass* InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A1
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LocalizationState_t9D43BBC114566C7EBDAAD625BED09C055A032AF9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MarkerMappingManager_t620970C1422A5665B031372706B73BAEE6E9BDC3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MarkerMetadata_tDA5E00DFEE07D62295EEFFDF32838EA91FF93680_il2cpp_TypeInfo_var;
@@ -742,6 +789,7 @@ IL2CPP_EXTERN_C RuntimeClass* PreloadedFeatureState_t5B5B3FEA7A1C0667721A4E98A61
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ScrollingLog_t9015254AF17872349A8CC1B3AD833033EF834FE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TransportType_tEC575A6B09F6A3D419478D6C956F5A4BECEBDB07_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t30D66E7768BE67884A4787F9E8C7A65336EBDA66_il2cpp_TypeInfo_var;
@@ -750,6 +798,7 @@ IL2CPP_EXTERN_C RuntimeClass* UnreliableBroadcastTransformPacker_t1216F94BF48FBA
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3Serializer_t5836FE3C9E8F4F901CD7F2624346F034FC8DE47D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral001AAED61FB96878C0CC28B970B32A7192C4B4DB;
 IL2CPP_EXTERN_C String_t* _stringLiteral03F01AA52D4B8DEE6D370163031323DF4A194C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9;
@@ -797,6 +846,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral88903E9A51CB11E47CE333A9776E564FAD4F7DE4
 IL2CPP_EXTERN_C String_t* _stringLiteral95F88BFA38BFC524EA0F5D26B11BEB67405611EE;
 IL2CPP_EXTERN_C String_t* _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62;
 IL2CPP_EXTERN_C String_t* _stringLiteral9961C07DD002E8AE6267303EC5D75888DF462567;
+IL2CPP_EXTERN_C String_t* _stringLiteral99B566E8C1FAA3DCEFF21D7736AE71DB6678412D;
 IL2CPP_EXTERN_C String_t* _stringLiteral9B736A9739934A4ACD0D222F5EDAB3AB0209F008;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F2796AFD3A7281DA951AEC335F09CD86B184C71;
 IL2CPP_EXTERN_C String_t* _stringLiteralA55CB4C7E431EEAEA4333B4876B47C2E0DD6638D;
@@ -804,7 +854,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAA0FA8A6E8BA3692B70AF28DAE7C8C9B829B0716
 IL2CPP_EXTERN_C String_t* _stringLiteralAA22D570E6C4A129777FCFB302C12DD9C8F5BA43;
 IL2CPP_EXTERN_C String_t* _stringLiteralAADCBA6E9DD00D77369AF3DFD0B2536CE7836E8D;
 IL2CPP_EXTERN_C String_t* _stringLiteralABD884F7688123CE5EAB301152D58085806E28FD;
+IL2CPP_EXTERN_C String_t* _stringLiteralAC4FF0C2E8FB82723D3472B992E9CD4F29879E30;
+IL2CPP_EXTERN_C String_t* _stringLiteralADDC1D74FAA0E02AB180E00408060B73BA97A031;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFA3595C376CB158D6E6CCDF879CE72A3D8F44C4;
+IL2CPP_EXTERN_C String_t* _stringLiteralB052C111425C743702A3F3DA821F13BB0D2B8526;
 IL2CPP_EXTERN_C String_t* _stringLiteralB4D750149304346FA9F6C85B86DC614F8426ADC3;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC85761EAF69D5FC435FE2EF85D8F56E97550196;
 IL2CPP_EXTERN_C String_t* _stringLiteralBCD3666413E00B49638F824BF5F6BB556431D109;
@@ -971,6 +1024,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* SyncStateTrackingList_OnWillDisconnect_m6F0
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnDidConnectU3Eb__38_0_mD053FCBCAF4453C9DB84672634F5AF8402DDDF38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnDidConnectU3Eb__38_1_mA7013ADBCD4C00D14C4DBFE3B2F8217368AEACB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* TransportType_tEC575A6B09F6A3D419478D6C956F5A4BECEBDB07_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -979,9 +1035,11 @@ struct Exception_t_marshaled_pinvoke;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct IPeerU5BU5D_t52ED6A8320F500844182DAAB30A02E283831DF9B;
+struct IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -1312,6 +1370,15 @@ struct HlapiSession_t471D3647ECD341930ACCD414A1CEBDCD14FD5C12  : public RuntimeO
 	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* ____cachedStream_7;
 };
 
+// Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs
+struct LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6  : public RuntimeObject
+{
+	// Niantic.ARDK.AR.WayspotAnchors.LocalizationState Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs::<State>k__BackingField
+	int32_t ___U3CStateU3Ek__BackingField_0;
+	// Niantic.ARDK.AR.WayspotAnchors.LocalizationFailureReason Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs::<FailureReason>k__BackingField
+	int32_t ___U3CFailureReasonU3Ek__BackingField_1;
+};
+
 // Niantic.ARDK.Utilities.Marker.MarkerMetadata
 struct MarkerMetadata_tDA5E00DFEE07D62295EEFFDF32838EA91FF93680  : public RuntimeObject
 {
@@ -1442,6 +1509,47 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 // Native definition for COM marshalling of System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
+};
+
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload
+struct WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221  : public RuntimeObject
+{
+	// System.Byte[] Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload::<_Blob>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3C_BlobU3Ek__BackingField_0;
+};
+
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase
+struct WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221  : public RuntimeObject
+{
+	// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs> Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::LocalizationStateUpdated
+	ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* ___LocalizationStateUpdated_1;
+	// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorControllerBase Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::_wayspotAnchorController
+	WayspotAnchorControllerBase_tA6A7B304702DA89015F2B686DCA56F8BE5AFA3DA* ____wayspotAnchorController_2;
+	// Niantic.ARDK.LocationService.ILocationService Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::_locationService
+	RuntimeObject* ____locationService_3;
+	// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchorsConfiguration Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::_wayspotAnchorsConfiguration
+	RuntimeObject* ____wayspotAnchorsConfiguration_4;
+	// System.Collections.Generic.Dictionary`2<System.Guid,Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor> Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::_wayspotAnchors
+	Dictionary_2_t7DC2AD3DACF3294A65F6353494E4B87287E9B757* ____wayspotAnchors_5;
+	// Niantic.ARDK.AR.WayspotAnchors.LocalizationState Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::<LocalizationState>k__BackingField
+	int32_t ___U3CLocalizationStateU3Ek__BackingField_6;
+	// Niantic.ARDK.AR.WayspotAnchors.LocalizationFailureReason Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::<LocalizationFailureReason>k__BackingField
+	int32_t ___U3CLocalizationFailureReasonU3Ek__BackingField_7;
+};
+
+// Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO
+struct WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22  : public RuntimeObject
+{
+	// Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::StatusLogChangeEvent
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* ___StatusLogChangeEvent_0;
+	// Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::LocalizationStatusChangeEvent
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* ___LocalizationStatusChangeEvent_1;
+	// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::_wayspotAnchorService
+	WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* ____wayspotAnchorService_2;
+	// Niantic.ARDK.AR.IARSession Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::_arSession
+	RuntimeObject* ____arSession_3;
+	// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchorsConfiguration Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::_config
+	RuntimeObject* ____config_4;
 };
 
 // Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs
@@ -1613,6 +1721,18 @@ struct ARSessionDeinitializedArgs_t3380997AC55EC746D573D7C6AE35691944859A3C
 		{
 		};
 		uint8_t ARSessionDeinitializedArgs_t3380997AC55EC746D573D7C6AE35691944859A3C__padding[1];
+	};
+};
+
+// Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs
+struct ARSessionRanArgs_t45F3718446AFEB664945BA3F1589091A5918F8EB 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ARSessionRanArgs_t45F3718446AFEB664945BA3F1589091A5918F8EB__padding[1];
 	};
 };
 
@@ -2329,6 +2449,13 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService
+struct WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7  : public WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221
+{
+	// Niantic.ARDK.AR.IARSession Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService::_arSession
+	RuntimeObject* ____arSession_8;
+};
+
 // System.Collections.Generic.Dictionary`2/Enumerator<Niantic.ARDK.Networking.IPeer,UnityEngine.GameObject>
 struct Enumerator_t510EC00766B9414A0E16250124C9A3B3AD48135E 
 {
@@ -2945,6 +3072,11 @@ struct ArdkEventHandler_1_t8A69E76C984D1745A71B56D8B133803E18835BC3  : public Mu
 {
 };
 
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>
+struct ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E  : public MulticastDelegate_t
+{
+};
+
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnchorsArgs>
 struct ArdkEventHandler_1_t49750CE4D6E7118DC43F3E338BFC789BDB443CB9  : public MulticastDelegate_t
 {
@@ -2987,6 +3119,11 @@ struct ArdkEventHandler_1_tBC9D65BAFF11DF1082BD86CB2B6C98D0A857FDBF  : public Mu
 
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.FrameUpdatedArgs>
 struct ArdkEventHandler_1_t40E765B022425EF74BDC129071F15EDAE74155F7  : public MulticastDelegate_t
+{
+};
+
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs>
+struct ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA  : public MulticastDelegate_t
 {
 };
 
@@ -3039,6 +3176,16 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t
 
 // UnityEngine.Collider
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged
+struct LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22  : public MulticastDelegate_t
+{
+};
+
+// Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged
+struct StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC  : public MulticastDelegate_t
 {
 };
 
@@ -4021,6 +4168,76 @@ struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8  : public H
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[]
+struct IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload[]
+struct WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221* m_Items[1];
+
+	inline WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, WayspotAnchorPayload_t03219D6AC979D2A45443B0AB03A5CD1CF42F9221* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
 // Niantic.ARDK.Networking.IPeer[]
 struct IPeerU5BU5D_t52ED6A8320F500844182DAAB30A02E283831DF9B  : public RuntimeArray
 {
@@ -4192,8 +4409,12 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 };
 
 
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507_gshared (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m4168DD9DD1A0C034B09ACF82B09C2FACBEA95AFF_gshared (ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32Enum>::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyCollection_1_get_Count_m6173E9709ED323E790FE82E825A8DE6E88F23A0B_gshared (ReadOnlyCollection_1_t147FA1FCB6E2EB047E003D795B981985F4219E5F* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>::.ctor(System.Object,System.IntPtr)
@@ -4270,8 +4491,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m30121D13E38530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m487A0501D6F875A04F7D8F93F1CB3C813994AA64_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507_gshared (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionDeinitializedArgs>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m415EC7077DBE8CFB79ECD09F210F1F5012B40959_gshared (ArdkEventHandler_1_t8A69E76C984D1745A71B56D8B133803E18835BC3* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
@@ -4347,6 +4566,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_First_TisRuntimeObj
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
 
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::StartUpWayspotManager()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_StartUpWayspotManager_m391970083B2CBC4BF18D871DB0D6FD2E104C6760 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged::Invoke(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StatusLogChanged_Invoke_m20614AE96AB15EA3A7D30C071234D8BDBFE8C7C3_inline (StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* __this, String_t* ___statusMessage0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
+inline void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507 (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Niantic.ARDK.AR.ARSessionFactory::add_SessionInitialized(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSessionFactory_add_SessionInitialized_m718A16A7689C0CA6B674979A1419F6456A3C016D (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* ___value0, const RuntimeMethod* method) ;
+// Niantic.ARDK.LocationService.ILocationService Niantic.ARDK.LocationService.LocationServiceFactory::Create(Niantic.ARDK.RuntimeEnvironment)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LocationServiceFactory_Create_m87C63129850C9E3067EAB3C60434395B24D8BAA2 (int32_t ___env0, const RuntimeMethod* method) ;
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchorsConfiguration Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorsConfigurationFactory::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WayspotAnchorsConfigurationFactory_Create_mC88E8AB39E64B4F07950211E71192E2E61FF63D1 (const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService::.ctor(Niantic.ARDK.AR.IARSession,Niantic.ARDK.LocationService.ILocationService,Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchorsConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotAnchorService__ctor_m96B7A185DB0A9D977E2522B6FE5D6E683A83B018 (WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* __this, RuntimeObject* ___arSession0, RuntimeObject* ___locationService1, RuntimeObject* ___wayspotAnchorsConfiguration2, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs>::.ctor(System.Object,System.IntPtr)
+inline void ArdkEventHandler_1__ctor_mEDBB762015405425EFF27F887F337D2D6BC5EB15 (ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared)(__this, ___object0, ___method1, method);
+}
+// Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[] Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::RestoreWayspotAnchors(Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* WayspotAnchorServiceBase_RestoreWayspotAnchors_m6F34EB1A2115CDCF93A103CFCA4304B37E31A1E3 (WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221* __this, WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE* ___wayspotAnchorPayloads0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::DestroyWayspotAnchors(Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotAnchorServiceBase_DestroyWayspotAnchors_mB8EBF461D2F4FB821FF318DBE04E5FA86C1F9FF0 (WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221* __this, IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* ___anchors0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.ARSessionFactory::remove_SessionInitialized(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSessionFactory_remove_SessionInitialized_m9EAA2283AA72DBD23DA9ED4B7DD7C4325ED42740 (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::Restart()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotAnchorServiceBase_Restart_m16440FEEE5055873026C80CED214E60C686AD139 (WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221* __this, const RuntimeMethod* method) ;
+// Niantic.ARDK.AR.IARSession Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs::get_Session()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline (AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>::.ctor(System.Object,System.IntPtr)
+inline void ArdkEventHandler_1__ctor_m4168DD9DD1A0C034B09ACF82B09C2FACBEA95AFF (ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m4168DD9DD1A0C034B09ACF82B09C2FACBEA95AFF_gshared)(__this, ___object0, ___method1, method);
+}
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::CreateWayspotAnchorService()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* WayspotManagerPOCO_CreateWayspotAnchorService_mA2561A887F64A24C7C9EE2DC6843269E7EE95BE9 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) ;
+// Niantic.ARDK.AR.WayspotAnchors.LocalizationState Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs::get_State()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocalizationStateUpdatedArgs_get_State_m46C8E8FC04338D0B1318D54B8203FC2E4229EE75_inline (LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged::Invoke(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocalizationStatusChanged_Invoke_mCB63EA64A5390DF49D2F2837B71A9CD848AA7784_inline (LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* __this, String_t* ___localizationMessage0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.Logging.ARLog::EnableLogFeature(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARLog_EnableLogFeature_m39C4AF26A5F7901CA05305F6A4028A1B92CB7EE9 (String_t* ___feature0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Extensions.UnityLifecycleDriver::Initialize()
@@ -4356,8 +4628,6 @@ inline void ArdkEventHandler_1__ctor_mDCF7C6EB2F4DFC335F295361D410569E3DF4A6FF (
 {
 	((  void (*) (ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared)(__this, ___object0, ___method1, method);
 }
-// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
@@ -4366,8 +4636,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
 // Niantic.ARDK.Utilities.Preloading.IFeaturePreloader Niantic.ARDK.Extensions.FeaturePreloadManager::get_Preloader()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FeaturePreloadManager_get_Preloader_m182D81A55153F022CB35CBEF197E6113C1E4D7EC (FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* __this, const RuntimeMethod* method) ;
-// System.String System.Enum::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.String Niantic.ARDKExamples.Preloading.PreloaderTestManager::GetFeatureStatus(Niantic.ARDK.Utilities.Preloading.Feature)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PreloaderTestManager_GetFeatureStatus_mD78BDECCE89BD0D7910B2A2E2A1F17BA4E332020 (PreloaderTestManager_tC49841373BA95EF1E9CA6C1D33901CD1BD833657* __this, int32_t ___feature0, const RuntimeMethod* method) ;
 // System.String System.Single::ToString()
@@ -4434,10 +4702,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARNetworkingFactory_add_ARNetworkingInit
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FeaturePreloadManager_AreAllFeaturesDownloaded_mEFF28898D1955A52BFD2FE758B28D1624BF8E2C5 (FeaturePreloadManager_t2D4AE1E9A5ACD242A294CC1041B72C711D8DC1FC* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.PongHLAPI.GameController::OnPreloadFinished(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnPreloadFinished_m2160399CD432A8FA87474797A345AEB6BDA0A69A (GameController_t280CC3EB2D4E94A01D2E20424EB03C13A826BF08* __this, bool ___success0, const RuntimeMethod* method) ;
-// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Byte System.Convert::ToByte(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Convert_ToByte_mC22A7EFFB28AA32D8F797E456E92BA88DBA19A08 (bool ___value0, const RuntimeMethod* method) ;
 // Niantic.ARDK.Utilities.Optional`1<T> Niantic.ARDK.Utilities.Optional`1<System.Byte>::op_Implicit(T)
@@ -4652,8 +4916,6 @@ inline BallBehaviour_t87C380FE3A31F504E65EA03BFD805C87F25A7CEB* Object_FindObjec
 }
 // System.Void Niantic.ARDKExamples.PongHLAPI.GameController/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC502026AD0110709CF0000CD57A241427AB1EFE2 (U3CU3Ec_t30D66E7768BE67884A4787F9E8C7A65336EBDA66* __this, const RuntimeMethod* method) ;
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Niantic.ARDK.Networking.HLAPI.Object.Unity.AuthBehaviour>()
 inline AuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59* Component_GetComponent_TisAuthBehaviour_tC2820BB6525EB1C3ED84D49CE88FAD70CDE75C59_mDB47690C23142C6D41465B50E4E1C82D25449EDF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -4850,15 +5112,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
 // System.Boolean Niantic.ARDK.Configuration.ArdkGlobalConfig::SetContextAwarenessUrl(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArdkGlobalConfig_SetContextAwarenessUrl_mC7F999C21C17160ACBC5E279092BD70B9B7029A3 (String_t* ___url0, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
-inline void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507 (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Void Niantic.ARDK.AR.ARSessionFactory::add_SessionInitialized(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSessionFactory_add_SessionInitialized_m718A16A7689C0CA6B674979A1419F6456A3C016D (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* ___value0, const RuntimeMethod* method) ;
-// Niantic.ARDK.AR.IARSession Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs::get_Session()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline (AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionDeinitializedArgs>::.ctor(System.Object,System.IntPtr)
 inline void ArdkEventHandler_1__ctor_m415EC7077DBE8CFB79ECD09F210F1F5012B40959 (ArdkEventHandler_1_t8A69E76C984D1745A71B56D8B133803E18835BC3* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -4866,8 +5119,6 @@ inline void ArdkEventHandler_1__ctor_m415EC7077DBE8CFB79ECD09F210F1F5012B40959 (
 }
 // System.Void Niantic.ARDKExamples.Helpers.ARHitTester::ClearObjects()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARHitTester_ClearObjects_m3E7637DC36BC1658EF31D34FF85BB1B7E2654CE2 (ARHitTester_tC61A021111AF763EEBA69C43F9F2B18337877A40* __this, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.AR.ARSessionFactory::remove_SessionInitialized(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSessionFactory_remove_SessionInitialized_m9EAA2283AA72DBD23DA9ED4B7DD7C4325ED42740 (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* ___value0, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.GameObject>::GetEnumerator()
 inline Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
 {
@@ -5299,6 +5550,600 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::add_StatusLogChangeEvent(Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_add_StatusLogChangeEvent_mAF9597FD58D9FBD3123DB60767280CDF22BD6EC9 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_0 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_1 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_2 = NULL;
+	{
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_0 = __this->___StatusLogChangeEvent_0;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_1 = V_0;
+		V_1 = L_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_2 = V_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)CastclassSealed((RuntimeObject*)L_4, StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var));
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC** L_5 = (&__this->___StatusLogChangeEvent_0);
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_6 = V_2;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_7 = V_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_8;
+		L_8 = InterlockedCompareExchangeImpl<StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_9 = V_0;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_10 = V_1;
+		if ((!(((RuntimeObject*)(StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)L_9) == ((RuntimeObject*)(StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::remove_StatusLogChangeEvent(Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_remove_StatusLogChangeEvent_mCB61AB582AB27AB81032F05EA58A63CB6AD22986 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_0 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_1 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* V_2 = NULL;
+	{
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_0 = __this->___StatusLogChangeEvent_0;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_1 = V_0;
+		V_1 = L_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_2 = V_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)CastclassSealed((RuntimeObject*)L_4, StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var));
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC** L_5 = (&__this->___StatusLogChangeEvent_0);
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_6 = V_2;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_7 = V_1;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_8;
+		L_8 = InterlockedCompareExchangeImpl<StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_9 = V_0;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_10 = V_1;
+		if ((!(((RuntimeObject*)(StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)L_9) == ((RuntimeObject*)(StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::add_LocalizationStatusChangeEvent(Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_add_LocalizationStatusChangeEvent_m8134AA98CBD2B167B1F78227F74CFA25D1CBF4A4 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_0 = NULL;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_1 = NULL;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_2 = NULL;
+	{
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_0 = __this->___LocalizationStatusChangeEvent_1;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_1 = V_0;
+		V_1 = L_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_2 = V_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)CastclassSealed((RuntimeObject*)L_4, LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var));
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22** L_5 = (&__this->___LocalizationStatusChangeEvent_1);
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_6 = V_2;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_7 = V_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_8;
+		L_8 = InterlockedCompareExchangeImpl<LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_9 = V_0;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_10 = V_1;
+		if ((!(((RuntimeObject*)(LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)L_9) == ((RuntimeObject*)(LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::remove_LocalizationStatusChangeEvent(Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_remove_LocalizationStatusChangeEvent_m6AC97C86697F23CCF898DD7DF05901E858C3B148 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_0 = NULL;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_1 = NULL;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* V_2 = NULL;
+	{
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_0 = __this->___LocalizationStatusChangeEvent_1;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_1 = V_0;
+		V_1 = L_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_2 = V_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)CastclassSealed((RuntimeObject*)L_4, LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var));
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22** L_5 = (&__this->___LocalizationStatusChangeEvent_1);
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_6 = V_2;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_7 = V_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_8;
+		L_8 = InterlockedCompareExchangeImpl<LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_9 = V_0;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_10 = V_1;
+		if ((!(((RuntimeObject*)(LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)L_9) == ((RuntimeObject*)(LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO__ctor_m2622190A7E7189B872ABA6F8D889154F6CE9B271 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) 
+{
+	{
+		// public WayspotManagerPOCO()
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// StartUpWayspotManager();
+		WayspotManagerPOCO_StartUpWayspotManager_m391970083B2CBC4BF18D871DB0D6FD2E104C6760(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::StartUpWayspotManager()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_StartUpWayspotManager_m391970083B2CBC4BF18D871DB0D6FD2E104C6760 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARSessionFactory_t1D5BCA669C6345AF0C3971E4EB21DECD02227A5E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB052C111425C743702A3F3DA821F13BB0D2B8526);
+		s_Il2CppMethodInitialized = true;
+	}
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B2_0 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B1_0 = NULL;
+	{
+		// StatusLogChangeEvent?.Invoke("Initializing Session.");
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_0 = __this->___StatusLogChangeEvent_0;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		goto IL_0016;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		StatusLogChanged_Invoke_m20614AE96AB15EA3A7D30C071234D8BDBFE8C7C3_inline(G_B2_0, _stringLiteralB052C111425C743702A3F3DA821F13BB0D2B8526, NULL);
+	}
+
+IL_0016:
+	{
+		// ARSessionFactory.SessionInitialized += HandleSessionInitialized;
+		ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* L_2 = (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F*)il2cpp_codegen_object_new(ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507(L_2, __this, (intptr_t)((void*)WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(ARSessionFactory_t1D5BCA669C6345AF0C3971E4EB21DECD02227A5E_il2cpp_TypeInfo_var);
+		ARSessionFactory_add_SessionInitialized_m718A16A7689C0CA6B674979A1419F6456A3C016D(L_2, NULL);
+		// }
+		return;
+	}
+}
+// Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::CreateWayspotAnchorService()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* WayspotManagerPOCO_CreateWayspotAnchorService_mA2561A887F64A24C7C9EE2DC6843269E7EE95BE9 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocationService_t2D698EC8C7EE4F64E9A56D7A4B3AE49FA262CB76_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	{
+		// var locationService = LocationServiceFactory.Create(_arSession.RuntimeEnvironment);
+		RuntimeObject* L_0 = __this->____arSession_3;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* Niantic.ARDK.RuntimeEnvironment Niantic.ARDK.AR.IARSession::get_RuntimeEnvironment() */, IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var, L_0);
+		RuntimeObject* L_2;
+		L_2 = LocationServiceFactory_Create_m87C63129850C9E3067EAB3C60434395B24D8BAA2(L_1, NULL);
+		V_0 = L_2;
+		// locationService.Start();
+		RuntimeObject* L_3 = V_0;
+		NullCheck(L_3);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void Niantic.ARDK.LocationService.ILocationService::Start() */, ILocationService_t2D698EC8C7EE4F64E9A56D7A4B3AE49FA262CB76_il2cpp_TypeInfo_var, L_3);
+		// if (_config == null)
+		RuntimeObject* L_4 = __this->____config_4;
+		if (L_4)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		// _config = WayspotAnchorsConfigurationFactory.Create();
+		RuntimeObject* L_5;
+		L_5 = WayspotAnchorsConfigurationFactory_Create_mC88E8AB39E64B4F07950211E71192E2E61FF63D1(NULL);
+		__this->____config_4 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____config_4), (void*)L_5);
+	}
+
+IL_002a:
+	{
+		// var wayspotAnchorService =
+		//     new WayspotAnchorService
+		//     (
+		//         _arSession,
+		//         locationService,
+		//         _config
+		//     );
+		RuntimeObject* L_6 = __this->____arSession_3;
+		RuntimeObject* L_7 = V_0;
+		RuntimeObject* L_8 = __this->____config_4;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_9 = (WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7*)il2cpp_codegen_object_new(WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		WayspotAnchorService__ctor_m96B7A185DB0A9D977E2522B6FE5D6E683A83B018(L_9, L_6, L_7, L_8, NULL);
+		// wayspotAnchorService.LocalizationStateUpdated += OnLocalizationStateUpdated;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_10 = L_9;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_11 = L_10;
+		NullCheck(L_11);
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_12 = ((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_11)->___LocalizationStateUpdated_1;
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_13 = (ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)il2cpp_codegen_object_new(ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		ArdkEventHandler_1__ctor_mEDBB762015405425EFF27F887F337D2D6BC5EB15(L_13, __this, (intptr_t)((void*)WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var), NULL);
+		Delegate_t* L_14;
+		L_14 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_12, L_13, NULL);
+		NullCheck(L_11);
+		((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_11)->___LocalizationStateUpdated_1 = ((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_14, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_11)->___LocalizationStateUpdated_1), (void*)((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_14, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var)));
+		// return wayspotAnchorService;
+		return L_10;
+	}
+}
+// System.Boolean Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::RestoreAnchorsWithPayload(Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[]&,Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorPayload[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WayspotManagerPOCO_RestoreAnchorsWithPayload_m9765236668838672CBDF49E8051A18C45BC8503A (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B** ___anchors0, WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE* ___anchorPayloads1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAC4FF0C2E8FB82723D3472B992E9CD4F29879E30);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// anchors = _wayspotAnchorService.RestoreWayspotAnchors(anchorPayloads);
+		IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B** L_0 = ___anchors0;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_1 = __this->____wayspotAnchorService_2;
+		WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE* L_2 = ___anchorPayloads1;
+		NullCheck(L_1);
+		IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* L_3;
+		L_3 = WayspotAnchorServiceBase_RestoreWayspotAnchors_m6F34EB1A2115CDCF93A103CFCA4304B37E31A1E3(L_1, L_2, NULL);
+		*((RuntimeObject**)L_0) = (RuntimeObject*)L_3;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_3);
+		// if (anchors.Length == 0)
+		IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B** L_4 = ___anchors0;
+		IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* L_5 = *((IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B**)L_4);
+		NullCheck(L_5);
+		if ((((RuntimeArray*)L_5)->max_length))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		// Debug.LogError("anchor(s) was not created for some reason: ");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralAC4FF0C2E8FB82723D3472B992E9CD4F29879E30, NULL);
+		// return false; // error raised in CreateWayspotAnchors
+		return (bool)0;
+	}
+
+IL_001f:
+	{
+		// return true;
+		return (bool)1;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::DestroyAnchors(Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_DestroyAnchors_m92992E4679E0EB5EF99282CD8927B22E1063891A (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* ___anchors0, const RuntimeMethod* method) 
+{
+	{
+		// _wayspotAnchorService.DestroyWayspotAnchors(anchors);
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_0 = __this->____wayspotAnchorService_2;
+		IWayspotAnchorU5BU5D_tB0B43BA80455D08D819DEA5B39EA32FE1F1A4E7B* L_1 = ___anchors0;
+		NullCheck(L_0);
+		WayspotAnchorServiceBase_DestroyWayspotAnchors_mB8EBF461D2F4FB821FF318DBE04E5FA86C1F9FF0(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::ShutDown()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_ShutDown_m82FC12987E2E7C94407C0EA5A26765753453172F (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARSessionFactory_t1D5BCA669C6345AF0C3971E4EB21DECD02227A5E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ARSessionFactory.SessionInitialized -= HandleSessionInitialized;
+		ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* L_0 = (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F*)il2cpp_codegen_object_new(ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507(L_0, __this, (intptr_t)((void*)WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(ARSessionFactory_t1D5BCA669C6345AF0C3971E4EB21DECD02227A5E_il2cpp_TypeInfo_var);
+		ARSessionFactory_remove_SessionInitialized_m9EAA2283AA72DBD23DA9ED4B7DD7C4325ED42740(L_0, NULL);
+		// if (_wayspotAnchorService != null)
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_1 = __this->____wayspotAnchorService_2;
+		if (!L_1)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		// _wayspotAnchorService.LocalizationStateUpdated -= OnLocalizationStateUpdated;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_2 = __this->____wayspotAnchorService_2;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_3 = L_2;
+		NullCheck(L_3);
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_4 = ((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_3)->___LocalizationStateUpdated_1;
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_5 = (ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)il2cpp_codegen_object_new(ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		ArdkEventHandler_1__ctor_mEDBB762015405425EFF27F887F337D2D6BC5EB15(L_5, __this, (intptr_t)((void*)WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var), NULL);
+		Delegate_t* L_6;
+		L_6 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_4, L_5, NULL);
+		NullCheck(L_3);
+		((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_3)->___LocalizationStateUpdated_1 = ((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_6, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_3)->___LocalizationStateUpdated_1), (void*)((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_6, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var)));
+		// _wayspotAnchorService.Dispose();
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_7 = __this->____wayspotAnchorService_2;
+		NullCheck(L_7);
+		VirtualActionInvoker0::Invoke(5 /* System.Void Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorServiceBase::Dispose() */, L_7);
+	}
+
+IL_004b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::RestartWayspotAnchorService()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_RestartWayspotAnchorService_m445FB00A1DB02C302FED9ACEC820D22FF2500479 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) 
+{
+	{
+		// _wayspotAnchorService.Restart();
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_0 = __this->____wayspotAnchorService_2;
+		NullCheck(L_0);
+		WayspotAnchorServiceBase_Restart_m16440FEEE5055873026C80CED214E60C686AD139(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::HandleSessionInitialized(Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E ___args0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralADDC1D74FAA0E02AB180E00408060B73BA97A031);
+		s_Il2CppMethodInitialized = true;
+	}
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B2_0 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B1_0 = NULL;
+	{
+		// StatusLogChangeEvent?.Invoke("Session initialized");
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_0 = __this->___StatusLogChangeEvent_0;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		goto IL_0016;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		StatusLogChanged_Invoke_m20614AE96AB15EA3A7D30C071234D8BDBFE8C7C3_inline(G_B2_0, _stringLiteralADDC1D74FAA0E02AB180E00408060B73BA97A031, NULL);
+	}
+
+IL_0016:
+	{
+		// _arSession = args.Session;
+		RuntimeObject* L_2;
+		L_2 = AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline((&___args0), NULL);
+		__this->____arSession_3 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____arSession_3), (void*)L_2);
+		// _arSession.Ran += HandleSessionRan;
+		RuntimeObject* L_3 = __this->____arSession_3;
+		ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* L_4 = (ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E*)il2cpp_codegen_object_new(ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		ArdkEventHandler_1__ctor_m4168DD9DD1A0C034B09ACF82B09C2FACBEA95AFF(L_4, __this, (intptr_t)((void*)WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker1< ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* >::Invoke(19 /* System.Void Niantic.ARDK.AR.IARSession::add_Ran(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>) */, IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var, L_3, L_4);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::HandleSessionRan(Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, ARSessionRanArgs_t45F3718446AFEB664945BA3F1589091A5918F8EB ___args0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral99B566E8C1FAA3DCEFF21D7736AE71DB6678412D);
+		s_Il2CppMethodInitialized = true;
+	}
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B2_0 = NULL;
+	StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* G_B1_0 = NULL;
+	{
+		// _arSession.Ran -= HandleSessionRan;
+		RuntimeObject* L_0 = __this->____arSession_3;
+		ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* L_1 = (ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E*)il2cpp_codegen_object_new(ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		ArdkEventHandler_1__ctor_m4168DD9DD1A0C034B09ACF82B09C2FACBEA95AFF(L_1, __this, (intptr_t)((void*)WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E* >::Invoke(20 /* System.Void Niantic.ARDK.AR.IARSession::remove_Ran(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>) */, IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var, L_0, L_1);
+		// _wayspotAnchorService = CreateWayspotAnchorService();
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_2;
+		L_2 = WayspotManagerPOCO_CreateWayspotAnchorService_mA2561A887F64A24C7C9EE2DC6843269E7EE95BE9(__this, NULL);
+		__this->____wayspotAnchorService_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____wayspotAnchorService_2), (void*)L_2);
+		// _wayspotAnchorService.LocalizationStateUpdated += OnLocalizationStateUpdated;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_3 = __this->____wayspotAnchorService_2;
+		WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7* L_4 = L_3;
+		NullCheck(L_4);
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_5 = ((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_4)->___LocalizationStateUpdated_1;
+		ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA* L_6 = (ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)il2cpp_codegen_object_new(ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		ArdkEventHandler_1__ctor_mEDBB762015405425EFF27F887F337D2D6BC5EB15(L_6, __this, (intptr_t)((void*)WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C_RuntimeMethod_var), NULL);
+		Delegate_t* L_7;
+		L_7 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_5, L_6, NULL);
+		NullCheck(L_4);
+		((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_4)->___LocalizationStateUpdated_1 = ((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_7, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221*)L_4)->___LocalizationStateUpdated_1), (void*)((ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA*)Castclass((RuntimeObject*)L_7, ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA_il2cpp_TypeInfo_var)));
+		// StatusLogChangeEvent?.Invoke("Session running");
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_8 = __this->___StatusLogChangeEvent_0;
+		StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* L_9 = L_8;
+		G_B1_0 = L_9;
+		if (L_9)
+		{
+			G_B2_0 = L_9;
+			goto IL_0055;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0055:
+	{
+		NullCheck(G_B2_0);
+		StatusLogChanged_Invoke_m20614AE96AB15EA3A7D30C071234D8BDBFE8C7C3_inline(G_B2_0, _stringLiteral99B566E8C1FAA3DCEFF21D7736AE71DB6678412D, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::OnLocalizationStateUpdated(Niantic.ARDK.AR.WayspotAnchors.LocalizationStateUpdatedArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO_OnLocalizationStateUpdated_m5FCCA26C7FB6F3158C0EC5E2D685DFEA132A025C (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6* ___args0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocalizationState_t9D43BBC114566C7EBDAAD625BED09C055A032AF9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* G_B2_0 = NULL;
+	LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* G_B1_0 = NULL;
+	{
+		// LocalizationStatusChangeEvent?.Invoke(args.State.ToString());
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_0 = __this->___LocalizationStatusChangeEvent_1;
+		LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6* L_2 = ___args0;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = LocalizationStateUpdatedArgs_get_State_m46C8E8FC04338D0B1318D54B8203FC2E4229EE75_inline(L_2, NULL);
+		V_0 = L_3;
+		Il2CppFakeBox<int32_t> L_4(LocalizationState_t9D43BBC114566C7EBDAAD625BED09C055A032AF9_il2cpp_TypeInfo_var, (&V_0));
+		String_t* L_5;
+		L_5 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_4), NULL);
+		NullCheck(G_B2_0);
+		LocalizationStatusChanged_Invoke_mCB63EA64A5390DF49D2F2837B71A9CD848AA7784_inline(G_B2_0, L_5, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -16978,6 +17823,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARAnchorAttachment__ctor_m6B346A83339B83
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StatusLogChanged_Invoke_m20614AE96AB15EA3A7D30C071234D8BDBFE8C7C3_inline (StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC* __this, String_t* ___statusMessage0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___statusMessage0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline (AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IARSession Session { get; }
+		RuntimeObject* L_0 = __this->___U3CSessionU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocalizationStateUpdatedArgs_get_State_m46C8E8FC04338D0B1318D54B8203FC2E4229EE75_inline (LocalizationStateUpdatedArgs_t90A342F41A4D62C089C4C52FEA098BF76795C5A6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public LocalizationState State { get; }
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LocalizationStatusChanged_Invoke_mCB63EA64A5390DF49D2F2837B71A9CD848AA7784_inline (LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22* __this, String_t* ___localizationMessage0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___localizationMessage0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline (Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17544,14 +18415,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline (AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E* __this, const RuntimeMethod* method) 
-{
-	{
-		// public IARSession Session { get; }
-		RuntimeObject* L_0 = __this->___U3CSessionU3Ek__BackingField_0;
-		return L_0;
-	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* PeerAddedArgs_get_Peer_mF04D06FAC3F681FA7E4EEA53D4727E1D4A20ACAC_inline (PeerAddedArgs_t1D6549A3DBAF0BBD1AF4D379F9F41B564312BF43* __this, const RuntimeMethod* method) 
 {

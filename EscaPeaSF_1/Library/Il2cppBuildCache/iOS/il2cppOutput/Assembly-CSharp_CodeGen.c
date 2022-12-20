@@ -572,55 +572,61 @@ extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 // 0x00000118 System.Object TMPro.Examples.WarpTextExample/<WarpText>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-// 0x00000119 System.Void GameManager.GameManager::Start()
+// 0x00000119 System.Void PloppyEscape.SpinIcon::Start()
+extern void SpinIcon_Start_m8A16CE0D56BB5A15BD858C6CBF954C5FD527354D (void);
+// 0x0000011A System.Void PloppyEscape.SpinIcon::Update()
+extern void SpinIcon_Update_m1B6D3F9143226EF22A0511D32D81287812C87385 (void);
+// 0x0000011B System.Void PloppyEscape.SpinIcon::.ctor()
+extern void SpinIcon__ctor_m5D40856E70D5E6828349ECD0D07F30010DBFF01F (void);
+// 0x0000011C System.Void GameManager.GameManager::Start()
 extern void GameManager_Start_m52705DB1711D49FF94EB8E27F5E6B3B52CC01AEA (void);
-// 0x0000011A System.Void GameManager.GameManager::Update()
+// 0x0000011D System.Void GameManager.GameManager::Update()
 extern void GameManager_Update_mDAD9C455439613FAED961A914DF6AE9009CE7E81 (void);
-// 0x0000011B System.Void GameManager.GameManager::.ctor()
+// 0x0000011E System.Void GameManager.GameManager::.ctor()
 extern void GameManager__ctor_mD48356C8940BC7E96AAC546B611F2B64993E0961 (void);
-// 0x0000011C System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Start()
+// 0x0000011F System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Start()
 extern void PanelControlFantasyRPG_Start_m782DD6A0F3AB581AC2E6A4FC3F30CB0D7077D319 (void);
-// 0x0000011D System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Update()
+// 0x00000120 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Update()
 extern void PanelControlFantasyRPG_Update_mBE225F0C2A9D5376DBAC332AC3C4C679CE9FBEF6 (void);
-// 0x0000011E System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Click_Prev()
+// 0x00000121 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Click_Prev()
 extern void PanelControlFantasyRPG_Click_Prev_m1483EC72CC6A65420B3879714252EA3F683D66C2 (void);
-// 0x0000011F System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Click_Next()
+// 0x00000122 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::Click_Next()
 extern void PanelControlFantasyRPG_Click_Next_mD64716E54983DDD21CF5A9BC4B725E93D6C309C3 (void);
-// 0x00000120 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::SetArrowActive()
+// 0x00000123 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::SetArrowActive()
 extern void PanelControlFantasyRPG_SetArrowActive_mC6416774CE4A47B870FF8F84D1D1744B5E949763 (void);
-// 0x00000121 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::CheckControl()
+// 0x00000124 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::CheckControl()
 extern void PanelControlFantasyRPG_CheckControl_m64C69F75929CD8AD0F64CC9FB3E222079FCF7721 (void);
-// 0x00000122 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::.ctor()
+// 0x00000125 System.Void LayerLab.FantasyRPG.PanelControlFantasyRPG::.ctor()
 extern void PanelControlFantasyRPG__ctor_m6B690DF0DB95497F337700B0B832F39DE8827B00 (void);
-// 0x00000123 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::OnEnable()
+// 0x00000126 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::OnEnable()
 extern void PanelFantasyRPG_OnEnable_mBE4C4C1B161FA3FEEF9E7F89E9BF239C3D451D03 (void);
-// 0x00000124 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::OnDisable()
+// 0x00000127 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::OnDisable()
 extern void PanelFantasyRPG_OnDisable_m6BC8191C6525945CDE2FC1E1C47E3FC142DAE152 (void);
-// 0x00000125 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::.ctor()
+// 0x00000128 System.Void LayerLab.FantasyRPG.PanelFantasyRPG::.ctor()
 extern void PanelFantasyRPG__ctor_m9FBAC6EFE184CBD31C1D4EA6078831402166070D (void);
-// 0x00000126 UnityEngine.Texture UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::get_mainTexture()
+// 0x00000129 UnityEngine.Texture UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::get_mainTexture()
 extern void UIParticleSystem_get_mainTexture_m5C7893BE4F8BAD0368516F9D15E43D202193BBF9 (void);
-// 0x00000127 System.Boolean UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Initialize()
+// 0x0000012A System.Boolean UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Initialize()
 extern void UIParticleSystem_Initialize_m75CE1D7EB74E9A24617E346B45087F91FA400064 (void);
-// 0x00000128 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Awake()
+// 0x0000012B System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Awake()
 extern void UIParticleSystem_Awake_m199F4245617DA4AF15E914F1FE3E7862FF7FEEE5 (void);
-// 0x00000129 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::OnPopulateMesh(UnityEngine.UI.VertexHelper)
+// 0x0000012C System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::OnPopulateMesh(UnityEngine.UI.VertexHelper)
 extern void UIParticleSystem_OnPopulateMesh_m3353B0A0D83E78F02079630E31E757BD2E5248CE (void);
-// 0x0000012A System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Update()
+// 0x0000012D System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::Update()
 extern void UIParticleSystem_Update_mAE12936163178D4C9B9FFDAD1BC55738CC12BCA4 (void);
-// 0x0000012B System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::LateUpdate()
+// 0x0000012E System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::LateUpdate()
 extern void UIParticleSystem_LateUpdate_mE15EA386E9D8F3D0248A8D2B9CCFE22E5E5AABA0 (void);
-// 0x0000012C System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::OnDestroy()
+// 0x0000012F System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::OnDestroy()
 extern void UIParticleSystem_OnDestroy_m3AF598BDF0D5BA48A7553520D25CA9E3D09F3C67 (void);
-// 0x0000012D System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::StartParticleEmission()
+// 0x00000130 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::StartParticleEmission()
 extern void UIParticleSystem_StartParticleEmission_m7947C7CEA5ECC199EFB0C4EE2866D203D55616DD (void);
-// 0x0000012E System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::StopParticleEmission()
+// 0x00000131 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::StopParticleEmission()
 extern void UIParticleSystem_StopParticleEmission_m0464663F4AB59E0D181A06A74A1E86999CECB565 (void);
-// 0x0000012F System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::PauseParticleEmission()
+// 0x00000132 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::PauseParticleEmission()
 extern void UIParticleSystem_PauseParticleEmission_m1A68825DB27D4F908B0077ED1172AD8DA6206A24 (void);
-// 0x00000130 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::.ctor()
+// 0x00000133 System.Void UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem::.ctor()
 extern void UIParticleSystem__ctor_m0576695CF8FAFFDC4311EE48C7524C3D01DA09AF (void);
-static Il2CppMethodPointer s_methodPointers[304] = 
+static Il2CppMethodPointer s_methodPointers[307] = 
 {
 	FlyCamera_Update_m062CA0B704D8A6EFD464A084F348A2CABD97A355,
 	FlyCamera_amIRotating_m92A1148FF1C82679E18AEC0E7F49120DCE41A1EE,
@@ -902,6 +908,9 @@ static Il2CppMethodPointer s_methodPointers[304] =
 	U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
+	SpinIcon_Start_m8A16CE0D56BB5A15BD858C6CBF954C5FD527354D,
+	SpinIcon_Update_m1B6D3F9143226EF22A0511D32D81287812C87385,
+	SpinIcon__ctor_m5D40856E70D5E6828349ECD0D07F30010DBFF01F,
 	GameManager_Start_m52705DB1711D49FF94EB8E27F5E6B3B52CC01AEA,
 	GameManager_Update_mDAD9C455439613FAED961A914DF6AE9009CE7E81,
 	GameManager__ctor_mD48356C8940BC7E96AAC546B611F2B64993E0961,
@@ -927,7 +936,7 @@ static Il2CppMethodPointer s_methodPointers[304] =
 	UIParticleSystem_PauseParticleEmission_m1A68825DB27D4F908B0077ED1172AD8DA6206A24,
 	UIParticleSystem__ctor_m0576695CF8FAFFDC4311EE48C7524C3D01DA09AF,
 };
-static const int32_t s_InvokerIndices[304] = 
+static const int32_t s_InvokerIndices[307] = 
 {
 	6363,
 	6148,
@@ -1222,6 +1231,9 @@ static const int32_t s_InvokerIndices[304] =
 	6363,
 	6363,
 	6363,
+	6363,
+	6363,
+	6363,
 	6247,
 	6148,
 	6363,
@@ -1238,7 +1250,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	304,
+	307,
 	s_methodPointers,
 	0,
 	NULL,

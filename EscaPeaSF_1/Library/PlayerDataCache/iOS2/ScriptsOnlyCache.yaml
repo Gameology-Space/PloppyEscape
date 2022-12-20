@@ -3,9 +3,10 @@ ScriptsOnlyBuild:
     ARDK-Editor.dll:
     - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
     ARDK-Examples.dll:
-    - Niantic.ARDKExamples.RemoteAuthoring.GameManager
+    - GameManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationManifestManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
+    - PlayerCollidingOnMap
     - PrefabHandle
     - PuzzleLogic
     - UIFunctions
@@ -22,8 +23,8 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
     - Niantic.ARDK.Utilities._CallbackQueue
     Assembly-CSharp.dll:
-    - ManualAlignAnchor
     - MapIconSpawner
+    - PloppyEscape.SpinIcon
     - SceneControl
     Maps.Samples.GameSample.dll:
     - Niantic.Lightship.Maps.Samples.GameSample.LocateButton
@@ -45,6 +46,10 @@ ScriptsOnlyBuild:
     - Niantic.Lightship.Maps.Unity.MapLayers.MapLayer
     OrbitCamera.dll:
     - Niantic.Platform.Util.OrbitCamera
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -131,9 +136,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
     methodName: navToPuzzScene
-  - assembly: Maps.Samples.GameSample
-    fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
-    methodName: OnIntroContinuePressed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToPuzzScene
+  - assembly: ARDK-Examples
+    fullTypeName: UIFunctionsMap
+    methodName: onInitialUIPressed
   - assembly: Maps.Samples.GameSample
     fullTypeName: Niantic.Lightship.Maps.Samples.GameSample.MapGameUIController
     methodName: OnGameOverContinuePressed
@@ -149,33 +157,24 @@ ScriptsOnlyBuild:
   - assembly: ARDK-Examples
     fullTypeName: UIFunctionsMap
     methodName: onCloudPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneControl
+    methodName: navToPuzzScene
   - assembly: ARDK-Examples
     fullTypeName: UIFunctionsMap
     methodName: onPloppyPressed
   - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onCloudPressed
-  - assembly: ARDK-Examples
     fullTypeName: togglescript
-    methodName: ToggleHint1
+    methodName: ToggleSecretUI
   - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onFountainPressed
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onExplorePressed
+    fullTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
+    methodName: LoadButtonClicked
   - assembly: ARDK-Examples
     fullTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
     methodName: LoadButtonClicked
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
-    methodName: navToPuzzScene
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneControl
     methodName: navToMapScene
-  - assembly: ARDK-Examples
-    fullTypeName: UIFunctions
-    methodName: onPloppyPressed
   sceneClasses:
     Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity:
     - Class: 1
@@ -237,45 +236,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 4266}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4440}
+      Script: {instanceID: 4442}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 5244}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 5390}
+      Script: {instanceID: 5392}
     - Class: 114
-      Script: {instanceID: 5750}
+      Script: {instanceID: 5752}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 7110}
+      Script: {instanceID: 7266}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7450}
     - Class: 114
-      Script: {instanceID: 7448}
+      Script: {instanceID: 7676}
     - Class: 114
-      Script: {instanceID: 7674}
+      Script: {instanceID: 7922}
     - Class: 114
-      Script: {instanceID: 7920}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 7966}
+      Script: {instanceID: 8116}
     - Class: 114
-      Script: {instanceID: 8114}
+      Script: {instanceID: 8960}
     - Class: 114
-      Script: {instanceID: 8956}
+      Script: {instanceID: 9172}
     - Class: 114
-      Script: {instanceID: 9168}
+      Script: {instanceID: 9294}
     - Class: 114
-      Script: {instanceID: 9290}
-    - Class: 114
-      Script: {instanceID: 9492}
+      Script: {instanceID: 9496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -319,6 +316,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 84
@@ -352,66 +353,66 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3540}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 3854}
+      Script: {instanceID: 3542}
     - Class: 114
-      Script: {instanceID: 4266}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4500}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 4502}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 5012}
     - Class: 114
-      Script: {instanceID: 5154}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5244}
+      Script: {instanceID: 5156}
     - Class: 114
-      Script: {instanceID: 5504}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 6326}
+      Script: {instanceID: 6232}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 6364}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 7410}
+      Script: {instanceID: 7266}
     - Class: 114
-      Script: {instanceID: 7448}
+      Script: {instanceID: 7412}
     - Class: 114
-      Script: {instanceID: 7554}
+      Script: {instanceID: 7450}
     - Class: 114
-      Script: {instanceID: 8186}
+      Script: {instanceID: 7556}
     - Class: 114
-      Script: {instanceID: 8422}
+      Script: {instanceID: 8188}
     - Class: 114
-      Script: {instanceID: 9178}
+      Script: {instanceID: 8274}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 8426}
     - Class: 114
-      Script: {instanceID: 9492}
+      Script: {instanceID: 9182}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9496}
+    - Class: 114
+      Script: {instanceID: 9986}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -818,6 +819,12 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
+      Hash: fdc014cda7a86f126dfe684956f4634d
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: PlayerCollidingOnMap
+  - hash:
+      serializedVersion: 2
       Hash: f7b138083d0a0218ac6acbbb940de3d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: LayerLab.FantasyRPG
@@ -1114,7 +1121,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 45cdef8d0ed726d3a7e2421c41ce9343
     assemblyName: ARDK-Examples.dll
-    namespaceName: Niantic.ARDKExamples.RemoteAuthoring
+    namespaceName: 
     className: GameManager
   - hash:
       serializedVersion: 2
@@ -1358,7 +1365,7 @@ ScriptsOnlyBuild:
     className: LayerLineRenderer
   - hash:
       serializedVersion: 2
-      Hash: 49b54168bfd1b48f940313442173b39e
+      Hash: 6a7e3473510387e97cdb9518d096e5fd
     assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: UIFunctions
@@ -1790,7 +1797,7 @@ ScriptsOnlyBuild:
     className: SyncStateHelpText
   - hash:
       serializedVersion: 2
-      Hash: 6c7f3c4144fb0ad4df7a24dd938ba285
+      Hash: 5d38f6549e289fa40800536d6726387a
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
     className: MapGameUIController
@@ -1928,7 +1935,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: f250f9707d36ee85e9ea7e8d47cbf574
+      Hash: ad3829a1ef2b28db1f758c56b52a1098
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
     className: LocateButton
@@ -1938,6 +1945,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PloppyEscape
+    className: SpinIcon
   - hash:
       serializedVersion: 2
       Hash: ee0d08ac341fb8c3015943e0c4611755
@@ -1970,7 +1983,7 @@ ScriptsOnlyBuild:
     className: ExamplePlayController
   - hash:
       serializedVersion: 2
-      Hash: 49b54168bfd1b48f940313442173b39e
+      Hash: 6bde90edebae7ebc2dd7b212d32b39e2
     assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: UIFunctionsMap
@@ -2186,7 +2199,7 @@ ScriptsOnlyBuild:
     className: ARImageDetectionManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 75651ab1b161b873929966b1055c8295
     assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: togglescript
@@ -2316,6 +2329,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
     className: ARSemanticSegmentationManager
+  - hash:
+      serializedVersion: 2
+      Hash: c94547f4e93700909c5d3fb66ef55cfe
+    assemblyName: ARDK-Examples.dll
+    namespaceName: Ploppy.Puzzle
+    className: PuzzleDetails
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
