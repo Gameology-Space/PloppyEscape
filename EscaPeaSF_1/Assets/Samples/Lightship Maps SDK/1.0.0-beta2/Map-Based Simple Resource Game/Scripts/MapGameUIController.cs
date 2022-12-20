@@ -20,9 +20,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private PlayerLocationController _player;
 
         [SerializeField]
-        private GameObject _introScreen;
-
-        [SerializeField]
         private GameObject _errorScreen;
 
         [SerializeField]
@@ -33,7 +30,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         private void Start()
         {
-            _introScreen.SetActive(true);
             _gameOverScreen.SetActive(false);
             _player.OnGPSError += OnGpsError;
         }
@@ -50,11 +46,6 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             {
                 _player.OnGPSError -= OnGpsError;
             }
-        }
-
-        public void OnIntroContinuePressed()
-        {
-            _introScreen.SetActive(false);
         }
 
         public void OnGameOverContinuePressed()

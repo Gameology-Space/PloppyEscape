@@ -17,10 +17,19 @@ public class UIFunctionsMap : MonoBehaviour
     public Text currentObjectTxt;
     public Button locate;
 
+    private GameManager gameManager;
+    public GameObject initialUI;
+
+    public void onInitialUIPressed()
+    {
+        gameManager.initial_UI = false;
+    }
+
     
     public void onExplorePressed()
     {
         Debug.Log("explore puzzle pressed");
+        playerIcon.enabled = true;
         GameManager.Instance.puzzleID = 1;
         transferTemp.text = 1.ToString();
         ploppyItemMenu.SetActive(false);
@@ -33,6 +42,7 @@ public class UIFunctionsMap : MonoBehaviour
     public void onCloudPressed()
     {
         Debug.Log("cloud puzzle pressed");
+        playerIcon.enabled = true;
         GameManager.Instance.puzzleID = 0;
         transferTemp.text = 0.ToString();
         ploppyItemMenu.SetActive(false);
@@ -45,6 +55,7 @@ public class UIFunctionsMap : MonoBehaviour
     public void onFountainPressed()
     {
         Debug.Log("Fountain puzzle pressed");
+        playerIcon.enabled = true;
         GameManager.Instance.puzzleID = 2;
         transferTemp.text = 2.ToString();
         ploppyItemMenu.SetActive(false);
@@ -72,43 +83,14 @@ public class UIFunctionsMap : MonoBehaviour
         //_locationSelectView = LocationMenu.GetComponent<LocationSelectView>();
         
         //Debug.Log(_locationSelectView.name);
-
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         playerIcon.canvasRenderer.SetAlpha(0.0f);
+        playerIcon.enabled = false;
         //locate.gameObject.SetActive(false);
     }
 
     private void Update()
     {
-        // var touchPosition = Vector3.zero;
-        // bool touchDetected = false;
-        
-        // if (Input.touchCount == 1)
-        // {
-        //     if (Input.touches[0].phase == TouchPhase.Ended)
-        //     {
-        //         touchPosition = Input.touches[0].position;
-        //         touchDetected = true;
-        //     }
-        // }
-
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     touchPosition = Input.mousePosition;
-        //     touchDetected = true;
-        // }
-
-        // if (touchDetected)
-        // {
-            
-        //    //GameManager.Instance.puzzleID = Convert.ToInt32(transferTemp.text);
-        // }
-
-
-
-
+        initialUI.SetActive(gameManager.initial_UI);
     }
-
-
-
-
 }
