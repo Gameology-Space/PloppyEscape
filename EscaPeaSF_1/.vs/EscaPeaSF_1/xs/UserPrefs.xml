@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="f134a18b-23f0-4f50-acb6-c2f3159ff613" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs">
+    <Files>
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" Line="53" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EscaPeaSF_1" expanded="True">
+            <Node name="Packages" expanded="True">
+              <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

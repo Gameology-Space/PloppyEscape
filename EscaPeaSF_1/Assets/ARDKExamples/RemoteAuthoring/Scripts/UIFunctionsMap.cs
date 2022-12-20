@@ -4,7 +4,6 @@ using UnityEngine;
 using Niantic.ARDKExamples.RemoteAuthoring;
 using UnityEngine.UI;
 using System;
-//using TMPRo;
 
 public class UIFunctionsMap : MonoBehaviour
 {
@@ -23,6 +22,7 @@ public class UIFunctionsMap : MonoBehaviour
     public void onInitialUIPressed()
     {
         gameManager.initial_UI = false;
+        initialUI.SetActive(false);
     }
 
     
@@ -70,27 +70,15 @@ public class UIFunctionsMap : MonoBehaviour
         ploppyItemMenu.SetActive(true);
     }
 
-    public void onStartLocationScanPressed()
-    {
-        //_locationSelectView.LoadButtonClicked();
-        //ploppyDetail.SetActive(false);
-
-    }
-
     private void Start()
     {
-        //transferTemp = GameObject.Find("Transfer").GetComponent<Text>();
-        //_locationSelectView = LocationMenu.GetComponent<LocationSelectView>();
-        
-        //Debug.Log(_locationSelectView.name);
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         playerIcon.canvasRenderer.SetAlpha(0.0f);
         playerIcon.enabled = false;
-        //locate.gameObject.SetActive(false);
+        initialUI.SetActive(gameManager.initial_UI);
     }
 
     private void Update()
     {
-        initialUI.SetActive(gameManager.initial_UI);
     }
 }
