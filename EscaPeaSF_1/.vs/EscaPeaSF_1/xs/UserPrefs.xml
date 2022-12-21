@@ -1,30 +1,46 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="441a3fbe-3d4d-47fa-8ea8-b04385d683fe" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs">
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="fee25304-de0a-45ba-aa86-20da19c2dc53" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs">
     <Files>
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" Line="75" Column="82" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="16" Column="23" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" Line="22" Column="6" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="28" Column="10" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EscaPeaSF_1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ARDK" expanded="True">
+                <Node name="Networking" expanded="True" />
+              </Node>
+              <Node name="ARDKExamples" expanded="True">
+                <Node name="RemoteAuthoring" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="UIFunctions.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
             <Node name="Packages" expanded="True">
               <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__" />
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="EscaPeaSF_1" expanded="True">
+            <Node name="RemoteAuthoring" selected="True" />
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
