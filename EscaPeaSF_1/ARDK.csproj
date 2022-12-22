@@ -194,9 +194,9 @@
     <Compile Include="Assets/ARDK/AR/ARSessionEventArgs/ARSessionRanArgs.cs" />
     <Compile Include="Assets/ARDK/Extensions/Gameboard/Waypoint.cs" />
     <Compile Include="Assets/ARDK/Rendering/FrameRenderer/_ARKitFrameRenderer.cs" />
-    <Compile Include="Assets/ARDK/Extensions/Depth/ARDepthInterpolationAdapter.cs" />
     <Compile Include="Assets/ARDK/Utilities/Platform/_NativeAccess.cs" />
     <Compile Include="Assets/ARDK/AR/Camera/IUpdatableARCamera.cs" />
+    <Compile Include="Assets/ARDK/Extensions/Depth/ARDepthInterpolationAdapter.cs" />
     <Compile Include="Assets/ARDK/AR/HitTest/_SerializableARHitTestResultFactory.cs" />
     <Compile Include="Assets/ARDK/AR/ARSessionEventArgs/AnchorsArgs.cs" />
     <Compile Include="Assets/ARDK/SharedAR/Datastore/_NativeDatastore.cs" />

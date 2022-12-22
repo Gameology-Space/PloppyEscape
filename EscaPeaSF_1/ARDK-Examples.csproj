@@ -66,6 +66,7 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs" />
     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerSyncSessionManager.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayerAvatarBehaviour.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
     <Compile Include="Assets/ARDKExamples/LowLevelNetworking/LowLevelNetworkingExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackedPeer.cs" />
     <Compile Include="Assets/ARDKExamples/VirtualStudio/Playback/DatasetRecorder.cs" />
@@ -82,9 +83,11 @@
     <Compile Include="Assets/ARDKExamples/Pong/GameController.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardAgent.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/NetworkStatus.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/BallBehaviour.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDField.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/OcclusionStabilizationExample.cs" />
     <Compile Include="Assets/ARDKExamples/Rendering/RenderingDemo.cs" />
@@ -112,6 +115,7 @@
     <Compile Include="Assets/ARDKExamples/Pong/BallBehaviour.cs" />
     <Compile Include="Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Logging/ScrollingLog.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
     <Compile Include="Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValueExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageListExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
@@ -123,10 +127,7 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/BuildingLights.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

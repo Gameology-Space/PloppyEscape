@@ -3356,8 +3356,26 @@ MonoBehaviour:
       Payload: ChUIuOTpw9vGz6ZLEKWNkpSnk6SblQEYwqrc54+M/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDbcbNUAV9jMQPx2kQDDAEhQNpxHJvhVP6Qe/HZ4LD78lXd4APx0AAIA/KkYKFgjx7N7orr7Yp/8BEIOd6Lq3+oLIrAESJwoPDQi6tT8VNM/bvh17R6PAEhQN/cB4PRVUSjc/HXXYND8lL6xPPR0AAIA/KkUKFQje/ufykaKyoJABEKKTio+Y0r6UXBInCg8NhDEqwBVgXgHAHfp7ssASFA3FOyo9FevnNz8dl8UwPyUoErY9HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDekoyUAV/nWWPx0wAMS/EhQNQYGxPhUxdBA/HdDmED8lPrb8vh0AAIA/
     - Name: ESwitch2Handle
       Payload: ChYIhImHucmeo6XwARC36eiA4JH1tNkBGInI7eePjPwCKkQKFAiM75jFyv6NoFQQtsvU/dfBj5YmEicKDw23GzVAFfYzED8dpEAwwBIUDYIToT0VBDZFvx3+Y6G8JW0qIj8dAACAPypGChYI8eze6K6+2Kf/ARCDnei6t/qCyKwBEicKDw0IurU/FTTP274de0ejwBIUDYIGoT0VnHWAPx0NKze8JX7k57sdAACAPypFChUI3v7n8pGisqCQARCik4qPmNK+lFwSJwoPDYQxKsAVYF4BwB36e7LAEhQNyt+8PRV39X4/HdqFprwlyRIJPR0AAIA/KkQKFAic2+yN9oK7oucBEIvPuryLxuN0EicKDw3pKMlAFf51lj8dMADEvxIUDcyz1D0VtsBMvx14DvW6JQvgFz8dAACAPw==
-    - Name: Anchor (17)
-      Payload: ChUIlMDol5+7raLIARCc6f7nx/id5h4Y89LS+tGM/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDaLVyz8VrfW1vx28mbM/EhQNSGMHPRWxGfs+He6Ylz0l1kVePx0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NcPesvhX+bM2/HSk0RMASFA17WhU9FaA9tz4d5JLWPCVqtm4/HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDcHGl0AVNUxtvx2U6x1AEhQNecKiPBV+XeQ+Hf240D0l6tBjPx0AAIA/KkUKFQifxsvqpsqEofwBEIzfmcTG7/jHChInCg8N0H0JQBXSi7m/Hcvvq8ASFA2wArW8FSkSqb4dt/tOvSW2ZHE/HQAAgD8=
+    - Name: SunPlaced
+      Payload: ChUI0rChp+b90aIwELztw4W75LmMuAEYr/mflMON/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDaKWyz8VK26zvx3s7rM/EhQNSGMHPRWxGfs+He6Ylz0l1kVePx0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NEDOtvhWa4Mq/Hb0XRMASFA17WhU9FaA9tz4d5JLWPCVqtm4/HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDe+rl0AVEUdovx3wFB5AEhQNecKiPBV+XeQ+Hf240D0l6tBjPx0AAIA/KkUKFQifxsvqpsqEofwBEIzfmcTG7/jHChInCg8N0qEJQBVq/7a/HSfxq8ASFA2wArW8FSkSqb4dt/tOvSW2ZHE/HQAAgD8=
+    - Name: ACDC2
+      Payload: ChUIp+HMiOT5saN1ELy77sTWhan+4gEYyprMnMWN/AIqRQoVCKmayc2FgaCj7AEQkLGr6uLgl7BcEicKDw2Y2BvAFaJqwr4d3BgLPxIUDY3KNz0VrCySvh2oKsW6JR4GdT8dAACAPypFChUIl/zhwcSBpqLkARCd7+Wp9uP023ESJwoPDSJ1O8AV4Lb9PR02Yu8/EhQN4Y5uPhUhHVo/HRxgL74l4c3cPh0AAIA/KkUKFQjb7Jj9h6TIoDsQtvXn0eXBiK2/ARInCg8NjgYuQBVQxLw/HVomSEASFA0i0pu9FTAcLb8dCBkCviUCGzg/HQAAgD8qRQoVCKzJlJibgs6n0gEQuduHluqNtLxZEicKDw0vFJRAFSgqkL8d/82pPxIUDUbPAT4VyBr5vh1HaK88JfeUXT8dAACAPw==
+    - Name: ACDC1
+      Payload: ChYIjeLz8J7P86WUARCUm4O3oO7Ev8UBGMrqzp3FjfwCKkUKFQje/ufykaKyoJABEKKTio+Y0r6UXBInCg8NwEF2vhXq3g/AHahsosASFA22Z6i9FTibQ78dCJU+vSWU7yM/HQAAgD8qRgoWCPHs3uiuvtin/wEQg53ourf6gsisARInCg8NGH56QBXexBm/HbZtmcASFA31dIe9FftJP78dqKM1vSV3kCw/HQAAgD8qRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDZ/9ZUAVM9WSPx0OL6HAEhQNscKSPRXzBBm+HQ04Gz0l/WJ8Px0AAIA/KkQKFAic2+yN9oK7oucBEIvPuryLxuN0EicKDw1D3OdAFQIX6j8doDduwBIUDWq4oD0VoqJKvh3NOos9JZy6eT8dAACAPw==
+    - Name: ESwitch3
+      Payload: ChUIteKkwba3sqW0ARCX36OF3r/w700YsP6DgsaN/AIqRQoVCJf84cHEgaai5AEQne/lqfbj9NtxEicKDw1WtQLAFe4Kib8d0ucvPxIUDd6gNj0Vt1KZPh3ESZK+JeUoaD8dAACAPyo8ChYI+uzx26XvnKGZARCE6bmo3PjE4YgBEh0KDw0K11NAFSlcD74dCtfDPxIKFWPDfT8lthEHvh0AAIA/KkUKFQjb7Jj9h6TIoDsQtvXn0eXBiK2/ARInCg8NJmlYPxUDeMw/HY0/XEASFA2GBRM+FfCsfD8dc6EVPSXPNAa9HQAAgD8qRQoVCKmayc2FgaCj7AEQkLGr6uLgl7BcEicKDw0EwFDAFSedcb8dfuMKQBIUDdwY/LwVy4pgPx1L5QU9JTKa9L4dAACAPw==
+    - Name: ESwitch3Handle
+      Payload: ChYI5rWSyt+3oKXDARCZ3dv7iebg+u0BGO+M4avGjfwCKkUKFQiX/OHBxIGmouQBEJ3v5an24/TbcRInCg8NE371vxX4SZa/HSAjJj8SFA3eoDY9FbdSmT4dxEmSviXlKGg/HQAAgD8qPAoWCPrs8dul75yhmQEQhOm5qNz4xOGIARIdCg8N2T1JQBU/NR6+HZqZwT8SChVjw30/JbYRB74dAACAPypFChUI2+yY/YekyKA7ELb159HlwYitvwESJwoPDc6jMD8VEurQPx0JHllAEhQNhgUTPhXwrHw/HXOhFT0lzzQGvR0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NfFdZwBUSRHi/HUIIEUASFA3cGPy8FcuKYD8dS+UFPSUymvS+HQAAgD8=
+    - Name: ESwitch3HandleOff
+      Payload: ChQIyuyhp9iq06d5ELm/ldT62v3aCRj6l63Dxo38AipFChUIl/zhwcSBpqLkARCd7+Wp9uP023ESJwoPDRN+9b8V+EmWvx0gIyY/EhQNv7gbvxVut9M+HeQOHzwlI1wsPx0AAIA/KkYKFgj67PHbpe+coZkBEITpuajc+MThiAESJwoPDdk9SUAVPzUevh2amcE/EhQNpAO/PRUQcDM/HQ9wMz8logO/vR0AAIA/KkUKFQjb7Jj9h6TIoDsQtvXn0eXBiK2/ARInCg8NzqMwPxUS6tA/HQkeWUASFA1XQ/89FT/RKz8d4Fw5PyWBaKA9HQAAgD8qRQoVCKmayc2FgaCj7AEQkLGr6uLgl7BcEicKDw18V1nAFRJEeL8dQggRQBIUDY3OoT4VRtIYPx2StCQ/JXMWuL4dAACAPw==
+    - Name: ESwitch4
+      Payload: ChUIj/j/0Yaqj6fJARCvkdeXgqOc32sYm5zM8MaN/AIqRQoVCJf84cHEgaai5AEQne/lqfbj9NtxEicKDw1LQM+/FRnosb8dTJ2iPhIUDd6gNj0Vt1KZPh3ESZK+JeUoaD8dAACAPyo8ChYI+uzx26XvnKGZARCE6bmo3PjE4YgBEh0KDw1GtitAFSlcD74dmpnZPxIKFWPDfT8lthEHvh0AAIA/KkUKFQjb7Jj9h6TIoDsQtvXn0eXBiK2/ARInCg8NOMBnPhX81eM/HbthX0ASFA2GBRM+FfCsfD8dc6EVPSXPNAa9HQAAgD8qRQoVCOXC7rys/+GlLRCMu87Fq+LojowBEicKDw3YU3LAFcg0rT8dPfacvhIUDcL7Hz4VzD+sPh3SjLO9JVS/bD8dAACAPw==
+    - Name: ESwitch4Handle
+      Payload: ChUIg/jIqZj6pqCiARCJl77LzaSLtngYo6TEmMeN/AIqRQoVCJf84cHEgaai5AEQne/lqfbj9NtxEicKDw2/S7+/FfaKv78dLgGPPhIUDd6gNj0Vt1KZPh3ESZK+JeUoaD8dAACAPyo8ChYI+uzx26XvnKGZARCE6bmo3PjE4YgBEh0KDw30/SBAFWWqIL4dVFLXPxIKFWPDfT8lthEHvh0AAIA/KkUKFQjlwu68rP/hpS0QjLvOxavi6I6MARInCg8NAqtowBVYUac/HU2GvL4SFA3C+x8+Fcw/rD4d0oyzvSVUv2w/HQAAgD8qRQoVCNvsmP2HpMigOxC29efR5cGIrb8BEicKDw2waow9FWgP6D8dIjNcQBIUDYYFEz4V8Kx8Px1zoRU9Jc80Br0dAACAPw==
+    - Name: ESwitch4HandleOff
+      Payload: ChQIv4TG15O1paFMEI+t45vike6BARiw2bXWx438AipFChUIl/zhwcSBpqLkARCd7+Wp9uP023ESJwoPDb9Lv78V9oq/vx0uAY8+EhQNv7gbvxVut9M+HeQOHzwlI1wsPx0AAIA/KkYKFgj67PHbpe+coZkBEITpuajc+MThiAESJwoPDfT9IEAVZaogvh1UUtc/EhQNpAO/PRUQcDM/HQ9wMz8logO/vR0AAIA/KkUKFQjlwu68rP/hpS0QjLvOxavi6I6MARInCg8NAqtowBVYUac/HU2GvL4SFA2wKQu/FZKLmT4djx80PiVGrEM/HQAAgD8qRQoVCNvsmP2HpMigOxC29efR5cGIrb8BEicKDw2waow9FWgP6D8dIjNcQBIUDVdD/z0VP9ErPx3gXDk/JYFooD0dAACAPw==
+    - Name: Building
+      Payload: ChYI99/G6Le7oaP6ARCav+WMlIvdm9wBGMXVofHRjfwCKkYKFgj/+J6iyue1ouIBELD1odn4yoqW4AESJwoPDVlpLUAV0nEZPx30mNa/EhQNVwurPBWKWRe/HdHEI74lb4NKPx0AAIA/KkQKFAj7qOmN9YimpScQrpPC7OS++rdNEicKDw0SCUpAFeq0pz8dslwzwBIUDfFQej0Vz64Jvx1f7VW+JUTHUD8dAACAPypFChUIm6Gc9Yy19qaqARCN++/9r6m60x8SJwoPDX4cnj8VvCddwB3SzFXAEhQNvAfCPRXkFum+Hf1/wb4l41pOPx0AAIA/KkUKFQjc2eiD5q6kpHIQsY+GmITW48/OARInCg8NrjAPwBW+sgI/Hf+InUASFA0ETdO8FfL1ZD8dqpAcPSW2P+E+HQAAgD8=
   - LocationName: Fountain of Four Seasons
     AuthoredAnchors:
     - Name: Stone_Altar_2
@@ -3456,10 +3474,49 @@ MonoBehaviour:
     ManifestID: 1
     AnchorDataIdentifier: ESwitch2Handle
     Content: {fileID: 1000012918175102, guid: c6d489d017a56469e87ef0724d0f56a6, type: 3}
-  - AnchorName: Anchor (17)-What Does It Say2
+  - AnchorName: SunPlaced-What Does It Say2
     ManifestID: 1
-    AnchorDataIdentifier: Anchor (17)
+    AnchorDataIdentifier: SunPlaced
     Content: {fileID: 100010, guid: 3c80611c8f09c412fa0022a13c21f8f7, type: 3}
+  - AnchorName: ACDC2-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ACDC2
+    Content: {fileID: 1115038833291348, guid: 9b0fefdddb2a24107b42337e837d200e, type: 3}
+  - AnchorName: ACDC1-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ACDC1
+    Content: {fileID: 1115038833291348, guid: 1effc7dab193d42d1b94038f182d9193, type: 3}
+  - AnchorName: ESwitch3-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch3
+    Content: {fileID: 2152656960904121141, guid: c87d227a122fd49b69502acaa7051869,
+      type: 3}
+  - AnchorName: ESwitch3Handle-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch3Handle
+    Content: {fileID: 1000012918175102, guid: 1e995a9e775aa40fb9048887f9ce850a, type: 3}
+  - AnchorName: ESwitch3HandleOff-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch3HandleOff
+    Content: {fileID: 1000012918175102, guid: 4654681401ae54c1a93a82a0e549c470, type: 3}
+  - AnchorName: ESwitch4-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch4
+    Content: {fileID: 2152656960904121141, guid: 35dfe236680fe4947b06416076e82c53,
+      type: 3}
+  - AnchorName: ESwitch4Handle-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch4Handle
+    Content: {fileID: 1000012918175102, guid: 8bb5e00dfc5fc47faa353ee55a9b8875, type: 3}
+  - AnchorName: ESwitch4HandleOff-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: ESwitch4HandleOff
+    Content: {fileID: 1000012918175102, guid: 881e60d43c61543f58f2f5f383a36784, type: 3}
+  - AnchorName: Building-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: Building
+    Content: {fileID: 6665600260581232593, guid: e61617a07dd679c419cf436feca5d274,
+      type: 3}
   - AnchorName: Stone_Altar_2-Fountain of Four Seasons
     ManifestID: 2
     AnchorDataIdentifier: Stone_Altar_2
