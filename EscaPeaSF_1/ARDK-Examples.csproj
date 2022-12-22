@@ -92,6 +92,7 @@
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/OcclusionStabilizationExample.cs" />
     <Compile Include="Assets/ARDKExamples/Rendering/RenderingDemo.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardExampleManager.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/BuildingLights.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Depth/DepthExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/WayspotAnchors/ColorChangingTracker.cs" />
@@ -127,7 +128,6 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/BuildingLights.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

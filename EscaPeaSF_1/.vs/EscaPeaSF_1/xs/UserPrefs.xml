@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="785ddbc4-fbcc-44a8-9b29-52a99b38801d" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="2dd8c4f4-d3c9-4c3d-9065-2fb5339148c0" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs">
     <Files>
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="63" Column="1" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="41" Column="6" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" Line="1" Column="1" />
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="58" Column="13" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" Line="102" Column="55" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="108" Column="33" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="94" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,5 +28,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

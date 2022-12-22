@@ -3394,6 +3394,8 @@ MonoBehaviour:
       Payload: ChUIkfKG9rnwgKZ2EJCrwYLOg72S/QEYra7IrL74+wIqRQoVCPnC6PH2woejfBCw5dr/qfOQ8pwBEicKDw0MB3jBFSZ6mT8d4BPPvxIUDSlrS7sVzAujPB3y6ry6JY4jgD8dAACAPypGChYIsKqz2b3byaeAARCC8cnizOy4hoEBEicKDw14t3nBFddtlT8dYNvFvxIUDbcWproVIc/cPB0Jvjc4Javhfz8dAACAPypFChUI2paLo7qH6KMIEKfFrtXvobOCygESJwoPDbTJX0IVUYJ/Px08EiPBEhQNYdn5OhWW3ms8HTGDjjollvJ/Px0AAIA/KkQKFAjw36W94o+ppHwQpbPQkJ605fIMEicKDw0Aj2BCFeSxgD8dOwMiwRIUDSb5HLoVcHULPB0zMjs6JTD6fz8dAACAPw==
     - Name: F4
       Payload: ChYIzpXw/bTkwqb0ARCAxdSVpoS2ookBGP7mxLm++PsCKkUKFQj5wujx9sKHo3wQsOXa/6nzkPKcARInCg8NLKKBwRVBmZo/HcCBBr8SFA0pa0u7FcwLozwd8uq8uiWOI4A/HQAAgD8qRgoWCLCqs9m928mngAEQgvHJ4szsuIaBARInCg8NTlWCwRVwxZU/HUAm5b4SFA23Fqa6FSHP3DwdCb43OCWr4X8/HQAAgD8qRQoVCNqWi6O6h+ijCBCnxa7V76GzgsoBEicKDw3k8FxCFTUPfj8d4ccRwRIUDWHZ+ToVlt5rPB0xg446JZbyfz8dAACAPypEChQI8N+lveKPqaR8EKWz0JCetOXyDBInCg8NHaldQhVmuYA/HeraEMESFA0m+Ry6FXB1CzwdMzI7OiUw+n8/HQAAgD8=
+    - Name: GroupFallLetters
+      Payload: ChUIh7Pst9PGvKLaARCPk9uat8zf7E8YwLnylduN/AIqRQoVCPnC6PH2woejfBCw5dr/qfOQ8pwBEicKDw00l27BFVAdob4d5qmTQBIUDSlrS7sVzAujPB3y6ry6JY4jgD8dAACAPypGChYIsKqz2b3byaeAARCC8cnizOy4hoEBEicKDw381W7BFWRkub4dccOUQBIUDbcWproVIc/cPB0Jvjc4Javhfz8dAACAPypFChUI2d3I996w+KJ7EJPV3qWFhNPFvAESJwoPDRGXYUIVhB8Hvx0U0nzAEhQN7oAJOxX66Gq8HV51WrolwQOAPx0AAIA/KkUKFQjaloujuofoowgQp8Wu1e+hs4LKARInCg8NueVhQhVw5xG/HVx+f8ASFA1h2fk6FZbeazwdMYOOOiWW8n8/HQAAgD8=
   _anchoredContent:
   - AnchorName: cloud1-Cloud Portal
     ManifestID: 0
@@ -3552,6 +3554,11 @@ MonoBehaviour:
     ManifestID: 2
     AnchorDataIdentifier: F4
     Content: {fileID: 2011845637267980421, guid: 30f2ee388f9ff435086a384a30f7c3cd,
+      type: 3}
+  - AnchorName: GroupFallLetters-Fountain of Four Seasons
+    ManifestID: 2
+    AnchorDataIdentifier: GroupFallLetters
+    Content: {fileID: 3948209164890491766, guid: c5b92756f64db4fb5999233065e10db7,
       type: 3}
 --- !u!4 &1829151718
 Transform:
