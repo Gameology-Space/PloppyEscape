@@ -98,11 +98,9 @@
     <Compile Include="Assets/ARDKExamples/AnchorsWithoutPlanes/AnchorsWithoutPlanesExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/PlaneAnchors/ARCursorRenderer.cs" />
     <Compile Include="Assets/ARDKExamples/WayspotAnchors/WayspotAnchorExampleManager.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PrefabHandle.cs" />
     <Compile Include="Assets/ARDKExamples/Pong/MessagingManager.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Configuration/ConfigHelper.cs" />
     <Compile Include="Assets/ARDKExamples/LocationService/LocationServiceExampleManager.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleLogic.cs" />
     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExampleMessageHandler.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PeerPoseVisualizer.cs" />
     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExamplePlayController.cs" />
@@ -125,6 +123,8 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

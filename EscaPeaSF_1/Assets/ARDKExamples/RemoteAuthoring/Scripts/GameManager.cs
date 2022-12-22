@@ -24,7 +24,6 @@ using UnityEngine;
         public bool explore_BuildingHasPower;
         public bool explore_GridHasPower;
         public bool explore_Completed;
-        public bool explore_Hint1, explore_Hint2, explore_Hint3;
 
 
         // puzzle fountain variables
@@ -33,14 +32,12 @@ using UnityEngine;
         public bool fountain_Winter;
         public bool fountain_Fall;
         public bool fountain_Completed;
-        public bool fountain_Hint1, fountain_Hint2, fountain_Hint3;
 
         // puzzle cloud variables
         public bool cloud_Sequence1;
         public bool cloud_Sequence2;
         public bool cloud_Sequence3;
         public bool cloud_Complete;
-        public bool cloud_Hint1, cloud_Hint2, cloud_Hint3;
         
         private void Awake()
         {
@@ -58,4 +55,53 @@ using UnityEngine;
             puzzleID = 999;
             difficulty = 0;
         }
-    }
+
+        private void Update()
+        {
+            ExploreLogic();
+            CloudLogic();
+            FountainLogic();
+        }
+
+        private void ExploreLogic()
+        {
+        // explore component check
+        if (explore_SunIsPlaced)
+        {
+            if (explore_Panel1_Handle && explore_Panel2_Handle)
+            {
+                explore_GridHasPower = true;
+            }
+            else
+            {
+                explore_GridHasPower = false;
+            }
+
+            if (explore_Panel3_Handle && explore_Panel4_Handle)
+            {
+                explore_BuildingHasPower = true;
+            }
+            else
+            {
+                explore_BuildingHasPower = false;
+            }
+        }
+
+        // explore complete check
+            if(explore_GridHasPower && explore_BuildingHasPower)
+            {
+                explore_Completed = true;
+            }
+
+        }
+
+        private void CloudLogic()
+        {
+
+        }
+        private void FountainLogic()
+        {
+
+        }
+
+}
