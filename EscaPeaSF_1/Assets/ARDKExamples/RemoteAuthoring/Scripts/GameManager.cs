@@ -25,7 +25,6 @@ using UnityEngine;
         public bool explore_GridHasPower;
         public bool explore_Completed;
 
-
         // puzzle fountain variables
         public bool fountain_Summer;
         public bool fountain_Spring;
@@ -61,10 +60,13 @@ using UnityEngine;
             ExploreLogic();
             CloudLogic();
             FountainLogic();
+
+        allComplete = explore_Completed && cloud_Complete && fountain_Completed;
         }
 
         private void ExploreLogic()
         {
+
         // explore component check
         if (explore_SunIsPlaced)
         {

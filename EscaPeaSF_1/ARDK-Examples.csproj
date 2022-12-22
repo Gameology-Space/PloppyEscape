@@ -125,6 +125,7 @@
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

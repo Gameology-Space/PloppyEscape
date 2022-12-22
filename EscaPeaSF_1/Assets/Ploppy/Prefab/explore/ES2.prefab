@@ -93,8 +93,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2152656960903829269}
   - component: {fileID: 2152656960894744803}
+  - component: {fileID: 8025705304419761561}
   m_Layer: 0
-  m_Name: ElectricalSwitch
+  m_Name: ES2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,3 +137,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8025705304419761561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2152656960904121141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43083102, y: 0.66536856, z: 0.26972654}
+  m_Center: {x: 0.2845845, y: 0.03697157, z: 0.086187854}
