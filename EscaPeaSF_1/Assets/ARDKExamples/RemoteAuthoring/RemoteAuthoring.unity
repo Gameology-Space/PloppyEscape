@@ -1998,6 +1998,8 @@ MonoBehaviour:
   explore_BuildingHasPower: 0
   explore_GridHasPower: 0
   explore_Completed: 0
+  explore_SunIsMoving: 0
+  explore_SunOkToSpawn: 1
   fountain_Summer: 0
   fountain_Spring: 0
   fountain_Winter: 0
@@ -2784,6 +2786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mapCamera: {fileID: 778104759}
+  sunMoving: {fileID: 100010, guid: 996751f4ef6d6264d912faf90ec1e21a, type: 3}
 --- !u!1 &1475743766
 GameObject:
   m_ObjectHideFlags: 1
@@ -3057,10 +3060,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2143279791}
-        m_TargetAssemblyTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView,
-          ARDK-Examples
-        m_MethodName: LoadButtonClicked
+      - m_Target: {fileID: 119465161}
+        m_TargetAssemblyTypeName: UIFunctions, ARDK-Examples
+        m_MethodName: OnReloadPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3333,7 +3335,7 @@ MonoBehaviour:
     - Name: ESwitch1Handle
       Payload: ChUIxpC819+696VvELup2KPM1LzMtAEY64Givo+M/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDaHUKEAVnLblPh2I3wDAEhQNa2KiPRV3aD+/Hdi/irwlCfcoPx0AAIA/KkYKFgjx7N7orr7Yp/8BEIOd6Lq3+oLIrAESJwoPDeDeJD8VGEmdvh3WlqTAEhQNd7qhPRVJWYA/HWL+Cbwl/mgtvR0AAIA/KkQKFAic2+yN9oK7oucBEIvPuryLxuN0EicKDw0b2cBAFTBJhT8d0IpQvxIUDVyx1D0VaktHvx3WRuc6JcHxHj8dAACAPypFChUIqZrJzYWBoKPsARCQsavq4uCXsFwSJwoPDVy36T8VwKQePB2asMHAEhQNW/wHPRVAX1a/HaGC97wloUwLPx0AAIA/
     - Name: Sun
-      Payload: ChYI+YO1oNqYj6XUARC6i6GCwKbut9MBGKewqIC/+PsCKjcKFgj67PHbpe+coZkBEITpuajc+MThiAESGAoPDR+F6z0VkxgEvh0j2wlAEgUlAACAPx0AAIA/KkUKFQjlwu68rP/hpS0QjLvOxavi6I6MARInCg8N9i7WvxUaKpE/HQs66b8SFA04L9w9FdsJdj8dLb4SPiUzjVi+HQAAgD8qRQoVCJf84cHEgaai5AEQne/lqfbj9NtxEicKDw3Ikkw+FTXWLcAdop54vxIUDXEHlD4VJj9wPx2RVdU7JTqvNb4dAACAPypEChQI+6jpjfWIpqUnEK6Twuzkvvq3TRInCg8NDvcvwBVmK2U/HeLZrr8SFA1TBNY9Ff7vdD8d4H9DPiU2gkm+HQAAgD8=
+      Payload: ChUI+Ny/mfjUuqcyEI7rtMrh4+jQpAEYz9fFq72M/AIqNwoWCPrs8dul75yhmQEQhOm5qNz4xOGIARIYCg8NH4XrPRW4HgW+HSPbCUASBSUAAIA/HQAAgD8qRQoVCOXC7rys/+GlLRCMu87Fq+LojowBEicKDw24N9a/FWoLkT8dlUHpvxIUDTgv3D0V2wl2Px0tvhI+JTONWL4dAACAPypFChUIl/zhwcSBpqLkARCd7+Wp9uP023ESJwoPDewDTD4VwuMtwB2ymHi/EhQNcQeUPhUmP3A/HZFV1TslOq81vh0AAIA/KkQKFAj7qOmN9YimpScQrpPC7OS++rdNEicKDw2Q+y/AFfDvZD8dguSuvxIUDVME1j0V/u90Px3gf0M+JTaCSb4dAACAPw==
     - Name: WallSolarAnchor
       Payload: ChQI/s/G4fef1qQlEIDptISS1bDlHBiH8dzv8Yv8AipFChUIqZrJzYWBoKPsARCQsavq4uCXsFwSJwoPDZBq3j4Vjs5avx0RTxHAEhQNEeQHPRVuZ+0+HWfK9zwlP3diPx0AAIA/KkQKFAiM75jFyv6NoFQQtsvU/dfBj5YmEicKDw2P6h5AFYqMGb8d0AP9PxIUDXeSxjwVkIMWPx09b549JbMyTj8dAACAPypFChUIn8bL6qbKhKH8ARCM35nExu/4xwoSJwoPDQwz0z8VPfwUvx1YWo/AEhQNK72DvBV3vF++HfAVWL0lnpJ5Px0AAIA/KkQKFAicrrPvkaa+oxgQhpWF7M+2nLo2EicKDw3H7hpAFYzVGL8dC4KfwBIUDWFmaTwVCvG7vh3S1KO9JS9ObT8dAACAPw==
     - Name: WallSW1Anchor
@@ -3354,6 +3356,8 @@ MonoBehaviour:
       Payload: ChUIuOTpw9vGz6ZLEKWNkpSnk6SblQEYwqrc54+M/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDbcbNUAV9jMQPx2kQDDAEhQNpxHJvhVP6Qe/HZ4LD78lXd4APx0AAIA/KkYKFgjx7N7orr7Yp/8BEIOd6Lq3+oLIrAESJwoPDQi6tT8VNM/bvh17R6PAEhQN/cB4PRVUSjc/HXXYND8lL6xPPR0AAIA/KkUKFQje/ufykaKyoJABEKKTio+Y0r6UXBInCg8NhDEqwBVgXgHAHfp7ssASFA3FOyo9FevnNz8dl8UwPyUoErY9HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDekoyUAV/nWWPx0wAMS/EhQNQYGxPhUxdBA/HdDmED8lPrb8vh0AAIA/
     - Name: ESwitch2Handle
       Payload: ChYIhImHucmeo6XwARC36eiA4JH1tNkBGInI7eePjPwCKkQKFAiM75jFyv6NoFQQtsvU/dfBj5YmEicKDw23GzVAFfYzED8dpEAwwBIUDYIToT0VBDZFvx3+Y6G8JW0qIj8dAACAPypGChYI8eze6K6+2Kf/ARCDnei6t/qCyKwBEicKDw0IurU/FTTP274de0ejwBIUDYIGoT0VnHWAPx0NKze8JX7k57sdAACAPypFChUI3v7n8pGisqCQARCik4qPmNK+lFwSJwoPDYQxKsAVYF4BwB36e7LAEhQNyt+8PRV39X4/HdqFprwlyRIJPR0AAIA/KkQKFAic2+yN9oK7oucBEIvPuryLxuN0EicKDw3pKMlAFf51lj8dMADEvxIUDcyz1D0VtsBMvx14DvW6JQvgFz8dAACAPw==
+    - Name: Anchor (17)
+      Payload: ChUIlMDol5+7raLIARCc6f7nx/id5h4Y89LS+tGM/AIqRAoUCIzvmMXK/o2gVBC2y9T918GPliYSJwoPDaLVyz8VrfW1vx28mbM/EhQNSGMHPRWxGfs+He6Ylz0l1kVePx0AAIA/KkUKFQipmsnNhYGgo+wBEJCxq+ri4JewXBInCg8NcPesvhX+bM2/HSk0RMASFA17WhU9FaA9tz4d5JLWPCVqtm4/HQAAgD8qRAoUCJzb7I32grui5wEQi8+6vIvG43QSJwoPDcHGl0AVNUxtvx2U6x1AEhQNecKiPBV+XeQ+Hf240D0l6tBjPx0AAIA/KkUKFQifxsvqpsqEofwBEIzfmcTG7/jHChInCg8N0H0JQBXSi7m/Hcvvq8ASFA2wArW8FSkSqb4dt/tOvSW2ZHE/HQAAgD8=
   - LocationName: Fountain of Four Seasons
     AuthoredAnchors:
     - Name: Stone_Altar_2
@@ -3404,8 +3408,7 @@ MonoBehaviour:
   - AnchorName: Sun-What Does It Say2
     ManifestID: 1
     AnchorDataIdentifier: Sun
-    Content: {fileID: 471913477569429687, guid: 0092eec63f6be4976bd0c5c859b9e3af,
-      type: 3}
+    Content: {fileID: 100010, guid: de1c6ac372e224b1fa886d84c88028cc, type: 3}
   - AnchorName: WallSolarAnchor-What Does It Say2
     ManifestID: 1
     AnchorDataIdentifier: WallSolarAnchor
@@ -3453,6 +3456,10 @@ MonoBehaviour:
     ManifestID: 1
     AnchorDataIdentifier: ESwitch2Handle
     Content: {fileID: 1000012918175102, guid: c6d489d017a56469e87ef0724d0f56a6, type: 3}
+  - AnchorName: Anchor (17)-What Does It Say2
+    ManifestID: 1
+    AnchorDataIdentifier: Anchor (17)
+    Content: {fileID: 100010, guid: 3c80611c8f09c412fa0022a13c21f8f7, type: 3}
   - AnchorName: Stone_Altar_2-Fountain of Four Seasons
     ManifestID: 2
     AnchorDataIdentifier: Stone_Altar_2

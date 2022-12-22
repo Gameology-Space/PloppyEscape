@@ -400,6 +400,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs"

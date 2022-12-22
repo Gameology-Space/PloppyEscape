@@ -9,6 +9,9 @@ public class InteractionPuzzle : MonoBehaviour
     [SerializeField]
     private Camera _mapCamera;
     private GameManager gm;
+    public GameObject sunMoving;
+    private GameObject spawnedSun;
+    private Vector3 spawnPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,12 @@ public class InteractionPuzzle : MonoBehaviour
         {
 
             CheckForInteractableTouch(touchPosition);
+        }
+
+        if (gm.explore_SunIsMoving)
+        {
+            spawnPosition = _mapCamera.transform.forward * 5 + _mapCamera.transform.position;
+            spawnedSun.transform.position = spawnPosition;
         }
     }
 
@@ -83,7 +92,21 @@ public class InteractionPuzzle : MonoBehaviour
         {
             gm.explore_Panel4_Handle = !gm.explore_Panel4_Handle;
         }
-
+        else if(hitResourceItem.name == "SunPrefabLegend(Clone)")
+        {
+            gm.explore_SunIsMoving = true;
+            if(gm.explore_SunOkToSpawn)
+            {
+                spawnedSun = Instantiate(sunMoving, spawnPosition, Quaternion.identity);
+                gm.explore_SunOkToSpawn = false;
+            }
+        }
+        else if (hitResourceItem.name == "SunPrefabMoving(Clone)")
+        {
+            gm.explore_SunIsMoving = false;
+            gm.explore_SunOkToSpawn = true;
+            Destroy(spawnedSun);
+        }
 
     }
 

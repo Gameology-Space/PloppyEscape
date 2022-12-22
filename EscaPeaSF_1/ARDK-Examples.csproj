@@ -126,6 +126,7 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

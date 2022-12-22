@@ -11,8 +11,12 @@ public class ExplorePrefabLogic : MonoBehaviour
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        mr = GetComponent<MeshRenderer>();
-        mr.enabled = false;
+
+        if (!(this.name == "SunPrefabLegend(Clone)" || this.name == "SunPrefabMoving(Clone)" || this.name == "SunPrefabPlaced(Clone)"))
+        {
+            mr = GetComponent<MeshRenderer>();
+            mr.enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -78,6 +82,33 @@ public class ExplorePrefabLogic : MonoBehaviour
         else if (this.name == "ES4_Off(Clone)")
         {
             mr.enabled = !gm.explore_Panel4_Handle;
+        }
+
+        //// giant note ------ lessons leared -------
+        ///
+        //// you cannot enable/disable a tracked anchor object, it won't comeback
+        ///  instead, turn off it's children.
+        ///  
+        //// giant note ------ lessons leared -------
+
+
+        else if (this.name == "SunPrefabLegend(Clone)")
+        {
+            //this.gameObject.SetActive(!gm.explore_SunIsMoving);
+            //this.gameObject.SetActive(!gm.explore_SunIsPlaced);
+            transform.GetChild(0).gameObject.SetActive(!gm.explore_SunIsPlaced && !gm.explore_SunIsMoving);
+            transform.GetChild(1).gameObject.SetActive(!gm.explore_SunIsPlaced && !gm.explore_SunIsMoving);
+        }
+        else if (this.name == "SunPrefabMoving(Clone)")
+        {
+            //this.gameObject.SetActive(!gm.explore_SunIsPlaced);
+            transform.GetChild(0).gameObject.SetActive(!gm.explore_SunIsPlaced);
+            transform.GetChild(1).gameObject.SetActive(!gm.explore_SunIsPlaced);
+        }
+        else if (this.name == "SunPrefabPlaced(Clone)")
+        {
+            transform.GetChild(0).gameObject.SetActive(gm.explore_SunIsPlaced);
+            transform.GetChild(1).gameObject.SetActive(gm.explore_SunIsPlaced);
         }
     }
 }

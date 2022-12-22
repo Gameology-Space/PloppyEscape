@@ -3,15 +3,17 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs">
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="2dd8c4f4-d3c9-4c3d-9065-2fb5339148c0" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs">
     <Files>
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="48" Column="40" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" Line="8" Column="1" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" Line="69" Column="42" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="64" Column="13" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" Line="73" Column="10" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="67" Column="49" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="63" Column="1" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/togglescript.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="58" Column="13" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs" Line="102" Column="55" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="108" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,15 +25,6 @@
                   <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Samples" expanded="True">
-                <Node name="Lightship Maps SDK" expanded="True">
-                  <Node name="1.0.0-beta2" expanded="True">
-                    <Node name="Map-Based Simple Resource Game" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
             </Node>
             <Node name="Packages" expanded="True">
               <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
@@ -41,7 +34,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="dd736680-d95d-4e93-bbda-fdbbfff7dfe9" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

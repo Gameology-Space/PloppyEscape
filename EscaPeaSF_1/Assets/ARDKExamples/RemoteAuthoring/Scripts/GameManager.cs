@@ -24,6 +24,8 @@ using UnityEngine;
         public bool explore_BuildingHasPower;
         public bool explore_GridHasPower;
         public bool explore_Completed;
+        public bool explore_SunIsMoving;
+        public bool explore_SunOkToSpawn;
 
         // puzzle fountain variables
         public bool fountain_Summer;
@@ -53,6 +55,7 @@ using UnityEngine;
         {
             puzzleID = 999;
             difficulty = 0;
+            explore_SunOkToSpawn = true;
         }
 
         private void Update()

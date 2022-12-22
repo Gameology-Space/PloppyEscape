@@ -100,6 +100,13 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/PlanetRotateScript.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/CameraFacingBillboard.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/flipTexture.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/FreeMove.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/OffsetTextureAnimate.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/clickToChangeFlare.cs" />
+    <Compile Include="Assets/ImportedPackages/Sun/Scripts/PlanetMouseOrbit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Models/Factory Control Panels/camera movement.txt" />
@@ -109,6 +116,7 @@
     <None Include="Assets/EternalTemple/Read First!.txt" />
     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/hidden particle.shader" />
     <None Include="Assets/UI Toolkit/FirstMenu.uxml" />
+    <None Include="Assets/ImportedPackages/Sun/Animated Sun - Readme.txt" />
     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/UIAdditive.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>

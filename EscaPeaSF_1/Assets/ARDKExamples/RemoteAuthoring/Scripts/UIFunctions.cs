@@ -15,6 +15,7 @@ public class UIFunctions : MonoBehaviour
     public RawImage detailImg;
     [HideInInspector] public LocationSelectView locationSelectView;
     public GameObject ploppyDetailUI;
+    private GameObject movingSun;
 
     private void Start()
     {
@@ -45,6 +46,8 @@ public class UIFunctions : MonoBehaviour
 
     public void OnReloadPressed()
     {
+        
+
         ploppyDetailUI.SetActive(true);
         if (gameManager.puzzleID == 0)
         {
@@ -55,6 +58,9 @@ public class UIFunctions : MonoBehaviour
         }
         else if (gameManager.puzzleID == 1)
         {
+            movingSun = GameObject.Find("SunPrefabMoving(Clone)");
+            Destroy(movingSun);
+
             gameManager.explore_BuildingHasPower = false;
             gameManager.explore_Completed = false;
             gameManager.explore_GridHasPower = false;
@@ -63,6 +69,9 @@ public class UIFunctions : MonoBehaviour
             gameManager.explore_Panel3_Handle = false;
             gameManager.explore_Panel4_Handle = false;
             gameManager.explore_SunIsPlaced = false;
+            gameManager.explore_SunIsMoving = false;
+            gameManager.explore_SunOkToSpawn = true;
+            
         }
         else if (gameManager.puzzleID == 2)
         {
