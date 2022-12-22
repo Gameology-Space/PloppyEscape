@@ -61,7 +61,7 @@ using UnityEngine;
             CloudLogic();
             FountainLogic();
 
-        allComplete = explore_Completed && cloud_Complete && fountain_Completed;
+            allComplete = explore_Completed && cloud_Complete && fountain_Completed;
         }
 
         private void ExploreLogic()
