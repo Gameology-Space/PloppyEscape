@@ -105,6 +105,7 @@
     <Compile Include="Assets/ARDKExamples/Pong/MessagingManager.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Configuration/ConfigHelper.cs" />
     <Compile Include="Assets/ARDKExamples/LocationService/LocationServiceExampleManager.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPrefabLogic.cs" />
     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExampleMessageHandler.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PeerPoseVisualizer.cs" />
     <Compile Include="Assets/ARDKExamples/VirtualStudio/Mock/ExamplePlayController.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SessionIDGenerator.cs" />
     <Compile Include="Assets/ARDKExamples/VpsCoverage/VpsCoverageExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/Pong/BallBehaviour.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPasswordCheck.cs" />
     <Compile Include="Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Logging/ScrollingLog.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
@@ -128,8 +130,6 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPasswordCheck.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPrefabLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
