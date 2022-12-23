@@ -33,6 +33,8 @@ using UnityEngine;
         public bool fountain_Winter;
         public bool fountain_Fall;
         public bool fountain_Completed;
+        public int fountain_AlterID;
+        public bool fountain_PWPopup;
 
         // puzzle cloud variables
         public bool cloud_Sequence1;
@@ -56,6 +58,8 @@ using UnityEngine;
             puzzleID = 999;
             difficulty = 0;
             explore_SunOkToSpawn = true;
+            fountain_AlterID = 0;
+            fountain_PWPopup = false;
         }
 
         private void Update()
@@ -102,7 +106,10 @@ using UnityEngine;
 
         private void CloudLogic()
         {
-
+            if(fountain_Fall && fountain_Spring && fountain_Summer && fountain_Winter)
+            {
+            fountain_Completed = true;
+            }
         }
         private void FountainLogic()
         {

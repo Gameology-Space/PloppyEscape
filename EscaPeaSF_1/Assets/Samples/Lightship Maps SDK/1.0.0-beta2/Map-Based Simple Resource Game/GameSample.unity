@@ -4249,24 +4249,17 @@ MonoBehaviour:
   explore_BuildingHasPower: 0
   explore_GridHasPower: 0
   explore_Completed: 0
-  explore_Hint1: 0
-  explore_Hint2: 0
-  explore_Hint3: 0
+  explore_SunIsMoving: 0
+  explore_SunOkToSpawn: 0
   fountain_Summer: 0
   fountain_Spring: 0
   fountain_Winter: 0
   fountain_Fall: 0
   fountain_Completed: 0
-  fountain_Hint1: 0
-  fountain_Hint2: 0
-  fountain_Hint3: 0
   cloud_Sequence1: 0
   cloud_Sequence2: 0
   cloud_Sequence3: 0
   cloud_Complete: 0
-  cloud_Hint1: 0
-  cloud_Hint2: 0
-  cloud_Hint3: 0
 --- !u!1 &1011308916
 GameObject:
   m_ObjectHideFlags: 0

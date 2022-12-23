@@ -394,6 +394,8 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/BuildingLights.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPasswordCheck.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPrefabLogic.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs"

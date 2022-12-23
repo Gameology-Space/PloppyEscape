@@ -128,6 +128,8 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPasswordCheck.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPrefabLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

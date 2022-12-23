@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Ploppy.Puzzle;
 using UnityEngine;
 
+
 public class InteractionPuzzle : MonoBehaviour
 {
 
@@ -73,6 +74,8 @@ public class InteractionPuzzle : MonoBehaviour
         //add actions after hit
         Debug.Log(hitResourceItem.name);
 
+
+        // explore targets
         if(hitResourceItem.name == "ES1(Clone)")
         {
             Debug.Log("SW1 HIT");
@@ -107,6 +110,31 @@ public class InteractionPuzzle : MonoBehaviour
             gm.explore_SunOkToSpawn = true;
             Destroy(spawnedSun);
         }
+
+        // fountain targets
+
+        else if (hitResourceItem.name == "AltarSpring(Clone)")
+        {
+            gm.fountain_AlterID = 1;
+            gm.fountain_PWPopup = true;
+        }
+        else if (hitResourceItem.name == "AltarSummer(Clone)")
+        {
+            gm.fountain_AlterID = 2;
+            gm.fountain_PWPopup = true;
+        }
+        else if (hitResourceItem.name == "AltarFall(Clone)")
+        {
+            gm.fountain_AlterID = 3;
+            gm.fountain_PWPopup = true;
+        }
+        else if (hitResourceItem.name == "AltarWinter(Clone)")
+        {
+            gm.fountain_AlterID = 4;
+            gm.fountain_PWPopup = true;
+        }
+
+        // cloud targets
 
     }
 

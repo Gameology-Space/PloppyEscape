@@ -1060,6 +1060,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings
 
+	//Start Registrations for type : UnityEngine.Flare
+
+		//System.Void UnityEngine.Flare::Internal_Create(UnityEngine.Flare)
+		void Register_UnityEngine_Flare_Internal_Create();
+		Register_UnityEngine_Flare_Internal_Create();
+
+	//End Registrations for type : UnityEngine.Flare
+
 	//Start Registrations for type : UnityEngine.Font
 
 		//System.Boolean UnityEngine.Font::HasCharacter(System.Int32)
@@ -1990,6 +1998,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Light_get_color_Injected();
 		Register_UnityEngine_Light_get_color_Injected();
 
+		//System.Void UnityEngine.Light::set_flare(UnityEngine.Flare)
+		void Register_UnityEngine_Light_set_flare();
+		Register_UnityEngine_Light_set_flare();
+
+		//UnityEngine.Flare UnityEngine.Light::get_flare()
+		void Register_UnityEngine_Light_get_flare();
+		Register_UnityEngine_Light_get_flare();
+
 		//UnityEngine.LightShadows UnityEngine.Light::get_shadows()
 		void Register_UnityEngine_Light_get_shadows();
 		Register_UnityEngine_Light_get_shadows();
@@ -2165,6 +2181,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Material::SetTextureImpl(System.Int32,UnityEngine.Texture)
 		void Register_UnityEngine_Material_SetTextureImpl();
 		Register_UnityEngine_Material_SetTextureImpl();
+
+		//System.Void UnityEngine.Material::SetTextureOffsetImpl_Injected(System.Int32,UnityEngine.Vector2&)
+		void Register_UnityEngine_Material_SetTextureOffsetImpl_Injected();
+		Register_UnityEngine_Material_SetTextureOffsetImpl_Injected();
+
+		//System.Void UnityEngine.Material::SetTextureScaleImpl_Injected(System.Int32,UnityEngine.Vector2&)
+		void Register_UnityEngine_Material_SetTextureScaleImpl_Injected();
+		Register_UnityEngine_Material_SetTextureScaleImpl_Injected();
 
 		//System.Void UnityEngine.Material::set_renderQueue(System.Int32)
 		void Register_UnityEngine_Material_set_renderQueue();
@@ -3225,6 +3249,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Material UnityEngine.Renderer::GetSharedMaterial()
 		void Register_UnityEngine_Renderer_GetSharedMaterial();
 		Register_UnityEngine_Renderer_GetSharedMaterial();
+
+		//UnityEngine.Material[] UnityEngine.Renderer::GetMaterialArray()
+		void Register_UnityEngine_Renderer_GetMaterialArray();
+		Register_UnityEngine_Renderer_GetMaterialArray();
 
 	//End Registrations for type : UnityEngine.Renderer
 
