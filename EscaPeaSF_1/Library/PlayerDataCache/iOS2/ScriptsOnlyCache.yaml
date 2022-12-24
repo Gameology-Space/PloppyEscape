@@ -3,14 +3,17 @@ ScriptsOnlyBuild:
     ARDK-Editor.dll:
     - Niantic.ARDK.VirtualStudio.Editor.VirtualStudioConfigurationEditor
     ARDK-Examples.dll:
+    - BuildingLights
+    - ExplorePrefabLogic
     - GameManager
+    - InteractionPuzzle
     - Niantic.ARDKExamples.RemoteAuthoring.LocationManifestManager
     - Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
     - PlayerCollidingOnMap
-    - PrefabHandle
-    - PuzzleLogic
+    - SunCollide
     - UIFunctions
     - UIFunctionsMap
+    - toggleHint
     - togglescript
     ARDK.dll:
     - Niantic.ARDK.AR.WayspotAnchors._RemoteAuthoringSceneTag
@@ -21,11 +24,14 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.ARSessionManager
     - Niantic.ARDK.Extensions.CapabilityChecker
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
-    - Niantic.ARDK.Utilities._CallbackQueue
     Assembly-CSharp.dll:
+    - CameraFacingBillboard
     - MapIconSpawner
+    - OffsetTextureAnimate
+    - PlanetRotateScript
     - PloppyEscape.SpinIcon
     - SceneControl
+    - flipTexture
     Maps.Samples.GameSample.dll:
     - Niantic.Lightship.Maps.Samples.GameSample.LocateButton
     - Niantic.Lightship.Maps.Samples.GameSample.MapGameMapInteractions
@@ -46,15 +52,12 @@ ScriptsOnlyBuild:
     - Niantic.Lightship.Maps.Unity.MapLayers.MapLayer
     OrbitCamera.dll:
     - Niantic.Platform.Util.OrbitCamera
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -75,6 +78,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
@@ -104,6 +108,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -167,11 +176,14 @@ ScriptsOnlyBuild:
     fullTypeName: togglescript
     methodName: ToggleSecretUI
   - assembly: ARDK-Examples
-    fullTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
-    methodName: LoadButtonClicked
+    fullTypeName: UIFunctions
+    methodName: OnReloadPressed
   - assembly: ARDK-Examples
     fullTypeName: Niantic.ARDKExamples.RemoteAuthoring.LocationSelectView
     methodName: LoadButtonClicked
+  - assembly: ARDK-Examples
+    fullTypeName: toggleHint
+    methodName: ToggleHintUI
   - assembly: Assembly-CSharp
     fullTypeName: SceneControl
     methodName: navToMapScene
@@ -194,6 +206,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -232,48 +246,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 4442}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 4428}
     - Class: 114
-      Script: {instanceID: 5392}
+      Script: {instanceID: 4450}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5190}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 7266}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 7450}
+      Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 7922}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 7968}
+      Script: {instanceID: 6256}
     - Class: 114
-      Script: {instanceID: 8116}
+      Script: {instanceID: 6440}
     - Class: 114
-      Script: {instanceID: 8960}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 9172}
+      Script: {instanceID: 6702}
     - Class: 114
-      Script: {instanceID: 9294}
+      Script: {instanceID: 7284}
     - Class: 114
-      Script: {instanceID: 9496}
+      Script: {instanceID: 7468}
+    - Class: 114
+      Script: {instanceID: 7694}
+    - Class: 114
+      Script: {instanceID: 7940}
+    - Class: 114
+      Script: {instanceID: 8976}
+    - Class: 114
+      Script: {instanceID: 9098}
+    - Class: 114
+      Script: {instanceID: 9190}
+    - Class: 114
+      Script: {instanceID: 9312}
+    - Class: 114
+      Script: {instanceID: 9516}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 121
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
@@ -339,6 +369,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1676}
     - Class: 114
+      Script: {instanceID: 1678}
+    - Class: 114
       Script: {instanceID: 1688}
     - Class: 114
       Script: {instanceID: 1692}
@@ -351,65 +383,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 3546}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 4380}
+      Script: {instanceID: 4386}
     - Class: 114
-      Script: {instanceID: 4502}
+      Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5156}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5164}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 5516}
     - Class: 114
-      Script: {instanceID: 5648}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6246}
     - Class: 114
-      Script: {instanceID: 6328}
+      Script: {instanceID: 6250}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6344}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 6380}
     - Class: 114
       Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 7266}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 7284}
     - Class: 114
-      Script: {instanceID: 7450}
+      Script: {instanceID: 7430}
     - Class: 114
-      Script: {instanceID: 7556}
+      Script: {instanceID: 7468}
     - Class: 114
-      Script: {instanceID: 8188}
+      Script: {instanceID: 7574}
     - Class: 114
-      Script: {instanceID: 8274}
+      Script: {instanceID: 8202}
     - Class: 114
-      Script: {instanceID: 8426}
+      Script: {instanceID: 8288}
     - Class: 114
-      Script: {instanceID: 9182}
+      Script: {instanceID: 8442}
     - Class: 114
-      Script: {instanceID: 9334}
+      Script: {instanceID: 9200}
     - Class: 114
-      Script: {instanceID: 9496}
+      Script: {instanceID: 9352}
     - Class: 114
-      Script: {instanceID: 9986}
+      Script: {instanceID: 9516}
+    - Class: 114
+      Script: {instanceID: 10006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -753,6 +787,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 476d910b9360006e0e11a3b438ad2ad4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlanetMouseOrbit
+  - hash:
+      serializedVersion: 2
       Hash: 6fd0421325c5feccd0c260dbf627bd94
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.RemoteAuthoring
@@ -933,6 +973,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 96e02bb36c7cdcae36914ae28aed5f1b
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: toggleHint
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Maps.Samples.GameSample.dll
     namespaceName: Niantic.Lightship.Maps.Samples.GameSample
@@ -955,6 +1001,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4a1b21e36a9a8c3fa34f010258fded34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OffsetTextureAnimate
   - hash:
       serializedVersion: 2
       Hash: ad3ff8942c8ab9b2fe2d279315703b3e
@@ -1119,7 +1171,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 45cdef8d0ed726d3a7e2421c41ce9343
+      Hash: 18e4fce8cc6ddf3270777fe7e54c5d69
     assemblyName: ARDK-Examples.dll
     namespaceName: 
     className: GameManager
@@ -1159,6 +1211,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraFacingBillboard
   - hash:
       serializedVersion: 2
       Hash: 1a68f85578a9ccd6bf8037ade95a68d0
@@ -1383,6 +1441,12 @@ ScriptsOnlyBuild:
     className: GameboardAgent
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: SunCollide
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1485,6 +1549,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5d064456c40f7c34690dc0c9d079accc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlanetRotateScript
+  - hash:
+      serializedVersion: 2
       Hash: 8fc9ef802556ce4272d2f67ae535aca9
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.VirtualStudio.AR.Mock
@@ -1507,6 +1577,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
     className: MeshSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: ExplorePrefabLogic
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1591,6 +1667,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: flipTexture
   - hash:
       serializedVersion: 2
       Hash: 62fef86270a167c41a606cfca1ecc156
@@ -1687,6 +1769,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
     className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5f60ce60aa6b476c69fbe7e662ce5e
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: BuildingLights
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1893,12 +1981,6 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: ARDK-Examples.dll
-    namespaceName: 
-    className: PrefabHandle
-  - hash:
-      serializedVersion: 2
       Hash: 66ac57287249f5402d7c2742c5f5ed8a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1921,12 +2003,6 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: ARDKExamples.LocationService
     className: LocationServiceExampleManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: ARDK-Examples.dll
-    namespaceName: 
-    className: PuzzleLogic
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -1981,6 +2057,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK-Examples.dll
     namespaceName: Niantic.ARDKExamples.VirtualStudio
     className: ExamplePlayController
+  - hash:
+      serializedVersion: 2
+      Hash: d566cf208f042bdc4a41b74775ac92a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeMove
   - hash:
       serializedVersion: 2
       Hash: 6bde90edebae7ebc2dd7b212d32b39e2
@@ -2157,6 +2239,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 88f49826227f24d2c1b656c7944ff672
+    assemblyName: ARDK-Examples.dll
+    namespaceName: 
+    className: InteractionPuzzle
+  - hash:
+      serializedVersion: 2
       Hash: 82e649217a87767778e4985365512671
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions
@@ -2227,6 +2315,12 @@ ScriptsOnlyBuild:
     assemblyName: ARDK.dll
     namespaceName: Niantic.ARDK.Extensions.Meshing
     className: MeshObjSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 32c7928ad1a1194d376dfb9dad31cf31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: clickToChangeFlare
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
