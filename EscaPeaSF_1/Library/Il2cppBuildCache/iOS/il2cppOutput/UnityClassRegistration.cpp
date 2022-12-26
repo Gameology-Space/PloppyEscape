@@ -197,7 +197,7 @@ class TrailRenderer;
 class VFXRenderer; 
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
-namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
+namespace TextRenderingPrivate { class TextMesh; } 
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 namespace UI { class RectTransform; } template <> void RegisterUnityClass<UI::RectTransform>(const char*);
 class Tree; 
@@ -295,7 +295,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 89 non stripped classes
+	//Total: 88 non stripped classes
 	//0. NavMeshAgent
 	RegisterUnityClass<NavMeshAgent>("AI");
 	//1. NavMeshProjectSettings
@@ -466,13 +466,11 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
 	//84. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//85. TextRenderingPrivate::TextMesh
-	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//86. UI::Canvas
+	//85. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//87. UI::CanvasGroup
+	//86. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//88. UI::CanvasRenderer
+	//87. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

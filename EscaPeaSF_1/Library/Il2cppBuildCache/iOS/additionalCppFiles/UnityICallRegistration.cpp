@@ -370,10 +370,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_ViewportToScreenPoint_Injected();
 		Register_UnityEngine_Camera_ViewportToScreenPoint_Injected();
 
-		//System.Void UnityEngine.Camera::ViewportToWorldPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
-		void Register_UnityEngine_Camera_ViewportToWorldPoint_Injected();
-		Register_UnityEngine_Camera_ViewportToWorldPoint_Injected();
-
 		//System.Void UnityEngine.Camera::WorldToScreenPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
 		void Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
 		Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
@@ -541,10 +537,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Canvas::set_sortingOrder(System.Int32)
 		void Register_UnityEngine_Canvas_set_sortingOrder();
 		Register_UnityEngine_Canvas_set_sortingOrder();
-
-		//System.Void UnityEngine.Canvas::set_worldCamera(UnityEngine.Camera)
-		void Register_UnityEngine_Canvas_set_worldCamera();
-		Register_UnityEngine_Canvas_set_worldCamera();
 
 		//UnityEngine.AdditionalCanvasShaderChannels UnityEngine.Canvas::get_additionalShaderChannels()
 		void Register_UnityEngine_Canvas_get_additionalShaderChannels();
@@ -1890,10 +1882,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_set_imeCompositionMode();
 		Register_UnityEngine_Input_set_imeCompositionMode();
 
-		//System.Void UnityEngine.Input::set_simulateMouseWithTouches(System.Boolean)
-		void Register_UnityEngine_Input_set_simulateMouseWithTouches();
-		Register_UnityEngine_Input_set_simulateMouseWithTouches();
-
 		//UnityEngine.IMECompositionMode UnityEngine.Input::get_imeCompositionMode()
 		void Register_UnityEngine_Input_get_imeCompositionMode();
 		Register_UnityEngine_Input_get_imeCompositionMode();
@@ -3058,10 +3046,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Random_RandomRangeInt();
 		Register_UnityEngine_Random_RandomRangeInt();
 
-		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
-		void Register_UnityEngine_Random_Range();
-		Register_UnityEngine_Random_Range();
-
 		//System.Single UnityEngine.Random::get_value()
 		void Register_UnityEngine_Random_get_value();
 		Register_UnityEngine_Random_get_value();
@@ -4031,38 +4015,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_TextGenerator_get_rectExtents_Injected();
 
 	//End Registrations for type : UnityEngine.TextGenerator
-
-	//Start Registrations for type : UnityEngine.TextMesh
-
-		//System.Void UnityEngine.TextMesh::get_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TextMesh_get_color_Injected();
-		Register_UnityEngine_TextMesh_get_color_Injected();
-
-		//System.Void UnityEngine.TextMesh::set_anchor(UnityEngine.TextAnchor)
-		void Register_UnityEngine_TextMesh_set_anchor();
-		Register_UnityEngine_TextMesh_set_anchor();
-
-		//System.Void UnityEngine.TextMesh::set_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TextMesh_set_color_Injected();
-		Register_UnityEngine_TextMesh_set_color_Injected();
-
-		//System.Void UnityEngine.TextMesh::set_font(UnityEngine.Font)
-		void Register_UnityEngine_TextMesh_set_font();
-		Register_UnityEngine_TextMesh_set_font();
-
-		//System.Void UnityEngine.TextMesh::set_fontSize(System.Int32)
-		void Register_UnityEngine_TextMesh_set_fontSize();
-		Register_UnityEngine_TextMesh_set_fontSize();
-
-		//System.Void UnityEngine.TextMesh::set_text(System.String)
-		void Register_UnityEngine_TextMesh_set_text();
-		Register_UnityEngine_TextMesh_set_text();
-
-		//UnityEngine.Font UnityEngine.TextMesh::get_font()
-		void Register_UnityEngine_TextMesh_get_font();
-		Register_UnityEngine_TextMesh_get_font();
-
-	//End Registrations for type : UnityEngine.TextMesh
 
 	//Start Registrations for type : UnityEngine.Texture
 

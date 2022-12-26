@@ -141,6 +141,17 @@ struct InterfaceFuncInvoker1
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4>
 struct InterfaceFuncInvoker4
 {
@@ -179,6 +190,14 @@ struct InvokerActionInvoker2<T1*, T2*>
 struct Action_1_tE87A7548CA523908E824A6BBF45F5E03EA42E406;
 // System.Action`1<System.Object>
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>>
+struct ArdkEventHandler_1_t1566CE4ABA100ABBA153948FB4DDF57EC85550E1;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1<System.Object>>
+struct ArdkEventHandler_1_t829927FE36CE369E5914284D34714A4C76F262C2;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>>
+struct ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<System.Object>>
+struct ArdkEventHandler_1_tB2915D57D945830C9B1D572E2CDE5AD0E077C7F3;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>
 struct ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>
@@ -233,8 +252,14 @@ struct ArdkEventHandler_1_t44541BA106426545622E7E03A0B40218D592E8E7;
 struct ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs>
 struct ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720;
+// Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>
+struct AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F;
+// Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>
+struct AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689;
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.BaseItemSerializer`1<UnityEngine.Vector3>
 struct BaseItemSerializer_1_tC0585A113ECF3688EA33D9A1878CF32440E41DAE;
+// Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>
+struct ContextAwarenessStreamUpdatedArgs_1_tA7AB6DF802D5416F806C647AFC1D41A964F87308;
 // System.Collections.Generic.Dictionary`2<System.Guid,Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor>
 struct Dictionary_2_t7DC2AD3DACF3294A65F6353494E4B87287E9B757;
 // System.Collections.Generic.Dictionary`2<Niantic.ARDK.Networking.IPeer,System.Collections.Generic.Queue`1<UnityEngine.Vector3>>
@@ -291,12 +316,16 @@ struct HashSet_1_tEE069E5280438BD7F2022ACFB395EE3667F7983C;
 struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
 // System.Collections.Generic.HashSet`1<System.IO.Stream>
 struct HashSet_1_tD8BC5CA8B573CC6655C0BB415428A47597E7369F;
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
 // System.Collections.Generic.IEnumerable`1<Niantic.ARDKExamples.RemoteAuthoring.AnchorStatusTracker>
 struct IEnumerable_1_tCF5A2C79CAC9C9B16BD191133E61FCCA2864D8E8;
 // System.Collections.Generic.IEnumerable`1<Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor>
 struct IEnumerable_1_tAE9ED530FEFBD9AA6578AAF7ED2D1CDF4BC38ED4;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Text>
 struct IEnumerable_1_tD38714F22216BDC12D7C9895C8569002285F3B98;
 // System.Collections.Generic.IEnumerator`1<Niantic.ARDK.AR.Anchors.IARAnchor>
@@ -311,6 +340,8 @@ struct IEqualityComparer_1_t3A8C3F963E36CD9AA749EAC5978030A2593297A9;
 struct IEqualityComparer_1_t2CA7720C7ADCCDECD3B02E45878B4478619D5347;
 // System.Collections.Generic.IEqualityComparer`1<Niantic.ARDK.AR.Networking.PeerState>
 struct IEqualityComparer_1_t2341522663C72B9EE468841C0D8FD50ED0E0FB87;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 // System.Collections.Generic.IEqualityComparer`1<Niantic.ARDKExamples.Helpers.NetworkStatus/NetworkState>
 struct IEqualityComparer_1_t3159E5D5D0537167B5D3C2B7A4B788D2B9400A60;
 // System.Collections.Generic.IList`1<Niantic.ARDK.Utilities.Preloading.Feature>
@@ -359,6 +390,8 @@ struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
 struct List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
 struct List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
@@ -415,12 +448,16 @@ struct EntryU5BU5D_tE2E006F373AB98A936D5690119394F85DB578938;
 struct SlotU5BU5D_tFD7FA68A3F19333DFC3E6B6F950D0AF0FCF78ABF;
 // System.Collections.Generic.HashSet`1/Slot<System.Object>[]
 struct SlotU5BU5D_tF596AD324082C553DB364C768406A40BB3C85343;
+// System.Collections.Generic.HashSet`1/Slot<System.String>[]
+struct SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01;
 // Niantic.ARDKExamples.RemoteAuthoring.AnchoredContent[]
 struct AnchoredContentU5BU5D_t0E117A2B96713A573D5EEA38026301AD56A023EA;
 // System.Byte[]
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 // System.Char[]
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// UnityEngine.Color[]
+struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
 // System.Delegate[]
@@ -443,6 +480,8 @@ struct NetworkedBehaviourU5BU5D_t57D2F0FC3DE225281C8F26B248C270FB0784E626;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 // UnityEngine.UI.Selectable[]
 struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+// System.Single[]
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 // System.Diagnostics.StackTrace[]
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 // System.String[]
@@ -469,6 +508,8 @@ struct WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE;
 struct OptionDataU5BU5D_tF56CF744A9E6A0DBB0AC2072BE52F7C8D2E1947F;
 // Niantic.ARDKExamples.Common.Helpers.ARAnchorAttachment
 struct ARAnchorAttachment_t35EA0933842F1CE4D0FA4511A3269B982FA8B85B;
+// Niantic.ARDK.Recording.ARCapture
+struct ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67;
 // Niantic.ARDKExamples.Helpers.ARCursorRenderer
 struct ARCursorRenderer_tA570D175748C1CF829C5834B58566ADD6010DDD6;
 // Niantic.ARDKExamples.Rendering.ARDepthRenderer
@@ -523,6 +564,8 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct ConfigHelper_tE36F8DCB3025DD56BDAEFD2405DA4680664469F3;
 // UnityEngine.Coroutine
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder
+struct DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4;
 // System.Text.DecoderFallback
 struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
 // System.Delegate
@@ -577,6 +620,8 @@ struct IARWorldTrackingConfiguration_t1BD20E8DCF0F3856A22C9F35636A4FD97DEC1F0D;
 struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // Niantic.ARDK.Networking.HLAPI.Authority.IAuthorityReplicator
 struct IAuthorityReplicator_t62D7C9CF9C446B643AC11C554DF99B095D0C629B;
+// Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer
+struct IDepthBuffer_tFF497B75873D318068AF9A03936893EE8412AF02;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
@@ -643,6 +688,8 @@ struct NetworkStatus_tCD3E70AAC81520EC1894E188BFA9C12576DFAEB0;
 struct NetworkedBehaviour_t3BFF936DE7E6638D2F19DFB630A7BC9E4BD1E9E2;
 // Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkedUnityObject
 struct NetworkedUnityObject_tCDE27809E30B50946AEC5BA3E3A92832D875777B;
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 // Niantic.ARDKExamples.Helpers.PeerPoseVisualizer
@@ -667,6 +714,8 @@ struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 struct RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5;
 // UnityEngine.RectTransform
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+// Niantic.ARDK.Rendering.RenderFeaturesChangedArgs
+struct RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0;
 // UnityEngine.RenderTexture
 struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
 // Niantic.ARDKExamples.Rendering.RenderingDemo
@@ -709,12 +758,16 @@ struct SyncStateTrackingList_t2DF7852B1F6A8D585FFC4CBC2208E9AEF5825C65;
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
 // UnityEngine.TextGenerator
 struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+// UnityEngine.Texture
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // Niantic.ARDK.AR.WayspotAnchors.TinyAuthoredWayspotAnchorData
 struct TinyAuthoredWayspotAnchorData_tA632899CFFD8FB48E2B9BB0B0F12E1CFF9B3E8A2;
 // Niantic.ARDK.AR.WayspotAnchors.TinyVPSLocationManifest
 struct TinyVPSLocationManifest_t85FD777A9059F381A45776421937212957333BF3;
+// UnityEngine.UI.Toggle
+struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F;
 // UnityEngine.TouchScreenKeyboard
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 // UnityEngine.Transform
@@ -737,6 +790,8 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// UnityEngine.WaitForSeconds
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
 // UnityEngine.WaitForSecondsRealtime
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
 // Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorControllerBase
@@ -765,6 +820,12 @@ struct LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413;
 struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
 // UnityEngine.Camera/CameraCallback
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18
+struct U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6;
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19
+struct U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16;
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata
+struct CaptureMetadata_t99EB44FE1B9C98E4E0CA8192AC720EFE31DE1B2F;
 // UnityEngine.UI.Dropdown/OptionData
 struct OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F;
 // Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs
@@ -800,6 +861,7 @@ IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_i
 IL2CPP_EXTERN_C RuntimeClass* AnchorType_tCB38DE79343C43E4E1CB9517B17716354EDE7866_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t05E81D0FC5FB36B111453026177A954F23BA0928_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t065E02445515AEF28984FD062CE529CBF4358A82_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t17C57C9C29B15D9C3CBAF0C45B393803EF87B727_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720_il2cpp_TypeInfo_var;
@@ -820,6 +882,7 @@ IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tA7FCD1F57278261E95848EA2454F25
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tBC9D65BAFF11DF1082BD86CB2B6C98D0A857FDBF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkEventHandler_1_tDE6B66D5598E4FA843B1798F9820C9DD025ECE4E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArdkGlobalConfig_t3307B4653A987A5903FE7CB37B11BC0F03DA5DF8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
@@ -830,6 +893,7 @@ IL2CPP_EXTERN_C RuntimeClass* BinarySerializer_t5C1A122A248E9CA04C105DB5504905E4
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t0522677063AA4D3E4037BE475D506288939659F2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t0DA230FCFB6F790B819254A3CF0B209D9EE96624_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t34D9607B964AF24F52B5ADA5DD792C041D90440F_il2cpp_TypeInfo_var;
@@ -841,6 +905,7 @@ IL2CPP_EXTERN_C RuntimeClass* GameManager_tBB09E2E943A473820BEF824344F44C46E0CC0
 IL2CPP_EXTERN_C RuntimeClass* GreedyAuthorityReplicator_tB960D39FA2B08B48BC16352F73C3114068898FE3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Guid_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HashSet_1_tAC63874AB0ADCF4BE19D796A6E486B9326E0D5B7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HlapiSession_t471D3647ECD341930ACCD414A1CEBDCD14FD5C12_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IARAnchor_t66754F240328EA56C08215F9B99AE69E96A70440_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IARCamera_tADC495E9353B2B94AE1C1C8FF3611E1BA26D832C_il2cpp_TypeInfo_var;
@@ -851,6 +916,7 @@ IL2CPP_EXTERN_C RuntimeClass* IARNetworking_t1FF845EF46AA4DA798BB69CDE004B31DA78
 IL2CPP_EXTERN_C RuntimeClass* IARSession_t947E93352FD1F546D1E829553A05C38814CD92B8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IARWorldTrackingConfiguration_t1BD20E8DCF0F3856A22C9F35636A4FD97DEC1F0D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IAuthorityReplicator_t62D7C9CF9C446B643AC11C554DF99B095D0C629B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDataBufferFloat32_t56FE04DDE39A872F9698576DD748598FBAEBA1A9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t61CEAA077D2369FC0C739F2C2A898241408EF204_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t60FB2FF7ACAC822916320B47A053747037CE7C0C_il2cpp_TypeInfo_var;
@@ -875,6 +941,7 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_t04B58660A0C2D4D1A09EB850D1CA13243C250899_i
 IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LocalizationState_t9D43BBC114566C7EBDAAD625BED09C055A032AF9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LocationManifestManager_tD14970F0A9F2CEEFDED2DB6FDD6CAAFB753435A4_il2cpp_TypeInfo_var;
@@ -892,6 +959,7 @@ IL2CPP_EXTERN_C RuntimeClass* NetworkSpawner_t808EE1B95C54BB0B7DA32231D9A36E4CD2
 IL2CPP_EXTERN_C RuntimeClass* NetworkedField_1_t0DD15346BA20E4850C04DE6E1D8E391D61E6461A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkedField_1_t902DB18D2D7AA0C9A59B8F87D40714BD865383C9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkedField_1_tBB05A6F8F90A45DDA349C91EF1511865C7034E8B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F_il2cpp_TypeInfo_var;
@@ -899,8 +967,10 @@ IL2CPP_EXTERN_C RuntimeClass* PeerState_tA01351ACC4C28BF4BCAC07CA68A80381C0C446E
 IL2CPP_EXTERN_C RuntimeClass* PlatformAgnosticInput_tB0003440F676D5712F8A78BBE7BA335FC593809D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlayerColor_tF4CD91EE5C3B581B9404091F3D85C37F7CA6CADA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PreloadedFeatureState_t5B5B3FEA7A1C0667721A4E98A61064D17D63C4B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ScrollingLog_t9015254AF17872349A8CC1B3AD833033EF834FE0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
@@ -913,6 +983,7 @@ IL2CPP_EXTERN_C RuntimeClass* UnreliableBroadcastTransformPacker_t1216F94BF48FBA
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3Serializer_t5836FE3C9E8F4F901CD7F2624346F034FC8DE47D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WayspotAnchorPayloadU5BU5D_t37BA579A6CC7828409295691F3A9C2E5EAD1CAEE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22_il2cpp_TypeInfo_var;
@@ -920,11 +991,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral001AAED61FB96878C0CC28B970B32A7192C4B4DB
 IL2CPP_EXTERN_C String_t* _stringLiteral03F01AA52D4B8DEE6D370163031323DF4A194C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral097A0BC2390D4EBD2D2E03861978B3A819220127;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C879E7C6C9A3DEE8D430EB67F54112F39FD7685;
 IL2CPP_EXTERN_C String_t* _stringLiteral0ED788DF2380D6BF3C3AA3A3C852A8D05A2EB335;
 IL2CPP_EXTERN_C String_t* _stringLiteral126CF9315737D260B028A2A6D6B0D5E284C8F683;
 IL2CPP_EXTERN_C String_t* _stringLiteral144BDA1C512143BF48F3A576C391B08B91E71B6D;
 IL2CPP_EXTERN_C String_t* _stringLiteral1719D5928B4681DE0C9BB2119416E64A3A02E9C3;
 IL2CPP_EXTERN_C String_t* _stringLiteral193B9976A2EC7A795C486C28299B144F20308E8A;
+IL2CPP_EXTERN_C String_t* _stringLiteral195F01C7D0AF29BDC553D586E7DC2CA5C047BA64;
 IL2CPP_EXTERN_C String_t* _stringLiteral1B5CC13BBBDA566285009E3062D47DCA2DFCA8C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C33ED8ACBB677640232E0A387399AC60ACB2823;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D03FF673DA8DD217B4224CE6C30DD116EC7293C;
@@ -955,6 +1028,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral490D6738090D132EC81B149C5A99830BAE6234C9
 IL2CPP_EXTERN_C String_t* _stringLiteral4C2A173B480860EA830DDB08F3A05EEA242F94D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D708CE7059F453187B93E11ADCA972F0DF2B3FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F0E9D3C2B183E0A96F448FE40BC01C71FE290F5;
+IL2CPP_EXTERN_C String_t* _stringLiteral50EA44EE0A00DEC4D08FCC38C6859384EFAED224;
 IL2CPP_EXTERN_C String_t* _stringLiteral53A9F49B7E11E91814DFD16C31B6DA90C74AAA9A;
 IL2CPP_EXTERN_C String_t* _stringLiteral5684F3071933DB49B55A45583E7FE6BD607EF608;
 IL2CPP_EXTERN_C String_t* _stringLiteral56C9CB5E98059CA91FFD6D40005E380317AD84FE;
@@ -969,6 +1043,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral755AB96ECEBB113EA7AD9864F4466BB0358F3634
 IL2CPP_EXTERN_C String_t* _stringLiteral77B0F54FF5643AFEFEC92036998CCD6B6B609FCE;
 IL2CPP_EXTERN_C String_t* _stringLiteral77FB105FFDC00D823DFDD96FA3179F4C6D2CCE5D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B13C13D05D10897620C0D34BF444CD72DB19EF6;
+IL2CPP_EXTERN_C String_t* _stringLiteral879E7071CD079BFF42B64504A7B8EB52E5F2D041;
 IL2CPP_EXTERN_C String_t* _stringLiteral88903E9A51CB11E47CE333A9776E564FAD4F7DE4;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C3207C3080C96582823261A78A5869DD5EBBE2B;
 IL2CPP_EXTERN_C String_t* _stringLiteral95F88BFA38BFC524EA0F5D26B11BEB67405611EE;
@@ -1019,6 +1094,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFEC84A65F6EFA4337D1C5375745119D05D8535F9
 IL2CPP_EXTERN_C const RuntimeMethod* ARCursorRenderer__FrameUpdated_m37187EBEE1189D5D2D220EB28F93184558121E97_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARCursorRenderer__OnSessionDeinitialized_m5A89DCE24A296DB4E37A6077596CDC76CF7E0850_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARCursorRenderer__SessionInitialized_m6FEA44525B67C1BD158F8771353E1F14B7525BC2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARHitTester_OnAnyARSessionDidInitialize_m182FEB8AF45044254C30917EF135B90D49FFFA4C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARHitTester_OnSessionDeinitialized_m4495B281BD5C90ADD05BBA0E4BAF76AE2C3DB1F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ARRenderer_ARSessionFactory_SessionInitialized_m9EACE51AD15CBEC2C0DEACBCE66BFF5C9F4056FB_RuntimeMethod_var;
@@ -1026,6 +1102,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* ARRenderer_OnSessionDeinitialized_m3381955E
 IL2CPP_EXTERN_C const RuntimeMethod* ARRenderer_OnSessionRan_m698378C33575C088D337675B89689386344939CC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisAnchoredContent_t169B73944CDDA1EE005CA17B02EC80672A611820_m87BB2572C4723372D0189AA09D59BDFD8C0CBDB1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisTinyVPSLocationManifest_t85FD777A9059F381A45776421937212957333BF3_mFD76D68CB82B74C7FAA742D97C4C41CA4BE7EBAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_Dispose_m0EC582D2383DE62677C7D011F2A797F04BAE0CA2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m3B33124F49CB7E3DAD222DE0C865D80A95D63C06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_get_AwarenessBuffer_m875E1E4F7CCF792329FF43BDA351097A637BF874_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_get_SamplerTransform_mCB28823082B5017F6E40D48BB82C4123136F93CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m33E09C0B0BB46CD01237C869E5C14ACBFCB27E8E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AwarenessBufferProcessor_1_set_InterpolationMode_mA5635A7F5C9EE177F6134D061067744E09A2BFE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BallBehaviour_U3CSetupSessionU3Eb__14_0_mE98ABAB40ED4151D0161CBE18D0DB6995B25FF0F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseItemSerializer_1_Deserialize_mFCAB24EE80F348A99FE6AC6EF2BFD73953F03BB1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseItemSerializer_1_Serialize_mF3303CEA45F41C7B8C656C2FFF78C17C38C0ED03_RuntimeMethod_var;
@@ -1084,9 +1166,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAnchorStatusTrac
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisAnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2_mDC3EB9BD1D4BAEFCEBA02CABEC8D2DA02F65704C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisBallBehaviour_t27961BAEAFF7E00DDBCDF3A3BEEA129B39935F0A_mE83F48A7E11E7E48E38A65253053E712360548A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_m1398CCF403E330BFF93C4B3A4F3ECE9EFB030682_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Clear_m0B992E7767E05187BA5CB128C9B2A2A7EBB23818_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_GetEnumerator_mB39273E9E10023E453525C9160CE29265217A14F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m0B09A1BE167AD644FE9679A9DF048AFDDA98146B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_get_Count_m65318FDAD4DE46F4394D630E1E8CCB122DC90ECF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m659498839F19E5F20B37BCDA6EA751EF74445788_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m1E764F119DDC62D8B86C24186CBA7A268E9D3092_RuntimeMethod_var;
@@ -1103,6 +1187,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m02E2B80DE9FD200F7618AA3BE31F0
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA63E5569B679BD015D3EEB541EE5D99158BF400E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m451B44D19BA4256832D8B46E419A6176263901A4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LocationManifestManager_OnLocalized_mB1FE649ABA1ADA41ABD1F26D37CB460274E97279_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LocationManifestManager_WayspotManagerOnStatusLogChangeEvent_mB9AD43B67979C84580A928290E1B5270CE03DA62_RuntimeMethod_var;
@@ -1132,6 +1217,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* NetworkStatus_OnPeerRemoved_m8EC1E7BE4654C8
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkedField_1__ctor_m66048630B21702787DC41AB2BC3799B8C0C70953_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkedField_1__ctor_m6DEF3FAFC9CBA6B3658E7988A242754EA01422D5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NetworkedField_1__ctor_mAB1D73D4938851D4CC5B226A4E2725253E96B2AD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mA21F4F6061149704CCA78CD10F3B4EDFCF3CD9CA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var;
@@ -1185,6 +1272,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* SyncStateTrackingList_OnWillDisconnect_m6F0
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CClearAnchorGameObjectsU3Eb__25_0_mB3CFE17D8E487516699E818EFD43E33A78F81BB1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnDidConnectU3Eb__38_0_mD053FCBCAF4453C9DB84672634F5AF8402DDDF38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3COnDidConnectU3Eb__38_1_mA7013ADBCD4C00D14C4DBFE3B2F8217368AEACB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWatchCaptureStartU3Ed__18_System_Collections_IEnumerator_Reset_m087EADFD817C38A8C7C0F7AA9DE9C0462A36B3B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWatchCaptureStopU3Ed__19_System_Collections_IEnumerator_Reset_m049C355A2848E850B20A49CDA17ADCAC829DE914_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WayspotManagerPOCO_HandleSessionInitialized_m8FE883301D73F28BF11AA859A23A9D234BC4BB75_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WayspotManagerPOCO_HandleSessionRan_m11AFB7EFFE0BB00E896CC73ABB6017656CDAF0BB_RuntimeMethod_var;
@@ -1221,6 +1310,13 @@ IL2CPP_EXTERN_C_END
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.BaseItemSerializer`1<UnityEngine.Vector3>
 struct BaseItemSerializer_1_tC0585A113ECF3688EA33D9A1878CF32440E41DAE  : public RuntimeObject
 {
+};
+
+// Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>
+struct ContextAwarenessArgs_1_t58B3B5DC8745F50F26A2217B0B869FDD542EEA84  : public RuntimeObject
+{
+	// Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<TBuffer> Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1::Sender
+	AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* ___Sender_0;
 };
 
 // System.Collections.Generic.Dictionary`2<Niantic.ARDK.Networking.IPeer,UnityEngine.GameObject>
@@ -1412,6 +1508,27 @@ struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885  : public RuntimeObje
 	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo_14;
 };
 
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.HashSet`1::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_7;
+	// System.Collections.Generic.HashSet`1/Slot<T>[] System.Collections.Generic.HashSet`1::_slots
+	SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01* ____slots_8;
+	// System.Int32 System.Collections.Generic.HashSet`1::_count
+	int32_t ____count_9;
+	// System.Int32 System.Collections.Generic.HashSet`1::_lastIndex
+	int32_t ____lastIndex_10;
+	// System.Int32 System.Collections.Generic.HashSet`1::_freeList
+	int32_t ____freeList_11;
+	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::_comparer
+	RuntimeObject* ____comparer_12;
+	// System.Int32 System.Collections.Generic.HashSet`1::_version
+	int32_t ____version_13;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1::_siInfo
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo_14;
+};
+
 // System.Collections.Generic.List`1<Niantic.ARDKExamples.RemoteAuthoring.AnchoredContent>
 struct List_1_t04B58660A0C2D4D1A09EB850D1CA13243C250899  : public RuntimeObject
 {
@@ -1486,6 +1603,25 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 {
 	// T[] System.Collections.Generic.List`1::s_emptyArray
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
@@ -1732,6 +1868,41 @@ struct NetworkedDataHandlerBase_t82709058ABDFE0B6B566CCE46D3461F5334FBE20_Static
 	RuntimeObject* ___NothingToWrite_0;
 };
 
+// Niantic.ARDK.Rendering.PropertyBindings
+struct PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A  : public RuntimeObject
+{
+};
+
+struct PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_StaticFields
+{
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::FullImage
+	int32_t ___FullImage_0;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::YChannel
+	int32_t ___YChannel_1;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::CbCrChannel
+	int32_t ___CbCrChannel_2;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DepthChannel
+	int32_t ___DepthChannel_3;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::SemanticChannel
+	int32_t ___SemanticChannel_4;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::FusedDepthChannel
+	int32_t ___FusedDepthChannel_5;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DepthSuppressionMask
+	int32_t ___DepthSuppressionMask_6;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DisplayTransform
+	int32_t ___DisplayTransform_7;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DepthTransform
+	int32_t ___DepthTransform_8;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::SemanticsTransform
+	int32_t ___SemanticsTransform_9;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DepthScaleMin
+	int32_t ___DepthScaleMin_10;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DepthScaleMax
+	int32_t ___DepthScaleMax_11;
+	// System.Int32 Niantic.ARDK.Rendering.PropertyBindings::DebugColorMask
+	int32_t ___DebugColorMask_12;
+};
+
 // System.Random
 struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8  : public RuntimeObject
 {
@@ -1853,6 +2024,60 @@ struct WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22  : public Ru
 	RuntimeObject* ____config_4;
 };
 
+// UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18
+struct U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6  : public RuntimeObject
+{
+	// System.Int32 Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Niantic.ARDK.Recording.ARCapture Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::capture
+	ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* ___capture_2;
+	// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::<>4__this
+	DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* ___U3CU3E4__this_3;
+};
+
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19
+struct U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16  : public RuntimeObject
+{
+	// System.Int32 Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Niantic.ARDK.Recording.ARCapture Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::capture
+	ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* ___capture_2;
+	// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::<>4__this
+	DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* ___U3CU3E4__this_3;
+};
+
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata
+struct CaptureMetadata_t99EB44FE1B9C98E4E0CA8192AC720EFE31DE1B2F  : public RuntimeObject
+{
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::generatedBy
+	String_t* ___generatedBy_0;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::captureName
+	String_t* ___captureName_1;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::appId
+	String_t* ___appId_2;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::appVersion
+	String_t* ___appVersion_3;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::unityVersion
+	String_t* ___unityVersion_4;
+};
+
 // UnityEngine.UI.Dropdown/OptionData
 struct OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F  : public RuntimeObject
 {
@@ -1912,6 +2137,13 @@ struct MarkerGenerationResult_t048FE5A946C2CC7D9DBE03878F3556A34A3494E0  : publi
 	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___U3CRawPixelsU3Ek__BackingField_1;
 	// System.String Niantic.ARDK.Utilities.Marker.ZXingMarkerGenerator/MarkerGenerationResult::<EncodedText>k__BackingField
 	String_t* ___U3CEncodedTextU3Ek__BackingField_2;
+};
+
+// Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>
+struct ContextAwarenessStreamUpdatedArgs_1_tA7AB6DF802D5416F806C647AFC1D41A964F87308  : public ContextAwarenessArgs_1_t58B3B5DC8745F50F26A2217B0B869FDD542EEA84
+{
+	// System.Boolean Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1::IsKeyFrame
+	bool ___IsKeyFrame_1;
 };
 
 // System.Collections.Generic.HashSet`1/Enumerator<Niantic.ARDKExamples.RemoteAuthoring.AnchorStatusTracker>
@@ -2047,6 +2279,31 @@ struct UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257  : public UnityEve
 {
 	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
+};
+
+// Niantic.ARDK.Recording.ARCaptureConfig
+struct ARCaptureConfig_t7F105F0DB4E8197C242555C86BE61D59E09DA5A5 
+{
+	// System.String Niantic.ARDK.Recording.ARCaptureConfig::WorkingDirectoryPath
+	String_t* ___WorkingDirectoryPath_0;
+	// System.String Niantic.ARDK.Recording.ARCaptureConfig::ArchivePath
+	String_t* ___ArchivePath_1;
+	// System.Boolean Niantic.ARDK.Recording.ARCaptureConfig::CaptureLidarIfAvailable
+	bool ___CaptureLidarIfAvailable_2;
+};
+// Native definition for P/Invoke marshalling of Niantic.ARDK.Recording.ARCaptureConfig
+struct ARCaptureConfig_t7F105F0DB4E8197C242555C86BE61D59E09DA5A5_marshaled_pinvoke
+{
+	char* ___WorkingDirectoryPath_0;
+	char* ___ArchivePath_1;
+	int32_t ___CaptureLidarIfAvailable_2;
+};
+// Native definition for COM marshalling of Niantic.ARDK.Recording.ARCaptureConfig
+struct ARCaptureConfig_t7F105F0DB4E8197C242555C86BE61D59E09DA5A5_marshaled_com
+{
+	char* ___WorkingDirectoryPath_0;
+	char* ___ArchivePath_1;
+	int32_t ___CaptureLidarIfAvailable_2;
 };
 
 // Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.ARNetworkingDeinitializedArgs
@@ -2643,6 +2900,27 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
 };
 
+// Niantic.ARDK.Rendering.RenderFeatureConfiguration
+struct RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2 
+{
+	// System.Collections.Generic.IEnumerable`1<System.String> Niantic.ARDK.Rendering.RenderFeatureConfiguration::FeaturesEnabled
+	RuntimeObject* ___FeaturesEnabled_0;
+	// System.Collections.Generic.IEnumerable`1<System.String> Niantic.ARDK.Rendering.RenderFeatureConfiguration::FeaturesDisabled
+	RuntimeObject* ___FeaturesDisabled_1;
+};
+// Native definition for P/Invoke marshalling of Niantic.ARDK.Rendering.RenderFeatureConfiguration
+struct RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2_marshaled_pinvoke
+{
+	RuntimeObject* ___FeaturesEnabled_0;
+	RuntimeObject* ___FeaturesDisabled_1;
+};
+// Native definition for COM marshalling of Niantic.ARDK.Rendering.RenderFeatureConfiguration
+struct RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2_marshaled_com
+{
+	RuntimeObject* ___FeaturesEnabled_0;
+	RuntimeObject* ___FeaturesDisabled_1;
+};
+
 // UnityEngine.Resolution
 struct Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 
 {
@@ -2838,11 +3116,123 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
+// UnityEngine.WaitForSeconds
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	// System.Single UnityEngine.WaitForSeconds::m_Seconds
+	float ___m_Seconds_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.WaitForSeconds
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds_0;
+};
+// Native definition for COM marshalling of UnityEngine.WaitForSeconds
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds_0;
+};
+
 // Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService
 struct WayspotAnchorService_t4BFA062631629FD6E0E8E82BCB306601282003B7  : public WayspotAnchorServiceBase_t31E56BC8C86A2F969DA046C7F9E8A2BC31A2C221
 {
 	// Niantic.ARDK.AR.IARSession Niantic.ARDK.AR.WayspotAnchors.WayspotAnchorService::_arSession
 	RuntimeObject* ____arSession_8;
+};
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D12_t0D8759D1A744CFC20B80C93702E82617D5F87CC3 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D12_t0D8759D1A744CFC20B80C93702E82617D5F87CC3__padding[12];
+	};
+};
+#pragma pack(pop, tp)
+
+// Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>
+struct AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F  : public RuntimeObject
+{
+	// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1<TBuffer>> Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_awarenessStreamBegan
+	ArdkEventHandler_1_t1566CE4ABA100ABBA153948FB4DDF57EC85550E1* ____awarenessStreamBegan_0;
+	// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>> Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::AwarenessStreamUpdated
+	ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* ___AwarenessStreamUpdated_1;
+	// TBuffer Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<AwarenessBuffer>k__BackingField
+	RuntimeObject* ___U3CAwarenessBufferU3Ek__BackingField_2;
+	// Niantic.ARDK.AR.InterpolationMode Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<InterpolationMode>k__BackingField
+	int32_t ___U3CInterpolationModeU3Ek__BackingField_3;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<SamplerTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CSamplerTransformU3Ek__BackingField_4;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_displayTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____displayTransform_5;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_interpolationTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____interpolationTransform_6;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_arImageToBufferTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____arImageToBufferTransform_7;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<BackProjectionTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CBackProjectionTransformU3Ek__BackingField_8;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<CameraToWorldTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CCameraToWorldTransformU3Ek__BackingField_9;
+	// System.Single Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_interpolationPreference
+	float ____interpolationPreference_10;
+	// UnityEngine.ScreenOrientation Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastOrientation
+	int32_t ____lastOrientation_11;
+	// System.Int32 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastTargetWidth
+	int32_t ____lastTargetWidth_12;
+	// System.Int32 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastTargetHeight
+	int32_t ____lastTargetHeight_13;
+	// System.Boolean Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_didReceiveFirstUpdate
+	bool ____didReceiveFirstUpdate_14;
+	// UnityEngine.Color[] Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_pixelBufferColor
+	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ____pixelBufferColor_15;
+	// System.Single[] Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_pixelBufferFloat
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____pixelBufferFloat_16;
+};
+
+// Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>
+struct AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689  : public RuntimeObject
+{
+	// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessArgs`1<TBuffer>> Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_awarenessStreamBegan
+	ArdkEventHandler_1_t829927FE36CE369E5914284D34714A4C76F262C2* ____awarenessStreamBegan_0;
+	// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>> Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::AwarenessStreamUpdated
+	ArdkEventHandler_1_tB2915D57D945830C9B1D572E2CDE5AD0E077C7F3* ___AwarenessStreamUpdated_1;
+	// TBuffer Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<AwarenessBuffer>k__BackingField
+	RuntimeObject* ___U3CAwarenessBufferU3Ek__BackingField_2;
+	// Niantic.ARDK.AR.InterpolationMode Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<InterpolationMode>k__BackingField
+	int32_t ___U3CInterpolationModeU3Ek__BackingField_3;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<SamplerTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CSamplerTransformU3Ek__BackingField_4;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_displayTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____displayTransform_5;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_interpolationTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____interpolationTransform_6;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_arImageToBufferTransform
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____arImageToBufferTransform_7;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<BackProjectionTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CBackProjectionTransformU3Ek__BackingField_8;
+	// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::<CameraToWorldTransform>k__BackingField
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CCameraToWorldTransformU3Ek__BackingField_9;
+	// System.Single Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_interpolationPreference
+	float ____interpolationPreference_10;
+	// UnityEngine.ScreenOrientation Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastOrientation
+	int32_t ____lastOrientation_11;
+	// System.Int32 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastTargetWidth
+	int32_t ____lastTargetWidth_12;
+	// System.Int32 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_lastTargetHeight
+	int32_t ____lastTargetHeight_13;
+	// System.Boolean Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_didReceiveFirstUpdate
+	bool ____didReceiveFirstUpdate_14;
+	// UnityEngine.Color[] Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_pixelBufferColor
+	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ____pixelBufferColor_15;
+	// System.Single[] Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1::_pixelBufferFloat
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____pixelBufferFloat_16;
 };
 
 // System.Collections.Generic.Dictionary`2/Enumerator<Niantic.ARDK.Networking.IPeer,UnityEngine.GameObject>
@@ -2999,6 +3389,17 @@ struct Optional_1_tC78F4E5168384127FB3A6C0EF46E275DCFE545BA
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____value_0;
 	// System.Boolean Niantic.ARDK.Utilities.Optional`1::_hasValue
 	bool ____hasValue_1;
+};
+
+// <PrivateImplementationDetails>
+struct U3CPrivateImplementationDetailsU3E_t61F5C0E06FB24ED506094BB197723F7F6AAE59B4  : public RuntimeObject
+{
+};
+
+struct U3CPrivateImplementationDetailsU3E_t61F5C0E06FB24ED506094BB197723F7F6AAE59B4_StaticFields
+{
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::3BDF72FC6DE65C4EDB9057D6B9F1EC0CDB74488F64DA6A29D7AF114FECFC161E
+	__StaticArrayInitTypeSizeU3D12_t0D8759D1A744CFC20B80C93702E82617D5F87CC3 ___3BDF72FC6DE65C4EDB9057D6B9F1EC0CDB74488F64DA6A29D7AF114FECFC161E_0;
 };
 
 // UnityEngine.UI.ColorBlock
@@ -3185,6 +3586,15 @@ struct GraphicsFence_t199180163AEDE0C1BE868F8E1314A47610B1FABB
 	int32_t ___m_FenceType_2;
 };
 
+// System.Runtime.InteropServices.HandleRef
+struct HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F 
+{
+	// System.Object System.Runtime.InteropServices.HandleRef::_wrapper
+	RuntimeObject* ____wrapper_0;
+	// System.IntPtr System.Runtime.InteropServices.HandleRef::_handle
+	intptr_t ____handle_1;
+};
+
 // Niantic.ARDKExamples.MarkerSync.MarkerMappingManager
 struct MarkerMappingManager_t620970C1422A5665B031372706B73BAEE6E9BDC3  : public RuntimeObject
 {
@@ -3273,6 +3683,13 @@ struct PeerPoseReceivedArgs_t3EFA40B68DEFDEABBD5132C9AC75A98E0B6AC083_marshaled_
 {
 	RuntimeObject* ___U3CPeerU3Ek__BackingField_0;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CPoseU3Ek__BackingField_1;
+};
+
+// Niantic.ARDK.Rendering.RenderFeaturesChangedArgs
+struct RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0  : public RuntimeObject
+{
+	// Niantic.ARDK.Rendering.RenderFeatureConfiguration Niantic.ARDK.Rendering.RenderFeaturesChangedArgs::Configuration
+	RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2 ___Configuration_0;
 };
 
 // UnityEngine.Rendering.RenderTargetIdentifier
@@ -3396,6 +3813,13 @@ struct Nullable_1_t163BC081CEAEFA6D7838F44CF993DA9251D67C9E
 	GraphicsFence_t199180163AEDE0C1BE868F8E1314A47610B1FABB ___value_1;
 };
 
+// Niantic.ARDK.Recording.ARCapture
+struct ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67  : public RuntimeObject
+{
+	// System.Runtime.InteropServices.HandleRef Niantic.ARDK.Recording.ARCapture::_nativeHandle
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ____nativeHandle_0;
+};
+
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -3403,6 +3827,11 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12
 
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
 };
 
@@ -3461,6 +3890,17 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 {
 };
 
+// UnityEngine.Texture
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	// System.Int32 UnityEngine.Texture::GenerateAllMips
+	int32_t ___GenerateAllMips_4;
+};
+
 // System.Type
 struct Type_t  : public MemberInfo_t
 {
@@ -3509,6 +3949,11 @@ struct UnreliableBroadcastTransformPacker_t1216F94BF48FBA06540F52E5D8A9455846535
 
 // System.Action`1<Niantic.ARDK.Utilities.Marker.MarkerMetadata>
 struct Action_1_tE87A7548CA523908E824A6BBF45F5E03EA42E406  : public MulticastDelegate_t
+{
+};
+
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>>
+struct ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8  : public MulticastDelegate_t
 {
 };
 
@@ -3597,6 +4042,11 @@ struct ArdkEventHandler_1_t3C576CD62E7B6E40DA483B527FF554667A1FADBA  : public Mu
 {
 };
 
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>
+struct ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA  : public MulticastDelegate_t
+{
+};
+
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.MultipeerNetworkingEventArgs.PeerAddedArgs>
 struct ArdkEventHandler_1_t604F9BF7754A0D56DE1F76312E2BCE4C7B87A1F0  : public MulticastDelegate_t
 {
@@ -3622,6 +4072,11 @@ struct ArdkEventHandler_1_t44541BA106426545622E7E03A0B40218D592E8E7  : public Mu
 {
 };
 
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Rendering.RenderFeaturesChangedArgs>
+struct ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2  : public MulticastDelegate_t
+{
+};
+
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Extensions.FeaturePreloadManager/PreloadProgressUpdatedArgs>
 struct ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720  : public MulticastDelegate_t
 {
@@ -3630,6 +4085,15 @@ struct ArdkEventHandler_1_t33D1993F29CC0E779F13B01C823E9DFB91B55720  : public Mu
 // System.Func`2<Niantic.ARDKExamples.RemoteAuthoring.AnchorStatusTracker,Niantic.ARDK.AR.WayspotAnchors.IWayspotAnchor>
 struct Func_2_t6D070F6992D344EB6290C94C640155B2F19EB92E  : public MulticastDelegate_t
 {
+};
+
+// System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>
+struct Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ___value_1;
 };
 
 // Niantic.ARDKExamples.Rendering.ARDepthRenderer
@@ -3715,13 +4179,32 @@ struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t3
 {
 };
 
+// Niantic.ARDK.AR.Awareness.Depth.DepthBufferProcessor
+struct DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163  : public AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F
+{
+	// Niantic.ARDK.AR.IARSession Niantic.ARDK.AR.Awareness.Depth.DepthBufferProcessor::_session
+	RuntimeObject* ____session_17;
+	// Niantic.ARDK.Rendering.RenderTarget Niantic.ARDK.AR.Awareness.Depth.DepthBufferProcessor::_viewport
+	RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ____viewport_18;
+};
+
 // Niantic.ARDKExamples.RemoteAuthoring.LocalizationStatusChanged
 struct LocalizationStatusChanged_tED88C4D632AC93AC7289C455E9DFAFF62E8E4E22  : public MulticastDelegate_t
 {
 };
 
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
 // Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged
 struct StatusLogChanged_t18F7545E2BECCE6AEEB7F0BD84ACB62740049CFC  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Texture2D
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
 {
 };
 
@@ -3848,6 +4331,27 @@ struct ConfigHelper_tE36F8DCB3025DD56BDAEFD2405DA4680664469F3  : public MonoBeha
 {
 	// System.String Niantic.ARDKExamples.Configuration.ConfigHelper::_contextAwarenessUrl
 	String_t* ____contextAwarenessUrl_4;
+};
+
+// Niantic.ARDKExamples.VirtualStudio.DatasetRecorder
+struct DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.UI.Toggle Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_captureLocationToggle
+	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ____captureLocationToggle_4;
+	// Niantic.ARDK.AR.IARSession Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_session
+	RuntimeObject* ____session_5;
+	// Niantic.ARDK.Recording.ARCapture Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_capture
+	ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* ____capture_6;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_captureName
+	String_t* ____captureName_7;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_temporaryPath
+	String_t* ____temporaryPath_8;
+	// System.String Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_persistentPath
+	String_t* ____persistentPath_9;
+	// Niantic.ARDK.LocationService.ILocationService Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_locationService
+	RuntimeObject* ____locationService_10;
+	// Niantic.ARDK.Recording.ARCaptureConfig Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::_captureConfig
+	ARCaptureConfig_t7F105F0DB4E8197C242555C86BE61D59E09DA5A5 ____captureConfig_11;
 };
 
 // Niantic.ARDKExamples.Pong.GameController
@@ -4011,14 +4515,18 @@ struct GameManager_tBB09E2E943A473820BEF824344F44C46E0CC0763  : public MonoBehav
 	bool ___fountain_Fall_23;
 	// System.Boolean GameManager::fountain_Completed
 	bool ___fountain_Completed_24;
+	// System.Int32 GameManager::fountain_AlterID
+	int32_t ___fountain_AlterID_25;
+	// System.Boolean GameManager::fountain_PWPopup
+	bool ___fountain_PWPopup_26;
 	// System.Boolean GameManager::cloud_Sequence1
-	bool ___cloud_Sequence1_25;
+	bool ___cloud_Sequence1_27;
 	// System.Boolean GameManager::cloud_Sequence2
-	bool ___cloud_Sequence2_26;
+	bool ___cloud_Sequence2_28;
 	// System.Boolean GameManager::cloud_Sequence3
-	bool ___cloud_Sequence3_27;
+	bool ___cloud_Sequence3_29;
 	// System.Boolean GameManager::cloud_Complete
-	bool ___cloud_Complete_28;
+	bool ___cloud_Complete_30;
 };
 
 struct GameManager_tBB09E2E943A473820BEF824344F44C46E0CC0763_StaticFields
@@ -5305,6 +5813,32 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 };
 
 
+// System.Void System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>::.ctor(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2_gshared (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC* __this, RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ___value0, const RuntimeMethod* method) ;
+// T System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>::GetValueOrDefault()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_gshared_inline (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::set_InterpolationMode(Niantic.ARDK.AR.InterpolationMode)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwarenessBufferProcessor_1_set_InterpolationMode_m1A557D34668FFF2F07430DC781187239E21C9A74_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::add_AwarenessStreamUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m60280658BDA350D1F9722F3B1314D9714E68706B_gshared (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, ArdkEventHandler_1_tB2915D57D945830C9B1D572E2CDE5AD0E077C7F3* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>::Invoke(TArgs)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ArdkEventHandler_1_Invoke_m576F0233FDDAD5746358F4B564198BF3B608E3A9_gshared_inline (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___args0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::remove_AwarenessStreamUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m6627D4B39BAEA606AEF2A675F588176B87E48ACD_gshared (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, ArdkEventHandler_1_tB2915D57D945830C9B1D572E2CDE5AD0E077C7F3* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AwarenessBufferProcessor_1_Dispose_mF01F9C3F50968050A44FBC82F12081C8073FBB89_gshared (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, const RuntimeMethod* method) ;
+// TBuffer Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::get_AwarenessBuffer()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AwarenessBufferProcessor_1_get_AwarenessBuffer_m0F235771FFFCB175BB5252ECEDF77C1974BB17B5_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, const RuntimeMethod* method) ;
+// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<System.Object>::get_SamplerTransform()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 AwarenessBufferProcessor_1_get_SamplerTransform_m4A9737DE2722CBBA15B759F6BC32656DB8B8EBE5_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507_gshared (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.ARSessionRanArgs>::.ctor(System.Object,System.IntPtr)
@@ -5345,16 +5879,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeO
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32Enum>::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyCollection_1_get_Count_m6173E9709ED323E790FE82E825A8DE6E88F23A0B_gshared (ReadOnlyCollection_1_t147FA1FCB6E2EB047E003D795B981985F4219E5F* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Networking.ARNetworkingEventArgs.AnyARNetworkingInitializedArgs>::.ctor(System.Object,System.IntPtr)
@@ -5498,10 +6024,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F4
 
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean Niantic.ARDK.Recording.ARCapture::IsRecording()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARCapture_IsRecording_m219C4C9850E815DF83FC054AA20ECB4AADD1E636 (ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::OnCaptureStarted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DatasetRecorder_OnCaptureStarted_mF8C678EB50B4CF85116857A1B63E92230BA05804 (DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* __this, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___seconds0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder::OnCaptureStopped()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DatasetRecorder_OnCaptureStopped_mC35FF131773054D06C52F56C23ABDB4A0C26AEC1 (DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* __this, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>::.ctor(T)
+inline void Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2 (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC* __this, RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC*, RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF, const RuntimeMethod*))Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2_gshared)(__this, ___value0, method);
+}
+// T System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>::GetValueOrDefault()
+inline RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_inline (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC* __this, const RuntimeMethod* method)
+{
+	return ((  RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF (*) (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_gshared_inline)(__this, method);
+}
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
+inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
+}
+// System.Boolean System.Collections.Generic.HashSet`1<System.String>::Add(T)
+inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___item0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___item0, method);
+}
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
 // UnityEngine.Camera UnityEngine.Camera::get_main()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Rendering.RenderTarget::.ctor(UnityEngine.Camera)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTarget__ctor_m1BE3F49A400203495A0929027FFE3287307F6E19 (RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.Depth.DepthBufferProcessor::.ctor(Niantic.ARDK.Rendering.RenderTarget)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthBufferProcessor__ctor_m4C501CFAFFBD690AD0864991918A09490BDF279C (DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* __this, RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ___viewport0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::set_InterpolationMode(Niantic.ARDK.AR.InterpolationMode)
+inline void AwarenessBufferProcessor_1_set_InterpolationMode_mA5635A7F5C9EE177F6134D061067744E09A2BFE2_inline (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, int32_t, const RuntimeMethod*))AwarenessBufferProcessor_1_set_InterpolationMode_m1A557D34668FFF2F07430DC781187239E21C9A74_gshared_inline)(__this, ___value0, method);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>>::.ctor(System.Object,System.IntPtr)
+inline void ArdkEventHandler_1__ctor_m5FE019EA5CB72BAB24B1EA9417CC5D8586957592 (ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8*, RuntimeObject*, intptr_t, const RuntimeMethod*))ArdkEventHandler_1__ctor_m7EEFB0EA974BB0BB63D3D71504ED0540E925A8F8_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::add_AwarenessStreamUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>>)
+inline void AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m3B33124F49CB7E3DAD222DE0C865D80A95D63C06 (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8*, const RuntimeMethod*))AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m60280658BDA350D1F9722F3B1314D9714E68706B_gshared)(__this, ___value0, method);
+}
+// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+// System.Collections.Generic.ISet`1<System.String> Niantic.ARDKExamples.Rendering.ARDepthRenderer::get_Features()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D_inline (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Rendering.RenderFeatureConfiguration::.ctor(System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderFeatureConfiguration__ctor_m418CE640DCF218CC453C974FA40ADDCE455E58D3 (RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2* __this, RuntimeObject* ___featuresEnabled0, RuntimeObject* ___featuresDisabled1, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Rendering.RenderFeaturesChangedArgs::.ctor(Niantic.ARDK.Rendering.RenderFeatureConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderFeaturesChangedArgs__ctor_m898B5F3E86F1E1D8FB12AE9875821CF7DC24EDE3 (RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0* __this, RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2 ___configuration0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Rendering.RenderFeaturesChangedArgs>::Invoke(TArgs)
+inline void ArdkEventHandler_1_Invoke_m8E7A129F21C9BC8E9CDE617C8E67BC1911510FDF_inline (ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* __this, RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0* ___args0, const RuntimeMethod* method)
+{
+	((  void (*) (ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*, RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0*, const RuntimeMethod*))ArdkEventHandler_1_Invoke_m576F0233FDDAD5746358F4B564198BF3B608E3A9_gshared_inline)(__this, ___args0, method);
+}
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::remove_AwarenessStreamUpdated(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<TBuffer>>)
+inline void AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m33E09C0B0BB46CD01237C869E5C14ACBFCB27E8E (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8*, const RuntimeMethod*))AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m6627D4B39BAEA606AEF2A675F588176B87E48ACD_gshared)(__this, ___value0, method);
+}
+// System.Void Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::Dispose()
+inline void AwarenessBufferProcessor_1_Dispose_m0EC582D2383DE62677C7D011F2A797F04BAE0CA2 (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, const RuntimeMethod*))AwarenessBufferProcessor_1_Dispose_mF01F9C3F50968050A44FBC82F12081C8073FBB89_gshared)(__this, method);
+}
+// TBuffer Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::get_AwarenessBuffer()
+inline RuntimeObject* AwarenessBufferProcessor_1_get_AwarenessBuffer_m875E1E4F7CCF792329FF43BDA351097A637BF874_inline (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, const RuntimeMethod*))AwarenessBufferProcessor_1_get_AwarenessBuffer_m0F235771FFFCB175BB5252ECEDF77C1974BB17B5_gshared_inline)(__this, method);
+}
+// UnityEngine.Matrix4x4 Niantic.ARDK.AR.Awareness.AwarenessBufferProcessor`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>::get_SamplerTransform()
+inline Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 AwarenessBufferProcessor_1_get_SamplerTransform_mCB28823082B5017F6E40D48BB82C4123136F93CE_inline (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* __this, const RuntimeMethod* method)
+{
+	return ((  Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 (*) (AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F*, const RuntimeMethod*))AwarenessBufferProcessor_1_get_SamplerTransform_m4A9737DE2722CBBA15B759F6BC32656DB8B8EBE5_gshared_inline)(__this, method);
+}
+// System.Void UnityEngine.Material::SetTexture(System.Int32,UnityEngine.Texture)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetTexture_mA9F8461850AAB88F992E9C6FA6F24C2E050B83FD (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, int32_t ___nameID0, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___value1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Material::SetMatrix(System.Int32,UnityEngine.Matrix4x4)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetMatrix_m668579C6402F88BFEF769D39E484BAD4CE6B0067 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, int32_t ___nameID0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___value1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Material::SetFloat(System.Int32,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, int32_t ___nameID0, float ___value1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.AR.ARSessionEventArgs.AnyARSessionInitializedArgs>::.ctor(System.Object,System.IntPtr)
 inline void ArdkEventHandler_1__ctor_m1F32FB5A87DFB0A2A116C1A3C0B6E2520236A507 (ArdkEventHandler_1_tCCB27F02245F70E3BB65CE37AA8EB9D8CEE40A6F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -5529,8 +6156,6 @@ inline void ArdkEventHandler_1__ctor_m415EC7077DBE8CFB79ECD09F210F1F5012B40959 (
 }
 // Niantic.ARDK.Rendering.ARFrameRenderer Niantic.ARDKExamples.Rendering.ARRenderer::CreateRenderer(Niantic.ARDK.RuntimeEnvironment)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARFrameRenderer_t4DBC01AB8735C1DA6BB65963BCBC94213F2D5470* ARRenderer_CreateRenderer_mBECD4D0B055F3CDCD6427D0C99BEC781184CC819 (ARRenderer_t9F847192EC7FECB7AFEE56D440F9376D69A1C44E* __this, int32_t ___environment0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Rendering.ARFrameRenderer::Initialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARFrameRenderer_Initialize_m6B86EEAC52CDAC105F14754AD35F76A634A1F7E5 (ARFrameRenderer_t4DBC01AB8735C1DA6BB65963BCBC94213F2D5470* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Rendering.ARFrameRenderer::AddFeatureProvider(Niantic.ARDK.Rendering.IRenderFeatureProvider)
@@ -5541,8 +6166,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_set_vSyncCount_m0F1D9979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Rendering.ARFrameRenderer::Enable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARFrameRenderer_Enable_mBB0F628FD77A957DA05F1A2A54760BAB7511D7F4 (ARFrameRenderer_t4DBC01AB8735C1DA6BB65963BCBC94213F2D5470* __this, const RuntimeMethod* method) ;
-// System.Void Niantic.ARDK.Rendering.RenderTarget::.ctor(UnityEngine.Camera)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTarget__ctor_m1BE3F49A400203495A0929027FFE3287307F6E19 (RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, const RuntimeMethod* method) ;
 // Niantic.ARDK.Rendering.ARFrameRenderer Niantic.ARDK.Rendering.ARFrameRendererFactory::Create(Niantic.ARDK.Rendering.RenderTarget,Niantic.ARDK.RuntimeEnvironment,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ARFrameRenderer_t4DBC01AB8735C1DA6BB65963BCBC94213F2D5470* ARFrameRendererFactory_Create_m8D15BBE087B48BDF90F5E08432EDF7953E30B325 (RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF ___target0, int32_t ___env1, float ___nearClipping2, float ___farClipping3, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.Rendering.RenderingDemo::StartARSession()
@@ -5591,10 +6214,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnchorStatusTracker_get_AnchorIsResolved
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDK.Extensions.WayspotAnchorTracker::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotAnchorTracker__ctor_mE4FC73473F819588AFE934994242B8822651173F (WayspotAnchorTracker_tE711C0C087ADD2732CC99743D5760EB1A188528D* __this, const RuntimeMethod* method) ;
-// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
-// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.RemoteAuthoring.WayspotManagerPOCO::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WayspotManagerPOCO__ctor_m2622190A7E7189B872ABA6F8D889154F6CE9B271 (WayspotManagerPOCO_t402D6AF98EA21B1DDDC3B6434FB60C53BF1ADD22* __this, const RuntimeMethod* method) ;
 // System.Void Niantic.ARDKExamples.RemoteAuthoring.StatusLogChanged::.ctor(System.Object,System.IntPtr)
@@ -5688,8 +6307,6 @@ inline AnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2* Enumerator
 {
 	return ((  AnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2* (*) (Enumerator_tBCF2296DADAC26FC9EFF6E1045497229BB1CAECC*, const RuntimeMethod*))Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline)(__this, method);
 }
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1/Enumerator<Niantic.ARDKExamples.RemoteAuthoring.AnchorStatusTracker>::MoveNext()
 inline bool Enumerator_MoveNext_m6D1843CCA84D8DEC6A184B9D6E92ACCB27CC0B32 (Enumerator_tBCF2296DADAC26FC9EFF6E1045497229BB1CAECC* __this, const RuntimeMethod* method)
 {
@@ -5737,8 +6354,6 @@ inline AnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2* GameObject
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<Niantic.ARDKExamples.RemoteAuthoring.AnchorStatusTracker>()
 inline AnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2* GameObject_AddComponent_TisAnchorStatusTracker_t528A01F28D341D1F3C4D93795FCA66042998B0E2_m9CD4148AB6C8FD3FAE677F7712FA9332766695A5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -6692,6 +7307,904 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/CaptureMetadata::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CaptureMetadata__ctor_m4AD78E0D08DF11E2C06AFE352F2959BCBABF3091 (CaptureMetadata_t99EB44FE1B9C98E4E0CA8192AC720EFE31DE1B2F* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStartU3Ed__18__ctor_m7ECFB8F058F07C788751A6A90863A1F78EF9074B (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStartU3Ed__18_System_IDisposable_Dispose_m6B511FE3B0E025924912FDAA5D495A3CAE7494E5 (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWatchCaptureStartU3Ed__18_MoveNext_m7EE15F06874568084FE2E17BB7E75F9FA6DA4213 (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50EA44EE0A00DEC4D08FCC38C6859384EFAED224);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (capture == null)
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_4 = __this->___capture_2;
+		if (L_4)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0028:
+	{
+		// if (_capture != capture)
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_5 = V_1;
+		NullCheck(L_5);
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_6 = L_5->____capture_6;
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_7 = __this->___capture_2;
+		if ((((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_6) == ((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_7)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0038:
+	{
+		// yield return null;
+		__this->___U3CU3E2__current_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0048:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_004f:
+	{
+		// while (!capture.IsRecording())
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_8 = __this->___capture_2;
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = ARCapture_IsRecording_m219C4C9850E815DF83FC054AA20ECB4AADD1E636(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// if (_capture != capture)
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_10 = V_1;
+		NullCheck(L_10);
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_11 = L_10->____capture_6;
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_12 = __this->___capture_2;
+		if ((((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_11) == ((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_12)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		// var errorMessage = "A capture has been started before the previous one is successfully " +
+		//                    "configured. Discarding the previous capture.";
+		// Debug.LogError(errorMessage);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral50EA44EE0A00DEC4D08FCC38C6859384EFAED224, NULL);
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0076:
+	{
+		// OnCaptureStarted();
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_13 = V_1;
+		NullCheck(L_13);
+		DatasetRecorder_OnCaptureStarted_mF8C678EB50B4CF85116857A1B63E92230BA05804(L_13, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWatchCaptureStartU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m29FC7642ABB3236D9BB5FC5CA361CB5CE1AB8814 (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStartU3Ed__18_System_Collections_IEnumerator_Reset_m087EADFD817C38A8C7C0F7AA9DE9C0462A36B3B0 (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWatchCaptureStartU3Ed__18_System_Collections_IEnumerator_Reset_m087EADFD817C38A8C7C0F7AA9DE9C0462A36B3B0_RuntimeMethod_var)));
+	}
+}
+// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStart>d__18::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWatchCaptureStartU3Ed__18_System_Collections_IEnumerator_get_Current_mEA93B48C95517EADCF98F92477458FFF5E9629EB (U3CWatchCaptureStartU3Ed__18_t49288DB27F731221AA5C1FBE13920E2B0D8AB0A6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStopU3Ed__19__ctor_m023D8F6A848C6C01D73E5F64E9EC9866114093FE (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStopU3Ed__19_System_IDisposable_Dispose_m57F44066EFC6996FBABAEB9F15429C9105DAB174 (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWatchCaptureStopU3Ed__19_MoveNext_m87EB01AC79A2D6D944C4D37CFDC527DD14C51939 (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral879E7071CD079BFF42B64504A7B8EB52E5F2D041);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (capture == null)
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_4 = __this->___capture_2;
+		if (L_4)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0028:
+	{
+		// if (_capture != capture)
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_5 = V_1;
+		NullCheck(L_5);
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_6 = L_5->____capture_6;
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_7 = __this->___capture_2;
+		if ((((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_6) == ((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_7)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		// yield break;
+		return (bool)0;
+	}
+
+IL_0038:
+	{
+		// yield return new WaitForSeconds(0.5f);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_8 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_8, (0.5f), NULL);
+		__this->___U3CU3E2__current_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_8);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0051:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_0058:
+	{
+		// while (capture.IsRecording())
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_9 = __this->___capture_2;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = ARCapture_IsRecording_m219C4C9850E815DF83FC054AA20ECB4AADD1E636(L_9, NULL);
+		if (L_10)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// if (_capture != capture)
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_11 = V_1;
+		NullCheck(L_11);
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_12 = L_11->____capture_6;
+		ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67* L_13 = __this->___capture_2;
+		if ((((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_12) == ((RuntimeObject*)(ARCapture_t4959021FB849D5C445956FD2FA06ED3A4E8D6F67*)L_13)))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		// Debug.Log("Successfully written archive.");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral879E7071CD079BFF42B64504A7B8EB52E5F2D041, NULL);
+		// yield break;
+		return (bool)0;
+	}
+
+IL_007f:
+	{
+		// OnCaptureStopped();
+		DatasetRecorder_tB1D470BC7B77017B21BB9B6BDC8DA8AE038EF8F4* L_14 = V_1;
+		NullCheck(L_14);
+		DatasetRecorder_OnCaptureStopped_mC35FF131773054D06C52F56C23ABDB4A0C26AEC1(L_14, NULL);
+		// }
+		return (bool)0;
+	}
+}
+// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWatchCaptureStopU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB7ED377AC667D5597AFA6215FA3E5E294EF07C8E (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWatchCaptureStopU3Ed__19_System_Collections_IEnumerator_Reset_m049C355A2848E850B20A49CDA17ADCAC829DE914 (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWatchCaptureStopU3Ed__19_System_Collections_IEnumerator_Reset_m049C355A2848E850B20A49CDA17ADCAC829DE914_RuntimeMethod_var)));
+	}
+}
+// System.Object Niantic.ARDKExamples.VirtualStudio.DatasetRecorder/<WatchCaptureStop>d__19::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWatchCaptureStopU3Ed__19_System_Collections_IEnumerator_get_Current_mAB6BC027F8AE7A535E849032FE9784D25823396A (U3CWatchCaptureStopU3Ed__19_t0CB4D7BB5AFEBB78DAEA96CEA60824F6476C2F16* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget> Niantic.ARDKExamples.Rendering.ARDepthRenderer::get_Target()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC ARDepthRenderer_get_Target_m278F677632BBB8A1A22698A1868896B939F1713C (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// get => _renderTarget;
+		RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF L_0 = __this->____renderTarget_0;
+		Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2((&L_1), L_0, /*hidden argument*/Nullable_1__ctor_m66CBCF2BC5B80EAD6A6278F616C266C4868B6BA2_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::set_Target(System.Nullable`1<Niantic.ARDK.Rendering.RenderTarget>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_set_Target_m1E3DFF9D828BEDBCC9E008AA700D224150678CA8 (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// set => _renderTarget = value.GetValueOrDefault();
+		RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF L_0;
+		L_0 = Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_inline((&___value0), Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_RuntimeMethod_var);
+		__this->____renderTarget_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____renderTarget_0))->___Camera_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____renderTarget_0))->___RenderTexture_1), (void*)NULL);
+		#endif
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::add_ActiveFeaturesChanged(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Rendering.RenderFeaturesChangedArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_add_ActiveFeaturesChanged_m304B2C923170CE403FAC0E2B23A5CA1DF79A92D2 (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_0 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_1 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_2 = NULL;
+	{
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_0 = __this->___ActiveFeaturesChanged_4;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_1 = V_0;
+		V_1 = L_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_2 = V_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)Castclass((RuntimeObject*)L_4, ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2_il2cpp_TypeInfo_var));
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2** L_5 = (&__this->___ActiveFeaturesChanged_4);
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_6 = V_2;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_7 = V_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_8;
+		L_8 = InterlockedCompareExchangeImpl<ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_9 = V_0;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_10 = V_1;
+		if ((!(((RuntimeObject*)(ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)L_9) == ((RuntimeObject*)(ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::remove_ActiveFeaturesChanged(Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Rendering.RenderFeaturesChangedArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_remove_ActiveFeaturesChanged_m7926482AB11BCDA62D28DAB8AA33E860E7074C0E (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_0 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_1 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* V_2 = NULL;
+	{
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_0 = __this->___ActiveFeaturesChanged_4;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_1 = V_0;
+		V_1 = L_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_2 = V_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)Castclass((RuntimeObject*)L_4, ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2_il2cpp_TypeInfo_var));
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2** L_5 = (&__this->___ActiveFeaturesChanged_4);
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_6 = V_2;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_7 = V_1;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_8;
+		L_8 = InterlockedCompareExchangeImpl<ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_9 = V_0;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_10 = V_1;
+		if ((!(((RuntimeObject*)(ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)L_9) == ((RuntimeObject*)(ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Collections.Generic.ISet`1<System.String> Niantic.ARDKExamples.Rendering.ARDepthRenderer::get_Features()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ISet<string> Features { get; } = new HashSet<string>
+		RuntimeObject* L_0 = __this->___U3CFeaturesU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::.ctor(UnityEngine.Camera,Niantic.ARDK.AR.InterpolationMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer__ctor_mF6A65C05D5D98C300F01B4034D17DB63FD0464A0 (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, int32_t ___interpolationMode1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m3B33124F49CB7E3DAD222DE0C865D80A95D63C06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_set_InterpolationMode_mA5635A7F5C9EE177F6134D061067744E09A2BFE2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C879E7C6C9A3DEE8D430EB67F54112F39FD7685);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral195F01C7D0AF29BDC553D586E7DC2CA5C047BA64);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public ISet<string> Features { get; } = new HashSet<string>
+		// {
+		//   FeatureBindings.DepthDebug, FeatureBindings.DepthZWrite
+		// };
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_0, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = L_0;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_1, _stringLiteral195F01C7D0AF29BDC553D586E7DC2CA5C047BA64, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_3 = L_1;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_3, _stringLiteral0C879E7C6C9A3DEE8D430EB67F54112F39FD7685, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		__this->___U3CFeaturesU3Ek__BackingField_5 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFeaturesU3Ek__BackingField_5), (void*)L_3);
+		// public ARDepthRenderer
+		// (
+		//   Camera camera = null,
+		//   InterpolationMode interpolationMode = InterpolationMode.Smooth
+		// )
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// if (!camera)
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = ___camera0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		// camera = Camera.main;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7;
+		L_7 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		___camera0 = L_7;
+	}
+
+IL_0038:
+	{
+		// _renderTarget = new RenderTarget(camera);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = ___camera0;
+		RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		RenderTarget__ctor_m1BE3F49A400203495A0929027FFE3287307F6E19((&L_9), L_8, /*hidden argument*/NULL);
+		__this->____renderTarget_0 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____renderTarget_0))->___Camera_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____renderTarget_0))->___RenderTexture_1), (void*)NULL);
+		#endif
+		// _depthBufferProcessor = new DepthBufferProcessor(_renderTarget)
+		// {
+		//   InterpolationMode = interpolationMode
+		// };
+		RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF L_10 = __this->____renderTarget_0;
+		DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* L_11 = (DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163*)il2cpp_codegen_object_new(DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		DepthBufferProcessor__ctor_m4C501CFAFFBD690AD0864991918A09490BDF279C(L_11, L_10, NULL);
+		DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* L_12 = L_11;
+		int32_t L_13 = ___interpolationMode1;
+		NullCheck(L_12);
+		AwarenessBufferProcessor_1_set_InterpolationMode_mA5635A7F5C9EE177F6134D061067744E09A2BFE2_inline(L_12, L_13, AwarenessBufferProcessor_1_set_InterpolationMode_mA5635A7F5C9EE177F6134D061067744E09A2BFE2_RuntimeMethod_var);
+		__this->____depthBufferProcessor_3 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____depthBufferProcessor_3), (void*)L_12);
+		// _depthBufferProcessor.AwarenessStreamUpdated += OnAwarenessStreamUpdated;
+		DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* L_14 = __this->____depthBufferProcessor_3;
+		ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* L_15 = (ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8*)il2cpp_codegen_object_new(ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
+		ArdkEventHandler_1__ctor_m5FE019EA5CB72BAB24B1EA9417CC5D8586957592(L_15, __this, (intptr_t)((void*)ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m3B33124F49CB7E3DAD222DE0C865D80A95D63C06(L_14, L_15, AwarenessBufferProcessor_1_add_AwarenessStreamUpdated_m3B33124F49CB7E3DAD222DE0C865D80A95D63C06_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_Dispose_m723302F277F2A5EA7BB68AAA0D8D6BACF0B75CCC (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_Dispose_m0EC582D2383DE62677C7D011F2A797F04BAE0CA2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m33E09C0B0BB46CD01237C869E5C14ACBFCB27E8E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* G_B2_0 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* G_B1_0 = NULL;
+	{
+		// ActiveFeaturesChanged?.Invoke
+		// (
+		//   new RenderFeaturesChangedArgs
+		//   (
+		//     new RenderFeatureConfiguration(new List<string>(), Features)
+		//   )
+		// );
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_0 = __this->___ActiveFeaturesChanged_4;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_000c:
+	{
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_2, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		RuntimeObject* L_3;
+		L_3 = ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D_inline(__this, NULL);
+		RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		RenderFeatureConfiguration__ctor_m418CE640DCF218CC453C974FA40ADDCE455E58D3((&L_4), L_2, L_3, /*hidden argument*/NULL);
+		RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0* L_5 = (RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0*)il2cpp_codegen_object_new(RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		RenderFeaturesChangedArgs__ctor_m898B5F3E86F1E1D8FB12AE9875821CF7DC24EDE3(L_5, L_4, NULL);
+		NullCheck(G_B2_0);
+		ArdkEventHandler_1_Invoke_m8E7A129F21C9BC8E9CDE617C8E67BC1911510FDF_inline(G_B2_0, L_5, NULL);
+	}
+
+IL_0026:
+	{
+		// if (_depthTexture)
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->____depthTexture_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		// UnityEngine.Object.Destroy(_depthTexture);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->____depthTexture_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_8, NULL);
+	}
+
+IL_003e:
+	{
+		// _depthBufferProcessor.AwarenessStreamUpdated -= OnAwarenessStreamUpdated;
+		DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* L_9 = __this->____depthBufferProcessor_3;
+		ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8* L_10 = (ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8*)il2cpp_codegen_object_new(ArdkEventHandler_1_t0B6F3775612BEB39B6D65A909569C07E8BDDA3D8_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		ArdkEventHandler_1__ctor_m5FE019EA5CB72BAB24B1EA9417CC5D8586957592(L_10, __this, (intptr_t)((void*)ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F_RuntimeMethod_var), NULL);
+		NullCheck(L_9);
+		AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m33E09C0B0BB46CD01237C869E5C14ACBFCB27E8E(L_9, L_10, AwarenessBufferProcessor_1_remove_AwarenessStreamUpdated_m33E09C0B0BB46CD01237C869E5C14ACBFCB27E8E_RuntimeMethod_var);
+		// _depthBufferProcessor.Dispose();
+		DepthBufferProcessor_tE1923975FF045B6B3958F081D922B873C876C163* L_11 = __this->____depthBufferProcessor_3;
+		NullCheck(L_11);
+		AwarenessBufferProcessor_1_Dispose_m0EC582D2383DE62677C7D011F2A797F04BAE0CA2(L_11, AwarenessBufferProcessor_1_Dispose_m0EC582D2383DE62677C7D011F2A797F04BAE0CA2_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::SetOcclusionEnabled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_SetOcclusionEnabled_m4582EDB84EFFE6A7DDC17469164C425382B668BC (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, bool ___enabled0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	RuntimeObject* G_B3_0 = NULL;
+	RuntimeObject* G_B6_0 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* G_B8_0 = NULL;
+	ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* G_B7_0 = NULL;
+	{
+		// var enabledFeatures = enabled ? Features : new HashSet<string>();
+		bool L_0 = ___enabled0;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_1, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		V_2 = L_1;
+		RuntimeObject* L_2 = V_2;
+		G_B3_0 = L_2;
+		goto IL_0012;
+	}
+
+IL_000c:
+	{
+		RuntimeObject* L_3;
+		L_3 = ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D_inline(__this, NULL);
+		G_B3_0 = L_3;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		// var disabledFeatures = enabled ? new HashSet<string>() : Features;
+		bool L_4 = ___enabled0;
+		if (L_4)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		RuntimeObject* L_5;
+		L_5 = ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D_inline(__this, NULL);
+		G_B6_0 = L_5;
+		goto IL_0025;
+	}
+
+IL_001e:
+	{
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_6 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_6, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		V_2 = L_6;
+		RuntimeObject* L_7 = V_2;
+		G_B6_0 = L_7;
+	}
+
+IL_0025:
+	{
+		V_1 = G_B6_0;
+		// ActiveFeaturesChanged?.Invoke
+		// (
+		//   new RenderFeaturesChangedArgs
+		//   (
+		//     new RenderFeatureConfiguration(enabledFeatures, disabledFeatures)
+		//   )
+		// );
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_8 = __this->___ActiveFeaturesChanged_4;
+		ArdkEventHandler_1_tD59374934BF5322F39D9A7731A868B84DC2DBDA2* L_9 = L_8;
+		G_B7_0 = L_9;
+		if (L_9)
+		{
+			G_B8_0 = L_9;
+			goto IL_0031;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0031:
+	{
+		RuntimeObject* L_10 = V_0;
+		RuntimeObject* L_11 = V_1;
+		RenderFeatureConfiguration_t7851AD2E28382A24A44FD86278FEBAEFE4D457E2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		RenderFeatureConfiguration__ctor_m418CE640DCF218CC453C974FA40ADDCE455E58D3((&L_12), L_10, L_11, /*hidden argument*/NULL);
+		RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0* L_13 = (RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0*)il2cpp_codegen_object_new(RenderFeaturesChangedArgs_tB2275CBE758E049CD9A5DDF3C02F646F7EF31AD0_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		RenderFeaturesChangedArgs__ctor_m898B5F3E86F1E1D8FB12AE9875821CF7DC24EDE3(L_13, L_12, NULL);
+		NullCheck(G_B8_0);
+		ArdkEventHandler_1_Invoke_m8E7A129F21C9BC8E9CDE617C8E67BC1911510FDF_inline(G_B8_0, L_13, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::OnAwarenessStreamUpdated(Niantic.ARDK.AR.Awareness.ContextAwarenessStreamUpdatedArgs`1<Niantic.ARDK.AR.Awareness.Depth.IDepthBuffer>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_OnAwarenessStreamUpdated_m99B658A770399001FB4A77989003E59C848F6B0F (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, ContextAwarenessStreamUpdatedArgs_1_tA7AB6DF802D5416F806C647AFC1D41A964F87308* ___args0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_get_AwarenessBuffer_m875E1E4F7CCF792329FF43BDA351097A637BF874_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AwarenessBufferProcessor_1_get_SamplerTransform_mCB28823082B5017F6E40D48BB82C4123136F93CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDataBufferFloat32_t56FE04DDE39A872F9698576DD748598FBAEBA1A9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	{
+		// var sender = args.Sender;
+		ContextAwarenessStreamUpdatedArgs_1_tA7AB6DF802D5416F806C647AFC1D41A964F87308* L_0 = ___args0;
+		NullCheck(L_0);
+		AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* L_1 = ((ContextAwarenessArgs_1_t58B3B5DC8745F50F26A2217B0B869FDD542EEA84*)L_0)->___Sender_0;
+		V_0 = L_1;
+		// var awarenessBuffer = sender.AwarenessBuffer;
+		AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* L_2 = V_0;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = AwarenessBufferProcessor_1_get_AwarenessBuffer_m875E1E4F7CCF792329FF43BDA351097A637BF874_inline(L_2, AwarenessBufferProcessor_1_get_AwarenessBuffer_m875E1E4F7CCF792329FF43BDA351097A637BF874_RuntimeMethod_var);
+		V_1 = L_3;
+		// _depthTransform = sender.SamplerTransform;
+		AwarenessBufferProcessor_1_t190E9951E14C6CEB5980D3299F7B48567619611F* L_4 = V_0;
+		NullCheck(L_4);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5;
+		L_5 = AwarenessBufferProcessor_1_get_SamplerTransform_mCB28823082B5017F6E40D48BB82C4123136F93CE_inline(L_4, AwarenessBufferProcessor_1_get_SamplerTransform_mCB28823082B5017F6E40D48BB82C4123136F93CE_RuntimeMethod_var);
+		__this->____depthTransform_2 = L_5;
+		// if (args.IsKeyFrame)
+		ContextAwarenessStreamUpdatedArgs_1_tA7AB6DF802D5416F806C647AFC1D41A964F87308* L_6 = ___args0;
+		NullCheck(L_6);
+		bool L_7 = L_6->___IsKeyFrame_1;
+		if (!L_7)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// awarenessBuffer.CreateOrUpdateTextureRFloat(ref _depthTexture);
+		RuntimeObject* L_8 = V_1;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4** L_9 = (&__this->____depthTexture_1);
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = InterfaceFuncInvoker2< bool, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4**, int32_t >::Invoke(1 /* System.Boolean Niantic.ARDK.AR.Awareness.IDataBufferFloat32::CreateOrUpdateTextureRFloat(UnityEngine.Texture2D&,UnityEngine.FilterMode) */, IDataBufferFloat32_t56FE04DDE39A872F9698576DD748598FBAEBA1A9_il2cpp_TypeInfo_var, L_8, L_9, 0);
+	}
+
+IL_0030:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.ARDKExamples.Rendering.ARDepthRenderer::UpdateRenderState(UnityEngine.Material)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARDepthRenderer_UpdateRenderState_m38D711A484CB9B99C8654C6FE98FD0E4368A4CF3 (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// material.SetTexture(PropertyBindings.DepthChannel, _depthTexture);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___material0;
+		il2cpp_codegen_runtime_class_init_inline(PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var);
+		int32_t L_1 = ((PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_StaticFields*)il2cpp_codegen_static_fields_for(PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var))->___DepthChannel_3;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = __this->____depthTexture_1;
+		NullCheck(L_0);
+		Material_SetTexture_mA9F8461850AAB88F992E9C6FA6F24C2E050B83FD(L_0, L_1, L_2, NULL);
+		// material.SetMatrix(PropertyBindings.DepthTransform, _depthTransform);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___material0;
+		int32_t L_4 = ((PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_StaticFields*)il2cpp_codegen_static_fields_for(PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var))->___DepthTransform_8;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5 = __this->____depthTransform_2;
+		NullCheck(L_3);
+		Material_SetMatrix_m668579C6402F88BFEF769D39E484BAD4CE6B0067(L_3, L_4, L_5, NULL);
+		// material.SetFloat(PropertyBindings.DepthScaleMin, 0);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___material0;
+		int32_t L_7 = ((PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_StaticFields*)il2cpp_codegen_static_fields_for(PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var))->___DepthScaleMin_10;
+		NullCheck(L_6);
+		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_6, L_7, (0.0f), NULL);
+		// material.SetFloat(PropertyBindings.DepthScaleMax, 1);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___material0;
+		int32_t L_9 = ((PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_StaticFields*)il2cpp_codegen_static_fields_for(PropertyBindings_tE64623062429123542B277B17242D9A3779C4F1A_il2cpp_TypeInfo_var))->___DepthScaleMax_11;
+		NullCheck(L_8);
+		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_8, L_9, (1.0f), NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -21712,6 +23225,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARAnchorAttachment__ctor_m6B346A83339B83
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ARDepthRenderer_get_Features_m643E73A66B01DA5927BEAFFE44E49D0DE312A37D_inline (ARDepthRenderer_t5E9EE770987DD34B20F88A6C635D18CB484D7A7F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ISet<string> Features { get; } = new HashSet<string>
+		RuntimeObject* L_0 = __this->___U3CFeaturesU3Ek__BackingField_5;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AnyARSessionInitializedArgs_get_Session_mE6A718E2634C4094FC47FEA581B0C40F19E19487_inline (AnyARSessionInitializedArgs_tE9AE7DDB243BC243078CD789176855EBE941497E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22672,6 +24209,43 @@ IL_0009:
 	{
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = V_0;
 		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF Nullable_1_GetValueOrDefault_m2A22956BF64DD0A1C466D54B147FF971862D02D0_gshared_inline (Nullable_1_t93334A5AE098F8DAF650EDAFA5E202EDB6A933FC* __this, const RuntimeMethod* method) 
+{
+	{
+		RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF L_0 = (RenderTarget_t8FD1DC9E873F4F213912D5B2596D80B03E73C1EF)__this->___value_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwarenessBufferProcessor_1_set_InterpolationMode_m1A557D34668FFF2F07430DC781187239E21C9A74_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public InterpolationMode InterpolationMode { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CInterpolationModeU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ArdkEventHandler_1_Invoke_m576F0233FDDAD5746358F4B564198BF3B608E3A9_gshared_inline (ArdkEventHandler_1_t3E26CBDE57CDAA3ED8121EB52A3FCEF3E53A37FA* __this, RuntimeObject* ___args0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AwarenessBufferProcessor_1_get_AwarenessBuffer_m0F235771FFFCB175BB5252ECEDF77C1974BB17B5_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, const RuntimeMethod* method) 
+{
+	{
+		// public TBuffer AwarenessBuffer { get; private set; }
+		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CAwarenessBufferU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 AwarenessBufferProcessor_1_get_SamplerTransform_m4A9737DE2722CBBA15B759F6BC32656DB8B8EBE5_gshared_inline (AwarenessBufferProcessor_1_t1DA9F64550F82BF36282E981EFF26A8143E6F689* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Matrix4x4 SamplerTransform { get; private set; }
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6)__this->___U3CSamplerTransformU3Ek__BackingField_4;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) 
