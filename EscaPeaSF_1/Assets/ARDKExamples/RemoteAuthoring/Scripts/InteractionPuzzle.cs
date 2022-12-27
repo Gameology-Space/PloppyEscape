@@ -31,6 +31,12 @@ public class InteractionPuzzle : MonoBehaviour
             {
                 touchPosition = Input.touches[0].position;
                 touchDetected = true;
+                Debug.Log("touched");
+                if (touchDetected)
+                {
+
+                    CheckForInteractableTouch(touchPosition);
+                }
             }
         }
 
@@ -40,11 +46,11 @@ public class InteractionPuzzle : MonoBehaviour
             touchDetected = true;
         }
 
-        if (touchDetected)
-        {
+        //if (touchDetected)
+        //{
 
-            CheckForInteractableTouch(touchPosition);
-        }
+        //    CheckForInteractableTouch(touchPosition);
+        //}
 
         if (gm.explore_SunIsMoving)
         {

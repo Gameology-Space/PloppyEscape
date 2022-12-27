@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow", "Unity.VisualScripting.Flow.csproj", "{997017DA-2193-9569-3745-275E21A2DDCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Examples", "ARDK-Examples.csproj", "{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Telemetry", "Unity.Services.Core.Telemetry.csproj", "{D5EBF4B0-4C0A-A7A6-B414-04644FC30DAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State", "Unity.VisualScripting.State.csproj", "{A6FAF5DE-7A56-BDD4-4854-A4CC4D633661}"
@@ -40,8 +42,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maps.Samples.Common", "Maps.Samples.Common.csproj", "{749BDA6F-0747-D6E9-8011-902E623C7981}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Analytics", "Unity.Services.Core.Analytics.csproj", "{C3297B12-FCAF-B0A8-E180-90D5A836F8A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Examples", "ARDK-Examples.csproj", "{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbitCamera", "OrbitCamera.csproj", "{508D5EE9-AF69-B712-90B5-ADB40B674578}"
 EndProject
@@ -147,6 +147,10 @@ Global
 		{997017DA-2193-9569-3745-275E21A2DDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997017DA-2193-9569-3745-275E21A2DDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997017DA-2193-9569-3745-275E21A2DDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D5EBF4B0-4C0A-A7A6-B414-04644FC30DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5EBF4B0-4C0A-A7A6-B414-04644FC30DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5EBF4B0-4C0A-A7A6-B414-04644FC30DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -203,10 +207,6 @@ Global
 		{C3297B12-FCAF-B0A8-E180-90D5A836F8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3297B12-FCAF-B0A8-E180-90D5A836F8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3297B12-FCAF-B0A8-E180-90D5A836F8A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C9BB53D-3FCB-909E-F839-7AF16F528FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{508D5EE9-AF69-B712-90B5-ADB40B674578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{508D5EE9-AF69-B712-90B5-ADB40B674578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508D5EE9-AF69-B712-90B5-ADB40B674578}.Release|Any CPU.ActiveCfg = Release|Any CPU

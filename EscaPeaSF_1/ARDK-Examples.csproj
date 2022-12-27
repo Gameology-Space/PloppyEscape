@@ -56,6 +56,7 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.cs" />
     <Compile Include="Assets/ARDKExamples/ImageDetection/ImageDetectionExampleManager.cs" />
@@ -130,7 +131,6 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
