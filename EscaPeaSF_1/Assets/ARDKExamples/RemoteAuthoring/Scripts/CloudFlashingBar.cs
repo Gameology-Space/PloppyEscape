@@ -15,13 +15,17 @@ public class CloudFlashingBar : MonoBehaviour
     [Range(0,2)]
     float duration;
 
+    private AudioSource audioSource;
+
 
     public void changeColorOnce()
     {
 
         Debug.Log("Color Changed");
-
         StartCoroutine(FadeToColor(colorEnd, duration));
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
+
     }
 
 
@@ -44,6 +48,5 @@ public class CloudFlashingBar : MonoBehaviour
             yield return null;
         }
 
-        //GetComponent<Renderer>().material.color = color;
     }
 }
