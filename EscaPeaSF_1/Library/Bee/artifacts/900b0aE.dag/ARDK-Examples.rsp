@@ -393,6 +393,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchoredContent.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/AnchorStatusTracker.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/BuildingLights.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/ExplorePrefabLogic.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPasswordCheck.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/FountainPrefabLogic.cs"

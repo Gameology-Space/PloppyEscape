@@ -13,6 +13,7 @@ public class InteractionPuzzle : MonoBehaviour
     public GameObject sunMoving;
     private GameObject spawnedSun;
     private Vector3 spawnPosition;
+    private CloudFlashingBar cloudFlashBar;
 
     // Start is called before the first frame update
     void Start()
@@ -79,6 +80,7 @@ public class InteractionPuzzle : MonoBehaviour
         //this is what is hitted.
         //add actions after hit
         Debug.Log(hitResourceItem.name);
+        Debug.Log(touchPosition);
 
 
         // explore targets
@@ -141,6 +143,14 @@ public class InteractionPuzzle : MonoBehaviour
         }
 
         // cloud targets
+
+        else if (hitResourceItem.name == "L11")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("note hitted");
+
+        }
 
     }
 
