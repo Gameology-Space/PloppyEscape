@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SequenceDetector : MonoBehaviour
 {
-    private KeyCode[] buttonSequence =
+    private string[] noteSequence =
     {
-        KeyCode.A,
-        KeyCode.S,
-        KeyCode.D
+        "1-1-G4",
+        "1-2-AS4",
+        "1-3-A4"
     };
 
     // The index of the current button in the sequence.
@@ -17,34 +17,41 @@ public class SequenceDetector : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        
-        
+    {    
     }
 
 
     // Update is called once per frame
     void Update()
     {
+    }
+
+    public bool CheckSequence(string pressedKey)
+    {
         // Check if the current button in the sequence has been pressed.
-        if (Input.GetKeyDown(buttonSequence[currentButtonIndex]))
+        if (pressedKey == noteSequence[currentButtonIndex])
         {
             // Increment the index to move to the next button in the sequence.
             currentButtonIndex++;
+            Debug.Log("one correct note");
 
             // If we have reached the end of the sequence, reset the index to 0.
-            if (currentButtonIndex == buttonSequence.Length)
+            if (currentButtonIndex == noteSequence.Length)
             {
                 currentButtonIndex = 0;
 
                 // The sequence has been detected! Do something here.
-                Debug.Log("Button sequence detected!");
+                Debug.Log("Full correct sequence detected!");
+                return true;
             }
         }
-        // If the wrong button was pressed, reset the index to 0.
         else
         {
             currentButtonIndex = 0;
+            Debug.Log("Wrong Note played");
+            return false;
         }
+
+        return false;
     }
 }

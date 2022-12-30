@@ -10,10 +10,16 @@ public class InteractionPuzzle : MonoBehaviour
     [SerializeField]
     private Camera _mapCamera;
     private GameManager gm;
+
+    //explore variables
     public GameObject sunMoving;
     private GameObject spawnedSun;
     private Vector3 spawnPosition;
+
+    //cloud variables
     private CloudFlashingBar cloudFlashBar;
+    public SequenceDetector sequenceDetector;
+    public bool sequence1;
 
     // Start is called before the first frame update
     void Start()
@@ -148,7 +154,10 @@ public class InteractionPuzzle : MonoBehaviour
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            Debug.Log("L11 hitted");
+
+            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+
+            Debug.Log("L11 hitted" + sequence1);
 
         }
 
@@ -156,7 +165,8 @@ public class InteractionPuzzle : MonoBehaviour
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            Debug.Log("L12 hitted");
+            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+            Debug.Log("L12 hitted" + sequence1);
 
         }
 
@@ -164,7 +174,8 @@ public class InteractionPuzzle : MonoBehaviour
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            Debug.Log("L13 hitted");
+            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+            Debug.Log("L13 hitted" + sequence1);
 
         }
 
