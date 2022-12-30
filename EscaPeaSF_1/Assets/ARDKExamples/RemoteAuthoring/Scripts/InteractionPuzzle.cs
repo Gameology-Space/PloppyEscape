@@ -144,14 +144,78 @@ public class InteractionPuzzle : MonoBehaviour
 
         // cloud targets
 
-        else if (hitResourceItem.name == "L11")
+        else if (hitResourceItem.name == "L11(Clone)")
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            Debug.Log("note hitted");
+            Debug.Log("L11 hitted");
 
         }
 
+        else if (hitResourceItem.name == "L12(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L12 hitted");
+
+        }
+
+        else if (hitResourceItem.name == "L13(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L13 hitted");
+
+        }
+
+        else if (hitResourceItem.name == "L14(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L14 hitted");
+        }
+
+        else if (hitResourceItem.name == "L15(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L15 hitted");
+        }
+
+        else if (hitResourceItem.name == "L16(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L16 hitted");
+        }
+
+        else if (hitResourceItem.name == "L17(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L17 hitted");
+        }
+
+        else if (hitResourceItem.name == "L18(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L18 hitted");
+        }
+
+        else if (hitResourceItem.name == "L19(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L19 hitted");
+        }
+
+        else if (hitResourceItem.name == "L20(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L20 hitted");
+        }
     }
 
 }

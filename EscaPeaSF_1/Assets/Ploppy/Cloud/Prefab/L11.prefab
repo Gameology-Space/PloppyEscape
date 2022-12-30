@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40e8d7d3b94da4a09b035856eb4dd7d3, type: 2}
+  - {fileID: 2100000, guid: 5f56f9da598294e14a5ac62b6d1efbf5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f120a9f85644b4ca587f164f3441689c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundNote: C1
+  soundNote: 1-1-G4
   colorEnd: {r: 0, g: 1, b: 0.016877651, a: 1}
   duration: 2
 --- !u!82 &-2020523367003209627
