@@ -1396,7 +1396,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &420151159
 GameObject:
@@ -4060,6 +4060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mapCamera: {fileID: 778104759}
   sunMoving: {fileID: 100010, guid: 996751f4ef6d6264d912faf90ec1e21a, type: 3}
+  sequenceDetector: {fileID: 1829521707}
+  sequence1: 0
 --- !u!1 &1475743766
 GameObject:
   m_ObjectHideFlags: 1
@@ -4900,6 +4902,26 @@ MonoBehaviour:
       Payload: ChQIo9q87JvIz6JuELel5634wIWWahi7mqjT5Z/8AipGChYIxIy7nqLDuaCGARCUmanY2bmNhM4BEicKDw30foi/FQrHA8AdoGBePhIUDd0xpToVUqpJPR0MrSC7JUmwfz8dAACAPyo8ChYI6LyluI673aS7ARCfnZGhh+WhuYQBEh0KDw0rh4a/Fc3MBMAdPQpXPhIKFVbabD0lV5J/Px0AAIA/
     - Name: Bar17
       Payload: ChYI1q716IOi+aTvARCPucze8bLqsZwBGIq34p/nn/wCKkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDXtGhL8V0iTVvx19118+EhQN3TGlOhVSqkk9HQytILslSbB/Px0AAIA/KjwKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESHQoPDVyPgr8VAivXvx09Clc+EgoVVtpsPSVXkn8/HQAAgD8=
+    - Name: Bar14B
+      Payload: ChYIwPSP94HRvqHMARCs75P07OHsoN8BGO3yteiyoPwCKkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDYY1wT8VF7cywB0zarW8EhQN3TGlOhVSqkk9HQytILslSbB/Px0AAIA/KjwKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESHQoPDW8Swz8VqvEywB28dJO9EgoVVtpsPSVXkn8/HQAAgD8=
+    - Name: Bar15B
+      Payload: ChQIievUmO2C5qAYEIT3zJKR3Z+tEhi89cfosqD8AipGChYIxIy7nqLDuaCGARCUmanY2bmNhM4BEicKDw0Zg80/FeQLHcAdNE83vRIUDd0xpToVUqpJPR0MrSC7JUmwfz8dAACAPyo8ChYI6LyluI673aS7ARCfnZGhh+WhuYQBEh0KDw2gGs8/FX0/HcAd8KfGvRIKFVbabD0lV5J/Px0AAIA/
+    - Name: Bar16B
+      Payload: ChUI9/z+wvvEjKZ6EKax/t6T0LCOsgEYw8eb4O2f/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NUcrTPxXpnATAHS4zUb0SFA3dMaU6FVKqST0dDK0guyVJsH8/HQAAgD8qPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NuB7VPxXNzATAHT0K170SChVW2mw9JVeSfz8dAACAPw==
+    - Name: Bar17B
+      Payload: ChQIkMmEgPnHxad/EKuXuv3UkL2SZRieuLP57Z/8AipGChYIxIy7nqLDuaCGARCUmanY2bmNhM4BEicKDw1pXs0/FW/D1r8d1lQsvRIUDd0xpToVUqpJPR0MrSC7JUmwfz8dAACAPyo8ChYI6LyluI673aS7ARCfnZGhh+WhuYQBEh0KDw3Jds4/FQIr178dppvEvRIKFVbabD0lV5J/Px0AAIA/
+    - Name: Bar18
+      Payload: ChQIjt+7l57CvKBCELDR3oP5lvSsfRiby6TT7p/8AipGChYIxIy7nqLDuaCGARCUmanY2bmNhM4BEicKDw1XPnm/Fec6p78dNLNhPhIUDd0xpToVUqpJPR0MrSC7JUmwfz8dAACAPyo8ChYI6LyluI673aS7ARCfnZGhh+WhuYQBEh0KDw2iRXa/FUw3qb8dPQpXPhIKFVbabD0lV5J/Px0AAIA/
+    - Name: Bar18B
+      Payload: ChUIhYnF3Zr28aMNEIez/MvT+MeVoQEYq7ra6LKg/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NrTLDPxWew6i/HTNU2rwSFA3dMaU6FVKqST0dDK0guyVJsH8/HQAAgD8qPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NkxjEPxVMN6m/HQrXo70SChVW2mw9JVeSfz8dAACAPw==
+    - Name: Bar19
+      Payload: ChUI5tehjZTn2aB5EJC32KT0mbPAhAEYiaizi+qh/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NS8OKPhU+43K/Ha1weD4SFA3dMaU6FVKqST0dDK0guyVJsH8/HQAAgD8qPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NO9+PPhV9P3W/HT0KVz4SChVW2mw9JVeSfz8dAACAPw==
+    - Name: Bar20
+      Payload: ChUI+rLgzoT6jqLBARCOt+iZ4anfsT0Ysum5oOqh/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NKoKLPhUVpii/HbcdeT4SFA3dMaU6FVKqST0dDK0guyVJsH8/HQAAgD8qPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NO9+PPhUMAiu/HT0KVz4SChVW2mw9JVeSfz8dAACAPw==
+    - Name: Bar21
+      Payload: ChYI1dDAnLSau6TdARCcmdWh+ovWlOYBGOaZhazqofwCKjcKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESGAoPDaCZmT4VQIKWvB1AEYA9EgUlAACAPx0AAIA/KkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDWU0mD4Vt3cSvB1j9sc9EhQNCFaSOhWh8gy8HfAuJbslVv1/Px0AAIA/
+    - Name: NoteMarking
+      Payload: ChYIxZ+y5Z2NxqePARC9m9zH/9776cABGLH6zPLqofwCKkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDVaWcD4VnxsQwB3wYKc7EhQNCFaSOhWh8gy8HfAuJbslVv1/Px0AAIA/KjcKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESGAoPDSBhfT4VLb4QwB2mm8S8EgUlAACAPx0AAIA/
   - LocationName: What Does It Say2
     AuthoredAnchors:
     - Name: SolarPanel
@@ -5020,6 +5042,56 @@ MonoBehaviour:
     ManifestID: 0
     AnchorDataIdentifier: Bar17
     Content: {fileID: 3766750731646949613, guid: d972fd36a87f74b2d99ed4ec9435fdfe,
+      type: 3}
+  - AnchorName: Bar14B-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar14B
+    Content: {fileID: 1177175388884389047, guid: df40166b574c14517988beacee39a327,
+      type: 3}
+  - AnchorName: Bar15B-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar15B
+    Content: {fileID: 2784466763214322320, guid: 77b9645f40569444ab43b97e589affd2,
+      type: 3}
+  - AnchorName: Bar16B-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar16B
+    Content: {fileID: 4382200919577232671, guid: 777fc352df492485b93b163a459fed12,
+      type: 3}
+  - AnchorName: Bar17B-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar17B
+    Content: {fileID: 3766750731646949613, guid: d972fd36a87f74b2d99ed4ec9435fdfe,
+      type: 3}
+  - AnchorName: Bar18-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar18
+    Content: {fileID: 6068562897939028729, guid: b654979384b3e4cc98f052ae113482bb,
+      type: 3}
+  - AnchorName: Bar18B-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar18B
+    Content: {fileID: 6068562897939028729, guid: b654979384b3e4cc98f052ae113482bb,
+      type: 3}
+  - AnchorName: Bar19-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar19
+    Content: {fileID: 3705904072637517140, guid: 04865a247074a4fc682d794a933c64c9,
+      type: 3}
+  - AnchorName: Bar20-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar20
+    Content: {fileID: 4517834692735379952, guid: da22306cfc88f4001862598143b35864,
+      type: 3}
+  - AnchorName: Bar21-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: Bar21
+    Content: {fileID: 6760070156656752864, guid: 4dd6ad71d2c8842139a2f1a3676a2818,
+      type: 3}
+  - AnchorName: NoteMarking-Cloud Portal
+    ManifestID: 0
+    AnchorDataIdentifier: NoteMarking
+    Content: {fileID: 1211809099213287822, guid: 6b27d12392cd6476a97944ee6f0aacba,
       type: 3}
   - AnchorName: SolarPanel-What Does It Say2
     ManifestID: 1
@@ -5208,6 +5280,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1829521706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1829521708}
+  - component: {fileID: 1829521707}
+  m_Layer: 0
+  m_Name: CloudSoundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1829521707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829521706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5aac98d338643c0b6de2161f831a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1829521708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829521706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3000002, y: 2.0091863, z: 0.0625329}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1835904362
 GameObject:
