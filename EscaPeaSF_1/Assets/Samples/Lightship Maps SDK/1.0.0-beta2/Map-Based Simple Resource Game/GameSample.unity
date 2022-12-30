@@ -4256,6 +4256,8 @@ MonoBehaviour:
   fountain_Winter: 0
   fountain_Fall: 0
   fountain_Completed: 0
+  fountain_AlterID: 0
+  fountain_PWPopup: 0
   cloud_Sequence1: 0
   cloud_Sequence2: 0
   cloud_Sequence3: 0
@@ -5813,7 +5815,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 400, y: -48}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398128999
 MonoBehaviour:
