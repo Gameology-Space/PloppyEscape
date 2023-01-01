@@ -20,12 +20,9 @@ public class CloudFlashingBar : MonoBehaviour
 
     public void changeColorOnce()
     {
-
-        Debug.Log("Color Changed");
         StartCoroutine(FadeToColor(colorEnd, duration));
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
-
     }
 
 

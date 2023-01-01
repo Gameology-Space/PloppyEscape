@@ -155,8 +155,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
 
-            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
-
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
             Debug.Log("L11 hitted" + sequence1);
 
         }
@@ -165,7 +164,7 @@ public class InteractionPuzzle : MonoBehaviour
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
             Debug.Log("L12 hitted" + sequence1);
 
         }
@@ -174,7 +173,9 @@ public class InteractionPuzzle : MonoBehaviour
         {
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
-            sequence1 = sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+
+
             Debug.Log("L13 hitted" + sequence1);
 
         }
@@ -184,6 +185,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L14 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L15(Clone)")
@@ -191,6 +193,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L15 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L16(Clone)")
@@ -198,6 +201,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L16 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L17(Clone)")
@@ -205,6 +209,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L17 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L18(Clone)")
@@ -212,6 +217,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L18 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L19(Clone)")
@@ -219,6 +225,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L19 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
         else if (hitResourceItem.name == "L20(Clone)")
@@ -226,6 +233,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             Debug.Log("L20 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
     }
 

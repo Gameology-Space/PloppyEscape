@@ -2937,10 +2937,14 @@ MonoBehaviour:
   fountain_Completed: 0
   fountain_AlterID: 0
   fountain_PWPopup: 0
+  cloud_line1: 0
+  cloud_line2: 0
+  cloud_line3: 0
   cloud_Sequence1: 0
   cloud_Sequence2: 0
   cloud_Sequence3: 0
   cloud_Complete: 0
+  cloud_CorrectNote: 0
 --- !u!4 &859511865
 Transform:
   m_ObjectHideFlags: 0

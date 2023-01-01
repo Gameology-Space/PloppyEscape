@@ -36,11 +36,13 @@ using UnityEngine;
         public int fountain_AlterID;
         public bool fountain_PWPopup;
 
-        // puzzle cloud variables
+    // puzzle cloud variables
+        public bool cloud_line1, cloud_line2, cloud_line3;
         public bool cloud_Sequence1;
         public bool cloud_Sequence2;
         public bool cloud_Sequence3;
         public bool cloud_Complete;
+        public bool cloud_CorrectNote;
         
         private void Awake()
         {
@@ -60,6 +62,8 @@ using UnityEngine;
             explore_SunOkToSpawn = true;
             fountain_AlterID = 0;
             fountain_PWPopup = false;
+            cloud_line1 = true;
+            cloud_CorrectNote = true;
         }
 
         private void Update()
@@ -104,16 +108,23 @@ using UnityEngine;
 
         }
 
-        private void CloudLogic()
+        private void FountainLogic()
         {
             if(fountain_Fall && fountain_Spring && fountain_Summer && fountain_Winter)
             {
             fountain_Completed = true;
             }
+
         }
-        private void FountainLogic()
+
+        private void CloudLogic()
         {
 
+
+            if(cloud_Sequence1 && cloud_Sequence2 && cloud_Sequence3)
+            {
+                cloud_Complete = true;
+            }
         }
 
 }

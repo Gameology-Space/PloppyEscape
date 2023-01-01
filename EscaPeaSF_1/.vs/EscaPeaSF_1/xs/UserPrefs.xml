@@ -1,27 +1,17 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudIndicatorColors.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs">
     <Files>
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="160" Column="49" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" Line="39" Column="52" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" Line="54" Column="11" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudIndicatorColors.cs" Line="41" Column="1" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" Line="116" Column="41" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudIndicatorColors.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EscaPeaSF_1" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="ARDKExamples" expanded="True">
-                <Node name="RemoteAuthoring" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
             <Node name="Packages" expanded="True">
               <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
             </Node>
@@ -30,7 +20,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="02cb9957-db19-4420-98f5-0cb7a23aca0b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="882750fb-db83-4870-b3f0-3ccea39e33c3" />
-  <MultiItemStartupConfigurations />
 </Properties>

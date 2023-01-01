@@ -16,7 +16,7 @@ public class CloudIndicatorColors : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((gm.cloud_Sequence1) && (gameObject.name == "Line1Indicator"))
+        if((gm.cloud_line1) && (gameObject.name == "Line1Indicator"))
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
