@@ -42,9 +42,11 @@ using UnityEngine;
         public bool cloud_Sequence2;
         public bool cloud_Sequence3;
         public bool cloud_Complete;
-        public bool cloud_CorrectNote;
-        
-        private void Awake()
+        public bool cloud_CorrectNote1;
+        public bool cloud_CorrectNote2;
+        public bool cloud_CorrectNote3;
+
+    private void Awake()
         {
             if (Instance != null)
             {
@@ -63,8 +65,10 @@ using UnityEngine;
             fountain_AlterID = 0;
             fountain_PWPopup = false;
             cloud_line1 = true;
-            cloud_CorrectNote = true;
-        }
+            cloud_CorrectNote1 = true;
+            cloud_CorrectNote2 = true;
+            cloud_CorrectNote3 = true;
+    }
 
         private void Update()
         {

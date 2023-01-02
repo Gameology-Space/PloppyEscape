@@ -2944,7 +2944,9 @@ MonoBehaviour:
   cloud_Sequence2: 0
   cloud_Sequence3: 0
   cloud_Complete: 0
-  cloud_CorrectNote: 0
+  cloud_CorrectNote1: 0
+  cloud_CorrectNote2: 0
+  cloud_CorrectNote3: 0
 --- !u!4 &859511865
 Transform:
   m_ObjectHideFlags: 0
@@ -4891,7 +4893,7 @@ MonoBehaviour:
   - LocationName: Cloud Portal
     AuthoredAnchors:
     - Name: cloud1
-      Payload: ChUIjOqdk5HS3KAFEKuJmMWGt5/a8AEY1OSh97jC+wIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8N8g6TPhWlrADAHbGhvj0SFA0IVpI6FaHyDLwd8C4luyVW/X8/HQAAgD8qNwoWCOi8pbiOu92kuwEQn52RoYflobmEARIYCg8NoJmZPhWuRwHAHUARgD0SBSUAAIA/HQAAgD8=
+      Payload: ChUIhaKryuf9oae9ARC8yZ6pzvbyoSMY+YTRt4Oq/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NFhyTPhXwyf6/HY+5vj0SFA0IVpI6FaHyDLwd8C4luyVW/X8/HQAAgD8qNwoWCOi8pbiOu92kuwEQn52RoYflobmEARIYCg8NmpmZPhUAAADAHUARgD0SBSUAAIA/HQAAgD8=
     - Name: Bar11
       Payload: ChYIzMCz+ZOUpaPVARCVwYDQ0+G2qpoBGMzeic67n/wCKkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDduDgz4VoCJxwB2c3nE+EhQN3TGlOhVSqkk9HQytILslSbB/Px0AAIA/KjwKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESHQoPDTvfjz4VXrpxwB09Clc+EgoVVtpsPSVXkn8/HQAAgD8=
     - Name: Bar12
@@ -4923,7 +4925,7 @@ MonoBehaviour:
     - Name: Bar20
       Payload: ChUI+rLgzoT6jqLBARCOt+iZ4anfsT0Ysum5oOqh/AIqRgoWCMSMu56iw7mghgEQlJmp2Nm5jYTOARInCg8NKoKLPhUVpii/HbcdeT4SFA3dMaU6FVKqST0dDK0guyVJsH8/HQAAgD8qPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NO9+PPhUMAiu/HT0KVz4SChVW2mw9JVeSfz8dAACAPw==
     - Name: Bar21
-      Payload: ChYI1dDAnLSau6TdARCcmdWh+ovWlOYBGOaZhazqofwCKjcKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESGAoPDaCZmT4VQIKWvB1AEYA9EgUlAACAPx0AAIA/KkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDWU0mD4Vt3cSvB1j9sc9EhQNCFaSOhWh8gy8HfAuJbslVv1/Px0AAIA/
+      Payload: ChUIodjzrrLn9qVHEILdnYShvLCY8AEY8K2C0vCh/AIqPAoWCOi8pbiOu92kuwEQn52RoYflobmEARIdCg8NO9+PPhV/ary+HT0KVz4SChVW2mw9JVeSfz8dAACAPypGChYIxIy7nqLDuaCGARCUmanY2bmNhM4BEicKDw2fR4w+FSSzt74dudB5PhIUDd0xpToVUqpJPR0MrSC7JUmwfz8dAACAPw==
     - Name: NoteMarking
       Payload: ChYIxZ+y5Z2NxqePARC9m9zH/9776cABGLH6zPLqofwCKkYKFgjEjLueosO5oIYBEJSZqdjZuY2EzgESJwoPDVaWcD4VnxsQwB3wYKc7EhQNCFaSOhWh8gy8HfAuJbslVv1/Px0AAIA/KjcKFgjovKW4jrvdpLsBEJ+dkaGH5aG5hAESGAoPDSBhfT4VLb4QwB2mm8S8EgUlAACAPx0AAIA/
   - LocationName: What Does It Say2
@@ -5010,7 +5012,7 @@ MonoBehaviour:
   - AnchorName: cloud1-Cloud Portal
     ManifestID: 0
     AnchorDataIdentifier: cloud1
-    Content: {fileID: 7072090571488593158, guid: cb3c0d67fcbcb4d18a29c4b1b4e05954,
+    Content: {fileID: 8387667501410959155, guid: bdf51752d1f6442049b7df1e5d9f00ce,
       type: 3}
   - AnchorName: Bar11-Cloud Portal
     ManifestID: 0

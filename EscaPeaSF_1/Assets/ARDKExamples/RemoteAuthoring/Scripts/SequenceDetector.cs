@@ -78,7 +78,7 @@ public class SequenceDetector : MonoBehaviour
         {
             // Increment the index to move to the next button in the sequence.
             currentButtonIndex1++;
-            gm.cloud_CorrectNote = true;
+            gm.cloud_CorrectNote1 = true;
             Debug.Log("S1 correct");
 
             // If we have reached the end of the sequence, reset the index to 0.
@@ -92,13 +92,14 @@ public class SequenceDetector : MonoBehaviour
                 gm.cloud_line1 = false;
                 gm.cloud_line2 = true;
                 currentButtonIndex2 = 0;
+                gm.cloud_CorrectNote1 = false;
                 //return true;
             }
         }
         else
         {
             currentButtonIndex1 = 0;
-            gm.cloud_CorrectNote = false;
+            gm.cloud_CorrectNote1 = false;
             //return false;
         }
     
@@ -107,7 +108,7 @@ public class SequenceDetector : MonoBehaviour
         {
             // Increment the index to move to the next button in the sequence.
             currentButtonIndex2++;
-            gm.cloud_CorrectNote = true;
+            gm.cloud_CorrectNote2 = true;
             Debug.Log("S2 correct");
 
             // If we have reached the end of the sequence, reset the index to 0.
@@ -127,7 +128,7 @@ public class SequenceDetector : MonoBehaviour
         else
         {
             currentButtonIndex2 = 0;
-            gm.cloud_CorrectNote = false;
+            gm.cloud_CorrectNote2 = false;
             //return false;
         }
 
@@ -137,7 +138,7 @@ public class SequenceDetector : MonoBehaviour
         {
             // Increment the index to move to the next button in the sequence.
             currentButtonIndex3++;
-            gm.cloud_CorrectNote = true;
+            gm.cloud_CorrectNote3 = true;
             Debug.Log("S3 correct");
 
             // If we have reached the end of the sequence, reset the index to 0.
@@ -156,7 +157,7 @@ public class SequenceDetector : MonoBehaviour
         else
         {
             currentButtonIndex3 = 0;
-            gm.cloud_CorrectNote = false;
+            gm.cloud_CorrectNote3 = false;
             //return false;
         }
         //return false;

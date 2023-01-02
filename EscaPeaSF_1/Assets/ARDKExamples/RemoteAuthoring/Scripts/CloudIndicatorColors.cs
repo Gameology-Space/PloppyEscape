@@ -22,7 +22,17 @@ public class CloudIndicatorColors : MonoBehaviour
             if (gameObject.name == "Line1Indicator")
             {
                 GetComponent<Renderer>().enabled = true;
-                GetComponent<Renderer>().material.color = Color.green;
+                // green when it is correct note
+                // blue if passed
+                // red when it is incorrect
+                if(gm.cloud_CorrectNote1)
+                {
+                    GetComponent<Renderer>().material.color = Color.green;
+                }
+                else
+                {
+                    GetComponent<Renderer>().material.color = Color.red;
+                }
             }
             else if((gameObject.name == "b1-1") || (gameObject.name == "b1-2") || (gameObject.name == "b1-3"))
             {
@@ -32,10 +42,53 @@ public class CloudIndicatorColors : MonoBehaviour
         }
         else if(gm.cloud_line2)
         {
-            //GetComponent<Renderer>().material.color = Color.white;
+            if (gameObject.name == "Line1Indicator")
+            {
+                GetComponent<Renderer>().material.color = Color.blue;
+            }
+
+            if (gameObject.name == "Line2Indicator")
+            {
+                GetComponent<Renderer>().enabled = true;
+                if (gm.cloud_CorrectNote2)
+                {
+                    GetComponent<Renderer>().material.color = Color.green;
+                }
+                else
+                {
+                    GetComponent<Renderer>().material.color = Color.red;
+                }
+            }
+            else if ((gameObject.name == "b2-1") || (gameObject.name == "b2-2") || (gameObject.name == "b2-3") || (gameObject.name == "b2-4") || (gameObject.name == "b2-5"))
+            {
+                GetComponent<Renderer>().enabled = true;
+                GetComponent<Renderer>().material.color = Color.yellow;
+            }
         }
         else if(gm.cloud_line3)
         {
+            if (gameObject.name == "Line2Indicator")
+            {
+                GetComponent<Renderer>().material.color = Color.blue;
+            }
+
+            if (gameObject.name == "Line3Indicator")
+            {
+                GetComponent<Renderer>().enabled = true;
+                if (gm.cloud_CorrectNote3)
+                {
+                    GetComponent<Renderer>().material.color = Color.green;
+                }
+                else
+                {
+                    GetComponent<Renderer>().material.color = Color.red;
+                }
+            }
+            else if ((gameObject.name == "b3-1") || (gameObject.name == "b3-2") || (gameObject.name == "b3-3"))
+            {
+                GetComponent<Renderer>().enabled = true;
+                GetComponent<Renderer>().material.color = Color.yellow;
+            }
 
         }
         else
