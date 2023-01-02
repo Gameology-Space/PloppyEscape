@@ -11,20 +11,38 @@ public class CloudIndicatorColors : MonoBehaviour
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        GetComponent<Renderer>().enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if((gm.cloud_line1) && (gameObject.name == "Line1Indicator"))
+        if(gm.cloud_line1) 
         {
-            GetComponent<Renderer>().material.color = Color.red;
+            if (gameObject.name == "Line1Indicator")
+            {
+                GetComponent<Renderer>().enabled = true;
+                GetComponent<Renderer>().material.color = Color.green;
+            }
+            else if((gameObject.name == "b1-1") || (gameObject.name == "b1-2") || (gameObject.name == "b1-3"))
+            {
+                GetComponent<Renderer>().enabled = true;
+                GetComponent<Renderer>().material.color = Color.yellow;
+            }
+        }
+        else if(gm.cloud_line2)
+        {
+            //GetComponent<Renderer>().material.color = Color.white;
+        }
+        else if(gm.cloud_line3)
+        {
+
         }
         else
         {
-            GetComponent<Renderer>().material.color = Color.white;
+            GetComponent<Renderer>().material.color = Color.magenta;
         }
-        
+
     }
 
     // capsule
