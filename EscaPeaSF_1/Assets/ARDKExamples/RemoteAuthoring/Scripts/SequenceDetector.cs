@@ -26,14 +26,32 @@ public class SequenceDetector : MonoBehaviour
 
     private string[] noteSequence2 =
     {
-        "1-1-G4",
-        "1-2-AS4"
+        "2-1-DS4",
+        "2-2-G4",
+        "2-3-F4",
+        "2-1-DS4",
+        "2-2-G4",
+        "2-2-G4",
+        "2-3-F4",
+        "2-3-F4",
+        "2-1-DS4"
     };
 
     private string[] noteSequence3 =
     {
-        "1-3-A4",
-        "1-1-G4"
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1",
+        "3-1"
     };
 
     // The index of the current button in the sequence.

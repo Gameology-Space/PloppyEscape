@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f120a9f85644b4ca587f164f3441689c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundNote: 2-1-DS4
+  soundNote: 2-F-1A4
   colorEnd: {r: 1, g: 0, b: 0.9654913, a: 1}
   duration: 2
 --- !u!82 &1553057167927640861
@@ -124,7 +124,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7202177a17e2649209aa70de40282d14, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 37bb7f13c54a64dfeabed65747e8a482, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

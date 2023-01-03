@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5f56f9da598294e14a5ac62b6d1efbf5, type: 2}
+  - {fileID: 2100000, guid: 40e8d7d3b94da4a09b035856eb4dd7d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e8c0f7482f4e24382af2fff3e22f1ce5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b8585a8995074424e8399e844a68d610, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -207,6 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f120a9f85644b4ca587f164f3441689c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundNote: 3-1
+  soundNote: 2-3-F4
   colorEnd: {r: 0.14122522, g: 1, b: 0, a: 1}
   duration: 2

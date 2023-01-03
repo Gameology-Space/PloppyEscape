@@ -237,6 +237,14 @@ public class InteractionPuzzle : MonoBehaviour
             sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
         }
 
+        else if (hitResourceItem.name == "L21(Clone)")
+        {
+            cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
+            cloudFlashBar.changeColorOnce();
+            Debug.Log("L21 hitted");
+            sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+        }
+
         else if (hitResourceItem.name == "CloudHoverPrefab(Clone)")
         {
             cloudHover = hitResourceItem.GetComponent<CloudHover>();

@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundNote: 1-2-AS4
-  colorEnd: {r: 0, g: 1, b: 0.7265787, a: 1}
+  colorEnd: {r: 0, g: 1, b: 0.060203552, a: 1}
   duration: 2
 --- !u!82 &2106842651782601492
 AudioSource:
