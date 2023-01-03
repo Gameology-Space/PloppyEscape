@@ -15,6 +15,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
     guid: b42b611c6ac6c4128ae1090ed0ec3121
+  - enabled: 1
+    path: Assets/Ploppy/Scene/Finish.unity
+    guid: 4378c158cf7424c9ca94487727b7a676
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: f6ddeab17e49b4395899a4a856f7b9ea, type: 2}

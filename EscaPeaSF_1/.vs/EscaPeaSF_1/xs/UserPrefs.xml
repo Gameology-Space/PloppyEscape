@@ -1,17 +1,20 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" Line="237" Column="69" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" Line="1" Column="1" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="16" Column="9" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" Line="37" Column="13" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="22" Column="43" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" />
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudHover.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" Line="76" Column="71" />
-      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/LocateButton.cs" Line="67" Column="35" />
-      <File FileName="Assets/Ploppy/Model Credit.cs" Line="2" Column="24" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="51" Column="42" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/LocateButton.cs" />
+      <File FileName="Assets/Script/SceneControl.cs" Line="12" Column="9" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Ploppy/Model Credit.cs" Line="2" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,6 +26,8 @@
                   <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
+              <Node name="Ploppy" expanded="True" />
+              <Node name="Script" expanded="True" />
             </Node>
             <Node name="Packages" expanded="True">
               <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
@@ -32,9 +37,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="a040efa7-926f-492f-8f6c-9a32f4ebb2a9" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="b490daef-ad62-4894-9880-c2a9fb8748fd" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

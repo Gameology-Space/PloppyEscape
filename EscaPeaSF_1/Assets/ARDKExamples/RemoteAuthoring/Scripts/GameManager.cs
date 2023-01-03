@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
     public class GameManager : MonoBehaviour
@@ -78,6 +79,12 @@ using UnityEngine;
             FountainLogic();
 
             allComplete = explore_Completed && cloud_Complete && fountain_Completed;
+            if(allComplete)
+            {
+                SceneManager.LoadScene(2);
+            }
+
+            
         }
 
         private void ExploreLogic()
