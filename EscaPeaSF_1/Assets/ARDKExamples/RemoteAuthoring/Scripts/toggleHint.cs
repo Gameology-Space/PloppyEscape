@@ -41,10 +41,10 @@ public class toggleHint : MonoBehaviour
     {
         if(gameManager.puzzleID == 0) // cloud
         {
-            hint1.text = "1. The cloud sings.";
-            hint2.text = "2. Play melody 1";
-            hint3.text = "3. Play melody 2";
-            hint4.text = "";
+            hint1.text = "1. Turn up the sound volume.";
+            hint2.text = "2. The cloud sings";
+            hint3.text = "3. Play melody 1";
+            hint4.text = "4. Play the rest";
         }
         else if (gameManager.puzzleID == 1) //explore
         {
