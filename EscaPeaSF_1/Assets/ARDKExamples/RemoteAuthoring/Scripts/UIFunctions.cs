@@ -16,24 +16,39 @@ public class UIFunctions : MonoBehaviour
     [HideInInspector] public LocationSelectView locationSelectView;
     public GameObject ploppyDetailUI;
     private GameObject movingSun;
+    public GameObject timeCheckUI;
 
     private void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         detailImg = GameObject.Find("DetailImage").GetComponent<RawImage>();
         locationSelectView = GameObject.Find("LocationMenu-Panel").GetComponent<LocationSelectView>();
+        //timeCheckUI = GameObject.Find("CloudTimeWarning");
+
+
+        //check time for cloud puzzle
+        DateTime currentTime = DateTime.Now;
+        int minutes = currentTime.Minute;
+        Debug.Log(minutes);
+
 
         if (gameManager.puzzleID == 0)
         {
             detailImg.texture = cloudPicture;
+            if (minutes > 4 && minutes < 54)
+            {
+                timeCheckUI.SetActive(true);
+            }
         }
         else if(gameManager.puzzleID == 1)
         {
             detailImg.texture = explorePicture;
+            timeCheckUI.SetActive(false);
         }
         else if(gameManager.puzzleID == 2)
         {
             detailImg.texture = fountainPicture;
+            timeCheckUI.SetActive(false);
         }
     }
 
@@ -44,17 +59,26 @@ public class UIFunctions : MonoBehaviour
 
     }
 
+    public void ICantWait()
+    {
+        timeCheckUI.SetActive(false);
+    }
+
     public void OnReloadPressed()
     {
         
 
         ploppyDetailUI.SetActive(true);
+
         if (gameManager.puzzleID == 0)
         {
             gameManager.cloud_Complete = false;
             gameManager.cloud_Sequence1 = false;
             gameManager.cloud_Sequence2 = false;
             gameManager.cloud_Sequence3 = false;
+            gameManager.cloud_line1 = true;
+            gameManager.cloud_line2 = false;
+            gameManager.cloud_line3 = false;
         }
         else if (gameManager.puzzleID == 1)
         {
