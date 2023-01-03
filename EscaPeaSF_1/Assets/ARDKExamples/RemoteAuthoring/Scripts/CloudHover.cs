@@ -4,12 +4,33 @@ using UnityEngine;
 
 public class CloudHover : MonoBehaviour
 {
-    // The speed at which the object will spin
-    public float spinSpeed = 0.0f;
 
-    void Update()
+    public AudioClip line1, line2, line3;
+    public AudioSource audioSource;
+    private GameManager gm;
+
+    private void Start()
     {
-        // Rotate the object around the y-axis
-        transform.Rotate(0, spinSpeed * Time.deltaTime, 0);
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        audioSource = GetComponent<AudioSource>();
+    }
+
+
+
+    public void PlayLineClip()
+    {
+        if (gm.cloud_line1)
+        {
+            audioSource.clip = line1;
+        }
+        else if (gm.cloud_line2)
+        {
+            audioSource.clip = line2;
+        }
+        else if (gm.cloud_line3)
+        {
+            audioSource.clip = line3;
+        }
+        audioSource.Play();
     }
 }

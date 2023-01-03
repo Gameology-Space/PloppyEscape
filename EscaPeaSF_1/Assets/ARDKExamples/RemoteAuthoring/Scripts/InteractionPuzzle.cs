@@ -19,7 +19,8 @@ public class InteractionPuzzle : MonoBehaviour
     //cloud variables
     private CloudFlashingBar cloudFlashBar;
     public SequenceDetector sequenceDetector;
-    public bool sequence1;
+
+    private CloudHover cloudHover;
 
     // Start is called before the first frame update
     void Start()
@@ -156,7 +157,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar.changeColorOnce();
 
             sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
-            Debug.Log("L11 hitted" + sequence1);
+            Debug.Log("L11 hitted");
 
         }
 
@@ -165,7 +166,7 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar = hitResourceItem.GetComponent<CloudFlashingBar>();
             cloudFlashBar.changeColorOnce();
             sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
-            Debug.Log("L12 hitted" + sequence1);
+            Debug.Log("L12 hitted");
 
         }
 
@@ -176,7 +177,7 @@ public class InteractionPuzzle : MonoBehaviour
             sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
 
 
-            Debug.Log("L13 hitted" + sequence1);
+            Debug.Log("L13 hitted");
 
         }
 
@@ -234,6 +235,13 @@ public class InteractionPuzzle : MonoBehaviour
             cloudFlashBar.changeColorOnce();
             Debug.Log("L20 hitted");
             sequenceDetector.CheckSequence(cloudFlashBar.soundNote);
+        }
+
+        else if (hitResourceItem.name == "CloudHoverPrefab(Clone)")
+        {
+            cloudHover = hitResourceItem.GetComponent<CloudHover>();
+            cloudHover.PlayLineClip();
+            Debug.Log("Cloud Hit");
         }
     }
 

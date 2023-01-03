@@ -6,7 +6,10 @@ public class SequenceDetector : MonoBehaviour
 {
     //private Material bar1, bar2, bar3;
     //private GameObject test1;
+
     private GameManager gm;
+    private AudioSource audioSource;
+    private bool playOnceOnly = true;
 
     private string[] noteSequence1 =
     {
@@ -43,7 +46,7 @@ public class SequenceDetector : MonoBehaviour
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-
+        audioSource = GetComponent<AudioSource>();
 
         // -------- question for Niantic --------------
         // why can't anchor restored object be found?
@@ -69,6 +72,20 @@ public class SequenceDetector : MonoBehaviour
 
         //bar2 = GameObject.Find("Line2Indicator").GetComponent<Renderer>().material;
         //bar3 = GameObject.Find("Line3Indicator").GetComponent<Renderer>().material;
+    }
+
+    private void Update()
+    {
+        if(gm.cloud_Sequence1 && gm.cloud_Sequence2 && gm.cloud_Sequence3 && playOnceOnly)
+        {
+            audioSource.PlayOneShot(audioSource.clip);
+            playOnceOnly = false;
+        }
+    }
+
+    private void PlayEnding()
+    {
+
     }
 
     public void CheckSequence(string pressedKey)
@@ -162,4 +179,6 @@ public class SequenceDetector : MonoBehaviour
         }
         //return false;
     }
+
+
 }
