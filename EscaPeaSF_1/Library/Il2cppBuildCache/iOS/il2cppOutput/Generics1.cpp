@@ -1296,6 +1296,8 @@ struct Action_1_t43B3A21E3139B3E2E49698F940F979F37AD1E63E;
 struct Action_1_tE1AD1611397E2D6122749D18267D668A29E622D1;
 // System.Action`1<UnityEngine.Camera/RenderRequest>
 struct Action_1_t47A08C2475B65A166A7626041E34D5F3A2DE555B;
+// System.Action`1<CameraHolder/SVA>
+struct Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34;
 // System.Action`1<UnityEngine.UIElements.FocusController/FocusedElement>
 struct Action_1_tBF3758489166E22D0E6CA6E6CC9D9BCA81E03AE2;
 // System.Action`1<Niantic.ARDK.Utilities.BinarySerialization.GlobalSerializer/_SerializerInfo>
@@ -5264,6 +5266,17 @@ struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_com
 	int32_t ___m_OutputSpace_2;
 };
 
+// CameraHolder/SVA
+struct SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A 
+{
+	// System.Single CameraHolder/SVA::S
+	float ___S_0;
+	// System.Single CameraHolder/SVA::V
+	float ___V_1;
+	// System.Single CameraHolder/SVA::A
+	float ___A_2;
+};
+
 // UnityEngine.UIElements.FocusController/FocusedElement
 struct FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF 
 {
@@ -8584,6 +8597,11 @@ struct Action_1_tE1AD1611397E2D6122749D18267D668A29E622D1  : public MulticastDel
 
 // System.Action`1<UnityEngine.Camera/RenderRequest>
 struct Action_1_t47A08C2475B65A166A7626041E34D5F3A2DE555B  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<CameraHolder/SVA>
+struct Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34  : public MulticastDelegate_t
 {
 };
 
@@ -23159,6 +23177,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mCC5A4A45368B2D769807FCE8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m7D380E7E1DB122532C36A2A7A9DEBB97BC7DA8C7_gshared (Action_1_t47A08C2475B65A166A7626041E34D5F3A2DE555B* __this, RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A ___obj0, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_Multicast(Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* currentDelegate = reinterpret_cast<Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_OpenInst(Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___obj0, method);
+}
+void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_OpenStatic(Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___obj0, method);
+}
+void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_OpenStaticInvoker(Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A >::Invoke(__this->___method_ptr_0, method, NULL, ___obj0);
+}
+void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_ClosedStaticInvoker(Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___obj0);
+}
+// System.Void System.Action`1<CameraHolder/SVA>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8079A252FCB2435C841E59849DC03BAD2EDCEFD3_gshared (Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_Multicast;
+}
+// System.Void System.Action`1<CameraHolder/SVA>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m8EC02C14365EB8A795B0D63E6FB38BD86012C3FE_gshared (Action_1_t0E584F0C2FB3A0C774BBD16669F6FC6E50ECFA34* __this, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, SVA_tE94568DE89D89BAB9CFDEBDE6B5DD98951806B7A, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__

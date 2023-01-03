@@ -28,18 +28,18 @@ extern void LocateButton_onLocatePressed_m3DFEE5FBB782F6467CC417950CBDFAE246F627
 extern void LocateButton_TurnBackOn_mD193CD1845FDCC4D8A7A35B72788BD7BD19EED4D (void);
 // 0x00000008 System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton::.ctor()
 extern void LocateButton__ctor_m459BEDACC92961E6943972082351D4CF410AAF5A (void);
-// 0x00000009 System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::.ctor(System.Int32)
-extern void U3CTurnBackOnU3Ed__7__ctor_m264F3B41600DA6FEBB6A395E2A65E6887D8FFC1A (void);
-// 0x0000000A System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.IDisposable.Dispose()
-extern void U3CTurnBackOnU3Ed__7_System_IDisposable_Dispose_mF7C6476AAFFB4C59A6052F568CF86E7CE01040B0 (void);
-// 0x0000000B System.Boolean Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::MoveNext()
-extern void U3CTurnBackOnU3Ed__7_MoveNext_m8E34EE3DEF52E95346467A6BDE0581A171BB9F9C (void);
-// 0x0000000C System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CTurnBackOnU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB285450509083D2932C2B74CBBA6583DE2171BF5 (void);
-// 0x0000000D System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.IEnumerator.Reset()
-extern void U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_Reset_mB5A41DDCBA34748015E2B71161A483E11B12CFA3 (void);
-// 0x0000000E System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.IEnumerator.get_Current()
-extern void U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_get_Current_m246B9D0C43CC5D6AF1086BBACF2F78E22C1C798D (void);
+// 0x00000009 System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::.ctor(System.Int32)
+extern void U3CTurnBackOnU3Ed__8__ctor_m4FD05FFDE13412C7AF9A1ECB4F24A8810E366ECA (void);
+// 0x0000000A System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.IDisposable.Dispose()
+extern void U3CTurnBackOnU3Ed__8_System_IDisposable_Dispose_m64B0889A8DF5A451863E5C77221515485F480C20 (void);
+// 0x0000000B System.Boolean Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::MoveNext()
+extern void U3CTurnBackOnU3Ed__8_MoveNext_mD3BEB234EE749C569536462FFB3702D894C8416A (void);
+// 0x0000000C System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CTurnBackOnU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m695D03C1632B47B529549505AA146853AE6009BA (void);
+// 0x0000000D System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_Reset_mCA5F52D9F00F277957F1306929B377A10A8D445D (void);
+// 0x0000000E System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_get_Current_mAE0AFA21E10262E76185A01344335678C0C11E39 (void);
 // 0x0000000F Niantic.Lightship.Maps.Logging.ChannelLogger Niantic.Lightship.Maps.Samples.GameSample.MapFeaturePrefabSpawner::get_Log()
 extern void MapFeaturePrefabSpawner_get_Log_m400E4ED3448A82566F187CDE4173EDD8121803C2 (void);
 // 0x00000010 System.Void Niantic.Lightship.Maps.Samples.GameSample.MapFeaturePrefabSpawner::Initialize(Niantic.Lightship.Maps.Unity.Core.ILightshipMap)
@@ -132,12 +132,12 @@ static Il2CppMethodPointer s_methodPointers[55] =
 	LocateButton_onLocatePressed_m3DFEE5FBB782F6467CC417950CBDFAE246F6278B,
 	LocateButton_TurnBackOn_mD193CD1845FDCC4D8A7A35B72788BD7BD19EED4D,
 	LocateButton__ctor_m459BEDACC92961E6943972082351D4CF410AAF5A,
-	U3CTurnBackOnU3Ed__7__ctor_m264F3B41600DA6FEBB6A395E2A65E6887D8FFC1A,
-	U3CTurnBackOnU3Ed__7_System_IDisposable_Dispose_mF7C6476AAFFB4C59A6052F568CF86E7CE01040B0,
-	U3CTurnBackOnU3Ed__7_MoveNext_m8E34EE3DEF52E95346467A6BDE0581A171BB9F9C,
-	U3CTurnBackOnU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB285450509083D2932C2B74CBBA6583DE2171BF5,
-	U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_Reset_mB5A41DDCBA34748015E2B71161A483E11B12CFA3,
-	U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_get_Current_m246B9D0C43CC5D6AF1086BBACF2F78E22C1C798D,
+	U3CTurnBackOnU3Ed__8__ctor_m4FD05FFDE13412C7AF9A1ECB4F24A8810E366ECA,
+	U3CTurnBackOnU3Ed__8_System_IDisposable_Dispose_m64B0889A8DF5A451863E5C77221515485F480C20,
+	U3CTurnBackOnU3Ed__8_MoveNext_mD3BEB234EE749C569536462FFB3702D894C8416A,
+	U3CTurnBackOnU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m695D03C1632B47B529549505AA146853AE6009BA,
+	U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_Reset_mCA5F52D9F00F277957F1306929B377A10A8D445D,
+	U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_get_Current_mAE0AFA21E10262E76185A01344335678C0C11E39,
 	MapFeaturePrefabSpawner_get_Log_m400E4ED3448A82566F187CDE4173EDD8121803C2,
 	MapFeaturePrefabSpawner_Initialize_m94C07C686CCB5776368C87DB148B44F813F67F4E,
 	MapFeaturePrefabSpawner_Build_m6F92C52081F5AD63D433C8E0BF9DCF4D78016A42,
@@ -182,61 +182,61 @@ static Il2CppMethodPointer s_methodPointers[55] =
 };
 static const int32_t s_InvokerIndices[55] = 
 {
-	6351,
-	6351,
-	6351,
-	6351,
-	6351,
-	6351,
-	6235,
-	6351,
-	5137,
-	6351,
-	6136,
-	6235,
-	6351,
-	6235,
-	9240,
-	5172,
-	2970,
-	5172,
-	6351,
-	9276,
-	6351,
-	4512,
-	5278,
-	6351,
-	6136,
-	6351,
-	6351,
-	9240,
-	9130,
-	6351,
-	6351,
-	6351,
-	5172,
-	6351,
-	6351,
-	6351,
-	6351,
-	5146,
-	3022,
-	6351,
-	6235,
-	3022,
-	6351,
-	6351,
-	6351,
-	6351,
-	5137,
-	6351,
-	6136,
-	6235,
-	6351,
-	6235,
-	6351,
-	5172,
-	6351,
+	6366,
+	6366,
+	6366,
+	6366,
+	6366,
+	6366,
+	6250,
+	6366,
+	5147,
+	6366,
+	6151,
+	6250,
+	6366,
+	6250,
+	9264,
+	5182,
+	2978,
+	5182,
+	6366,
+	9300,
+	6366,
+	4522,
+	5288,
+	6366,
+	6151,
+	6366,
+	6366,
+	9264,
+	9153,
+	6366,
+	6366,
+	6366,
+	5182,
+	6366,
+	6366,
+	6366,
+	6366,
+	5156,
+	3030,
+	6366,
+	6250,
+	3030,
+	6366,
+	6366,
+	6366,
+	6366,
+	5147,
+	6366,
+	6151,
+	6250,
+	6366,
+	6250,
+	6366,
+	5182,
+	6366,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Maps_Samples_GameSample_CodeGenModule;
 const Il2CppCodeGenModule g_Maps_Samples_GameSample_CodeGenModule = 

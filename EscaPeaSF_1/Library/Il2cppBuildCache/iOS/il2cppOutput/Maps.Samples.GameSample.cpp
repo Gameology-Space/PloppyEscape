@@ -306,8 +306,8 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // Niantic.Lightship.Maps.Unity.Core.LightshipMap/ViewableMapArea
 struct ViewableMapArea_t0DE7838E83D5C6EA927CE6CAB71121FBF072DDDF;
-// Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7
-struct U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23;
+// Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8
+struct U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 // Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController/<UpdateGPSLocation>d__13
@@ -333,7 +333,7 @@ IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectPool_1_t174FF6C30E89930F23C51B3CED26BE1EF500532D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CUpdateGPSLocationU3Ed__13_t0E998EEE72C221E930AB7E6A2413D6DBD8C6B447_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
@@ -357,7 +357,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* ObjectPool_1__ctor_m3CACBFCF42231C44F989108
 IL2CPP_EXTERN_C const RuntimeMethod* PlayerLocationController_OnMapOriginChanged_m2E9CB3CCB2654038056100487CC57639A967F299_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PooledObject_1_Dispose_mE4314F3A11237479C59B74621EC79739B766913F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PooledObject_1_get_Value_m052426ED679EB65630176392DA945C2684CFDE48_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_Reset_mB5A41DDCBA34748015E2B71161A483E11B12CFA3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_Reset_mCA5F52D9F00F277957F1306929B377A10A8D445D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateGPSLocationU3Ed__13_System_Collections_IEnumerator_Reset_m15E8EA2DBB0C03E95855AC52BD34CE5803789E79_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -484,14 +484,14 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7
-struct U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23  : public RuntimeObject
+// Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8
+struct U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA  : public RuntimeObject
 {
-	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::<>1__state
+	// System.Int32 Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::<>2__current
+	// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Niantic.Lightship.Maps.Samples.GameSample.LocateButton Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::<>4__this
+	// Niantic.Lightship.Maps.Samples.GameSample.LocateButton Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::<>4__this
 	LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* ___U3CU3E4__this_2;
 };
 
@@ -2048,8 +2048,10 @@ struct LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50  : public MonoBeha
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___playerHolder_5;
 	// UnityEngine.GameObject Niantic.Lightship.Maps.Samples.GameSample.LocateButton::playerIcon
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___playerIcon_6;
+	// UnityEngine.UI.Text Niantic.Lightship.Maps.Samples.GameSample.LocateButton::arrowMarker
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___arrowMarker_7;
 	// Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController Niantic.Lightship.Maps.Samples.GameSample.LocateButton::playerLocationController
-	PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* ___playerLocationController_7;
+	PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* ___playerLocationController_8;
 };
 
 // Niantic.Lightship.Maps.Samples.GameSample.MapFeaturePrefabSpawner
@@ -2875,8 +2877,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_m0C3F3778B1D646778F41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void Niantic.Lightship.Maps.Samples.GameSample.PlayerLocationController::LocatePuzzle(System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111 (PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* __this, float ___movelat0, float ___movelong1, const RuntimeMethod* method) ;
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__7__ctor_m264F3B41600DA6FEBB6A395E2A65E6887D8FFC1A (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__8__ctor_m4FD05FFDE13412C7AF9A1ECB4F24A8810E366ECA (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
@@ -3190,8 +3192,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_Start_m0A51C381A4E32CFD1BFF
 		NullCheck(L_0);
 		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_1;
 		L_1 = GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45(L_0, GameObject_GetComponent_TisPlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD_m8C9BF18A1806295DC6BCD933227382937E37AC45_RuntimeMethod_var);
-		__this->___playerLocationController_7 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerLocationController_7), (void*)L_1);
+		__this->___playerLocationController_8 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playerLocationController_8), (void*)L_1);
 		// }
 		return;
 	}
@@ -3223,22 +3225,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_onLocatePressed_m3DFEE5FBB7
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___playerIcon_6;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// arrowMarker.text = "1";
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___arrowMarker_7;
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3);
 		// StartCoroutine(TurnBackOn());
-		RuntimeObject* L_1;
-		L_1 = LocateButton_TurnBackOn_mD193CD1845FDCC4D8A7A35B72788BD7BD19EED4D(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
-		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
+		RuntimeObject* L_2;
+		L_2 = LocateButton_TurnBackOn_mD193CD1845FDCC4D8A7A35B72788BD7BD19EED4D(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
+		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
 		// if (Convert.ToInt32(transfer.text) == 0)
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___transfer_4;
-		NullCheck(L_3);
-		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___transfer_4;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_4);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		int32_t L_5;
-		L_5 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_4, NULL);
-		if (L_5)
+		int32_t L_6;
+		L_6 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_5, NULL);
+		if (L_6)
 		{
-			goto IL_004b;
+			goto IL_005b;
 		}
 	}
 	{
@@ -3246,25 +3252,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton_onLocatePressed_m3DFEE5FBB7
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		// playerLocationController.LocatePuzzle(37.79639f, -122.39814f); //cloud
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_6 = __this->___playerLocationController_7;
-		NullCheck(L_6);
-		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_6, (37.7963905f), (-122.39814f), NULL);
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_7 = __this->___playerLocationController_8;
+		NullCheck(L_7);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_7, (37.7963905f), (-122.39814f), NULL);
 		return;
 	}
 
-IL_004b:
+IL_005b:
 	{
 		// else if (Convert.ToInt32(transfer.text) == 1)
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___transfer_4;
-		NullCheck(L_7);
-		String_t* L_8;
-		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_7);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___transfer_4;
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_8);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		int32_t L_9;
-		L_9 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_8, NULL);
-		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
+		int32_t L_10;
+		L_10 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_9, NULL);
+		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
 		{
-			goto IL_007e;
+			goto IL_008e;
 		}
 	}
 	{
@@ -3272,25 +3278,25 @@ IL_004b:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3, NULL);
 		// playerLocationController.LocatePuzzle(37.800644999999996f, -122.398381f); //explore
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_10 = __this->___playerLocationController_7;
-		NullCheck(L_10);
-		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_10, (37.8006439f), (-122.398384f), NULL);
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_11 = __this->___playerLocationController_8;
+		NullCheck(L_11);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_11, (37.8006439f), (-122.398384f), NULL);
 		return;
 	}
 
-IL_007e:
+IL_008e:
 	{
 		// else if (Convert.ToInt32(transfer.text) == 2)
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___transfer_4;
-		NullCheck(L_11);
-		String_t* L_12;
-		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_11);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___transfer_4;
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = VirtualFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_12);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		int32_t L_13;
-		L_13 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_12, NULL);
-		if ((!(((uint32_t)L_13) == ((uint32_t)2))))
+		int32_t L_14;
+		L_14 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_13, NULL);
+		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
 		{
-			goto IL_00b1;
+			goto IL_00c1;
 		}
 	}
 	{
@@ -3298,13 +3304,13 @@ IL_007e:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral21ED4C7AF50D987589A9029FC0422151BE3A0FC2, NULL);
 		// playerLocationController.LocatePuzzle(37.797607f, -122.39887f); //fountain
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_14 = __this->___playerLocationController_7;
-		NullCheck(L_14);
-		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_14, (37.7976074f), (-122.398872f), NULL);
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_15 = __this->___playerLocationController_8;
+		NullCheck(L_15);
+		PlayerLocationController_LocatePuzzle_mF5904BF5D4AF4C645C585A8F2B4AC84FA18B9111(L_15, (37.7976074f), (-122.398872f), NULL);
 		return;
 	}
 
-IL_00b1:
+IL_00c1:
 	{
 		// Debug.Log("nothing selected");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -3319,14 +3325,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LocateButton_TurnBackOn_mD193C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* L_0 = (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23*)il2cpp_codegen_object_new(U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23_il2cpp_TypeInfo_var);
+		U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* L_0 = (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA*)il2cpp_codegen_object_new(U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CTurnBackOnU3Ed__7__ctor_m264F3B41600DA6FEBB6A395E2A65E6887D8FFC1A(L_0, 0, NULL);
-		U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* L_1 = L_0;
+		U3CTurnBackOnU3Ed__8__ctor_m4FD05FFDE13412C7AF9A1ECB4F24A8810E366ECA(L_0, 0, NULL);
+		U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -3349,8 +3355,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocateButton__ctor_m459BEDACC92961E69439
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__7__ctor_m264F3B41600DA6FEBB6A395E2A65E6887D8FFC1A (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__8__ctor_m4FD05FFDE13412C7AF9A1ECB4F24A8810E366ECA (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3359,20 +3365,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__7__ctor_m264F3B41600D
 		return;
 	}
 }
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__7_System_IDisposable_Dispose_mF7C6476AAFFB4C59A6052F568CF86E7CE01040B0 (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__8_System_IDisposable_Dispose_m64B0889A8DF5A451863E5C77221515485F480C20 (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTurnBackOnU3Ed__7_MoveNext_m8E34EE3DEF52E95346467A6BDE0581A171BB9F9C (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, const RuntimeMethod* method) 
+// System.Boolean Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTurnBackOnU3Ed__8_MoveNext_mD3BEB234EE749C569536462FFB3702D894C8416A (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -3424,33 +3431,39 @@ IL_0037:
 		// playerLocationController.GoBackAfterLocate();
 		LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* L_7 = V_1;
 		NullCheck(L_7);
-		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_8 = L_7->___playerLocationController_7;
+		PlayerLocationController_t2202C3A8035721F933F1215C56B445CD445B35AD* L_8 = L_7->___playerLocationController_8;
 		NullCheck(L_8);
 		PlayerLocationController_GoBackAfterLocate_m720B36DAFC4D5579EF25DBAF380B490FA532AC25(L_8, NULL);
+		// arrowMarker.text = "0";
+		LocateButton_t87346C188A9BB06F4494695869F730BB0711AC50* L_9 = V_1;
+		NullCheck(L_9);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = L_9->___arrowMarker_7;
+		NullCheck(L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_10, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
 		// }
 		return (bool)0;
 	}
 }
-// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTurnBackOnU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB285450509083D2932C2B74CBBA6583DE2171BF5 (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, const RuntimeMethod* method) 
+// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTurnBackOnU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m695D03C1632B47B529549505AA146853AE6009BA (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_Reset_mB5A41DDCBA34748015E2B71161A483E11B12CFA3 (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, const RuntimeMethod* method) 
+// System.Void Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_Reset_mCA5F52D9F00F277957F1306929B377A10A8D445D (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_Reset_mB5A41DDCBA34748015E2B71161A483E11B12CFA3_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_Reset_mCA5F52D9F00F277957F1306929B377A10A8D445D_RuntimeMethod_var)));
 	}
 }
-// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__7::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTurnBackOnU3Ed__7_System_Collections_IEnumerator_get_Current_m246B9D0C43CC5D6AF1086BBACF2F78E22C1C798D (U3CTurnBackOnU3Ed__7_tF21043C9B16237D28C03BB0B36C922608916BB23* __this, const RuntimeMethod* method) 
+// System.Object Niantic.Lightship.Maps.Samples.GameSample.LocateButton/<TurnBackOn>d__8::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTurnBackOnU3Ed__8_System_Collections_IEnumerator_get_Current_mAE0AFA21E10262E76185A01344335678C0C11E39 (U3CTurnBackOnU3Ed__8_tBD900F4F3E757C8142FF95DC05C76579034C1CDA* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
