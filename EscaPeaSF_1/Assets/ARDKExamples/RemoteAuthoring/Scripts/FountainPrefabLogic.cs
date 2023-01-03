@@ -6,16 +6,22 @@ public class FountainPrefabLogic : MonoBehaviour
 {
     private MeshRenderer mr;
     private GameManager gm;
+    private ParticleSystem aoeMagic;
 
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
 
+
+
+
         if (!(this.name == "SunPrefabLegend(Clone)" || this.name == "SunPrefabMoving(Clone)" || this.name == "SunPrefabPlaced(Clone)"))
         {
             mr = GetComponent<MeshRenderer>();
             mr.enabled = false;
+
+            aoeMagic = GetComponentInChildren<ParticleSystem>();
         }
     }
 
@@ -25,19 +31,64 @@ public class FountainPrefabLogic : MonoBehaviour
         // find the prefab name and tie it to game manager boolean based on game state
         if(this.name == "Cylinder(Clone)")
         {
-            mr.enabled = gm.fountain_Fall;
+            //mr.enabled = gm.fountain_Fall;
+
+            if(gm.fountain_Fall)
+            {
+                if (aoeMagic.isPlaying)
+                {
+                }
+                else
+                {
+                    aoeMagic.Play();
+                }
+
+            }
         }
         else if(this.name == "Cylinder Blue(Clone)")
         {
-            mr.enabled = gm.fountain_Spring;
+            //mr.enabled = gm.fountain_Spring;
+            if (gm.fountain_Spring)
+            {
+                if (aoeMagic.isPlaying)
+                {
+                }
+                else
+                {
+                    aoeMagic.Play();
+                }
+
+            }
         }
         else if (this.name == "Cylinder Green(Clone)")
         {
-            mr.enabled = gm.fountain_Summer;
+            //mr.enabled = gm.fountain_Summer;
+            if (gm.fountain_Summer)
+            {
+                if (aoeMagic.isPlaying)
+                {
+                }
+                else
+                {
+                    aoeMagic.Play();
+                }
+
+            }
         }
         else if (this.name == "Cylinder Red(Clone)")
         {
-            mr.enabled = gm.fountain_Winter;
+            //mr.enabled = gm.fountain_Winter;
+            if (gm.fountain_Winter)
+            {
+                if (aoeMagic.isPlaying)
+                {
+                }
+                else
+                {
+                    aoeMagic.Play();
+                }
+
+            }
         }
 
 

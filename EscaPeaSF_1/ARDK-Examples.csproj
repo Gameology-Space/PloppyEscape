@@ -66,6 +66,7 @@
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs" />
     <Compile Include="Assets/ARDKExamples/MarkerSync/MarkerSyncSessionManager.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayerAvatarBehaviour.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/toggleHint.cs" />
     <Compile Include="Assets/ARDKExamples/LowLevelNetworking/LowLevelNetworkingExampleManager.cs" />
@@ -134,7 +135,6 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
