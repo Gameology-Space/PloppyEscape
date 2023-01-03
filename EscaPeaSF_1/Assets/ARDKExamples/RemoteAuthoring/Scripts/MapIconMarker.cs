@@ -61,6 +61,30 @@ public class MapIconMarker : MonoBehaviour
             }
         }
 
+        if (gm.fountain_Completed && name == "PuzzlePrefabFountain(Clone)")
+        {
+            if (wonMarker.IsAlive())
+            {
+                //do nothing if it's alive
+            }
+            else
+            {
+                wonMarker.Play();
+            }
+        }
+
+        if (gm.explore_Completed && name == "PuzzlePrefabExploratorium(Clone)")
+        {
+            if (wonMarker.IsAlive())
+            {
+                //do nothing if it's alive
+            }
+            else
+            {
+                wonMarker.Play();
+            }
+        }
+
         arrowTransfer = GameObject.Find("TransferArrow").GetComponent<Text>();
 
 
@@ -76,10 +100,34 @@ public class MapIconMarker : MonoBehaviour
         }
 
 
-        
-    
 
-        if (gm.puzzleID == 0 && value)
+        // arrow marker
+
+        if (gm.puzzleID == 0 && value && name == "PuzzlePrefabCloud(Clone)")
+        {
+            if (locateHereMarker.IsAlive())
+            {
+                //do nothing if it's alive
+            }
+            else
+            {
+                locateHereMarker.Play();
+            }
+        }
+
+        if (gm.puzzleID == 1 && value && name == "PuzzlePrefabExploratorium(Clone)")
+        {
+            if (locateHereMarker.IsAlive())
+            {
+                //do nothing if it's alive
+            }
+            else
+            {
+                locateHereMarker.Play();
+            }
+        }
+
+        if (gm.puzzleID == 2 && value && name == "PuzzlePrefabFountain(Clone)")
         {
             if (locateHereMarker.IsAlive())
             {
