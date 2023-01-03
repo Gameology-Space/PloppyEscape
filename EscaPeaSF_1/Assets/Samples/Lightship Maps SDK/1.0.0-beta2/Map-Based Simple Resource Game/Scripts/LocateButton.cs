@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System;
 using Niantic.Lightship.Maps.Samples.GameSample;
 
+
 namespace Niantic.Lightship.Maps.Samples.GameSample
 {
     public class LocateButton : MonoBehaviour
@@ -12,7 +13,9 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         public Text transfer;
         public GameObject playerHolder;
         public GameObject playerIcon;
+        public Text arrowMarker;
         private PlayerLocationController playerLocationController;
+        
         
         // Start is called before the first frame update
         void Start()
@@ -29,6 +32,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         public void onLocatePressed()
         {
             playerIcon.SetActive(false);
+            arrowMarker.text = "1";
             StartCoroutine(TurnBackOn());
             
 
@@ -60,6 +64,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             yield return new WaitForSeconds(5);
             playerIcon.SetActive(true);
             playerLocationController.GoBackAfterLocate();
+            arrowMarker.text = "0";
         }
     }
 }

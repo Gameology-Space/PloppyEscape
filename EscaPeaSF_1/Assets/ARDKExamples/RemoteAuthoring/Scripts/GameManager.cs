@@ -13,6 +13,7 @@ using UnityEngine;
         public bool initial_UI;
         public bool allCompleteAcknowledge;
         public bool allComplete;
+        public bool locateArrowActive;
         
 
         // puzzle explore variables

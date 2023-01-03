@@ -403,6 +403,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationManifestManager.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs"

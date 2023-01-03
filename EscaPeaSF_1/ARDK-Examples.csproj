@@ -86,6 +86,7 @@
     <Compile Include="Assets/ARDKExamples/ContextAwareness/Gameboard/GameboardAgent.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudHover.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/NetworkStatus.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/BallBehaviour.cs" />
@@ -133,7 +134,7 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
-    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudHover.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />
