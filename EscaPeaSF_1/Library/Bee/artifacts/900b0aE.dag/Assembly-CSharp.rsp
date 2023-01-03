@@ -397,6 +397,7 @@
 "Assets/ImportedPackages/Sun/Scripts/PlanetMouseOrbit.cs"
 "Assets/ImportedPackages/Sun/Scripts/PlanetRotateScript.cs"
 "Assets/Models/Factory Control Panels/scripts/FlyCamera.cs"
+"Assets/Ploppy/Model Credit.cs"
 "Assets/Script/GameManager2.cs"
 "Assets/Script/ManualAlignAnchor.cs"
 "Assets/Script/MapIconSpawner.cs"

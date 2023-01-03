@@ -86,9 +86,11 @@
     <Compile Include="Assets/ImportedPackages/Hovl Studio/Resources/Scripts/Hovl_Laser2.cs" />
     <Compile Include="Assets/ImportedPackages/Hovl Studio/Resources/Scripts/AutoDestroyPS.cs" />
     <Compile Include="Assets/ImportedPackages/Hovl Studio/Magic circles/Demo magic circles Vol 1/CameraHolder.cs" />
+    <Compile Include="Assets/Ploppy/Model Credit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Models/Factory Control Panels/camera movement.txt" />
+    <None Include="Assets/Ploppy/Prefab/blueslime/blue_slime/license.txt" />
     <None Include="Assets/UI Toolkit/PloppyStyle.uss" />
     <None Include="Assets/EternalTemple/Read First!.txt" />
     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/hidden particle.shader" />
