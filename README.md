@@ -1,2 +1,2 @@
-# EscaPeaSF
- Puzzles at VPS Locations
+# Ploppy Escape
+ Puzzles at VPS Locations for Lightship VPS Challenge
