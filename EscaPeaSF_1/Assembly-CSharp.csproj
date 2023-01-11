@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Models/Factory Control Panels/camera movement.txt" />
+    <None Include="Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/android/values/ic_launcher_background.xml" />
     <None Include="Assets/Ploppy/Prefab/blueslime/blue_slime/license.txt" />
     <None Include="Assets/ImportedPackages/Hovl Studio/Magic circles/Demo magic circles Vol 1/Readme.txt" />
     <None Include="Assets/UI Toolkit/PloppyStyle.uss" />
@@ -103,7 +104,9 @@
     <None Include="Assets/ImportedPackages/Hovl Studio/Magic circles/Prefabs/Loop version/How to use.txt" />
     <None Include="Assets/ImportedPackages/Hovl Studio/Resources/Shaders/Add_CenterGlow.shader" />
     <None Include="Assets/ImportedPackages/Sun/Animated Sun - Readme.txt" />
+    <None Include="Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/android/mipmap-anydpi-v26/ic_launcher_round.xml" />
     <None Include="Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/Extensions/UIParticle/UIAdditive.shader" />
+    <None Include="Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/android/mipmap-anydpi-v26/ic_launcher.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

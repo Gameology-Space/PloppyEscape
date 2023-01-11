@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56476
+49701
 Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/Esca
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 100.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,14 +69,14 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56327
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56262
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001266 seconds.
+Registered in 0.003140 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -84,39 +84,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  0.519 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (29ms)
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (368ms)
-			LoadAssemblies (28ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (252ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
+				InitializePlatformSupportModulesInManaged (92ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (48ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (49ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007327 seconds.
+Registered in 0.006264 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
@@ -124,7 +124,7 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
@@ -152,29 +152,29 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.864 seconds
 Domain Reload Profiling:
-	ReloadAssembly (838ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (122ms)
-		EndReloadAssembly (600ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (159ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (307ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -183,18 +183,18 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4418 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (119.8 KB). Loaded Objects now: 4866.
-Memory consumption went from 120.1 MB to 120.0 MB.
-Total: 2.558333 ms (FindLiveObjects: 0.159666 ms CreateObjectMapping: 0.067667 ms MarkObjects: 2.234000 ms  DeleteObjects: 0.096458 ms)
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 2.370208 ms (FindLiveObjects: 0.128792 ms CreateObjectMapping: 0.055250 ms MarkObjects: 2.083375 ms  DeleteObjects: 0.102250 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (30.2 KB). Loaded Objects now: 4866.
-Memory consumption went from 120.0 MB to 120.0 MB.
-Total: 2.127458 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.958375 ms  DeleteObjects: 0.004375 ms)
+Unloading 0 unused Assets / (22.2 KB). Loaded Objects now: 4866.
+Memory consumption went from 119.7 MB to 119.7 MB.
+Total: 1.986542 ms (FindLiveObjects: 0.107958 ms CreateObjectMapping: 0.056167 ms MarkObjects: 1.815833 ms  DeleteObjects: 0.006292 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -208,89 +208,353 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 139159.341852 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_05_sample_01.png
-  artifactKey: Guid(aa96b0fe49f9b414ba505f8e7fd8babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_05_sample_01.png using Guid(aa96b0fe49f9b414ba505f8e7fd8babb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9138b7d553f105e2c4f4f189f5465f') in 0.559155 seconds 
+  Time since last request: 25908.907474 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-88.png
+  artifactKey: Guid(e677fdd4b22874361b08271672cf93d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-88.png using Guid(e677fdd4b22874361b08271672cf93d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eba1374f40e131b31ed486b6343d5b') in 0.559778 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.332433 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_1920.png
-  artifactKey: Guid(8d54540caaf954ec0b42a42bd7e842cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_1920.png using Guid(8d54540caaf954ec0b42a42bd7e842cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b5f7155bce072fa956aa1d972a0ad9') in 0.122712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_05_sample_00_1920.png
-  artifactKey: Guid(89ee8c9ef8e2a470582f0df5e8f7f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_05_sample_00_1920.png using Guid(89ee8c9ef8e2a470582f0df5e8f7f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c59f941c8daba5d096ab9a55d1dc9b4') in 0.091291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_gradient_00.png
-  artifactKey: Guid(84dc1a245502346868ad5f59f0eeed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_gradient_00.png using Guid(84dc1a245502346868ad5f59f0eeed49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a766066d56d8a65e6aa5e8a6c7a48f8c') in 0.009714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_badge.png
-  artifactKey: Guid(9d3942bc404e448a28ef94a1823ce98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_badge.png using Guid(9d3942bc404e448a28ef94a1823ce98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dc586a9d603bdba59ebf7b63957fe') in 0.008443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_bag_1.png
-  artifactKey: Guid(f8c99819da3064ba1a6f24d17e98c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_bag_1.png using Guid(f8c99819da3064ba1a6f24d17e98c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddae02fe62f8fc53b3999b18301e4ad') in 0.006729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_panel_top_gradient.png
-  artifactKey: Guid(5ab91b45b784645a4b4733038d8cd954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_panel_top_gradient.png using Guid(5ab91b45b784645a4b4733038d8cd954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8384072e2f56b5c783d3200fbe63c505') in 0.007756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_back.png
-  artifactKey: Guid(a3318d6e5136d492c9cf1bbd8cd6df80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_back.png using Guid(a3318d6e5136d492c9cf1bbd8cd6df80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff1f2ed508686b1db4ddcd993c04ad') in 0.011359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_arrow_prev.png
-  artifactKey: Guid(f494220dd91af41e4b6a9881a0690c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_arrow_prev.png using Guid(f494220dd91af41e4b6a9881a0690c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc0d8a1750b0a7b23e692690e8c12e6') in 0.007618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_axe.png
-  artifactKey: Guid(11bef36b783d344ad9c15659c603bf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_axe.png using Guid(11bef36b783d344ad9c15659c603bf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162b682ba597703f0220fa1ae75777c8') in 0.006677 seconds 
+  Time since last request: 0.000082 seconds.
+  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_castle.png
+  artifactKey: Guid(61328f1c77f9743eaa508ed5f89f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_castle.png using Guid(61328f1c77f9743eaa508ed5f89f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd490960b8a5afac82a32e15fd2b92447') in 0.030929 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000056 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_arrow_next.png
-  artifactKey: Guid(6a02be7d8756f44879adad17ba49150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_arrow_next.png using Guid(6a02be7d8756f44879adad17ba49150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771dc4c619305d5d3644d71af63bae8c') in 0.007068 seconds 
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@3x.png
+  artifactKey: Guid(1b7d01fddb07f45d28660e294150f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@3x.png using Guid(1b7d01fddb07f45d28660e294150f53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0c892a54cb5884ea8b44d7bf8c8ee5') in 0.004822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-36.png
+  artifactKey: Guid(c65fe2f409d4a4a00a7ad673d329a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-36.png using Guid(c65fe2f409d4a4a00a7ad673d329a4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529f9b2e8db9b62ba05fe4dc168194c5') in 0.004156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-512.png
+  artifactKey: Guid(a8448783cbde34db58c12ff8d9eef10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-512.png using Guid(a8448783cbde34db58c12ff8d9eef10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efdad57c3a78e995313cffbc7ccb21d') in 0.004333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_camera.png
+  artifactKey: Guid(d99192f413477441eb34eadd478b0836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_camera.png using Guid(d99192f413477441eb34eadd478b0836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8547f7cf5938147d31cad990fb4cfea5') in 0.006511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-58.png
+  artifactKey: Guid(64e166a8691924402b7daa01f3b51365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-58.png using Guid(64e166a8691924402b7daa01f3b51365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28619dcf82acb23aa15294e903309d10') in 0.004562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-192.png
+  artifactKey: Guid(fe316f35758ed4a4688645888b353c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-192.png using Guid(fe316f35758ed4a4688645888b353c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20611ec6e4449a265fe4c55e4d84578') in 0.004338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-167.png
+  artifactKey: Guid(a3dd6e0afab2c4f3d88547ae2155d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-167.png using Guid(a3dd6e0afab2c4f3d88547ae2155d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c65cf861841af8283e8d2568c566d') in 0.004427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@1x.png
+  artifactKey: Guid(307aa94db405241ec80d59568a6f354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@1x.png using Guid(307aa94db405241ec80d59568a6f354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2177b10ed66dc5444fdbf6a67f6e43b') in 0.004018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-76.png
+  artifactKey: Guid(285b2be1a795f4f968f0dac325354cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-76.png using Guid(285b2be1a795f4f968f0dac325354cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a22b47c6c81e1a8eff037e5c35d3749') in 0.004061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-40.png
+  artifactKey: Guid(34e54c3927758404fb65a609fdd298e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-40.png using Guid(34e54c3927758404fb65a609fdd298e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f460da86567be554823663232e6c448') in 0.004218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-100.png
+  artifactKey: Guid(26f3749a09bc843c7af4c429b210c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-100.png using Guid(26f3749a09bc843c7af4c429b210c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf06221d84dc9e14145d962d3b20562') in 0.004600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-60x60@3x.png
+  artifactKey: Guid(9e3ac8cfb789f4df88ea9d21d0d7f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-60x60@3x.png using Guid(9e3ac8cfb789f4df88ea9d21d0d7f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa0007dd3d92152808dc2587167fd2e') in 0.004471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@3x.png
+  artifactKey: Guid(e59d620e17b8b468fa49801f9bde4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@3x.png using Guid(e59d620e17b8b468fa49801f9bde4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f3c1ad3bb66c52832421520f441bb9') in 0.004586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-144.png
+  artifactKey: Guid(a70731ca6e259408a83b8b55c98798f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-144.png using Guid(a70731ca6e259408a83b8b55c98798f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3549e88c61d4c87bb083f302c5ef3a07') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-60x60@3x.png
+  artifactKey: Guid(96b07273390f1480e8bc954e68550642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-60x60@3x.png using Guid(96b07273390f1480e8bc954e68550642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3557e6dec47bb71b9827c9c45b4711') in 0.004568 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000048 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_3840.png
-  artifactKey: Guid(a2462df99fef44f4eb543e3ac52fbdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_3840.png using Guid(a2462df99fef44f4eb543e3ac52fbdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff521bbc445b1e4e2aff69247abb9cc1') in 0.125413 seconds 
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@2x.png
+  artifactKey: Guid(f41566f73a4304170897fd59fa777e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@2x.png using Guid(f41566f73a4304170897fd59fa777e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a15865e7826311393c00dce4f9ac3f') in 0.004488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-172.png
+  artifactKey: Guid(ab1450f80367c40f2abba1c96459c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-172.png using Guid(ab1450f80367c40f2abba1c96459c3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019f9db8dc9be788fdf548dc7675084') in 0.004685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-48.png
+  artifactKey: Guid(d670de72f406045b58906c49e6c64e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-48.png using Guid(d670de72f406045b58906c49e6c64e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e44203da14d0c427db51d075fa6258e') in 0.004033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-60.png
+  artifactKey: Guid(360410fffc3af4b16b6aed158204fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-60.png using Guid(360410fffc3af4b16b6aed158204fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad06897c93af6092b2b0db4e137a696c') in 0.005305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-87.png
+  artifactKey: Guid(350865cce9113434dafec3213c124c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-87.png using Guid(350865cce9113434dafec3213c124c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7096351034859637dbbe360c2a38385f') in 0.004251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-60x60@2x.png
+  artifactKey: Guid(07e8847900e8b4a0e909fb3c9bfc6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-60x60@2x.png using Guid(07e8847900e8b4a0e909fb3c9bfc6205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a1e444b45ca28c1dc972e35e4f334a') in 0.004687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@3x.png
+  artifactKey: Guid(fd5d9e24c06dc4ce69a33b4d69c150b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@3x.png using Guid(fd5d9e24c06dc4ce69a33b4d69c150b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e38c21e5a7fe1ae3cba22b2f02e013') in 0.004446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@3x.png
+  artifactKey: Guid(9484a2454d3534515bb19781910e6ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@3x.png using Guid(9484a2454d3534515bb19781910e6ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141056bffb5e9f983ab713663135e71') in 0.004234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_category.png
+  artifactKey: Guid(f7059c74a920a4c798816f07c70d113e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_category.png using Guid(f7059c74a920a4c798816f07c70d113e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906e5abbe748e8287022d1f3087dfdc6') in 0.006659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@2x.png
+  artifactKey: Guid(0c4657dd894154e818097cab8592423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@2x.png using Guid(0c4657dd894154e818097cab8592423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e1aabcde32a6110866a926817ef723') in 0.003907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@3x.png
+  artifactKey: Guid(62892c5e6475b47fca0162aa7abf2620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@3x.png using Guid(62892c5e6475b47fca0162aa7abf2620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56329703ff58bdd4bb021f198f79d80') in 0.005052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-32.png
+  artifactKey: Guid(68bb50c9f59b24788a936dc82bd9b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-32.png using Guid(68bb50c9f59b24788a936dc82bd9b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85175332f645a32a150b4d18f3d7cdf1') in 0.004189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@2x.png
+  artifactKey: Guid(09e13e16ce3f842fe921861d90ef2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@2x.png using Guid(09e13e16ce3f842fe921861d90ef2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad602aef8f6cf2278eb68777788b20de') in 0.004567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@1x.png
+  artifactKey: Guid(940201274b95143da88b59f621558b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@1x.png using Guid(940201274b95143da88b59f621558b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566c1ace1862e62b34cd941f36a6fa6d') in 0.003880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@1x.png
+  artifactKey: Guid(35761cde90ead4dc89bde720469386a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@1x.png using Guid(35761cde90ead4dc89bde720469386a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d25dc9ddabc1c9ed6715136482f484f') in 0.004036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-76x76@1x.png
+  artifactKey: Guid(76ed9697cf49c4e519f47555a83a1cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-76x76@1x.png using Guid(76ed9697cf49c4e519f47555a83a1cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238acbe2e51c5c4708fcda336add8aad') in 0.003918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cart.png
+  artifactKey: Guid(9d4cd427cf2c14da2b231515be7b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cart.png using Guid(9d4cd427cf2c14da2b231515be7b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5327044cf8c3c2f63f99d4ed616e216') in 0.007741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-50.png
+  artifactKey: Guid(7f2848d3d60674236b6875167fce9d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-50.png using Guid(7f2848d3d60674236b6875167fce9d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710e79b71ab9f1c1ef26c8f37ac441f8') in 0.003960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-1024.png
+  artifactKey: Guid(ca288e95a944840598f6dbc1e557eaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-1024.png using Guid(ca288e95a944840598f6dbc1e557eaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca450365517fbb1e169ad3845641b299') in 0.005060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.156260 seconds.
+  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle8.png
+  artifactKey: Guid(7dcb8a9c3f171064387b66c3e553ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle8.png using Guid(7dcb8a9c3f171064387b66c3e553ab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0afe44110172ee085e6fef37b04b4c') in 0.007450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_left.tif
+  artifactKey: Guid(f648b90409284244d8d43536eaef2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_left.tif using Guid(f648b90409284244d8d43536eaef2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7b1404cea8f747b881b12ffcfc0d32') in 0.667954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/MagicCircle28.5.png
+  artifactKey: Guid(ff7310a68368e1541bc8e3b8b06f3eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/MagicCircle28.5.png using Guid(ff7310a68368e1541bc8e3b8b06f3eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be59824157b2205376d3c18a26118cd7') in 0.005771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_right.tif
+  artifactKey: Guid(ff78576daf5e1214daeb3e3145ba8c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_right.tif using Guid(ff78576daf5e1214daeb3e3145ba8c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486614ae9beb10517881248df642f61e') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/NormalMap8.png
+  artifactKey: Guid(950e9e23ceae56c48a25ba32f408d964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/NormalMap8.png using Guid(950e9e23ceae56c48a25ba32f408d964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39361c5c57bdaaa7851e170fd0179b6') in 0.007652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle80.png
+  artifactKey: Guid(0f5bd1ace369d024ea0def662164299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle80.png using Guid(0f5bd1ace369d024ea0def662164299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11637c30544c460dcf72c86bb6c4a04') in 0.004501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.120356 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker
+  artifactKey: Guid(a5abe8fbd22324c668fd62e49cc26ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker using Guid(a5abe8fbd22324c668fd62e49cc26ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd22387ae78b7e8cbed95b439835cb5d') in 0.000737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.225248 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@1x.png
+  artifactKey: Guid(851294166224b4ba2b3d31eb5e0af989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@1x.png using Guid(851294166224b4ba2b3d31eb5e0af989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d485ff34adbc9126ff97c72bc67e9d') in 0.004735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.195579 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@2x.png
+  artifactKey: Guid(aacfe630a3c124adf999d22ee697954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@2x.png using Guid(aacfe630a3c124adf999d22ee697954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e83a6aa084195337b949e975f139e66') in 0.004937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.718123 seconds.
+  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@3x.png
+  artifactKey: Guid(1979e403da98342728ebf2bfb7d3821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/iTunesArtwork@3x.png using Guid(1979e403da98342728ebf2bfb7d3821a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b937f924968c378379ecad0e3cf6fefa') in 0.006451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.296912 seconds.
+  path: Assets/Ploppy/Logo Splash
+  artifactKey: Guid(3e718abe362194f16ae587ed282d3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash using Guid(3e718abe362194f16ae587ed282d3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116d6306d4df656df49d7992809b9767') in 0.000702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.045310 seconds.
+  path: Assets/Ploppy/Logo Splash/Gameology.png
+  artifactKey: Guid(5bc510e14106e40ecace0211d61af73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/Gameology.png using Guid(5bc510e14106e40ecace0211d61af73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50594cb3fc1ebd6b263ae17ba2cb87b2') in 0.005158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.668827 seconds.
+  path: Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png
+  artifactKey: Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png using Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430669a653e9b2bbe7824e4c800057c6') in 0.004988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.405203 seconds.
+  path: Assets/Ploppy/Logo Splash/Logo V2.png
+  artifactKey: Guid(8ebcdbbde6fd646f382e9cc1583011bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/Logo V2.png using Guid(8ebcdbbde6fd646f382e9cc1583011bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ed0075b90621992b825f44e70836f') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.527921 seconds.
+  path: Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png
+  artifactKey: Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png using Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00119c5f5e73b93f0db627bae5c9c6c5') in 0.006300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.350257 seconds.
+  path: Assets/Ploppy/Logo Splash/Gameology.png
+  artifactKey: Guid(5bc510e14106e40ecace0211d61af73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/Gameology.png using Guid(5bc510e14106e40ecace0211d61af73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65def6d6bbe5e46febde62db63d437e3') in 0.039099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.695267 seconds.
+  path: Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png
+  artifactKey: Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/Logo Splash/LigthshipWhiteLarge.png using Guid(e4c288cb717f749868149934221f4c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6daae633e1dff425a9cc4890c925cc6') in 0.069777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.896055 seconds.
+  path: Assets/ARDKExamples
+  artifactKey: Guid(6a29ee20f0b82411dafc5196ebab1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples using Guid(6a29ee20f0b82411dafc5196ebab1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba7f7d6f62807529cf574156bdc0d1') in 0.000577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.527323 seconds.
+  path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
+  artifactKey: Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity using Guid(b42b611c6ac6c4128ae1090ed0ec3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cdfdd0876886e983ad5932e34b4125') in 0.000912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.123070 seconds.
+  path: Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity
+  artifactKey: Guid(1c6ca86493a854ed4a5f5ee7605f9991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/GameSample.unity using Guid(1c6ca86493a854ed4a5f5ee7605f9991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34ef6216e69efaccbb8809c124f281e') in 0.000852 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002983 seconds.
+Registered in 0.003201 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x297ac7000 may have been prematurely finalized
+Thread 0x28dfc7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
@@ -349,45 +613,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Use
 (Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.671 seconds
+- Completed reload, in  0.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (527ms)
-			LoadAssemblies (32ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (99.5 KB). Loaded Objects now: 4890.
-Memory consumption went from 199.1 MB to 199.0 MB.
-Total: 2.518125 ms (FindLiveObjects: 0.130292 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.229792 ms  DeleteObjects: 0.100458 ms)
+Unloading 4392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (99.4 KB). Loaded Objects now: 4890.
+Memory consumption went from 278.1 MB to 278.0 MB.
+Total: 2.576000 ms (FindLiveObjects: 0.159792 ms CreateObjectMapping: 0.057625 ms MarkObjects: 2.266125 ms  DeleteObjects: 0.091750 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (29.6 KB). Loaded Objects now: 4890.
-Memory consumption went from 199.0 MB to 198.9 MB.
-Total: 2.262583 ms (FindLiveObjects: 0.137750 ms CreateObjectMapping: 0.059417 ms MarkObjects: 2.059875 ms  DeleteObjects: 0.005208 ms)
+Unloading 0 unused Assets / (29.8 KB). Loaded Objects now: 4890.
+Memory consumption went from 278.0 MB to 278.0 MB.
+Total: 2.603208 ms (FindLiveObjects: 0.124209 ms CreateObjectMapping: 0.056958 ms MarkObjects: 2.414875 ms  DeleteObjects: 0.006458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -399,3 +663,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1936.555558 seconds.
+  path: Assets/Ploppy/TaskList/TaskList.md
+  artifactKey: Guid(091faa368e78a411fa26f743b6602d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy/TaskList/TaskList.md using Guid(091faa368e78a411fa26f743b6602d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6ffdfe429850fe2a7a0cc1426350e') in 0.810251 seconds 
+[usbmuxd] Attached: 1 00008110-000C612614F8801E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (99.4 KB). Loaded Objects now: 4890.
+Memory consumption went from 270.9 MB to 270.8 MB.
+Total: 3.213958 ms (FindLiveObjects: 0.142667 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.938125 ms  DeleteObjects: 0.078417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 1 00008110-000C612614F8801E
