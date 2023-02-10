@@ -2,8 +2,8 @@ Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 13.0.1 (Build 22A400)
-Darwin version:          22.1.0
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49701
+49323
 Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/billw/Unity Projects/EscaPeaSF/Esca
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 211.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,14 +69,14 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56270
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003137 seconds.
+Registered in 0.002757 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -84,39 +84,39 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.518 seconds
+- Completed reload, in  0.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (518ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (56ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (84ms)
+				InitializePlatformSupportModulesInManaged (96ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (53ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007326 seconds.
+Registered in 0.006703 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
@@ -124,7 +124,7 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
@@ -152,29 +152,29 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.862 seconds
 Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (172ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (324ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -183,18 +183,18 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4418 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (119.8 KB). Loaded Objects now: 4866.
-Memory consumption went from 119.7 MB to 119.5 MB.
-Total: 2.662834 ms (FindLiveObjects: 0.117834 ms CreateObjectMapping: 0.054875 ms MarkObjects: 2.382041 ms  DeleteObjects: 0.107292 ms)
+Unloading 4433 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (119.5 KB). Loaded Objects now: 4881.
+Memory consumption went from 116.6 MB to 116.5 MB.
+Total: 3.369292 ms (FindLiveObjects: 0.161250 ms CreateObjectMapping: 0.058916 ms MarkObjects: 2.814167 ms  DeleteObjects: 0.333791 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (30.2 KB). Loaded Objects now: 4866.
-Memory consumption went from 119.5 MB to 119.5 MB.
-Total: 2.022250 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.055708 ms MarkObjects: 1.851875 ms  DeleteObjects: 0.005209 ms)
+Unloading 0 unused Assets / (29.1 KB). Loaded Objects now: 4881.
+Memory consumption went from 116.5 MB to 116.5 MB.
+Total: 2.527000 ms (FindLiveObjects: 0.141375 ms CreateObjectMapping: 0.057292 ms MarkObjects: 2.321083 ms  DeleteObjects: 0.006375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -208,395 +208,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 25908.907342 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-76x76@1x.png
-  artifactKey: Guid(b4ae63a1e446a41878cb52fb9d4ed0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-76x76@1x.png using Guid(b4ae63a1e446a41878cb52fb9d4ed0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effca9e764b24850bb789a5261b7882b') in 0.560247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-144.png
-  artifactKey: Guid(fde2e5e38de3b4313a4dc6cb072b6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-144.png using Guid(fde2e5e38de3b4313a4dc6cb072b6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd8025e9e9e6a831e31412fb57958f7') in 0.005811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-512.png
-  artifactKey: Guid(b8e7a7c4155c14996b44d3f1bdaa941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-512.png using Guid(b8e7a7c4155c14996b44d3f1bdaa941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7667018432a4fa64465597e3195c01') in 0.005290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@1x.png
-  artifactKey: Guid(0fcae07e398494945b24a29eb3ea0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@1x.png using Guid(0fcae07e398494945b24a29eb3ea0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0c6166c97543b60aebb3c8fa2bf44f') in 0.004637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-72.png
-  artifactKey: Guid(5f3583d00460a45099234542f5fc9cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-72.png using Guid(5f3583d00460a45099234542f5fc9cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d14ad4cc36cfe31d51f2ba3d7a12c2') in 0.003993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-72.png
-  artifactKey: Guid(dee3f3bd79aff45c399a3bc50489446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-72.png using Guid(dee3f3bd79aff45c399a3bc50489446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1636910390aca63118b59aa2f49a896') in 0.004433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-256.png
-  artifactKey: Guid(aaa0decd2420b45d9abfe8c7d99c0191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-256.png using Guid(aaa0decd2420b45d9abfe8c7d99c0191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e667b3b50193f8df334e84e70420d0cd') in 0.004881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-57.png
-  artifactKey: Guid(aa2c26beb5d9f497c988f423a698e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-57.png using Guid(aa2c26beb5d9f497c988f423a698e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622f4e7a7776dcafb63684d06cb6cd13') in 0.004046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
-  artifactKey: Guid(951d491b776d645fe8c5981710619731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png using Guid(951d491b776d645fe8c5981710619731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40804bd2d70b92ce50a831524c2291df') in 0.004559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@1x.png
-  artifactKey: Guid(b49ae8e0e39cb40fc927f4e8b98fe50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-20x20@1x.png using Guid(b49ae8e0e39cb40fc927f4e8b98fe50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d050bc859d8c47f33a1f80eea76176') in 0.004434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-120.png
-  artifactKey: Guid(a723271572e8d4d1b8f39400c98118bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-120.png using Guid(a723271572e8d4d1b8f39400c98118bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410995de0c506bdedc9be5e3b941bd46') in 0.004217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-48.png
-  artifactKey: Guid(6fa675865e184420bb272903b2a7180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-48.png using Guid(6fa675865e184420bb272903b2a7180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582186fd7691fe8b401516043c8b1a3b') in 0.004132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@2x.png
-  artifactKey: Guid(ac78a8202f5b74726be958f39b2dde3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-29x29@2x.png using Guid(ac78a8202f5b74726be958f39b2dde3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d67f4e1c9f8e41a3383e3b1d590f61') in 0.004104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-96.png
-  artifactKey: Guid(02f5617e7f0764a3f8ad2b319919d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker-2/Icon-96.png using Guid(02f5617e7f0764a3f8ad2b319919d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0777d2f00fc24001543fb957fa06ab8f') in 0.004620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-180.png
-  artifactKey: Guid(771905958ae8347cdbb7b9d5e42a074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-180.png using Guid(771905958ae8347cdbb7b9d5e42a074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ea23a9196ab63e60018575ffbd7bdf') in 0.004608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-76x76@2x.png
-  artifactKey: Guid(04083fb43fcf348ff9bd9ca59aa98a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-76x76@2x.png using Guid(04083fb43fcf348ff9bd9ca59aa98a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9fd7a6504a78c1af61f58252a0a27a') in 0.006619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-114.png
-  artifactKey: Guid(23fc3fd7672014a5698b519d7ce07ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-114.png using Guid(23fc3fd7672014a5698b519d7ce07ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8a701257557cd3c7070e83fc31d3f2') in 0.004861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004873 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-152.png
-  artifactKey: Guid(b25ee54dfdee540bfa90afd1bc220e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-152.png using Guid(b25ee54dfdee540bfa90afd1bc220e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca080dcba3d9c6b8f401714a2b9a67') in 0.004653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-196.png
-  artifactKey: Guid(7cfb4d81afb434ec2853987633ef179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-196.png using Guid(7cfb4d81afb434ec2853987633ef179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5598256d6dd6707a14017efb94ecc74a') in 0.005169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@3x.png
-  artifactKey: Guid(717dbae12e1184029b7ec7903ae89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-40x40@3x.png using Guid(717dbae12e1184029b7ec7903ae89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422e8176726fc07cd2d6f926d290027') in 0.004618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_call.png
-  artifactKey: Guid(fcfaee5b6f95f4e06ba1afc775514ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_call.png using Guid(fcfaee5b6f95f4e06ba1afc775514ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1515a55646d431a02daea08532d9fcdf') in 0.028548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-64.png
-  artifactKey: Guid(fe4855c97475f4c0184f2a8fb42bf19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-64.png using Guid(fe4855c97475f4c0184f2a8fb42bf19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a91b498d81b10e331d516758360135') in 0.004580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-16.png
-  artifactKey: Guid(886911a6389184dd2ab30e68ef9b7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-16.png using Guid(886911a6389184dd2ab30e68ef9b7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91865dfbf71c298af802cc4162540216') in 0.004452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calendar_week.png
-  artifactKey: Guid(e870ad9cb05b542ac97bd88fb3b3d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calendar_week.png using Guid(e870ad9cb05b542ac97bd88fb3b3d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73abd6bd5e4644e6e056608c592440d') in 0.007070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@1x.png
-  artifactKey: Guid(cabcc9cea819e4754b92491cfba3c3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-29x29@1x.png using Guid(cabcc9cea819e4754b92491cfba3c3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b8511779e45a46edc991b1a82464fe') in 0.003868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-60x60@2x.png
-  artifactKey: Guid(50697bb0dc40d4c769d55757df1fcfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-60x60@2x.png using Guid(50697bb0dc40d4c769d55757df1fcfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f92b1bab46e66afe685e9d1352285') in 0.004961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-55.png
-  artifactKey: Guid(1ca6a5f7d270b4ca4b3efdfc311ae81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-55.png using Guid(1ca6a5f7d270b4ca4b3efdfc311ae81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a4fa0ab86bf5c30b6c4dc7f0c18470') in 0.004566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-29.png
-  artifactKey: Guid(8c7e6ad39f93547fabd081fe06b114cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-29.png using Guid(8c7e6ad39f93547fabd081fe06b114cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f6a25831b96c0db52789be1a8f60ee') in 0.004975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-20.png
-  artifactKey: Guid(8ef1b793ed4d4407bb7717b2e1a948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-20.png using Guid(8ef1b793ed4d4407bb7717b2e1a948be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a707d7d0560342b94c0a5c4ab6b2dc2') in 0.004284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-128.png
-  artifactKey: Guid(15b18038951924719a08d2641f3d6537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-128.png using Guid(15b18038951924719a08d2641f3d6537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082c57f2c7f93577611967013d372f63') in 0.005304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@2x.png
-  artifactKey: Guid(53f98695a42234600bd73a63a1f60b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-20x20@2x.png using Guid(53f98695a42234600bd73a63a1f60b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaaab058e1d89242b57311de149e035') in 0.004538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@2x.png
-  artifactKey: Guid(f229f5ff8ccb4472aa022b956c10ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-40x40@2x.png using Guid(f229f5ff8ccb4472aa022b956c10ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e889c18334b73e73c955f80cf8f0f6') in 0.004425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-80.png
-  artifactKey: Guid(f237aa4690757497a92ffe08b20add25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/appiconmaker/Icon-80.png using Guid(f237aa4690757497a92ffe08b20add25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf9bd630ce3b7f0fd2cdcba28f03c2b') in 0.004320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-76x76@2x.png
-  artifactKey: Guid(3952ba805f90146eabdab2f18bc5c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/use this/ios/AppIcon.appiconset/Icon-App-76x76@2x.png using Guid(3952ba805f90146eabdab2f18bc5c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8031f2cc14c3a1eb50f30ea9625a0005') in 0.004784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
-  artifactKey: Guid(5771a8211fa844d2b9186c9affe79429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ploppy/PloppyDrawings/IconFolder/ic_launcher-63bdcd51ced9c/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png using Guid(5771a8211fa844d2b9186c9affe79429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382569e90da4c4a9bd8a133e7e19e4ae') in 0.005134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.153266 seconds.
-  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle18.png
-  artifactKey: Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle18.png using Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec9d4bd94958e00faeb31c5aef34320') in 0.006969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_front.tif
-  artifactKey: Guid(461dbc9ce2444624685994b01a5d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_front.tif using Guid(461dbc9ce2444624685994b01a5d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeb31a02e1618dfaa52a405a26d44e8') in 0.667789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_back.tif
-  artifactKey: Guid(f03060d41ac19894983b832b3d36dc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_back.tif using Guid(f03060d41ac19894983b832b3d36dc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456737537d6ab2c7ac8c769be89c676d') in 0.005006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle38.png
-  artifactKey: Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle38.png using Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c94b154027e3d325a46731d4d6abe60') in 0.005020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle82.png
-  artifactKey: Guid(8b6bf70124d203e40b832e1c9ae24061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Hovl Studio/Resources/Textures/Circle82.png using Guid(8b6bf70124d203e40b832e1c9ae24061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ab0f50204448cccccd8144b958ae80') in 0.005355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_top.tif
-  artifactKey: Guid(b9ea2aafb5f95e944a4bdfaa9166e878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_top.tif using Guid(b9ea2aafb5f95e944a4bdfaa9166e878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729f2374be3c8db25785da059b44415') in 0.005272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_bottom.tif
-  artifactKey: Guid(f2051f5b3ffeb8f47bc60eb5a102edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedPackages/Sun/Skyboxes/skyboxPurpleNebula_lowresdemo/images/PurpleNebula128_bottom.tif using Guid(f2051f5b3ffeb8f47bc60eb5a102edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf996da746a7434a3c54c9fefe88dc') in 0.005173 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003121 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17dec7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/billw/Unity Projects/EscaPeaSF/EscaPeaSF_1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/ardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libardk_client_platform
-#Niantic.ARDK.Internals.StartupSystems#: Could not load an ArdkAuthConfig, please add one in a Resources/ARDK/ directory. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:146)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-#Niantic.ARDK.Internals.StartupSystems#: No API Key was found. Add it to an ArdkAuthConfig asset. For more information, visit the niantic.dev/docs/authentication.html site.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Niantic.ARDK.Utilities.Logging.UnityARLogHandler:Error (string) (at Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs:41)
-Niantic.ARDK.Utilities.Logging.ARLog:_Error (string) (at Assets/ARDK/Utilities/Logging/ARLog.cs:198)
-Niantic.ARDK.Internals.StartupSystems:_SetAuthenticationParameters () (at Assets/ARDK/Internals/StartupSystems.cs:174)
-Niantic.ARDK.Internals.StartupSystems:_SetCSharpInitializationMetadata () (at Assets/ARDK/Internals/StartupSystems.cs:111)
-Niantic.ARDK.Internals.StartupSystems:EditorStartup () (at Assets/ARDK/Internals/StartupSystems.cs:59)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:147)
-
-(Filename: Assets/ARDK/Utilities/Logging/LogHandler/UnityARLogHandler.cs Line: 41)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
-Domain Reload Profiling:
-	ReloadAssembly (679ms)
-		BeginReloadAssembly (80ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (34ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (275ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (99.4 KB). Loaded Objects now: 4878.
-Memory consumption went from 277.9 MB to 277.8 MB.
-Total: 2.620584 ms (FindLiveObjects: 0.144083 ms CreateObjectMapping: 0.058250 ms MarkObjects: 2.323167 ms  DeleteObjects: 0.094500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (29.7 KB). Loaded Objects now: 4878.
-Memory consumption went from 277.8 MB to 277.8 MB.
-Total: 2.473708 ms (FindLiveObjects: 0.129416 ms CreateObjectMapping: 0.059584 ms MarkObjects: 2.279041 ms  DeleteObjects: 0.005333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Attached: 1 00008110-000C612614F8801E
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (99.4 KB). Loaded Objects now: 4878.
-Memory consumption went from 191.7 MB to 191.6 MB.
-Total: 3.206208 ms (FindLiveObjects: 0.150541 ms CreateObjectMapping: 0.057167 ms MarkObjects: 2.918458 ms  DeleteObjects: 0.079541 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Detached: 1 00008110-000C612614F8801E
+  Time since last request: 8828.009658 seconds.
+  path: Assets/Ploppy Sounds
+  artifactKey: Guid(389d4978636a244ec9aae9fd5dc39c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ploppy Sounds using Guid(389d4978636a244ec9aae9fd5dc39c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e4e74c73824a8529d75294b102385') in 0.006472 seconds 
