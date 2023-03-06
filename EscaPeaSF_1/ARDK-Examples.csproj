@@ -137,6 +137,7 @@
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/ExampleAssets/GlyphBehavior.cs" />
     <Compile Include="Assets/ARDKExamples/PongHLAPI/PlayingFieldBehaviour.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/puzzleMusicCheck.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/WinningPopUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ARDKExamples/ARDK-Examples.asmdef" />

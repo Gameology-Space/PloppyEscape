@@ -9,13 +9,14 @@ public class FountainPasswordCheck : MonoBehaviour
     public GameObject fountainPasswordPopup;
     private GameManager gm;
     public InputField inputField;
-   
+    private SoundPlayer soundPlayer;
 
 
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        soundPlayer = GameObject.Find("SoundPlayer").GetComponent<SoundPlayer>();
     }
 
     // Update is called once per frame
@@ -46,12 +47,17 @@ public class FountainPasswordCheck : MonoBehaviour
                 inputField.text = "";
                 gm.fountain_PWPopup = false;
                 gm.fountain_Spring = true;
+                if (!(gm.fountain_Spring && gm.fountain_Summer && gm.fountain_Fall && gm.fountain_Winter))
+                {
+                    soundPlayer.playCorrectMove();
+                }
             }
             else
             {
                 //bad answer
                 inputField.text = "";
                 StartCoroutine(FlashIncoorectPassword());
+                soundPlayer.playBadMove();
             }
         }
         else if (gm.fountain_AlterID == 2)
@@ -63,12 +69,18 @@ public class FountainPasswordCheck : MonoBehaviour
                 inputField.text = "";
                 gm.fountain_PWPopup = false;
                 gm.fountain_Summer = true;
+
+                if (!(gm.fountain_Spring && gm.fountain_Summer && gm.fountain_Fall && gm.fountain_Winter))
+                {
+                    soundPlayer.playCorrectMove();
+                }
             }
             else
             {
                 //bad answer
                 StartCoroutine(FlashIncoorectPassword());
                 inputField.text = "";
+                soundPlayer.playBadMove();
             }
         }
         else if (gm.fountain_AlterID == 3)
@@ -80,12 +92,17 @@ public class FountainPasswordCheck : MonoBehaviour
                 inputField.text = "";
                 gm.fountain_PWPopup = false;
                 gm.fountain_Fall = true;
+                if (!(gm.fountain_Spring && gm.fountain_Summer && gm.fountain_Fall && gm.fountain_Winter))
+                {
+                    soundPlayer.playCorrectMove();
+                }
             }
             else
             {
                 //bad answer
                 StartCoroutine(FlashIncoorectPassword());
                 inputField.text = "";
+                soundPlayer.playBadMove();
             }
         }
         else if (gm.fountain_AlterID == 4)
@@ -97,6 +114,10 @@ public class FountainPasswordCheck : MonoBehaviour
                 inputField.text = "";
                 gm.fountain_PWPopup = false;
                 gm.fountain_Winter = true;
+                if (!(gm.fountain_Spring && gm.fountain_Summer && gm.fountain_Fall && gm.fountain_Winter))
+                {
+                    soundPlayer.playCorrectMove();
+                }
 
             }
             else
@@ -104,6 +125,7 @@ public class FountainPasswordCheck : MonoBehaviour
                 //bad answer
                 inputField.text = "";
                 StartCoroutine(FlashIncoorectPassword());
+                soundPlayer.playBadMove();
             }
         }
 

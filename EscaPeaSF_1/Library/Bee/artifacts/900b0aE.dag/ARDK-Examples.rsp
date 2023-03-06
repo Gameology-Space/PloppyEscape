@@ -416,6 +416,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/WayspotManagerPOCO.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/WinningPopUp.cs"
 "Assets/ARDKExamples/Rendering/ARDepthRenderer.cs"
 "Assets/ARDKExamples/Rendering/ARRenderer.cs"
 "Assets/ARDKExamples/Rendering/RenderingDemo.cs"

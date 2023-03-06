@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance; //only one exist, all reference is to same object.
+        private SoundPlayer soundPlayer;
         
         // Common Puzzle Variables for all ------------
         public int puzzleID;
@@ -15,7 +16,13 @@ using UnityEngine.SceneManagement;
         public bool allCompleteAcknowledge;
         public bool allComplete;
         public bool locateArrowActive;
-        
+        public bool winningStageUI;
+
+
+    //one shot tracker
+    private bool tempWin1;
+    private bool tempWin2;
+    private bool tempWin3;
 
         // puzzle explore variables
         public bool explore_Panel1_Handle;
@@ -48,7 +55,7 @@ using UnityEngine.SceneManagement;
         public bool cloud_CorrectNote2;
         public bool cloud_CorrectNote3;
 
-    private void Awake()
+        private void Awake()
         {
             if (Instance != null)
             {
@@ -70,18 +77,26 @@ using UnityEngine.SceneManagement;
             cloud_CorrectNote1 = true;
             cloud_CorrectNote2 = true;
             cloud_CorrectNote3 = true;
-    }
+            winningStageUI = false;
+        tempWin1 = false;
+        tempWin2 = false;
+        tempWin3 = false;
+
+            soundPlayer = GameObject.Find("SoundPlayer").GetComponent<SoundPlayer>();
+        }
 
         private void Update()
         {
             ExploreLogic();
             CloudLogic();
             FountainLogic();
+    
 
-            allComplete = explore_Completed && cloud_Complete && fountain_Completed;
+    allComplete = explore_Completed && cloud_Complete && fountain_Completed;
             if(allComplete)
             {
                 SceneManager.LoadScene(2);
+                winningStageUI = false;
             }
 
             
@@ -89,7 +104,7 @@ using UnityEngine.SceneManagement;
 
         private void ExploreLogic()
         {
-
+            
         // explore component check
         if (explore_SunIsPlaced)
         {
@@ -112,21 +127,34 @@ using UnityEngine.SceneManagement;
             }
         }
 
+
         // explore complete check
             if(explore_GridHasPower && explore_BuildingHasPower)
             {
                 explore_Completed = true;
+
+                if(!tempWin1)
+            {
+                winningStageUI = true;
+                tempWin1 = true;
+            }
+                //soundPlayer.playWinExplore();
             }
 
         }
 
         private void FountainLogic()
         {
-            if(fountain_Fall && fountain_Spring && fountain_Summer && fountain_Winter)
+            if (fountain_Fall && fountain_Spring && fountain_Summer && fountain_Winter)
             {
-            fountain_Completed = true;
-            }
+                fountain_Completed = true;
 
+            if(!tempWin2)
+            {
+            winningStageUI = true;
+                tempWin2 = true;
+            }
+            }
         }
 
         private void CloudLogic()
@@ -136,6 +164,12 @@ using UnityEngine.SceneManagement;
             if(cloud_Sequence1 && cloud_Sequence2 && cloud_Sequence3)
             {
                 cloud_Complete = true;
+
+            if (!tempWin3)
+            {
+                winningStageUI = true;
+                tempWin3 = true;
+            }
             }
         }
 

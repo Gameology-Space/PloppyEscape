@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundPlayer : MonoBehaviour
 {
     [SerializeField] AudioClip correctMove, mapMusic, puzzleMusic, UIClicked, winCloud, winExplore, winFountain;
-    [SerializeField] AudioClip playButtonAppear;
+    [SerializeField] AudioClip playButtonAppear, badmove;
 
     private AudioSource audioSource;
 
@@ -32,21 +32,27 @@ public class SoundPlayer : MonoBehaviour
         audioSource.Play();
     }
 
-    public void playWinCloud()
+    public void playWinEnding()
     {
         audioSource.clip = winCloud;
-        audioSource.Play();
+        audioSource.PlayOneShot(audioSource.clip);
     }
 
     public void playWinExplore()
     {
         audioSource.clip = winExplore;
-        audioSource.Play();
+        audioSource.PlayOneShot(audioSource.clip);
     }
 
     public void playWinFountain()
     {
         audioSource.clip = winFountain;
+        audioSource.PlayOneShot(audioSource.clip);
+    }
+
+    public void playBadMove()
+    {
+        audioSource.clip = badmove;
         audioSource.Play();
     }
 }

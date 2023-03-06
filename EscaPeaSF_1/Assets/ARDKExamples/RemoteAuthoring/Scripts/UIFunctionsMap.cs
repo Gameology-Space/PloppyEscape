@@ -76,6 +76,7 @@ public class UIFunctionsMap : MonoBehaviour
         playerIcon.canvasRenderer.SetAlpha(0.0f);
         playerIcon.enabled = false;
         initialUI.SetActive(gameManager.initial_UI);
+        gameManager.winningStageUI = false;
     }
 
     private void Update()

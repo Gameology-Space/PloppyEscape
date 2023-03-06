@@ -22,10 +22,14 @@ public class InteractionPuzzle : MonoBehaviour
 
     private CloudHover cloudHover;
 
+    //sound
+    private SoundPlayer soundPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+        soundPlayer = GameObject.Find("SoundPlayer").GetComponent<SoundPlayer>();
     }
 
     private void Update()
@@ -97,18 +101,34 @@ public class InteractionPuzzle : MonoBehaviour
             Debug.Log(gm.explore_Panel1_Handle);
             gm.explore_Panel1_Handle = !gm.explore_Panel1_Handle;
             Debug.Log(gm.explore_Panel1_Handle);
+            if(gm.explore_Panel1_Handle)
+            {
+                soundPlayer.playCorrectMove();
+            }
         }
         else if(hitResourceItem.name == "ES2(Clone)")
         {
             gm.explore_Panel2_Handle = !gm.explore_Panel2_Handle;
+            if (gm.explore_Panel2_Handle)
+            {
+                soundPlayer.playCorrectMove();
+            }
         }
         else if (hitResourceItem.name == "ES3(Clone)")
         {
             gm.explore_Panel3_Handle = !gm.explore_Panel3_Handle;
+            if (gm.explore_Panel3_Handle)
+            {
+                soundPlayer.playCorrectMove();
+            }
         }
         else if (hitResourceItem.name == "ES4(Clone)")
         {
             gm.explore_Panel4_Handle = !gm.explore_Panel4_Handle;
+            if (gm.explore_Panel4_Handle)
+            {
+                soundPlayer.playCorrectMove();
+            }
         }
         else if(hitResourceItem.name == "SunPrefabLegend(Clone)")
         {
@@ -117,6 +137,7 @@ public class InteractionPuzzle : MonoBehaviour
             {
                 spawnedSun = Instantiate(sunMoving, spawnPosition, Quaternion.identity);
                 gm.explore_SunOkToSpawn = false;
+                soundPlayer.playCorrectMove();
             }
         }
         else if (hitResourceItem.name == "SunPrefabMoving(Clone)")
@@ -132,21 +153,25 @@ public class InteractionPuzzle : MonoBehaviour
         {
             gm.fountain_AlterID = 1;
             gm.fountain_PWPopup = true;
+            soundPlayer.playUIClicked();
         }
         else if (hitResourceItem.name == "AltarSummer(Clone)")
         {
             gm.fountain_AlterID = 2;
             gm.fountain_PWPopup = true;
+            soundPlayer.playUIClicked();
         }
         else if (hitResourceItem.name == "AltarFall(Clone)")
         {
             gm.fountain_AlterID = 3;
             gm.fountain_PWPopup = true;
+            soundPlayer.playUIClicked();
         }
         else if (hitResourceItem.name == "AltarWinter(Clone)")
         {
             gm.fountain_AlterID = 4;
             gm.fountain_PWPopup = true;
+            soundPlayer.playUIClicked();
         }
 
         // cloud targets
