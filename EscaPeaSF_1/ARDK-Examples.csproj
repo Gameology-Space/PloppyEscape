@@ -61,6 +61,7 @@
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/PlayerColor.cs" />
     <Compile Include="Assets/ARDKExamples/ImageDetection/ImageDetectionExampleManager.cs" />
     <Compile Include="Assets/ARDKExamples/ContextAwareness/HumanAR/HandTracking/HandTrackingExampleManager.cs" />
+    <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/SoundPlayer.cs" />
     <Compile Include="Assets/ARDKExamples/Preloading/PreloaderTestManager.cs" />
     <Compile Include="Assets/ARDKExamples/RemoteAuthoring/Scripts/LocationSelectView.cs" />
     <Compile Include="Assets/ARDKExamples/Common/Helpers/Networking/SyncStateTrackingList.cs" />

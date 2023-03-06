@@ -9,12 +9,16 @@ public class PlayerCollidingOnMap : MonoBehaviour
     public Text transferID;
     private UIFunctionsMap _UIFunctionMap;
     public Button playButton;
+    private SoundPlayer soundPlayer;
+    
 
     
     // Start is called before the first frame update
     void Start()
     {
         _UIFunctionMap = GameObject.Find("UI").GetComponent<UIFunctionsMap>();
+        soundPlayer = GameObject.Find("SoundPlayer").GetComponent<SoundPlayer>();
+       
     }
 
     // Update is called once per frame
@@ -27,6 +31,8 @@ public class PlayerCollidingOnMap : MonoBehaviour
     {
         
         playButton.gameObject.SetActive(true);
+        soundPlayer.playButtonApear();
+
 
         if(collider.name == "cloudMapIcon")
         {

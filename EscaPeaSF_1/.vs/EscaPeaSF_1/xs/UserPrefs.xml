@@ -1,22 +1,55 @@
 ﻿<Properties StartupConfiguration="{A897509B-B941-E681-EF19-4A3E5A73E432}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/LocateButton.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/MapIconSpawner.cs">
     <Files>
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/InteractionPuzzle.cs" />
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudFlashingBar.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" Line="22" Column="43" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/GameManager.cs" />
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs" />
       <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/CloudHover.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" />
-      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/LocateButton.cs" Line="15" Column="38" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/MapIconMarker.cs" Line="35" Column="48" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/LocateButton.cs" Line="42" Column="54" />
       <File FileName="Assets/Script/SceneControl.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" Line="1" Column="1" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctions.cs" />
       <File FileName="Assets/Ploppy/Model Credit.cs" />
-      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" Line="1" Column="1" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/UIFunctionsMap.cs" />
+      <File FileName="Assets/ARDKExamples/RemoteAuthoring/Scripts/SoundPlayer.cs" Line="30" Column="28" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PlayerLocationController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameUIController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/PuzzleDetails.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameResourceFeature.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapFeaturePrefabSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameMapInteractions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Samples/Lightship Maps SDK/1.0.0-beta2/Map-Based Simple Resource Game/Scripts/MapGameState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/MapIconSpawner.cs" Line="10" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EscaPeaSF_1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ARDKExamples" expanded="True">
+                <Node name="RemoteAuthoring" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Samples" expanded="True">
+                <Node name="Lightship Maps SDK" expanded="True">
+                  <Node name="1.0.0-beta2" expanded="True">
+                    <Node name="Map-Based Simple Resource Game" expanded="True">
+                      <Node name="Common" expanded="True">
+                        <Node name="UnityDebugging" expanded="True" />
+                      </Node>
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Script" expanded="True">
+                <Node name="MapIconSpawner.cs" selected="True" />
+              </Node>
+            </Node>
             <Node name="Packages" expanded="True">
               <Node name="com.niantic.lightship.maps-1.0.0-beta2.tgz" expanded="True" />
             </Node>
@@ -25,11 +58,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="ea24b285-39ed-47b8-9983-8c9f5edfd6e1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ARDK PreferredExecutionTarget="2a671881-2257-4aa8-a6b3-e7bb44e1b656" />
 </Properties>
