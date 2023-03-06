@@ -407,6 +407,7 @@
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PlayerCollidingOnMap.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PropertyAttributes.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/PuzzleDetails.cs"
+"Assets/ARDKExamples/RemoteAuthoring/Scripts/puzzleMusicCheck.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/SequenceDetector.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/SoundPlayer.cs"
 "Assets/ARDKExamples/RemoteAuthoring/Scripts/SunCollide.cs"

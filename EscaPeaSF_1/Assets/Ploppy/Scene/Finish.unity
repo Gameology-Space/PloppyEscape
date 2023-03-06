@@ -571,8 +571,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Thanks for playing!\nA few more finishing touches. \nGame will be released
-    in \nFeburary 2023\n\n"
+  m_text: 'Thanks for playing!
+
+
+    Find more fun games on
+
+    www.gameology.space
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d70f485aa27dc43f79a8fd168f58435c, type: 2}
   m_sharedMaterial: {fileID: 5416806443266638455, guid: d70f485aa27dc43f79a8fd168f58435c,

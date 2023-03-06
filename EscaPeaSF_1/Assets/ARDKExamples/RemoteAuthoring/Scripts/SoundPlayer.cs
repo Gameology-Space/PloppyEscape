@@ -14,11 +14,6 @@ public class SoundPlayer : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void Update()
-    {
-        
-    }
-
     public void playCorrectMove()
     {
         audioSource.clip = correctMove;
