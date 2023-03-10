@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using Niantic.Lightship.Maps.Coordinates;
 using Niantic.Lightship.Maps.Unity.Core;
+using UnityEditor.PackageManager;
 using UnityEngine;
 #if UNITY_ANDROID
 using UnityEngine.Android;
@@ -37,6 +38,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private Vector3 _targetMapPosition;
         private Vector3 _currentMapPosition;
         private float _lastMapViewUpdateTime;
+
+        public GameObject LocationCheckUI;
 
         public Action<string> OnGPSError; // event to notify the UI about any issues with the GPS location
 
@@ -72,8 +75,38 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
 
         public void GoBackAfterLocate()
         {
-            //_currentMapPosition = _targetMapPosition = transform.position;
+            var gpsInfo = Input.location.lastData;
+            UpdatePlayerLocation(gpsInfo.latitude, gpsInfo.longitude);
+            //_targetMapPosition = _currentMapPosition;
             //UpdatePlayerLocation(gpsInfo.latitude, gpsInfo.longitude)
+        }
+
+        public void CheckLocationDistanceUI()
+        {
+            var gpsInfo = Input.location.lastData;
+
+            var hereLocation = _lightshipMap.LatLngToScene(new LatLng(gpsInfo.latitude, gpsInfo.longitude));
+            //var hereLocation = transform.position;
+            var thereLocation = _lightshipMap.LatLngToScene(new LatLng(37.800644999999996f, -122.398381f));
+
+            float distanceHereThere = (thereLocation - hereLocation).magnitude;
+
+            if(distanceHereThere > 1000)
+            {
+                //turn on location check UI
+                Debug.Log("Map: too far");
+                LocationCheckUI.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("Map: close");
+                LocationCheckUI.SetActive(true);
+            }    
+        }
+
+        public void CloseLocationDistanceUI()
+        {
+            LocationCheckUI.SetActive(false);
         }
 
 
@@ -167,7 +200,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
             // but the map update needs to happen first as the player is positioned on the map relative to the
             // offset to the tile parent node
             UpdateMapViewPosition();
-
+            //CheckLocationDistanceUI();
             // maintain the players position on the map, and interpolate to new coordinates as they come in
 
             // interpolate players map position without the camera offset, so that camera movements don't result in lerps
@@ -192,7 +225,7 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         private void UpdateEditorInput()
         {
             // for editor, move the character around with keyboard rather than GPS
-
+            
             var movementVector = Vector3.zero;
 
             if (Input.GetKey(KeyCode.W))

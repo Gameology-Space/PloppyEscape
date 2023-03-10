@@ -28,6 +28,8 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         [SerializeField]
         private TMP_Text _errorText;
 
+        public GameObject instructionScreen;
+
         private void Start()
         {
             _gameOverScreen.SetActive(false);
@@ -52,5 +54,16 @@ namespace Niantic.Lightship.Maps.Samples.GameSample
         {
             _gameOverScreen.SetActive(false);
         }
+
+        public void closeInstruction()
+        {
+            instructionScreen.SetActive(false);
+        }
+
+        public void openInstruction()
+        {
+            instructionScreen.SetActive(true);
+        }
+
     }
 }
