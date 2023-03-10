@@ -18,6 +18,8 @@ public class UIFunctions : MonoBehaviour
     private GameObject movingSun;
     public GameObject timeCheckUI;
 
+    [SerializeField] GameObject exploreAnchorHelpUI;
+
     private void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -38,17 +40,20 @@ public class UIFunctions : MonoBehaviour
             if (minutes > 4 && minutes < 54)
             {
                 timeCheckUI.SetActive(true);
+                
             }
         }
         else if(gameManager.puzzleID == 1)
         {
             detailImg.texture = explorePicture;
             timeCheckUI.SetActive(false);
+            
         }
         else if(gameManager.puzzleID == 2)
         {
             detailImg.texture = fountainPicture;
             timeCheckUI.SetActive(false);
+            
         }
     }
 
@@ -56,7 +61,27 @@ public class UIFunctions : MonoBehaviour
     {
         locationSelectView.LoadButtonClicked();
         ploppyDetailUI.SetActive(false);
+        
 
+    }
+
+    public void CheckExploreAnchorHelp()
+    {
+        if(gameManager.puzzleID == 1 )
+        {
+            exploreAnchorHelpUI.SetActive(true);
+            Debug.Log("Looks right?");
+        }
+        else
+        {
+            exploreAnchorHelpUI.SetActive(false);
+            Debug.Log("don't need anchor check");
+        }
+    }
+
+    public void CloseExploreAnchorHelp()
+    {
+        exploreAnchorHelpUI.SetActive(false);
     }
 
     public void ICantWait()

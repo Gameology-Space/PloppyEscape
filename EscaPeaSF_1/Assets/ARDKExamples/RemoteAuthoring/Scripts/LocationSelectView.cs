@@ -33,6 +33,8 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
 
         [SerializeField]
         private Text localizationStatus;
+        [SerializeField]
+        private Text localizationStatus2;
 
         private int _selectedLocation = 0;
 
@@ -117,6 +119,7 @@ namespace Niantic.ARDKExamples.RemoteAuthoring
         private void LocationStatusChanged(string statusMessage)
         {
             localizationStatus.text = "Localization Status: " + statusMessage;
+            localizationStatus2.text = "Localization: " + statusMessage;
         }
 
         private void LoadPuzzleAnchors(int puzzleID)
